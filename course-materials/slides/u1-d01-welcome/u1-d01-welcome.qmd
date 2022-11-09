@@ -5,6 +5,9 @@ author: "Rolando Mirabal"
 format: 
   revealjs:
     theme: simple
+    transition: fade
+    slide-number: true
+    output-file: slideu1-d01.html
 editor: visual
 ---
 

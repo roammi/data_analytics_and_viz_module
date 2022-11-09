@@ -2,4 +2,4 @@
 title: "Docente"
 ---
 
-![Hoja de Vida Rolando Mirabal](images/CV%20Rolando%20Mirabal.jpg){fig-align="center"}
+![Hoja de Vida - Rolando Mirabal](images/CV%20Rolando%20Mirabal.jpg){fig-align="center"}
