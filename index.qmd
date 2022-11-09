@@ -1,6 +1,14 @@
 ---
-title: "analytics_viz_data_module"
+title: "Analítica y Visualización de Datos, Aplicaciones"
 ---
+
+|                  |                                                                             |
+|------------------|-----------------------------------------------------------------------------|
+| **Institución:** | Universidad Mayor de San Simón                                              |
+| **Programa:**    | Diplomado en Estadística Aplicada a la Toma de Decisiones, primera versión. |
+| **Módulo:**      | Analítica y Visualización de Datos, Aplicaciones                            |
+| **Gestión**:     | II/2022                                                                     |
+| **Docente:**     | Rolando Amir Mirabal Hinojosa                                               |
 
 This is a Quarto website.
 
