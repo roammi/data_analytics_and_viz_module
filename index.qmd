@@ -2,45 +2,38 @@
 title: "Analítica y Visualización de Datos, Aplicaciones - II/2022"
 ---
 
-|                  |                                                                             |
-|-----------------|-------------------------------------------------------|
-| **Institución:** | Universidad Mayor de San Simón                                              |
-| **Programa:**    | Diplomado en Estadística Aplicada a la Toma de Decisiones, primera versión. |
-| **Módulo:**      | Analítica y Visualización de Datos, Aplicaciones                            |
-| **Gestión**:     | II/2022                                                                     |
-| **Docente:**     | Rolando Amir Mirabal Hinojosa                                               |
+|                    |                                                                                                                                                                                                                               |
+|-----------------|-----------------------------------------------------|
+| **Institución:**   | Universidad Mayor de San Simón                                                                                                                                                                                                |
+| **Programa:**      | [Diplomado en Estadística Aplicada a la Toma de Decisiones, primera versión.](http://posgrado.fcyt.umss.edu.bo/Programas/diploestadistica.html "Diplomado en Estadística Aplicada a la Toma de Decisiones, primera versión.") |
+| **Módulo V:**      | Analítica y Visualización de Datos, Aplicaciones                                                                                                                                                                              |
+| **Gestión**:       | II/2022                                                                                                                                                                                                                       |
+| **Carga horaria:** | 120 horas ( 40 horas síncronas, 80 horas asíncronas)                                                                                                                                                                          |
+| **Docente:**       | Rolando Amir Mirabal Hinojosa                                                                                                                                                                                                 |
 
 ## Materiales del Curso
 
 ### Libros:
 
 -   Wickham, Grolemund (2017). R para Ciencia de Datos.
-
 -   Claus O. Wilke (2019), Fundamentals of Data Visualization
-
 -   Wexler, S. & Shaffer, J. & Cotgreave, A. (2017). The Big Book of Dashboards. Wiley.
-
 -   Ann Jackson, Luke Stanke (2022), Tableau Strategies.
-
 -   Nussbaumer, C. (2015). Storytelling with Data. Wiley.
-
 -   Bentley, D. (2017). Business Intelligence and Analytics. Library Press.
-
 -   Tufte, E. (2007) The Visual Display of Quantitative Information. Graphics Press LLC.
-
 -   Few S. (2009). Now you see it.
 
 ### Tecnología
 
--   Estaremos usando [Tableau Public](https://public.tableau.com/app/discover "Tableau Public") y [Tableau Cloud](https://online.tableau.com/ "Tableau Cloud") (\*)
+Estaremos usando las siguientes herramientas:
 
+-   [Tableau Public](https://public.tableau.com/app/discover "Tableau Public") y [Tableau Cloud](https://online.tableau.com/ "Tableau Cloud") (\*)
 -   RStudio
-
 -   Python
-
 -   QGIS
 
-(\*) se solicita a Tableau para Educación y espera nos den acceso
+(\*) *en proceso de solicitud a Tableau for Teaching, en espera nos den acceso.*
 
 ### Material de apoyo 
 

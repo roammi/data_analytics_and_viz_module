@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Analítica y Visualización de Datos, Aplicaciones - II/2022",
     "section": "",
-    "text": "Institución:\nUniversidad Mayor de San Simón\n\n\nPrograma:\nDiplomado en Estadística Aplicada a la Toma de Decisiones, primera versión.\n\n\nMódulo:\nAnalítica y Visualización de Datos, Aplicaciones\n\n\nGestión:\nII/2022\n\n\nDocente:\nRolando Amir Mirabal Hinojosa"
+    "text": "Institución:\nUniversidad Mayor de San Simón\n\n\nPrograma:\nDiplomado en Estadística Aplicada a la Toma de Decisiones, primera versión.\n\n\nMódulo V:\nAnalítica y Visualización de Datos, Aplicaciones\n\n\nGestión:\nII/2022\n\n\nCarga horaria:\n120 horas ( 40 horas síncronas, 80 horas asíncronas)\n\n\nDocente:\nRolando Amir Mirabal Hinojosa"
   },
   {
     "objectID": "about.html",
@@ -25,6 +25,13 @@
     "href": "index.html#materiales-del-curso",
     "title": "Analítica y Visualización de Datos, Aplicaciones - II/2022",
     "section": "Materiales del Curso",
-    "text": "Materiales del Curso\n\nLibros:\n\nWickham, Grolemund (2017). R para Ciencia de Datos.\nClaus O. Wilke (2019), Fundamentals of Data Visualization\nWexler, S. & Shaffer, J. & Cotgreave, A. (2017). The Big Book of Dashboards. Wiley.\nAnn Jackson, Luke Stanke (2022), Tableau Strategies.\nNussbaumer, C. (2015). Storytelling with Data. Wiley.\nBentley, D. (2017). Business Intelligence and Analytics. Library Press.\nTufte, E. (2007) The Visual Display of Quantitative Information. Graphics Press LLC.\nFew S. (2009). Now you see it.\n\n\n\nTecnología\n\nEstaremos usando Tableau Public y Tableau Cloud (*)\nRStudio\nPython\nQGIS\n\n(*) se solicita a Tableau para Educación y espera nos den acceso\n\n\nMaterial de apoyo\nEl material de apoyo se encuentra clasificado por categorías: Aplicación, Catálogos, Inspiración, Libro electrónico, Fuentes de Datos, Buenas Prácticas, Cursos.\nPuede ser accedido en el siguiente URL - Material de Apoyo."
+    "text": "Materiales del Curso\n\nLibros:\n\nWickham, Grolemund (2017). R para Ciencia de Datos.\nClaus O. Wilke (2019), Fundamentals of Data Visualization\nWexler, S. & Shaffer, J. & Cotgreave, A. (2017). The Big Book of Dashboards. Wiley.\nAnn Jackson, Luke Stanke (2022), Tableau Strategies.\nNussbaumer, C. (2015). Storytelling with Data. Wiley.\nBentley, D. (2017). Business Intelligence and Analytics. Library Press.\nTufte, E. (2007) The Visual Display of Quantitative Information. Graphics Press LLC.\nFew S. (2009). Now you see it.\n\n\n\nTecnología\nEstaremos usando las siguientes herramientas:\n\nTableau Public y Tableau Cloud (*)\nRStudio\nPython\nQGIS\n\n(*) en proceso de solicitud a Tableau for Teaching, en espera nos den acceso.\n\n\nMaterial de apoyo\nEl material de apoyo se encuentra clasificado por categorías: Aplicación, Catálogos, Inspiración, Libro electrónico, Fuentes de Datos, Buenas Prácticas, Cursos.\nPuede ser accedido en el siguiente URL - Material de Apoyo."
+  },
+  {
+    "objectID": "Docente.html",
+    "href": "Docente.html",
+    "title": "Docente",
+    "section": "",
+    "text": "Hoja de Vida Rolando Mirabal"
   }
 ]
