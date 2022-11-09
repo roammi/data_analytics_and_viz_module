@@ -2,15 +2,29 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "title": "Analítica y Visualización de Datos, Aplicaciones - II/2022",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Institución:\nUniversidad Mayor de San Simón\n\n\nPrograma:\nDiplomado en Estadística Aplicada a la Toma de Decisiones, primera versión.\n\n\nMódulo:\nAnalítica y Visualización de Datos, Aplicaciones\n\n\nGestión:\nII/2022\n\n\nDocente:\nRolando Amir Mirabal Hinojosa"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Acerca",
     "section": "",
     "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "Cronograma.html",
+    "href": "Cronograma.html",
+    "title": "Cronograma",
+    "section": "",
+    "text": "Cronograma por sesión\n\n\n\n\n\n\n\n\nDescripción\nFecha\nContenido analítico a desarrollar\n\n\n\n\nsesión 1\n28/11/2022\nPresentación del Módulo\nExplicación del proyecto de Moóulo\nGeneralidades del entorno Financiero y la data\nSetup y Herramientas a usar: Tableau, RStudio, Python\nEjercicios de análisis I\nTarea 1. Visualización\n\n\nsesión 2\n30/11/2022\nFundamentos de Visualización y comunicación de Datos I\nEntorno de Análisis y motivación para visualizar\nTipos de gráficos\nEjercicios de análisis II\n\n\nsesión 3\n02/12/2022\nFundamentos de Visualización y comunicación de Datos II\nPrincipios de Visualización y mejores prácticas\nPreparación y análisis de datos Empresariales\nHerramientas de Visualización de datos\nCaso práctico 1\n\n\nsesión 4\n06/12/2022\nTableau I\nEntendiendo los conceptos de Tableau\nExploración y análisis de datos, generación de información (Insights)\nDashboards y Narraciones\nTarea 2. Visualización\n\n\nsesión 5\n08/12/2022\nIntroducción a Tableau II\nCálculos de tabla rápidos\nCampos calculados y KPIs\nDesarrollo de interacciones y filtros en dashboards\nTrabajo práctico I – Dashboard Ejecutivo y Operativo\n\n\nsesión 6\n12/12/2022\nIntroducción a Tableau IV\nPanorama Dashboards según campo de trabajo\nFinanciero, Logístico, Comercial, Operativo, Transversal\n\n\nsesión 7\n14/12/2022\nIntroducción a Tableau Server I\nTableros en producción\nTableau Server + Tableau Online\nNarraciones en tableau\nRevisión de avances en el proyecto\n\n\nsesión 8\n16/12/2022\nAplicaciones Avanzadas I - Analysis de Datos Geográficos\nQGIS\n\n\nsesión 9\n20/12/2022\nAplicaciones Avanzadas II - R\n\n\nsesión 10\n22/12/2022\nAplicaciones Avanzadas III - Python\n\n\nTOTAL: 10 sesiones"
+  },
+  {
+    "objectID": "index.html#materiales-del-curso",
+    "href": "index.html#materiales-del-curso",
+    "title": "Analítica y Visualización de Datos, Aplicaciones - II/2022",
+    "section": "Materiales del Curso",
+    "text": "Materiales del Curso\n\nLibros:\n\nWickham, Grolemund (2017). R para Ciencia de Datos.\nClaus O. Wilke (2019), Fundamentals of Data Visualization\nWexler, S. & Shaffer, J. & Cotgreave, A. (2017). The Big Book of Dashboards. Wiley.\nAnn Jackson, Luke Stanke (2022), Tableau Strategies.\nNussbaumer, C. (2015). Storytelling with Data. Wiley.\nBentley, D. (2017). Business Intelligence and Analytics. Library Press.\nTufte, E. (2007) The Visual Display of Quantitative Information. Graphics Press LLC.\nFew S. (2009). Now you see it.\n\n\n\nTecnología\n\nEstaremos usando Tableau Public y Tableau Cloud (*)\nRStudio\nPython\nQGIS\n\n(*) se solicita a Tableau para Educación y espera nos den acceso\n\n\nMaterial de apoyo\nEl material de apoyo se encuentra clasificado por categorías: Aplicación, Catálogos, Inspiración, Libro electrónico, Fuentes de Datos, Buenas Prácticas, Cursos.\nPuede ser accedido en el siguiente URL - Material de Apoyo."
   }
 ]

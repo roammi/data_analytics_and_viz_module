@@ -7,16 +7,15 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - about.qmd
+        text: Inicio
+      - Cronograma.qmd
 
 format:
   html:
     theme: 
       light: flatly
       dark: [darkly, theme-dark.scss]
-    css: styles.css
-    toc: true
+    
 
 editor: visual
 
