@@ -1,0 +1,21 @@
+---
+title: "Diplomado en Estadística Aplicada a la Toma de Decisiones"
+subtitle: "Módulo V - Analítica y Visualización de Datos, Aplicaciones"
+author: "Rolando Mirabal"
+format: 
+  revealjs:
+    theme: simple
+editor: visual
+---
+
+# Presentación del Módulo
+
+Unidad 1 Sesión 1
+
+## The pillars of creation
+
+![](images/paste-D919932A.png)
+
+::: aside
+Fuente: [NASA](https://www.nasa.gov/feature/goddard/2022/nasa-s-webb-takes-star-filled-portrait-of-pillars-of-creation), [NBC Interactivo](https://www.nbcnews.com/data-graphics/compare-photos-nasas-james-webb-space-telescope-hubble-space-telescope-rcna37875)
+:::
