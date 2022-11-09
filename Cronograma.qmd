@@ -21,7 +21,7 @@ title: "Cronograma"
 +------------------------+------------+-----------------------------------------------------------------------+
 | Descripción            | Fecha      | Contenido analítico a desarrollar                                     |
 +========================+============+=======================================================================+
-| **sesión 1**           | 28/11/2022 | Presentación del Módulo \                                             |
+| **sesión 1**           | 28/11/2022 | Presentación del Módulo\                                              |
 |                        |            | Explicación del proyecto de Moóulo\                                   |
 |                        |            | Generalidades del entorno Financiero y la data                        |
 |                        |            |                                                                       |

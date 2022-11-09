@@ -2,8 +2,10 @@
 title: "Analítica y Visualización de Datos, Aplicaciones - II/2022"
 ---
 
+## Datos Generales
+
 |                    |                                                                                                                                                                                                                               |
-|-----------------|-----------------------------------------------------|
+|------------------|-----------------------------------------------------|
 | **Institución:**   | Universidad Mayor de San Simón                                                                                                                                                                                                |
 | **Programa:**      | [Diplomado en Estadística Aplicada a la Toma de Decisiones, primera versión.](http://posgrado.fcyt.umss.edu.bo/Programas/diploestadistica.html "Diplomado en Estadística Aplicada a la Toma de Decisiones, primera versión.") |
 | **Módulo V:**      | Analítica y Visualización de Datos, Aplicaciones                                                                                                                                                                              |
@@ -35,8 +37,8 @@ Estaremos usando las siguientes herramientas:
 
 (\*) *en proceso de solicitud a Tableau for Teaching, en espera nos den acceso.*
 
-### Material de apoyo 
+### Catálogo de material de apoyo
 
-El material de apoyo se encuentra clasificado por categorías: Aplicación, Catálogos, Inspiración, Libro electrónico, Fuentes de Datos, Buenas Prácticas, Cursos.
+El catálogo de material de apoyo se encuentra clasificado por categorías: Aplicación, Catálogos, Inspiración, Libro electrónico, Fuentes de Datos, Buenas Prácticas, Cursos.
 
 Puede ser accedido en el siguiente [URL - Material de Apoyo](https://rolandoamir.notion.site/Anal-tica-y-Visualizaci-n-de-Datos-Aplicaciones-b72aeb6460e34916a799fb79ed6afe99 "URL - Material de Apoyo").
