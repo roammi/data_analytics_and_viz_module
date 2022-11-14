@@ -18,68 +18,68 @@ title: "Cronograma"
 
 ### Cronograma por sesión
 
-+------------------------+------------+-----------------------------------------------------------------------+
-| Descripción            | Fecha      | Contenido analítico a desarrollar                                     |
-+========================+============+=======================================================================+
-| **sesión 1**           | 28/11/2022 | Presentación del Módulo\                                              |
-|                        |            | Explicación del proyecto de Moóulo\                                   |
-|                        |            | Generalidades del entorno Financiero y la data                        |
-|                        |            |                                                                       |
-|                        |            | Setup y Herramientas a usar: Tableau, RStudio, Python                 |
-|                        |            |                                                                       |
-|                        |            | Ejercicios de análisis I\                                             |
-|                        |            | Tarea 1. Visualización                                                |
-+------------------------+------------+-----------------------------------------------------------------------+
-| **sesión 2**           | 30/11/2022 | Fundamentos de Visualización y comunicación de Datos I\               |
-|                        |            | Entorno de Análisis y motivación para visualizar\                     |
-|                        |            | Tipos de gráficos                                                     |
-|                        |            |                                                                       |
-|                        |            | Ejercicios de análisis II                                             |
-+------------------------+------------+-----------------------------------------------------------------------+
-| **sesión 3**           | 02/12/2022 | Fundamentos de Visualización y comunicación de Datos II\              |
-|                        |            | Principios de Visualización y mejores prácticas\                      |
-|                        |            | Preparación y análisis de datos Empresariales\                        |
-|                        |            | Herramientas de Visualización de datos                                |
-|                        |            |                                                                       |
-|                        |            | Caso práctico 1                                                       |
-+------------------------+------------+-----------------------------------------------------------------------+
-| **sesión 4**           | 06/12/2022 | Tableau I                                                             |
-|                        |            |                                                                       |
-|                        |            | Entendiendo los conceptos de Tableau                                  |
-|                        |            |                                                                       |
-|                        |            | Exploración y análisis de datos, generación de información (Insights) |
-|                        |            |                                                                       |
-|                        |            | Dashboards y Narraciones                                              |
-|                        |            |                                                                       |
-|                        |            | Tarea 2. Visualización                                                |
-+------------------------+------------+-----------------------------------------------------------------------+
-| **sesión 5**           | 08/12/2022 | Introducción a Tableau II                                             |
-|                        |            |                                                                       |
-|                        |            | Cálculos de tabla rápidos                                             |
-|                        |            |                                                                       |
-|                        |            | Campos calculados y KPIs                                              |
-|                        |            |                                                                       |
-|                        |            | Desarrollo de interacciones y filtros en dashboards                   |
-|                        |            |                                                                       |
-|                        |            | Trabajo práctico I -- Dashboard Ejecutivo y Operativo                 |
-+------------------------+------------+-----------------------------------------------------------------------+
-| **sesión 6**           | 12/12/2022 | Introducción a Tableau IV\                                            |
-|                        |            | Panorama Dashboards según campo de trabajo\                           |
-|                        |            | Financiero, Logístico, Comercial, Operativo, Transversal              |
-+------------------------+------------+-----------------------------------------------------------------------+
-| **sesión 7**           | 14/12/2022 | Introducción a Tableau Server I\                                      |
-|                        |            | Tableros en producción\                                               |
-|                        |            | Tableau Server + Tableau Online\                                      |
-|                        |            | Narraciones en tableau                                                |
-|                        |            |                                                                       |
-|                        |            | Revisión de avances en el proyecto                                    |
-+------------------------+------------+-----------------------------------------------------------------------+
-| **sesión 8**           | 16/12/2022 | Aplicaciones Avanzadas I - Analysis de Datos Geográficos\             |
-|                        |            | QGIS                                                                  |
-+------------------------+------------+-----------------------------------------------------------------------+
-| **sesión 9**           | 20/12/2022 | Aplicaciones Avanzadas II - R                                         |
-+------------------------+------------+-----------------------------------------------------------------------+
-| **sesión 10**          | 22/12/2022 | Aplicaciones Avanzadas III - Python                                   |
-+------------------------+------------+-----------------------------------------------------------------------+
-| **TOTAL: 10 sesiones** |            |                                                                       |
-+------------------------+------------+-----------------------------------------------------------------------+
++------------------------+-------------+--------------------------------------------------------------------------+
+| Descripción            | Fecha       | Contenido analítico a desarrollar                                        |
++========================+=============+==========================================================================+
+| **sesión 1**           | 28/11/2022  | Presentación del Módulo\                                                 |
+|                        |             | Explicación del proyecto de Módulo\                                      |
+|                        |             | Generalidades del entorno y contexto del dominio del negocio y los datos |
+|                        |             |                                                                          |
+|                        |             | Configuración y Herramientas a usar: Tableau, RStudio, Python            |
+|                        |             |                                                                          |
+|                        |             | Ejercicios de Análisis I\                                                |
+|                        |             | Tarea 1. Visualización                                                   |
++------------------------+-------------+--------------------------------------------------------------------------+
+| **sesión 2**           | 30/11/2022  | Fundamentos de Visualización y comunicación de Datos I\                  |
+|                        |             | Entorno de Análisis y motivación para visualizar\                        |
+|                        |             | Tipos de gráficos                                                        |
+|                        |             |                                                                          |
+|                        |             | Ejercicios de análisis II                                                |
++------------------------+-------------+--------------------------------------------------------------------------+
+| **sesión 3**           | 02/12/2022  | Fundamentos de Visualización y comunicación de Datos II\                 |
+|                        |             | Principios de Visualización y mejores prácticas\                         |
+|                        |             | Preparación y análisis de datos Empresariales\                           |
+|                        |             | Herramientas de Visualización de datos                                   |
+|                        |             |                                                                          |
+|                        |             | Caso práctico 1                                                          |
++------------------------+-------------+--------------------------------------------------------------------------+
+| **sesión 4**           | 06/12/2022  | Tableau I                                                                |
+|                        |             |                                                                          |
+|                        |             | Entendiendo los conceptos de Tableau                                     |
+|                        |             |                                                                          |
+|                        |             | Exploración y análisis de datos, generación de información (Insights)    |
+|                        |             |                                                                          |
+|                        |             | Dashboards y Narraciones                                                 |
+|                        |             |                                                                          |
+|                        |             | Tarea 2. Visualización                                                   |
++------------------------+-------------+--------------------------------------------------------------------------+
+| **sesión 5**           | 08/12/2022  | Introducción a Tableau II                                                |
+|                        |             |                                                                          |
+|                        |             | Cálculos de tabla rápidos                                                |
+|                        |             |                                                                          |
+|                        |             | Campos calculados y KPIs                                                 |
+|                        |             |                                                                          |
+|                        |             | Desarrollo de interacciones y filtros en dashboards                      |
+|                        |             |                                                                          |
+|                        |             | Trabajo práctico I -- Dashboard Ejecutivo y Operativo                    |
++------------------------+-------------+--------------------------------------------------------------------------+
+| **sesión 6**           | 12/12/2022  | Introducción a Tableau IV\                                               |
+|                        |             | Panorama Dashboards según campo de trabajo\                              |
+|                        |             | Financiero, Logístico, Comercial, Operativo, Transversal                 |
++------------------------+-------------+--------------------------------------------------------------------------+
+| **sesión 7**           | 14/12/2022  | Introducción a Tableau Server I\                                         |
+|                        |             | Tableros en producción\                                                  |
+|                        |             | Tableau Server + Tableau Online\                                         |
+|                        |             | Narraciones en tableau                                                   |
+|                        |             |                                                                          |
+|                        |             | Revisión de avances en el proyecto                                       |
++------------------------+-------------+--------------------------------------------------------------------------+
+| **sesión 8**           | 16/12/2022  | Aplicaciones Avanzadas I - Analysis de Datos Geográficos\                |
+|                        |             | QGIS                                                                     |
++------------------------+-------------+--------------------------------------------------------------------------+
+| **sesión 9**           | 20/12/2022  | Aplicaciones Avanzadas II - R                                            |
++------------------------+-------------+--------------------------------------------------------------------------+
+| **sesión 10**          | 22/12/2022  | Aplicaciones Avanzadas III - Python                                      |
++------------------------+-------------+--------------------------------------------------------------------------+
+| **TOTAL: 10 sesiones** |             |                                                                          |
++------------------------+-------------+--------------------------------------------------------------------------+

@@ -61,5 +61,26 @@
     "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
     "section": "The pillars of creation",
     "text": "The pillars of creation\n\n\n\n\n\n\n\nFuente: NASA, NBC Interactivo"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#qué-es-visualización-de-datos",
+    "href": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#qué-es-visualización-de-datos",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "¿Qué es Visualización de Datos?",
+    "text": "¿Qué es Visualización de Datos?"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#qué-es-analítica-de-datos",
+    "href": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#qué-es-analítica-de-datos",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "¿Qué es Analítica de Datos?",
+    "text": "¿Qué es Analítica de Datos?\n\nCuando las técnicas de visualización contribuyen y ayudan al de visualizaciones éxitosas."
+  },
+  {
+    "objectID": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#por-qué-visualizamos-datos",
+    "href": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#por-qué-visualizamos-datos",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "¿Por qué visualizamos datos?",
+    "text": "¿Por qué visualizamos datos?\n\n\n# A tibble: 11 x 8\n     a.x   a.y   b.x   b.y   c.x   c.y   d.x   d.y\n   <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl>\n 1    10  8.04    10  9.14    10  7.46     8  6.58\n 2     8  6.95     8  8.14     8  6.77     8  5.76\n 3    13  7.58    13  8.74    13 12.7      8  7.71\n 4     9  8.81     9  8.77     9  7.11     8  8.84\n 5    11  8.33    11  9.26    11  7.81     8  8.47\n 6    14  9.96    14  8.1     14  8.84     8  7.04\n 7     6  7.24     6  6.13     6  6.08     8  5.25\n 8     4  4.26     4  3.1      4  5.39    19 12.5 \n 9    12 10.8     12  9.13    12  8.15     8  5.56\n10     7  4.82     7  7.26     7  6.42     8  7.91\n11     5  5.68     5  4.74     5  5.73     8  6.89"
   }
 ]
