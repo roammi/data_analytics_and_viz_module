@@ -65,22 +65,50 @@
   {
     "objectID": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#qué-es-visualización-de-datos",
     "href": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#qué-es-visualización-de-datos",
-    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "title": "Fundamentos en Visualización de Datos",
     "section": "¿Qué es Visualización de Datos?",
     "text": "¿Qué es Visualización de Datos?"
   },
   {
     "objectID": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#qué-es-analítica-de-datos",
     "href": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#qué-es-analítica-de-datos",
-    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "title": "Fundamentos en Visualización de Datos",
     "section": "¿Qué es Analítica de Datos?",
     "text": "¿Qué es Analítica de Datos?\n\nCuando las técnicas de visualización contribuyen y ayudan al de visualizaciones éxitosas."
   },
   {
     "objectID": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#por-qué-visualizamos-datos",
     "href": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#por-qué-visualizamos-datos",
-    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "title": "Fundamentos en Visualización de Datos",
     "section": "¿Por qué visualizamos datos?",
-    "text": "¿Por qué visualizamos datos?\n\n\n# A tibble: 11 x 8\n     a.x   a.y   b.x   b.y   c.x   c.y   d.x   d.y\n   <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl>\n 1    10  8.04    10  9.14    10  7.46     8  6.58\n 2     8  6.95     8  8.14     8  6.77     8  5.76\n 3    13  7.58    13  8.74    13 12.7      8  7.71\n 4     9  8.81     9  8.77     9  7.11     8  8.84\n 5    11  8.33    11  9.26    11  7.81     8  8.47\n 6    14  9.96    14  8.1     14  8.84     8  7.04\n 7     6  7.24     6  6.13     6  6.08     8  5.25\n 8     4  4.26     4  3.1      4  5.39    19 12.5 \n 9    12 10.8     12  9.13    12  8.15     8  5.56\n10     7  4.82     7  7.26     7  6.42     8  7.91\n11     5  5.68     5  4.74     5  5.73     8  6.89"
+    "text": "¿Por qué visualizamos datos?\n\nDataPlot\n\n\n\n\n\n\n\na.x\na.y\nb.x\nb.y\nc.x\nc.y\nd.x\nd.y\n\n\n\n\n10\n8.04\n10\n9.14\n10\n7.46\n8\n6.58\n\n\n8\n6.95\n8\n8.14\n8\n6.77\n8\n5.76\n\n\n13\n7.58\n13\n8.74\n13\n12.74\n8\n7.71\n\n\n9\n8.81\n9\n8.77\n9\n7.11\n8\n8.84\n\n\n11\n8.33\n11\n9.26\n11\n7.81\n8\n8.47\n\n\n14\n9.96\n14\n8.10\n14\n8.84\n8\n7.04\n\n\n6\n7.24\n6\n6.13\n6\n6.08\n8\n5.25\n\n\n4\n4.26\n4\n3.10\n4\n5.39\n19\n12.50\n\n\n12\n10.84\n12\n9.13\n12\n8.15\n8\n5.56\n\n\n7\n4.82\n7\n7.26\n7\n6.42\n8\n7.91\n\n\n5\n5.68\n5\n4.74\n5\n5.73\n8\n6.89\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTabla con cuatro grupos de números: ¿Qué te dicen? ¿Qué puedes ver? ¿Hay algúnas diferencias discernibles entre ellas en los patrones o tendencias?"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#visualización-de-datos",
+    "href": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#visualización-de-datos",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Visualización de datos",
+    "text": "Visualización de datos"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#video-1---la-alegría-de-la-estadística",
+    "href": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#video-1---la-alegría-de-la-estadística",
+    "title": "Fundamentos en Visualización de Datos",
+    "section": "Video 1 - La alegría de la Estadística",
+    "text": "Video 1 - La alegría de la Estadística"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#section",
+    "href": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#section",
+    "title": "Fundamentos en Visualización de Datos",
+    "section": "2",
+    "text": "2\n\n\n\n\n\na.x\na.y\nb.x\nb.y\nc.x\nc.y\nd.x\nd.y\n\n\n\n\n10\n8.04\n10\n9.14\n10\n7.46\n8\n6.58\n\n\n8\n6.95\n8\n8.14\n8\n6.77\n8\n5.76\n\n\n13\n7.58\n13\n8.74\n13\n12.74\n8\n7.71\n\n\n9\n8.81\n9\n8.77\n9\n7.11\n8\n8.84\n\n\n11\n8.33\n11\n9.26\n11\n7.81\n8\n8.47\n\n\n14\n9.96\n14\n8.10\n14\n8.84\n8\n7.04\n\n\n6\n7.24\n6\n6.13\n6\n6.08\n8\n5.25\n\n\n4\n4.26\n4\n3.10\n4\n5.39\n19\n12.50\n\n\n12\n10.84\n12\n9.13\n12\n8.15\n8\n5.56\n\n\n7\n4.82\n7\n7.26\n7\n6.42\n8\n7.91\n\n\n5\n5.68\n5\n4.74\n5\n5.73\n8\n6.89"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#section-1",
+    "href": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#section-1",
+    "title": "Fundamentos en Visualización de Datos",
+    "section": "3",
+    "text": "3"
   }
 ]

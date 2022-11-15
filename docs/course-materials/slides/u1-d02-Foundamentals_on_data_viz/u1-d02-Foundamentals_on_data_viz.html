@@ -7,10 +7,10 @@
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.1.189">
+  <meta name="generator" content="quarto-1.2.269">
 
   <meta name="author" content="Rolando Mirabal">
-  <title>Analítica y Visualización de Datos, Aplicaciones - Diplomado en Estadística Aplicada a la Toma de Decisiones</title>
+  <title>Analítica y Visualización de Datos, Aplicaciones - Fundamentos en Visualización de Datos</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -323,40 +323,323 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" class="center">
-  <h1 class="title">Diplomado en Estadística Aplicada a la Toma de Decisiones</h1>
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Fundamentos en Visualización de Datos</h1>
   <p class="subtitle">Módulo V - Analítica y Visualización de Datos, Aplicaciones</p>
-  <p class="author">Rolando Mirabal</p>
-</section>
 
-<section>
-<section id="fundamentos-de-visualización-de-datos" class="title-slide slide level1 center">
-<h1>Fundamentos de Visualización de Datos</h1>
-<p>Unidad 1 Sesión 1</p>
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Rolando Mirabal 
+</div>
+</div>
+</div>
+
 </section>
-<section id="por-qué-visualizamos-datos" class="slide level2">
+<section id="video-1---la-alegría-de-la-estadística" class="slide level2">
+<h2>Video 1 - La alegría de la Estadística</h2>
+<iframe src="https://www.youtube.com/embed/V8lbiiTF2P0" width="100%" height="85%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</section>
+<section id="por-qué-visualizamos-datos" class="slide level2 smaller scrollable" data-transition="slide">
 <h2>¿Por qué visualizamos datos?</h2>
+<div class="panel-tabset">
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Data</a></li><li><a href="#tabset-1-2">Plot</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1">
 <div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 11 x 8
-     a.x   a.y   b.x   b.y   c.x   c.y   d.x   d.y
-   &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
- 1    10  8.04    10  9.14    10  7.46     8  6.58
- 2     8  6.95     8  8.14     8  6.77     8  5.76
- 3    13  7.58    13  8.74    13 12.7      8  7.71
- 4     9  8.81     9  8.77     9  7.11     8  8.84
- 5    11  8.33    11  9.26    11  7.81     8  8.47
- 6    14  9.96    14  8.1     14  8.84     8  7.04
- 7     6  7.24     6  6.13     6  6.08     8  5.25
- 8     4  4.26     4  3.1      4  5.39    19 12.5 
- 9    12 10.8     12  9.13    12  8.15     8  5.56
-10     7  4.82     7  7.26     7  6.42     8  7.91
-11     5  5.68     5  4.74     5  5.73     8  6.89</code></pre>
+<div class="cell-output-display">
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: right;">a.x</th>
+<th style="text-align: right;">a.y</th>
+<th style="text-align: right;">b.x</th>
+<th style="text-align: right;">b.y</th>
+<th style="text-align: right;">c.x</th>
+<th style="text-align: right;">c.y</th>
+<th style="text-align: right;">d.x</th>
+<th style="text-align: right;">d.y</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">8.04</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">9.14</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">7.46</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">6.58</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">6.95</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">8.14</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">6.77</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">5.76</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">7.58</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">8.74</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">12.74</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">7.71</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">8.81</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">8.77</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">7.11</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">8.84</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">8.33</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">9.26</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">7.81</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">8.47</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">9.96</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">8.10</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">8.84</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">7.04</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">7.24</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">6.13</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">6.08</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">5.25</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">4.26</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">3.10</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">5.39</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">12.50</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">10.84</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">9.13</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">8.15</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">5.56</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">4.82</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">7.26</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">6.42</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">7.91</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">5.68</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">4.74</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">5.73</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">6.89</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="tabset-1-2">
+<div class="cell">
+<div class="cell-output-display">
+<p><img data-src="u1-d02-Foundamentals_on_data_viz_files/figure-revealjs/unnamed-chunk-2-1.png" width="960"></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Tabla con cuatro grupos de números: ¿Qué te dicen? ¿Qué puedes ver? ¿Hay algúnas diferencias discernibles entre ellas en los patrones o tendencias?</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section" class="slide level2 smaller scrollable" data-transition="slide">
+<h2>2</h2>
+<div class="cell">
+<div class="cell-output-display">
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: right;">a.x</th>
+<th style="text-align: right;">a.y</th>
+<th style="text-align: right;">b.x</th>
+<th style="text-align: right;">b.y</th>
+<th style="text-align: right;">c.x</th>
+<th style="text-align: right;">c.y</th>
+<th style="text-align: right;">d.x</th>
+<th style="text-align: right;">d.y</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">8.04</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">9.14</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">7.46</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">6.58</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">6.95</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">8.14</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">6.77</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">5.76</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">7.58</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">8.74</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">12.74</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">7.71</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">8.81</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">8.77</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">7.11</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">8.84</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">8.33</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">9.26</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">7.81</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">8.47</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">9.96</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">8.10</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">8.84</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">7.04</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">7.24</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">6.13</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">6.08</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">5.25</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">4.26</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">3.10</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">5.39</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">12.50</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">10.84</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">9.13</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">8.15</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">5.56</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">4.82</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">7.26</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">6.42</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">7.91</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">5.68</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">4.74</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">5.73</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">6.89</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </section>
+<section id="section-1" class="slide level2">
+<h2>3</h2>
+
+<img data-src="u1-d02-Foundamentals_on_data_viz_files/figure-revealjs/unnamed-chunk-4-1.png" width="960" class="r-stretch"></section>
 <section id="qué-es-visualización-de-datos" class="slide level2">
 <h2>¿Qué es Visualización de Datos?</h2>
+<iframe src="https://www.youtube.com/embed/V8lbiiTF2P0" width="100%" height="75%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </section>
 <section id="qué-es-analítica-de-datos" class="slide level2">
 <h2>¿Qué es Analítica de Datos?</h2>
@@ -368,7 +651,7 @@
 <div class="footer footer-default">
 
 </div>
-</section></section>
+</section>
     </div>
   </div>
 
@@ -586,12 +869,15 @@
       // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
       // slide changes (different for each slide format).
       (function () {
-        function fireSlideChanged(previousSlide, currentSlide) {
-
-          // dispatch for htmlwidgets
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
           const event = window.document.createEvent("Event");
           event.initEvent("slideenter", true, true);
           window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
 
           // dispatch for shiny
           if (window.jQuery) {
@@ -602,13 +888,6 @@
               window.jQuery(currentSlide).trigger("shown");
             }
           }
-        }
-
-        // hookup for reveal
-        if (window.Reveal) {
-          window.Reveal.addEventListener("slidechanged", function(event) {
-            fireSlideChanged(event.previousSlide, event.currentSlide);
-          });
         }
 
         // hookup for slidy
@@ -660,7 +939,24 @@
         button.classList.add('code-copy-button-checked');
         var currentTitle = button.getAttribute("title");
         button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
         setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
           button.setAttribute("title", currentTitle);
           button.classList.remove('code-copy-button-checked');
         }, 1000);
@@ -698,24 +994,42 @@
           return note.innerHTML;
         });
       }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
       var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
       for (var i=0; i<bibliorefs.length; i++) {
         const ref = bibliorefs[i];
-        const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-        tippyHover(ref, function() {
-          var popup = window.document.createElement('div');
-          cites.forEach(function(cite) {
-            var citeDiv = window.document.createElement('div');
-            citeDiv.classList.add('hanging-indent');
-            citeDiv.classList.add('csl-entry');
-            var biblioDiv = window.document.getElementById('ref-' + cite);
-            if (biblioDiv) {
-              citeDiv.innerHTML = biblioDiv.innerHTML;
-            }
-            popup.appendChild(citeDiv);
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
           });
-          return popup.innerHTML;
-        });
+        }
       }
     });
     </script>

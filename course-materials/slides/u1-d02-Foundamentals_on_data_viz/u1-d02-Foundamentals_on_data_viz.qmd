@@ -1,6 +1,7 @@
 ---
-title: "Diplomado en Estadística Aplicada a la Toma de Decisiones"
+title: "Fundamentos en Visualización de Datos"
 subtitle: "Módulo V - Analítica y Visualización de Datos, Aplicaciones"
+
 author: "Rolando Mirabal"
 format: 
   revealjs:
@@ -10,13 +11,43 @@ format:
 editor: visual
 ---
 
-# Fundamentos de Visualización de Datos
+## Video 1 - La alegría de la Estadística
 
-Unidad 1 Sesión 1
+{{< video https://youtu.be/V8lbiiTF2P0 width="100%" height="85%" >}}
 
-## ¿Por qué visualizamos datos?
+## ¿Por qué visualizamos datos? {.smaller .scrollable transition="slide"}
 
+::: panel-tabset
+### Data
+
+```{r}
+library(dplyr)
+tabla_viz <- tibble(a.x = c(10, 8, 13, 9, 11, 14, 6, 4, 12, 7, 5),
+                    a.y = c(8.04,6.95,7.58,8.81,8.33,9.96,7.24,4.26,10.84,4.82,5.68),
+                    b.x = c(10, 8, 13, 9, 11, 14, 6, 4, 12, 7, 5),
+                    b.y = c(9.14, 8.14, 8.74, 8.77, 9.26,8.10, 6.13, 3.10, 9.13, 7.26, 4.74),
+                    c.x = c(10, 8, 13, 9, 11, 14, 6, 4, 12, 7, 5),
+                    c.y = c(7.46, 6.77, 12.74, 7.11, 7.81, 8.84, 6.08, 5.39, 8.15, 6.42, 5.73),
+                    d.x = c(8,8,8,8,8,8,8,19,8,8,8),
+                    d.y = c(6.58,5.76,7.71,8.84,8.47,7.04,5.25,12.5, 5.56,7.91,6.89))
+                    
+knitr::kable(tabla_viz)
+```
+
+### Plot
+
+```{r}
+library(ggplot2)
+ggplot(tabla_viz, aes(a.x, a.y)) +
+  geom_point()
+```
+:::
+
+::: notes
 Tabla con cuatro grupos de números: ¿Qué te dicen? ¿Qué puedes ver? ¿Hay algúnas diferencias discernibles entre ellas en los patrones o tendencias?
+:::
+
+## 2 {.smaller .scrollable transition="slide"}
 
 ```{r}
 library(dplyr)
@@ -30,10 +61,19 @@ tabla_viz <- tibble(a.x = c(10, 8, 13, 9, 11, 14, 6, 4, 12, 7, 5),
                     d.y = c(6.58,5.76,7.71,8.84,8.47,7.04,5.25,12.5, 5.56,7.91,6.89))
                     
 
-tabla_viz
+knitr::kable(tabla_viz)
+```
+
+## 3
+
+```{r}
+ggplot(tabla_viz, aes(a.x, a.y)) +
+  geom_point()
 ```
 
 ## ¿Qué es Visualización de Datos?
+
+{{< video https://youtu.be/V8lbiiTF2P0 width="100%" height="75%" >}}
 
 ## ¿Qué es Analítica de Datos?
 
