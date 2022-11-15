@@ -7,7 +7,7 @@
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.1.189">
+  <meta name="generator" content="quarto-1.2.269">
 
   <meta name="author" content="Rolando Mirabal">
   <title>Analítica y Visualización de Datos, Aplicaciones - Diplomado en Estadística Aplicada a la Toma de Decisiones</title>
@@ -323,12 +323,19 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" class="center">
+<section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Diplomado en Estadística Aplicada a la Toma de Decisiones</h1>
   <p class="subtitle">Módulo V - Analítica y Visualización de Datos, Aplicaciones</p>
-  <p class="author">Rolando Mirabal</p>
-</section>
 
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Rolando Mirabal 
+</div>
+</div>
+</div>
+
+</section>
 <section>
 <section id="presentación-del-módulo" class="title-slide slide level1 center">
 <h1>Presentación del Módulo</h1>
@@ -338,13 +345,30 @@
 <h2>The pillars of creation</h2>
 <p><img data-src="images/thepillarsofcreation.png"></p>
 
+<aside><div>
+<p>Fuente: <a href="https://www.nasa.gov/feature/goddard/2022/nasa-s-webb-takes-star-filled-portrait-of-pillars-of-creation">NASA</a>, <a href="https://www.nbcnews.com/data-graphics/compare-photos-nasas-james-webb-space-telescope-hubble-space-telescope-rcna37875">NBC Interactivo</a></p>
+</div></aside></section></section>
+<section>
+<section id="casos-de-la-vida-real" class="title-slide slide level1 center">
+<h1>Casos de la vida real</h1>
+
+</section>
+<section id="infografías" class="slide level2">
+<h2>Infografías</h2>
+</section>
+<section id="dahsboards" class="slide level2">
+<h2>Dahsboards</h2>
+</section>
+<section id="visualizaciones" class="slide level2">
+<h2>Visualizaciones</h2>
+<ul>
+<li></li>
+</ul>
 
 <div class="footer footer-default">
 
 </div>
-<aside><div>
-<p>Fuente: <a href="https://www.nasa.gov/feature/goddard/2022/nasa-s-webb-takes-star-filled-portrait-of-pillars-of-creation">NASA</a>, <a href="https://www.nbcnews.com/data-graphics/compare-photos-nasas-james-webb-space-telescope-hubble-space-telescope-rcna37875">NBC Interactivo</a></p>
-</div></aside></section></section>
+</section></section>
     </div>
   </div>
 
@@ -594,7 +618,24 @@
         button.classList.add('code-copy-button-checked');
         var currentTitle = button.getAttribute("title");
         button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
         setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
           button.setAttribute("title", currentTitle);
           button.classList.remove('code-copy-button-checked');
         }, 1000);
@@ -632,24 +673,42 @@
           return note.innerHTML;
         });
       }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
       var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
       for (var i=0; i<bibliorefs.length; i++) {
         const ref = bibliorefs[i];
-        const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-        tippyHover(ref, function() {
-          var popup = window.document.createElement('div');
-          cites.forEach(function(cite) {
-            var citeDiv = window.document.createElement('div');
-            citeDiv.classList.add('hanging-indent');
-            citeDiv.classList.add('csl-entry');
-            var biblioDiv = window.document.getElementById('ref-' + cite);
-            if (biblioDiv) {
-              citeDiv.innerHTML = biblioDiv.innerHTML;
-            }
-            popup.appendChild(citeDiv);
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
           });
-          return popup.innerHTML;
-        });
+        }
       }
     });
     </script>

@@ -18,14 +18,14 @@
     "href": "Cronograma.html",
     "title": "Cronograma",
     "section": "",
-    "text": "Cronograma por sesión\n\n\n\n\n\n\n\n\nDescripción\nFecha\nContenido analítico a desarrollar\n\n\n\n\nsesión 1\n28/11/2022\nPresentación del Módulo\nExplicación del proyecto de Moóulo\nGeneralidades del entorno Financiero y la data\nSetup y Herramientas a usar: Tableau, RStudio, Python\nEjercicios de análisis I\nTarea 1. Visualización\n\n\nsesión 2\n30/11/2022\nFundamentos de Visualización y comunicación de Datos I\nEntorno de Análisis y motivación para visualizar\nTipos de gráficos\nEjercicios de análisis II\n\n\nsesión 3\n02/12/2022\nFundamentos de Visualización y comunicación de Datos II\nPrincipios de Visualización y mejores prácticas\nPreparación y análisis de datos Empresariales\nHerramientas de Visualización de datos\nCaso práctico 1\n\n\nsesión 4\n06/12/2022\nTableau I\nEntendiendo los conceptos de Tableau\nExploración y análisis de datos, generación de información (Insights)\nDashboards y Narraciones\nTarea 2. Visualización\n\n\nsesión 5\n08/12/2022\nIntroducción a Tableau II\nCálculos de tabla rápidos\nCampos calculados y KPIs\nDesarrollo de interacciones y filtros en dashboards\nTrabajo práctico I – Dashboard Ejecutivo y Operativo\n\n\nsesión 6\n12/12/2022\nIntroducción a Tableau IV\nPanorama Dashboards según campo de trabajo\nFinanciero, Logístico, Comercial, Operativo, Transversal\n\n\nsesión 7\n14/12/2022\nIntroducción a Tableau Server I\nTableros en producción\nTableau Server + Tableau Online\nNarraciones en tableau\nRevisión de avances en el proyecto\n\n\nsesión 8\n16/12/2022\nAplicaciones Avanzadas I - Analysis de Datos Geográficos\nQGIS\n\n\nsesión 9\n20/12/2022\nAplicaciones Avanzadas II - R\n\n\nsesión 10\n22/12/2022\nAplicaciones Avanzadas III - Python\n\n\nTOTAL: 10 sesiones"
+    "text": "Descripción\nNombre de la Unidad\nN° de sesiones\n\n\n\n\nUNIDAD I\nFundamentos de Visualización y Comunicación de los Datos\n3\n\n\nUNIDAD II\nProfundizando en Tableau para Analítica y Visualización de datos\nPresentación y Comunicación de Insights\n4\n\n\nUNIDAD III\nAplicaciones Avanzadas, R, Python\n3\n\n\n\nTOTAL\n10\n\n\n\n\nCronograma por sesión\n\n\n\n\n\n\n\n\nDescripción\nFecha\nContenido analítico a desarrollar\n\n\n\n\nsesión 1\n28/11/2022\nPresentación del Módulo\nExplicación del proyecto de Módulo\nGeneralidades del entorno y contexto del dominio del negocio y los datos\nConfiguración y Herramientas a usar: Tableau, RStudio, Python\nEjercicios de Análisis I\nTarea 1. Visualización\n\n\nsesión 2\n30/11/2022\nFundamentos de Visualización y comunicación de Datos I\nEntorno de Análisis y motivación para visualizar\nTipos de gráficos\nEjercicios de análisis II\n\n\nsesión 3\n02/12/2022\nFundamentos de Visualización y comunicación de Datos II\nPrincipios de Visualización y mejores prácticas\nPreparación y análisis de datos Empresariales\nHerramientas de Visualización de datos\nCaso práctico 1\n\n\nsesión 4\n06/12/2022\nTableau I\nEntendiendo los conceptos de Tableau\nExploración y análisis de datos, generación de información (Insights)\nDashboards y Narraciones\nTarea 2. Visualización\n\n\nsesión 5\n08/12/2022\nIntroducción a Tableau II\nCálculos de tabla rápidos\nCampos calculados y KPIs\nDesarrollo de interacciones y filtros en dashboards\nTrabajo práctico I – Dashboard Ejecutivo y Operativo\n\n\nsesión 6\n12/12/2022\nIntroducción a Tableau IV\nPanorama Dashboards según campo de trabajo\nFinanciero, Logístico, Comercial, Operativo, Transversal\n\n\nsesión 7\n14/12/2022\nIntroducción a Tableau Server I\nTableros en producción\nTableau Server + Tableau Online\nNarraciones en tableau\nRevisión de avances en el proyecto\n\n\nsesión 8\n16/12/2022\nAplicaciones Avanzadas I - Analysis de Datos Geográficos\nQGIS\n\n\nsesión 9\n20/12/2022\nAplicaciones Avanzadas II - R\n\n\nsesión 10\n22/12/2022\nAplicaciones Avanzadas III - Python\n\n\nTOTAL: 10 sesiones"
   },
   {
     "objectID": "index.html#materiales-del-curso",
     "href": "index.html#materiales-del-curso",
     "title": "Analítica y Visualización de Datos, Aplicaciones - II/2022",
     "section": "Materiales del Curso",
-    "text": "Materiales del Curso\n\nLibros:\n\nWickham, Grolemund (2017). R para Ciencia de Datos.\nClaus O. Wilke (2019), Fundamentals of Data Visualization\nWexler, S. & Shaffer, J. & Cotgreave, A. (2017). The Big Book of Dashboards. Wiley.\nAnn Jackson, Luke Stanke (2022), Tableau Strategies.\nNussbaumer, C. (2015). Storytelling with Data. Wiley.\nBentley, D. (2017). Business Intelligence and Analytics. Library Press.\nTufte, E. (2007) The Visual Display of Quantitative Information. Graphics Press LLC.\nFew S. (2009). Now you see it.\n\n\n\nTecnología\nEstaremos usando las siguientes herramientas:\n\nTableau Public y Tableau Cloud (*)\nRStudio\nPython\nQGIS\n\n(*) en proceso de solicitud a Tableau for Teaching, en espera nos den acceso.\n\n\nCatálogo de material de apoyo\nEl catálogo de material de apoyo se encuentra clasificado por categorías: Aplicación, Catálogos, Inspiración, Libro electrónico, Fuentes de Datos, Buenas Prácticas, Cursos.\nPuede ser accedido en el siguiente URL - Material de Apoyo.\n\n\nDiapositivas"
+    "text": "Materiales del Curso\n\nLibros:\n\nWickham, Grolemund (2017). R para Ciencia de Datos.\nClaus O. Wilke (2019), Fundamentals of Data Visualization\nWexler, S. & Shaffer, J. & Cotgreave, A. (2017). The Big Book of Dashboards. Wiley.\nAnn Jackson, Luke Stanke (2022), Tableau Strategies.\nNussbaumer, C. (2015). Storytelling with Data. Wiley.\nBentley, D. (2017). Business Intelligence and Analytics. Library Press.\nTufte, E. (2007) The Visual Display of Quantitative Information. Graphics Press LLC.\nFew S. (2009). Now you see it.\n\n\n\nTecnología\nEstaremos usando las siguientes herramientas:\n\nTableau Public y Tableau Cloud (*)\nRStudio\nPython\nQGIS\n\n(*) en proceso de solicitud a Tableau for Teaching, en espera nos den acceso.\n\n\nCatálogo de material de apoyo\nEl catálogo de material de apoyo se encuentra clasificado por categorías: Aplicación, Catálogos, Inspiración, Libro electrónico, Fuentes de Datos, Buenas Prácticas, Cursos.\nPuede ser accedido en el siguiente URL - Material de Apoyo.\n\n\nDiapositivas\n🖥️\n🖥️"
   },
   {
     "objectID": "Docente.html",
@@ -60,7 +60,7 @@
     "href": "course-materials/slides/u1-d01-welcome/slideu1-d01.html#the-pillars-of-creation",
     "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
     "section": "The pillars of creation",
-    "text": "The pillars of creation\n\n\n\n\n\n\n\nFuente: NASA, NBC Interactivo"
+    "text": "The pillars of creation\n\n\n\nFuente: NASA, NBC Interactivo"
   },
   {
     "objectID": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#qué-es-visualización-de-datos",
@@ -110,5 +110,26 @@
     "title": "Fundamentos en Visualización de Datos",
     "section": "3",
     "text": "3"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d01-welcome/slideu1-d01.html#infografías",
+    "href": "course-materials/slides/u1-d01-welcome/slideu1-d01.html#infografías",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Infografías",
+    "text": "Infografías"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d01-welcome/slideu1-d01.html#dahsboards",
+    "href": "course-materials/slides/u1-d01-welcome/slideu1-d01.html#dahsboards",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Dahsboards",
+    "text": "Dahsboards"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d01-welcome/slideu1-d01.html#visualizaciones",
+    "href": "course-materials/slides/u1-d01-welcome/slideu1-d01.html#visualizaciones",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Visualizaciones",
+    "text": "Visualizaciones"
   }
 ]
