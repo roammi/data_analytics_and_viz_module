@@ -47,4 +47,4 @@ Puede ser accedido en el siguiente [URL - Material de Apoyo](https://rolandoamir
 
 [🖥️](course-materials/slides/u1-d01-welcome/slideu1-d01.html#/title-slide "U1S01 slides"){aria-label="Lab 0 slides"}
 
-[🖥️](http://localhost:5665/course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#/title-slide "U1S02 slides"){aria-label="Lab 0 slides"}
+[🖥️](course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#/title-slide "U1S02 slides"){aria-label="Lab 0 slides"}
