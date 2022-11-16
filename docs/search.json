@@ -81,7 +81,7 @@
     "href": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#por-qué-visualizamos-datos",
     "title": "Fundamentos en Visualización de Datos",
     "section": "¿Por qué visualizamos datos?",
-    "text": "¿Por qué visualizamos datos?\n\nDataPlot\n\n\n\n\n\n\n\na.x\na.y\nb.x\nb.y\nc.x\nc.y\nd.x\nd.y\n\n\n\n\n10\n8.04\n10\n9.14\n10\n7.46\n8\n6.58\n\n\n8\n6.95\n8\n8.14\n8\n6.77\n8\n5.76\n\n\n13\n7.58\n13\n8.74\n13\n12.74\n8\n7.71\n\n\n9\n8.81\n9\n8.77\n9\n7.11\n8\n8.84\n\n\n11\n8.33\n11\n9.26\n11\n7.81\n8\n8.47\n\n\n14\n9.96\n14\n8.10\n14\n8.84\n8\n7.04\n\n\n6\n7.24\n6\n6.13\n6\n6.08\n8\n5.25\n\n\n4\n4.26\n4\n3.10\n4\n5.39\n19\n12.50\n\n\n12\n10.84\n12\n9.13\n12\n8.15\n8\n5.56\n\n\n7\n4.82\n7\n7.26\n7\n6.42\n8\n7.91\n\n\n5\n5.68\n5\n4.74\n5\n5.73\n8\n6.89\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTabla con cuatro grupos de números: ¿Qué te dicen? ¿Qué puedes ver? ¿Hay algúnas diferencias discernibles entre ellas en los patrones o tendencias?"
+    "text": "¿Por qué visualizamos datos?\n\n\n\n\n\na.x\na.y\nb.x\nb.y\nc.x\nc.y\nd.x\nd.y\n\n\n\n\n10\n8.04\n10\n9.14\n10\n7.46\n8\n6.58\n\n\n8\n6.95\n8\n8.14\n8\n6.77\n8\n5.76\n\n\n13\n7.58\n13\n8.74\n13\n12.74\n8\n7.71\n\n\n9\n8.81\n9\n8.77\n9\n7.11\n8\n8.84\n\n\n11\n8.33\n11\n9.26\n11\n7.81\n8\n8.47\n\n\n14\n9.96\n14\n8.10\n14\n8.84\n8\n7.04\n\n\n6\n7.24\n6\n6.13\n6\n6.08\n8\n5.25\n\n\n4\n4.26\n4\n3.10\n4\n5.39\n19\n12.50\n\n\n12\n10.84\n12\n9.13\n12\n8.15\n8\n5.56\n\n\n7\n4.82\n7\n7.26\n7\n6.42\n8\n7.91\n\n\n5\n5.68\n5\n4.74\n5\n5.73\n8\n6.89\n\n\n\n\n\n\nTabla con cuatro grupos de números: ¿Qué te dicen?\n¿Qué puedes ver?\n¿Hay algúnas diferencias discernibles entre ellas en los patrones o tendencias?"
   },
   {
     "objectID": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#visualización-de-datos",
@@ -101,8 +101,8 @@
     "objectID": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#section",
     "href": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#section",
     "title": "Fundamentos en Visualización de Datos",
-    "section": "2",
-    "text": "2\n\n\n\n\n\na.x\na.y\nb.x\nb.y\nc.x\nc.y\nd.x\nd.y\n\n\n\n\n10\n8.04\n10\n9.14\n10\n7.46\n8\n6.58\n\n\n8\n6.95\n8\n8.14\n8\n6.77\n8\n5.76\n\n\n13\n7.58\n13\n8.74\n13\n12.74\n8\n7.71\n\n\n9\n8.81\n9\n8.77\n9\n7.11\n8\n8.84\n\n\n11\n8.33\n11\n9.26\n11\n7.81\n8\n8.47\n\n\n14\n9.96\n14\n8.10\n14\n8.84\n8\n7.04\n\n\n6\n7.24\n6\n6.13\n6\n6.08\n8\n5.25\n\n\n4\n4.26\n4\n3.10\n4\n5.39\n19\n12.50\n\n\n12\n10.84\n12\n9.13\n12\n8.15\n8\n5.56\n\n\n7\n4.82\n7\n7.26\n7\n6.42\n8\n7.91\n\n\n5\n5.68\n5\n4.74\n5\n5.73\n8\n6.89"
+    "section": "3",
+    "text": "3"
   },
   {
     "objectID": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#section-1",
@@ -131,5 +131,47 @@
     "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
     "section": "Visualizaciones",
     "text": "Visualizaciones"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#section-2",
+    "href": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#section-2",
+    "title": "Fundamentos en Visualización de Datos",
+    "section": "4",
+    "text": "4\n\n\n\nData summary\n\n\nName\ntabla_viz\n\n\nNumber of rows\n11\n\n\nNumber of columns\n8\n\n\n_______________________\n\n\n\nColumn type frequency:\n\n\n\nnumeric\n8\n\n\n________________________\n\n\n\nGroup variables\nNone\n\n\n\nVariable type: numeric\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\nn_missing\ncomplete_rate\nmean\nsd\np0\np25\np50\np75\np100\nhist\n\n\n\n\na.x\n0\n1\n9.0\n3.32\n4.00\n6.50\n9.00\n11.50\n14.00\n▇▅▅▅▅\n\n\na.y\n0\n1\n7.5\n2.03\n4.26\n6.31\n7.58\n8.57\n10.84\n▃▂▇▃▃\n\n\nb.x\n0\n1\n9.0\n3.32\n4.00\n6.50\n9.00\n11.50\n14.00\n▇▅▅▅▅\n\n\nb.y\n0\n1\n7.5\n2.03\n3.10\n6.70\n8.14\n8.95\n9.26\n▁▁▁▁▇\n\n\nc.x\n0\n1\n9.0\n3.32\n4.00\n6.50\n9.00\n11.50\n14.00\n▇▅▅▅▅\n\n\nc.y\n0\n1\n7.5\n2.03\n5.39\n6.25\n7.11\n7.98\n12.74\n▇▆▂▁▂\n\n\nd.x\n0\n1\n9.0\n3.32\n8.00\n8.00\n8.00\n8.00\n19.00\n▇▁▁▁▁\n\n\nd.y\n0\n1\n7.5\n2.03\n5.25\n6.17\n7.04\n8.19\n12.50\n▇▇▃▁▂"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#estadísticamente-iguales",
+    "href": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#estadísticamente-iguales",
+    "title": "Fundamentos en Visualización de Datos",
+    "section": "¿Estadísticamente iguales?",
+    "text": "¿Estadísticamente iguales?\n\n\n\n\n \n  \n      \n         a.x \n         a.y \n         b.x \n         b.y \n         c.x \n         c.y \n         d.x \n         d.y \n  \n \n\n  \n     \n    Min.   : 4.0 \n    Min.   : 4.260 \n    Min.   : 4.0 \n    Min.   :3.100 \n    Min.   : 4.0 \n    Min.   : 5.39 \n    Min.   : 8 \n    Min.   : 5.250 \n  \n  \n     \n    1st Qu.: 6.5 \n    1st Qu.: 6.315 \n    1st Qu.: 6.5 \n    1st Qu.:6.695 \n    1st Qu.: 6.5 \n    1st Qu.: 6.25 \n    1st Qu.: 8 \n    1st Qu.: 6.170 \n  \n  \n     \n    Median : 9.0 \n    Median : 7.580 \n    Median : 9.0 \n    Median :8.140 \n    Median : 9.0 \n    Median : 7.11 \n    Median : 8 \n    Median : 7.040 \n  \n  \n     \n    Mean   : 9.0 \n    Mean   : 7.501 \n    Mean   : 9.0 \n    Mean   :7.501 \n    Mean   : 9.0 \n    Mean   : 7.50 \n    Mean   : 9 \n    Mean   : 7.501 \n  \n  \n     \n    3rd Qu.:11.5 \n    3rd Qu.: 8.570 \n    3rd Qu.:11.5 \n    3rd Qu.:8.950 \n    3rd Qu.:11.5 \n    3rd Qu.: 7.98 \n    3rd Qu.: 8 \n    3rd Qu.: 8.190 \n  \n  \n     \n    Max.   :14.0 \n    Max.   :10.840 \n    Max.   :14.0 \n    Max.   :9.260 \n    Max.   :14.0 \n    Max.   :12.74 \n    Max.   :19 \n    Max.   :12.500"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#anscombes-quartet",
+    "href": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#anscombes-quartet",
+    "title": "Fundamentos en Visualización de Datos",
+    "section": "Anscombe’s Quartet",
+    "text": "Anscombe’s Quartet\n\n\n\n\n\na.x\na.y\nb.x\nb.y\nc.x\nc.y\nd.x\nd.y\n\n\n\n\n10\n8.04\n10\n9.14\n10\n7.46\n8\n6.58\n\n\n8\n6.95\n8\n8.14\n8\n6.77\n8\n5.76\n\n\n13\n7.58\n13\n8.74\n13\n12.74\n8\n7.71\n\n\n9\n8.81\n9\n8.77\n9\n7.11\n8\n8.84\n\n\n11\n8.33\n11\n9.26\n11\n7.81\n8\n8.47\n\n\n14\n9.96\n14\n8.10\n14\n8.84\n8\n7.04\n\n\n6\n7.24\n6\n6.13\n6\n6.08\n8\n5.25\n\n\n4\n4.26\n4\n3.10\n4\n5.39\n19\n12.50\n\n\n12\n10.84\n12\n9.13\n12\n8.15\n8\n5.56\n\n\n7\n4.82\n7\n7.26\n7\n6.42\n8\n7.91\n\n\n5\n5.68\n5\n4.74\n5\n5.73\n8\n6.89\n\n\n\n\n\n\nTabla con cuatro grupos de números: ¿Qué te dicen?\n¿Qué puedes ver?\n¿Hay algúnas diferencias discernibles entre ellas en los patrones o tendencias?"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#graficando-anscombes-quartet",
+    "href": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#graficando-anscombes-quartet",
+    "title": "Fundamentos en Visualización de Datos",
+    "section": "Graficando Anscombe’s Quartet",
+    "text": "Graficando Anscombe’s Quartet"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#el-cuarteto-de-frank-anscombe",
+    "href": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#el-cuarteto-de-frank-anscombe",
+    "title": "Fundamentos en Visualización de Datos",
+    "section": "El cuarteto de Frank Anscombe",
+    "text": "El cuarteto de Frank Anscombe\n\n\n\n\n \n\nGrupo A\nGrupo B\nGrupo C\nGrupo D\n\n  \n    a.x \n    a.y \n    b.x \n    b.y \n    c.x \n    c.y \n    d.x \n    d.y \n  \n \n\n  \n    10 \n    8.04 \n    10 \n    9.14 \n    10 \n    7.46 \n    8 \n    6.58 \n  \n  \n    8 \n    6.95 \n    8 \n    8.14 \n    8 \n    6.77 \n    8 \n    5.76 \n  \n  \n    13 \n    7.58 \n    13 \n    8.74 \n    13 \n    12.74 \n    8 \n    7.71 \n  \n  \n    9 \n    8.81 \n    9 \n    8.77 \n    9 \n    7.11 \n    8 \n    8.84 \n  \n  \n    11 \n    8.33 \n    11 \n    9.26 \n    11 \n    7.81 \n    8 \n    8.47 \n  \n  \n    14 \n    9.96 \n    14 \n    8.10 \n    14 \n    8.84 \n    8 \n    7.04 \n  \n  \n    6 \n    7.24 \n    6 \n    6.13 \n    6 \n    6.08 \n    8 \n    5.25 \n  \n  \n    4 \n    4.26 \n    4 \n    3.10 \n    4 \n    5.39 \n    19 \n    12.50 \n  \n  \n    12 \n    10.84 \n    12 \n    9.13 \n    12 \n    8.15 \n    8 \n    5.56 \n  \n  \n    7 \n    4.82 \n    7 \n    7.26 \n    7 \n    6.42 \n    8 \n    7.91 \n  \n  \n    5 \n    5.68 \n    5 \n    4.74 \n    5 \n    5.73 \n    8 \n    6.89 \n  \n\n\n\n\n\n\nTabla con cuatro grupos de números: ¿Qué te dicen? ¿Qué puedes ver? ¿Hay algúnas diferencias discernibles entre ellas en los patrones o tendencias?"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#graficando-el-cuarteto-de-frank-anscombe",
+    "href": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#graficando-el-cuarteto-de-frank-anscombe",
+    "title": "Fundamentos en Visualización de Datos",
+    "section": "Graficando el Cuarteto de Frank Anscombe",
+    "text": "Graficando el Cuarteto de Frank Anscombe\n\n\nahora, ¿puedes ver la diferencia? Ver los númberos en un gráfico muestra algo que las tablas y alguna medidas estadísticas no pueden. Visualizamos los datos para aprovechas el poder increible de nuestro sistema visual para encontrar relaciones y tendencias"
   }
 ]
