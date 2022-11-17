@@ -5,7 +5,7 @@ title: "Analítica y Visualización de Datos, Aplicaciones - II/2022"
 ## Datos Generales
 
 |                    |                                                                                                                                                                                                                               |
-|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-------------|-----------------------------------------------------------|
 | **Institución:**   | [![Universidad Mayor de San Simón - Postgrado](images/UMSS.jpg){width="107"}](http://posgrado.fcyt.umss.edu.bo/index.html) Universidad Mayor de San Simón                                                                     |
 | **Programa:**      | [Diplomado en Estadística Aplicada a la Toma de Decisiones, primera versión.](http://posgrado.fcyt.umss.edu.bo/Programas/diploestadistica.html "Diplomado en Estadística Aplicada a la Toma de Decisiones, primera versión.") |
 | **Módulo V:**      | Analítica y Visualización de Datos, Aplicaciones                                                                                                                                                                              |

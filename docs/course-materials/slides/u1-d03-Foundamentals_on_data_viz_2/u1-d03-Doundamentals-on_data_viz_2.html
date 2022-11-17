@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.2.269">
 
   <meta name="author" content="Rolando Mirabal">
-  <title>Analítica y Visualización de Datos, Aplicaciones - Fundamentos en Visualización de Datos</title>
+  <title>Analítica y Visualización de Datos, Aplicaciones - Foundamentals_data_viz_2</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -33,8 +33,6 @@
   <link href="../../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="../../../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
-  <link href="../../../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
   <link href="../../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
@@ -320,17 +318,13 @@
       margin-right: 0; 
     }
   </style>
-  
-  <script src="../../../site_libs/kePrint-0.0.1/kePrint.js"></script>
-  <link href="../../../site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
 </head>
 <body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Fundamentos en Visualización de Datos</h1>
-  <p class="subtitle">Módulo V - Analítica y Visualización de Datos, Aplicaciones</p>
+  <h1 class="title">Foundamentals_data_viz_2</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -341,305 +335,24 @@ Rolando Mirabal
 </div>
 
 </section>
-<section id="video-1---la-alegría-de-la-estadística" class="slide level2">
-<h2>Video 1 - La alegría de la Estadística</h2>
-<iframe src="https://www.youtube.com/embed/V8lbiiTF2P0" width="100%" height="85%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<section id="color" class="slide level2">
+<h2>Color</h2>
 </section>
-<section>
-<section id="por-qué-visualizamos-datos" class="title-slide slide level1 center">
-<h1>1. ¿Por qué visualizamos datos?</h1>
-
-</section>
-<section id="el-cuarteto-de-frank-anscombe" class="slide level2 smaller scrollable" data-transition="slide">
-<h2>1.1. El cuarteto de Frank Anscombe</h2>
-<div class="cell">
-<div class="cell-output-display">
-
-<table>
- <thead>
-<tr>
-<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="2"><div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">Grupo A</div></th>
-<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="2"><div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">Grupo B</div></th>
-<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="2"><div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">Grupo C</div></th>
-<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="2"><div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">Grupo D</div></th>
-</tr>
-  <tr>
-   <th style="text-align:right;"> a.x </th>
-   <th style="text-align:right;"> a.y </th>
-   <th style="text-align:right;"> b.x </th>
-   <th style="text-align:right;"> b.y </th>
-   <th style="text-align:right;"> c.x </th>
-   <th style="text-align:right;"> c.y </th>
-   <th style="text-align:right;"> d.x </th>
-   <th style="text-align:right;"> d.y </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td style="text-align:right;"> 10 </td>
-   <td style="text-align:right;"> 8.04 </td>
-   <td style="text-align:right;"> 10 </td>
-   <td style="text-align:right;"> 9.14 </td>
-   <td style="text-align:right;"> 10 </td>
-   <td style="text-align:right;"> 7.46 </td>
-   <td style="text-align:right;"> 8 </td>
-   <td style="text-align:right;"> 6.58 </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 8 </td>
-   <td style="text-align:right;"> 6.95 </td>
-   <td style="text-align:right;"> 8 </td>
-   <td style="text-align:right;"> 8.14 </td>
-   <td style="text-align:right;"> 8 </td>
-   <td style="text-align:right;"> 6.77 </td>
-   <td style="text-align:right;"> 8 </td>
-   <td style="text-align:right;"> 5.76 </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 13 </td>
-   <td style="text-align:right;"> 7.58 </td>
-   <td style="text-align:right;"> 13 </td>
-   <td style="text-align:right;"> 8.74 </td>
-   <td style="text-align:right;"> 13 </td>
-   <td style="text-align:right;"> 12.74 </td>
-   <td style="text-align:right;"> 8 </td>
-   <td style="text-align:right;"> 7.71 </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 9 </td>
-   <td style="text-align:right;"> 8.81 </td>
-   <td style="text-align:right;"> 9 </td>
-   <td style="text-align:right;"> 8.77 </td>
-   <td style="text-align:right;"> 9 </td>
-   <td style="text-align:right;"> 7.11 </td>
-   <td style="text-align:right;"> 8 </td>
-   <td style="text-align:right;"> 8.84 </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 11 </td>
-   <td style="text-align:right;"> 8.33 </td>
-   <td style="text-align:right;"> 11 </td>
-   <td style="text-align:right;"> 9.26 </td>
-   <td style="text-align:right;"> 11 </td>
-   <td style="text-align:right;"> 7.81 </td>
-   <td style="text-align:right;"> 8 </td>
-   <td style="text-align:right;"> 8.47 </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 14 </td>
-   <td style="text-align:right;"> 9.96 </td>
-   <td style="text-align:right;"> 14 </td>
-   <td style="text-align:right;"> 8.10 </td>
-   <td style="text-align:right;"> 14 </td>
-   <td style="text-align:right;"> 8.84 </td>
-   <td style="text-align:right;"> 8 </td>
-   <td style="text-align:right;"> 7.04 </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 6 </td>
-   <td style="text-align:right;"> 7.24 </td>
-   <td style="text-align:right;"> 6 </td>
-   <td style="text-align:right;"> 6.13 </td>
-   <td style="text-align:right;"> 6 </td>
-   <td style="text-align:right;"> 6.08 </td>
-   <td style="text-align:right;"> 8 </td>
-   <td style="text-align:right;"> 5.25 </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 4 </td>
-   <td style="text-align:right;"> 4.26 </td>
-   <td style="text-align:right;"> 4 </td>
-   <td style="text-align:right;"> 3.10 </td>
-   <td style="text-align:right;"> 4 </td>
-   <td style="text-align:right;"> 5.39 </td>
-   <td style="text-align:right;"> 19 </td>
-   <td style="text-align:right;"> 12.50 </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 12 </td>
-   <td style="text-align:right;"> 10.84 </td>
-   <td style="text-align:right;"> 12 </td>
-   <td style="text-align:right;"> 9.13 </td>
-   <td style="text-align:right;"> 12 </td>
-   <td style="text-align:right;"> 8.15 </td>
-   <td style="text-align:right;"> 8 </td>
-   <td style="text-align:right;"> 5.56 </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 7 </td>
-   <td style="text-align:right;"> 4.82 </td>
-   <td style="text-align:right;"> 7 </td>
-   <td style="text-align:right;"> 7.26 </td>
-   <td style="text-align:right;"> 7 </td>
-   <td style="text-align:right;"> 6.42 </td>
-   <td style="text-align:right;"> 8 </td>
-   <td style="text-align:right;"> 7.91 </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 5 </td>
-   <td style="text-align:right;"> 5.68 </td>
-   <td style="text-align:right;"> 5 </td>
-   <td style="text-align:right;"> 4.74 </td>
-   <td style="text-align:right;"> 5 </td>
-   <td style="text-align:right;"> 5.73 </td>
-   <td style="text-align:right;"> 8 </td>
-   <td style="text-align:right;"> 6.89 </td>
-  </tr>
-</tbody>
-</table>
-
+<section id="rueda-de-color" class="slide level2">
+<h2>Rueda de Color</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/color_wheel_canva.PNG" width="404"></p>
+</figure>
 </div>
-</div>
-<aside class="notes">
-<p>Tabla con cuatro grupos de números: ¿Qué te dicen? ¿Qué puedes ver? ¿Hay algúnas diferencias discernibles entre ellas en los patrones o tendencias?</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="estadísticamente-iguales" class="slide level2 smaller scrollable" data-transition="slide">
-<h2>¿Estadísticamente iguales?</h2>
-<div class="cell">
-<div class="cell-output-display">
 
-<table>
- <thead>
-  <tr>
-   <th style="text-align:left;">   </th>
-   <th style="text-align:left;">      a.x </th>
-   <th style="text-align:left;">      a.y </th>
-   <th style="text-align:left;">      b.x </th>
-   <th style="text-align:left;">      b.y </th>
-   <th style="text-align:left;">      c.x </th>
-   <th style="text-align:left;">      c.y </th>
-   <th style="text-align:left;">      d.x </th>
-   <th style="text-align:left;">      d.y </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> Min.   : 4.0 </td>
-   <td style="text-align:left;"> Min.   : 4.260 </td>
-   <td style="text-align:left;"> Min.   : 4.0 </td>
-   <td style="text-align:left;"> Min.   :3.100 </td>
-   <td style="text-align:left;"> Min.   : 4.0 </td>
-   <td style="text-align:left;"> Min.   : 5.39 </td>
-   <td style="text-align:left;"> Min.   : 8 </td>
-   <td style="text-align:left;"> Min.   : 5.250 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> 1st Qu.: 6.5 </td>
-   <td style="text-align:left;"> 1st Qu.: 6.315 </td>
-   <td style="text-align:left;"> 1st Qu.: 6.5 </td>
-   <td style="text-align:left;"> 1st Qu.:6.695 </td>
-   <td style="text-align:left;"> 1st Qu.: 6.5 </td>
-   <td style="text-align:left;"> 1st Qu.: 6.25 </td>
-   <td style="text-align:left;"> 1st Qu.: 8 </td>
-   <td style="text-align:left;"> 1st Qu.: 6.170 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> Median : 9.0 </td>
-   <td style="text-align:left;"> Median : 7.580 </td>
-   <td style="text-align:left;"> Median : 9.0 </td>
-   <td style="text-align:left;"> Median :8.140 </td>
-   <td style="text-align:left;"> Median : 9.0 </td>
-   <td style="text-align:left;"> Median : 7.11 </td>
-   <td style="text-align:left;"> Median : 8 </td>
-   <td style="text-align:left;"> Median : 7.040 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> Mean   : 9.0 </td>
-   <td style="text-align:left;"> Mean   : 7.501 </td>
-   <td style="text-align:left;"> Mean   : 9.0 </td>
-   <td style="text-align:left;"> Mean   :7.501 </td>
-   <td style="text-align:left;"> Mean   : 9.0 </td>
-   <td style="text-align:left;"> Mean   : 7.50 </td>
-   <td style="text-align:left;"> Mean   : 9 </td>
-   <td style="text-align:left;"> Mean   : 7.501 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> 3rd Qu.:11.5 </td>
-   <td style="text-align:left;"> 3rd Qu.: 8.570 </td>
-   <td style="text-align:left;"> 3rd Qu.:11.5 </td>
-   <td style="text-align:left;"> 3rd Qu.:8.950 </td>
-   <td style="text-align:left;"> 3rd Qu.:11.5 </td>
-   <td style="text-align:left;"> 3rd Qu.: 7.98 </td>
-   <td style="text-align:left;"> 3rd Qu.: 8 </td>
-   <td style="text-align:left;"> 3rd Qu.: 8.190 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> Max.   :14.0 </td>
-   <td style="text-align:left;"> Max.   :10.840 </td>
-   <td style="text-align:left;"> Max.   :14.0 </td>
-   <td style="text-align:left;"> Max.   :9.260 </td>
-   <td style="text-align:left;"> Max.   :14.0 </td>
-   <td style="text-align:left;"> Max.   :12.74 </td>
-   <td style="text-align:left;"> Max.   :19 </td>
-   <td style="text-align:left;"> Max.   :12.500 </td>
-  </tr>
-</tbody>
-</table>
-
-</div>
-</div>
-</section>
-<section id="graficando-el-cuarteto-de-frank-anscombe" class="slide level2">
-<h2>Graficando el Cuarteto de Frank Anscombe</h2>
-
-<img data-src="u1-d02-Foundamentals_on_data_viz_files/figure-revealjs/unnamed-chunk-3-1.png" width="960" class="r-stretch"><aside class="notes">
-<p>ahora, ¿puedes ver la diferencia? Ver los númberos en un gráfico muestra algo que las tablas y alguna medidas estadísticas no pueden. Visualizamos los datos para aprovechas el poder increible de nuestro sistema visual para encontrar relaciones y tendencias</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section></section>
-<section>
-<section id="cómo-visualizamos-los-datos" class="title-slide slide level1 center">
-<h1>2. ¿Cómo visualizamos los Datos?</h1>
-
-</section>
-<section id="atributos-preatentivos" class="slide level2">
-<h2>2.1. Atributos preatentivos</h2>
-</section>
-<section id="tipos-de-datos" class="slide level2">
-<h2>2.2. Tipos de datos</h2>
-</section></section>
-<section>
-<section id="qué-es-visualización-de-datos" class="title-slide slide level1 center">
-<h1>3. ¿Qué es Visualización de Datos?</h1>
-
-</section>
-<section id="qué-es-analítica-de-datos" class="slide level2">
-<h2>¿Qué es Analítica de Datos?</h2>
-<ul>
-<li><p>Cuando las técnicas de visualización contribuyen y ayudan al de visualizaciones éxitosas.</p></li>
-<li></li>
-</ul>
 
 <div class="footer footer-default">
 
 </div>
-</section></section>
+<aside><div>
+<p>Referencias: <a href="https://color.adobe.com/es/create/color-wheel">Rueda de color Adobe</a>, <a href="https://www.canva.com/colors/color-wheel/">Rueda de color Canva</a></p>
+</div></aside></section>
     </div>
   </div>
 
@@ -650,7 +363,6 @@ Rolando Mirabal
   <script src="../../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="../../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="../../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="../../../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
   <script src="../../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -672,8 +384,7 @@ Rolando Mirabal
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'chalkboard': {"buttons":true},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -694,7 +405,7 @@ Rolando Mirabal
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: 'c/t',
+        slideNumber: false,
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
@@ -799,7 +510,7 @@ Rolando Mirabal
         previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'fade',
+        transition: 'none',
 
         // Transition speed (default/fast/slow)
         transitionSpeed: 'default',
@@ -844,7 +555,7 @@ Rolando Mirabal
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
 
           RevealMath,
           RevealNotes,
@@ -853,44 +564,6 @@ Rolando Mirabal
         ]
       });
     </script>
-    
-    <script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        // dispatch for htmlwidgets
-        function fireSlideEnter() {
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-        }
-
-        function fireSlideChanged(previousSlide, currentSlide) {
-          fireSlideEnter();
-
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-
-      })();
-    </script>
-
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

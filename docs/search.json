@@ -164,8 +164,8 @@
     "objectID": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#el-cuarteto-de-frank-anscombe",
     "href": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#el-cuarteto-de-frank-anscombe",
     "title": "Fundamentos en Visualización de Datos",
-    "section": "El cuarteto de Frank Anscombe",
-    "text": "El cuarteto de Frank Anscombe\n\n\n\n\n \n\nGrupo A\nGrupo B\nGrupo C\nGrupo D\n\n  \n    a.x \n    a.y \n    b.x \n    b.y \n    c.x \n    c.y \n    d.x \n    d.y \n  \n \n\n  \n    10 \n    8.04 \n    10 \n    9.14 \n    10 \n    7.46 \n    8 \n    6.58 \n  \n  \n    8 \n    6.95 \n    8 \n    8.14 \n    8 \n    6.77 \n    8 \n    5.76 \n  \n  \n    13 \n    7.58 \n    13 \n    8.74 \n    13 \n    12.74 \n    8 \n    7.71 \n  \n  \n    9 \n    8.81 \n    9 \n    8.77 \n    9 \n    7.11 \n    8 \n    8.84 \n  \n  \n    11 \n    8.33 \n    11 \n    9.26 \n    11 \n    7.81 \n    8 \n    8.47 \n  \n  \n    14 \n    9.96 \n    14 \n    8.10 \n    14 \n    8.84 \n    8 \n    7.04 \n  \n  \n    6 \n    7.24 \n    6 \n    6.13 \n    6 \n    6.08 \n    8 \n    5.25 \n  \n  \n    4 \n    4.26 \n    4 \n    3.10 \n    4 \n    5.39 \n    19 \n    12.50 \n  \n  \n    12 \n    10.84 \n    12 \n    9.13 \n    12 \n    8.15 \n    8 \n    5.56 \n  \n  \n    7 \n    4.82 \n    7 \n    7.26 \n    7 \n    6.42 \n    8 \n    7.91 \n  \n  \n    5 \n    5.68 \n    5 \n    4.74 \n    5 \n    5.73 \n    8 \n    6.89 \n  \n\n\n\n\n\n\nTabla con cuatro grupos de números: ¿Qué te dicen? ¿Qué puedes ver? ¿Hay algúnas diferencias discernibles entre ellas en los patrones o tendencias?"
+    "section": "1.1. El cuarteto de Frank Anscombe",
+    "text": "1.1. El cuarteto de Frank Anscombe\n\n\n\n\n \n\nGrupo A\nGrupo B\nGrupo C\nGrupo D\n\n  \n    a.x \n    a.y \n    b.x \n    b.y \n    c.x \n    c.y \n    d.x \n    d.y \n  \n \n\n  \n    10 \n    8.04 \n    10 \n    9.14 \n    10 \n    7.46 \n    8 \n    6.58 \n  \n  \n    8 \n    6.95 \n    8 \n    8.14 \n    8 \n    6.77 \n    8 \n    5.76 \n  \n  \n    13 \n    7.58 \n    13 \n    8.74 \n    13 \n    12.74 \n    8 \n    7.71 \n  \n  \n    9 \n    8.81 \n    9 \n    8.77 \n    9 \n    7.11 \n    8 \n    8.84 \n  \n  \n    11 \n    8.33 \n    11 \n    9.26 \n    11 \n    7.81 \n    8 \n    8.47 \n  \n  \n    14 \n    9.96 \n    14 \n    8.10 \n    14 \n    8.84 \n    8 \n    7.04 \n  \n  \n    6 \n    7.24 \n    6 \n    6.13 \n    6 \n    6.08 \n    8 \n    5.25 \n  \n  \n    4 \n    4.26 \n    4 \n    3.10 \n    4 \n    5.39 \n    19 \n    12.50 \n  \n  \n    12 \n    10.84 \n    12 \n    9.13 \n    12 \n    8.15 \n    8 \n    5.56 \n  \n  \n    7 \n    4.82 \n    7 \n    7.26 \n    7 \n    6.42 \n    8 \n    7.91 \n  \n  \n    5 \n    5.68 \n    5 \n    4.74 \n    5 \n    5.73 \n    8 \n    6.89 \n  \n\n\n\n\n\n\nTabla con cuatro grupos de números: ¿Qué te dicen? ¿Qué puedes ver? ¿Hay algúnas diferencias discernibles entre ellas en los patrones o tendencias?"
   },
   {
     "objectID": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#graficando-el-cuarteto-de-frank-anscombe",
@@ -173,5 +173,33 @@
     "title": "Fundamentos en Visualización de Datos",
     "section": "Graficando el Cuarteto de Frank Anscombe",
     "text": "Graficando el Cuarteto de Frank Anscombe\n\n\nahora, ¿puedes ver la diferencia? Ver los númberos en un gráfico muestra algo que las tablas y alguna medidas estadísticas no pueden. Visualizamos los datos para aprovechas el poder increible de nuestro sistema visual para encontrar relaciones y tendencias"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#atributos-preatentivos",
+    "href": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#atributos-preatentivos",
+    "title": "Fundamentos en Visualización de Datos",
+    "section": "2.1. Atributos preatentivos",
+    "text": "2.1. Atributos preatentivos"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#tipos-de-datos",
+    "href": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#tipos-de-datos",
+    "title": "Fundamentos en Visualización de Datos",
+    "section": "2.2. Tipos de datos",
+    "text": "2.2. Tipos de datos"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d03-Foundamentals_on_data_viz_2/u1-d03-Doundamentals-on_data_viz_2.html#color",
+    "href": "course-materials/slides/u1-d03-Foundamentals_on_data_viz_2/u1-d03-Doundamentals-on_data_viz_2.html#color",
+    "title": "Foundamentals_data_viz_2",
+    "section": "Color",
+    "text": "Color"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d03-Foundamentals_on_data_viz_2/u1-d03-Doundamentals-on_data_viz_2.html#rueda-de-color",
+    "href": "course-materials/slides/u1-d03-Foundamentals_on_data_viz_2/u1-d03-Doundamentals-on_data_viz_2.html#rueda-de-color",
+    "title": "Foundamentals_data_viz_2",
+    "section": "Rueda de Color",
+    "text": "Rueda de Color\n\n\n\n\n\n\n\n\n\n\n\nReferencias: Rueda de color Adobe, Rueda de color Canva"
   }
 ]

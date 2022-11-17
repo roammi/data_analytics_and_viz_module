@@ -16,9 +16,9 @@ editor: visual
 
 {{< video https://youtu.be/V8lbiiTF2P0 width="100%" height="85%" >}}
 
-# ¿Por qué visualizamos datos?
+# 1. ¿Por qué visualizamos datos?
 
-## El cuarteto de Frank Anscombe {.smaller .scrollable transition="slide"}
+## 1.1. El cuarteto de Frank Anscombe {.smaller .scrollable transition="slide"}
 
 ```{r}
 library(dplyr)
@@ -71,9 +71,13 @@ Ver los númberos en un gráfico muestra algo que las tablas y alguna medidas es
 Visualizamos los datos para aprovechas el poder increible de nuestro sistema visual para encontrar relaciones y tendencias
 :::
 
-## ¿Qué es Visualización de Datos?
+# 2. ¿Cómo visualizamos los Datos?
 
-{{< video https://youtu.be/V8lbiiTF2P0 width="100%" height="75%" >}}
+## 2.1. Atributos preatentivos
+
+## 2.2. Tipos de datos
+
+# 3. ¿Qué es Visualización de Datos?
 
 ## ¿Qué es Analítica de Datos?
 

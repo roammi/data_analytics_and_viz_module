@@ -1,0 +1,16 @@
+---
+title: "Foundamentals_data_viz_2"
+author: "Rolando Mirabal"
+format: revealjs
+editor: visual
+---
+
+## Teoría del Color
+
+## Rueda de Color
+
+![](images/color_wheel_canva.PNG){fig-align="center" width="404"}
+
+::: aside
+Referencias: [Rueda de color Adobe](https://color.adobe.com/es/create/color-wheel), [Rueda de color Canva](https://www.canva.com/colors/color-wheel/)
+:::
