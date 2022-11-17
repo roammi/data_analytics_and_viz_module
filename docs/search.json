@@ -25,7 +25,7 @@
     "href": "index.html#materiales-del-curso",
     "title": "Analítica y Visualización de Datos, Aplicaciones - II/2022",
     "section": "Materiales del Curso",
-    "text": "Materiales del Curso\n\nLibros:\n\nWickham, Grolemund (2017). R para Ciencia de Datos.\nClaus O. Wilke (2019), Fundamentals of Data Visualization\nWexler, S. & Shaffer, J. & Cotgreave, A. (2017). The Big Book of Dashboards. Wiley.\nAnn Jackson, Luke Stanke (2022), Tableau Strategies.\nNussbaumer, C. (2015). Storytelling with Data. Wiley.\nBentley, D. (2017). Business Intelligence and Analytics. Library Press.\nTufte, E. (2007) The Visual Display of Quantitative Information. Graphics Press LLC.\nFew S. (2009). Now you see it.\n\n\n\nTecnología\nEstaremos usando las siguientes herramientas:\n\nTableau Public y Tableau Cloud (*)\nRStudio\nPython\nQGIS\n\n(*) en proceso de solicitud a Tableau for Teaching, en espera nos den acceso.\n\n\nCatálogo de material de apoyo\nEl catálogo de material de apoyo se encuentra clasificado por categorías: Aplicación, Catálogos, Inspiración, Libro electrónico, Fuentes de Datos, Buenas Prácticas, Cursos.\nPuede ser accedido en el siguiente URL - Material de Apoyo.\n\n\nDiapositivas\n🖥️\n🖥️"
+    "text": "Materiales del Curso\n\nLibros:\n\nWickham, Grolemund (2017). R para Ciencia de Datos.\nClaus O. Wilke (2019), Fundamentals of Data Visualization\nWexler, S. & Shaffer, J. & Cotgreave, A. (2017). The Big Book of Dashboards. Wiley.\nAnn Jackson, Luke Stanke (2022), Tableau Strategies.\nNussbaumer, C. (2015). Storytelling with Data. Wiley.\nBentley, D. (2017). Business Intelligence and Analytics. Library Press.\nTufte, E. (2007) The Visual Display of Quantitative Information. Graphics Press LLC.\nFew S. (2009). Now you see it.\n\n\n\nTecnología\nEstaremos usando las siguientes herramientas:\n\nTableau Public y Tableau Cloud (*)\nRStudio\nPython\nQGIS\n\n(*) en proceso de solicitud a Tableau for Teaching, en espera nos den acceso.\n\n\nCatálogo de material de apoyo\nEl catálogo de material de apoyo se encuentra clasificado por categorías: Aplicación, Catálogos, Inspiración, Libro electrónico, Fuentes de Datos, Buenas Prácticas, Cursos.\nPuede ser accedido en el siguiente URL - Material de Apoyo.\n\n\nDiapositivas\n🖥️\n🖥️\n🖥️"
   },
   {
     "objectID": "Docente.html",
@@ -201,5 +201,12 @@
     "title": "Foundamentals_data_viz_2",
     "section": "Rueda de Color",
     "text": "Rueda de Color\n\n\n\n\n\n\n\n\n\n\n\nReferencias: Rueda de color Adobe, Rueda de color Canva"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d03-Foundamentals_on_data_viz_2/u1-d03-Doundamentals-on_data_viz_2.html#teoría-del-color",
+    "href": "course-materials/slides/u1-d03-Foundamentals_on_data_viz_2/u1-d03-Doundamentals-on_data_viz_2.html#teoría-del-color",
+    "title": "Foundamentals_data_viz_2",
+    "section": "Teoría del Color",
+    "text": "Teoría del Color"
   }
 ]
