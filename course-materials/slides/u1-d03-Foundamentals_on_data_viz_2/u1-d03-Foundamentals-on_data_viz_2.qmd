@@ -1,0 +1,72 @@
+---
+title: "Visualización y Comunicación de Datos"
+author: "Rolando Mirabal"
+format: revealjs
+editor: visual
+---
+
+# Comunicación de Datos
+
+## Evaluación de características del auto
+
+::: r-stack
+![](images/com_01_no_story.gif){.fragment fig-align="center" width="621"}
+
+![](images/com_02_start_of_a_story.gif){.fragment fig-align="center" width="649"}
+
+![](images/com_03_processsed_story.gif){.fragment fig-align="center" width="678"}
+:::
+
+::: aside
+Fuente: [Storytelling with Data](https://www.storytellingwithdata.com/blog/2014/04/focusing-with-color)
+:::
+
+## Reporte de caída
+
+![](images/weekly-shrinkage-original-line-chart.png){fig-align="center"}
+
+::: aside
+Fuente: [Storytelling with Data](https://www.storytellingwithdata.com/blog/2014/04/focusing-with-color "https://www.storytellingwithdata.com/blog/2014/04/focusing-with-color")
+:::
+
+## Reporte de caída
+
+![](images/shrinkage-graph-with-added-context.png){fig-align="center" width="701"}
+
+::: aside
+Fuente: [Storytelling with Data](https://www.storytellingwithdata.com/blog/2014/04/focusing-with-color "https://www.storytellingwithdata.com/blog/2014/04/focusing-with-color")
+:::
+
+## Análisis Exploratorio vs Explicativo
+
+> Análisis Exploratorio - es lo que haces cuando te haces familiar con los datos. Con hipótesis o con preguntas. De 100 rocas encontrar 2 gemas.
+
+> Análisis Explicativo - es cuando se quiere compartir un hallazgo a la audiencia. Mostrar esas 2 gemas. Contar una historia con tus datos.
+
+::: aside
+Fuente: [Storytelling with Data](https://www.storytellingwithdata.com/blog/2014/04/exploratory-vs-explanatory-analysis)
+:::
+
+# Mejores Prácticas en Visualización
+
+## 1 ¿Por qué mejores prácticas?
+
+-   Las técnicas de visualización contribuyen y ayudan a visualizaciones éxitosas.
+
+## Teoría del Color
+
+## Rueda de Color
+
+![](images/color_wheel_canva.PNG){fig-align="center" width="404"}
+
+::: {.aside style="text-align: center;"}
+Referencias: [Rueda de color Adobe](https://color.adobe.com/es/create/color-wheel), [Rueda de color Canva](https://www.canva.com/colors/color-wheel/)
+:::
+
+## Mal uso o sobreuso del color
+
+[![](images/colorful_bullet_graph.png){fig-align="center"}](https://www.storytellingwithdata.com/blog/what-is-a-bullet-graph)
+
+## Relación de Tinta (Ink Ratio)
+
+## Dilema del Pie Chart o Gráfico de Torta 

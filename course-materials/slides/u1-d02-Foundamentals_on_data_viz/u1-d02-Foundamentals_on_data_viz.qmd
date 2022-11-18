@@ -37,9 +37,7 @@ knitr::kable(anscombe_m, digits = 2) %>%
 ```
 
 ::: notes
-Tabla con cuatro grupos de números: ¿Qué te dicen?
-¿Qué puedes ver?
-¿Hay algúnas diferencias discernibles entre ellas en los patrones o tendencias?
+Tabla con cuatro grupos de números: ¿Qué te dicen? ¿Qué puedes ver? ¿Hay algúnas diferencias discernibles entre ellas en los patrones o tendencias?
 :::
 
 ## ¿Estadísticamente iguales? {.smaller .scrollable transition="slide"}
@@ -65,22 +63,131 @@ ggplot(anscombe_tidy, aes(x, y)) +
     geom_smooth(method = "lm", se = FALSE)
 
 ```
+
 ::: notes
-ahora, ¿puedes ver la diferencia?
-Ver los númberos en un gráfico muestra algo que las tablas y alguna medidas estadísticas no pueden.
-Visualizamos los datos para aprovechas el poder increible de nuestro sistema visual para encontrar relaciones y tendencias
+ahora, ¿puedes ver la diferencia? Ver los númberos en un gráfico muestra algo que las tablas y alguna medidas estadísticas no pueden. Visualizamos los datos para aprovechas el poder increible de nuestro sistema visual para encontrar relaciones y tendencias
 :::
 
-# 2. ¿Cómo visualizamos los Datos?
+## Video 2 - La alegría de la Estadística
 
-## 2.1. Atributos preatentivos
+{{< video https://youtu.be/pLqjQ55tz-U width="100%" height="85%" >}}
 
-## 2.2. Tipos de datos
+# 2. ¿Qué es Visualización de Datos?
 
-# 3. ¿Qué es Visualización de Datos?
+## Visualización de Datos
 
-## ¿Qué es Analítica de Datos?
+::: callout-caution
+## "una imagen vale más que mil palabras"
+:::
 
--   Cuando las técnicas de visualización contribuyen y ayudan al de visualizaciones éxitosas.
+. . .
 
--   
+> La visualización de datos es el proceso de utilizar elementos visuales como gráficos o mapas para representar datos. De esta manera, se trasladan datos complejos, de alto volumen o numéricos a una representación visual más fácil de procesar.[^1]
+
+[^1]: [Amazon - Visualización de datos](https://aws.amazon.com/es/what-is/data-visualization/)
+
+## Visualización de Datos
+
+::: incremental
+-   Requerirá convertir los datos en marcas en un lienzo
+
+-   ¿cuáles marcas hacen mayor sentido?
+:::
+
+## Ciclo de Visualización de Datos
+
+![](images/10_data_Viz_process.png){fig-align="center"}
+
+::: aside
+Lectura de apoyo: [Tableau - Ciclo de Visualización de Datos](https://help.tableau.com/current/blueprint/es-es/bp_cycle_of_visual_analysis.htm)
+:::
+
+# 3 ¿Cómo visualizamos los Datos?
+
+## Atributos preatentivos {.smaller transition="slide"}
+
+::: fragment
+> Es aquello que nuestro cerebro procesa en milisegundos, antes de que pongamos atención a otras cosas.
+>
+> Dirigir la atención de la persona que está viendo.
+:::
+
+::: r-stack
+![](images/01_how_many_9s.png){.fragment fig-align="center" width="338"}
+
+![](images/02_easy_to_count_9s.png){.fragment fig-align="center" width="344"}
+
+![](images/03_size_9s.png){.fragment fig-align="center" width="338"}
+
+![](images/04_color_nines.png){.fragment fig-align="center" width="338"}
+
+![](images/05_bars_9s.PNG){.fragment fig-align="center" width="378"}
+
+![](images/06_sort_bars_9s.PNG){.fragment fig-align="center" width="372"}
+:::
+
+::: aside
+Fuente: [Big Book of Dashboards](https://www.amazon.com/Big-Book-Dashboards-Visualizing-Real-World/dp/1119282713/ref=sr_1_1?dchild=1&keywords=The+Big+Book+of+Dashboards&qid=1616510833&sr=8-1)
+:::
+
+::: notes
+1 ¿cúantos 9s hay?\
+2 color al 9, más fácil contar\
+3 diferencia en tamaño\
+4 colorear cada dígito es tan malo como no tener color!\
+5 en barras, hay 13! más rápido\
+6 Ordenando en comparación con otros
+:::
+
+## Atributos preatentivos o preatencionales
+
+![](images/07_preatentive_features.jfif){fig-align="center" width="525"}
+
+::: aside
+Fuente: [Big Book of Dashboards](https://www.amazon.com/Big-Book-Dashboards-Visualizing-Real-World/dp/1119282713/ref=sr_1_1?dchild=1&keywords=The+Big+Book+of+Dashboards&qid=1616510833&sr=8-1)
+
+Lectura de apoyo: [Tableau - Atributos preatencionales](https://help.tableau.com/current/blueprint/es-es/bp_why_visual_analytics.htm)
+:::
+
+## Tipos de datos
+
++-----------------+-----------------------+
+| **Dimensiones** | -   Datos Categóricos |
+|                 |                       |
+|                 | -   Datos Ordinales   |
++-----------------+-----------------------+
+| **Medidas**     | -   Datos Continuos   |
+|                 |                       |
+|                 | -   Datos Discretos   |
++-----------------+-----------------------+
+
+## Tipos de gráficos
+
+## Recursos Tipos de gráficos
+
+[URL - Material de Apoyo](https://rolandoamir.notion.site/Anal-tica-y-Visualizaci-n-de-Datos-Aplicaciones-b72aeb6460e34916a799fb79ed6afe99 "URL - Material de Apoyo")
+
+## Herramientas de Visualización de Datos
+
+> Las herramientas de visualización de datos mejoran y automatizan el proceso de comunicación visual para lograr precisión y detalle. Puede utilizar las representaciones visuales para extraer información práctica a partir de datos sin procesar.[^2]
+
+[^2]: [Amazon - Visualización de datos](https://aws.amazon.com/es/what-is/data-visualization/)
+
+::: columns
+::: {.column width="25%"}
+-   Tableau
+
+-   Power BI
+
+-   R - GGPlot
+
+-   Python -
+
+-   Oracle Analytics
+
+-   Qlick Sense
+:::
+
+::: {.column width="75%"}
+:::
+:::

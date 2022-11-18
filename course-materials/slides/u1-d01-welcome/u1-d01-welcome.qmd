@@ -13,13 +13,11 @@ editor: visual
 
 # Presentación del Módulo
 
-Unidad 1 Sesión 1
-
 ## The pillars of creation
 
 ![](images/thepillarsofcreation.png)
 
-::: aside
+::: {.footer style="text-align: center;"}
 Fuente: [NASA](https://www.nasa.gov/feature/goddard/2022/nasa-s-webb-takes-star-filled-portrait-of-pillars-of-creation), [NBC Interactivo](https://www.nbcnews.com/data-graphics/compare-photos-nasas-james-webb-space-telescope-hubble-space-telescope-rcna37875)
 :::
 
@@ -31,4 +29,24 @@ Fuente: [NASA](https://www.nasa.gov/feature/goddard/2022/nasa-s-webb-takes-star-
 
 ## Visualizaciones
 
--   
+# Analítica de datos
+
+## ¿Qué es analítica de datos?
+
+> El análisis es el proceso de descubrir, interpretar y transmitir patrones importantes presentes en los datos. De manera sencilla, el análisis nos permite ver estadísticas y datos importantes que de otra forma podríamos no detectar. [^1]
+
+[^1]: [Oracle - Data Analytics](https://www.oracle.com/mx/business-analytics/what-is-analytics/)
+
+## ¿Qué es analítica empresarial?
+
+> El análisis empresarial se dedica a utilizar las estadísticas derivadas de los datos para tomar decisiones más informadas que ayuden a las organizaciones a aumentar las ventas, reducir los costos y mejorar otras cuestiones empresariales.[^2]
+
+[^2]: [Oracle - Data Analytics](https://www.oracle.com/mx/business-analytics/what-is-analytics/)
+
+## Proceso de Ciencia de Datos
+
+![](images/data-science-process.svg){fig-align="center"}
+
+::: {.footer style="text-align: center;"}
+Fuente: [R para Ciencia de Datos](https://es.r4ds.hadley.nz/introducci%C3%B3n.html)
+:::

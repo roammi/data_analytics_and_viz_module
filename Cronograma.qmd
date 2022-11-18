@@ -2,19 +2,19 @@
 title: "Cronograma"
 ---
 
-+----------------+------------------------------------------------------------------+----------------+
-| Descripción    | Nombre de la Unidad                                              | N° de sesiones |
-+================+==================================================================+================+
-| **UNIDAD I**   | Fundamentos de Visualización y Comunicación de los Datos         | 3              |
-+----------------+------------------------------------------------------------------+----------------+
-| **UNIDAD II**  | Profundizando en Tableau para Analítica y Visualización de datos | 4              |
-|                |                                                                  |                |
-|                | Presentación y Comunicación de Insights                          |                |
-+----------------+------------------------------------------------------------------+----------------+
-| **UNIDAD III** | Aplicaciones Avanzadas, R, Python                                | 3              |
-+----------------+------------------------------------------------------------------+----------------+
-|                | **TOTAL**                                                        | 10             |
-+----------------+------------------------------------------------------------------+----------------+
++----------------+---------------------------------------------------------------------+----------------+
+| Descripción    | Nombre de la Unidad                                                 | N° de sesiones |
++================+=====================================================================+================+
+| **UNIDAD I**   | Fundamentos de Analítica, Visualización y Comunicación de los Datos | 3              |
++----------------+---------------------------------------------------------------------+----------------+
+| **UNIDAD II**  | Profundizando en Tableau para Analítica y Visualización de datos    | 4              |
+|                |                                                                     |                |
+|                | Presentación y Comunicación de Insights                             |                |
++----------------+---------------------------------------------------------------------+----------------+
+| **UNIDAD III** | Aplicaciones Avanzadas, R, Python                                   | 3              |
++----------------+---------------------------------------------------------------------+----------------+
+|                | **TOTAL**                                                           | 10             |
++----------------+---------------------------------------------------------------------+----------------+
 
 ### Cronograma por sesión
 
@@ -28,7 +28,7 @@ title: "Cronograma"
 |                        |            | Configuración y Herramientas a usar: Tableau, RStudio, Python            |
 |                        |            |                                                                          |
 |                        |            | Ejercicios de Análisis I\                                                |
-|                        |            | Tarea 1. Visualización                                                   |
+|                        |            | Tarea 1. Visualización Encuesta - Cualquier herramienta                  |
 +------------------------+------------+--------------------------------------------------------------------------+
 | **sesión 2**           | 30/11/2022 | Fundamentos de Visualización y comunicación de Datos I\                  |
 |                        |            | Entorno de Análisis y motivación para visualizar\                        |
