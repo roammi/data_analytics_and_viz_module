@@ -1,4 +1,4 @@
----
+S21---
 title: "Fundamentos en Visualización de Datos"
 subtitle: "Módulo V - Analítica y Visualización de Datos, Aplicaciones"
 
@@ -191,3 +191,6 @@ Lectura de apoyo: [Tableau - Atributos preatencionales](https://help.tableau.com
 ::: {.column width="75%"}
 :::
 :::
+
+## Tarea 2
+Descargar el archivo Excel, completarlo y enviar.
