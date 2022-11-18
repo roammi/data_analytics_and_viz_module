@@ -10,6 +10,8 @@ format:
     output-file: slideu1-d01.html
 editor: visual
 ---
+# Formulario de inicio de módulo
+[Encuesta](https://docs.google.com/forms/d/e/1FAIpQLSc5TfjNWWKYoc9PJoey1rN-uBI5GoupogijTW5zX7c5z3ao-Q/viewform?usp=pp_url)
 
 # Presentación del Módulo
 
@@ -50,3 +52,6 @@ Fuente: [NASA](https://www.nasa.gov/feature/goddard/2022/nasa-s-webb-takes-star-
 ::: {.footer style="text-align: center;"}
 Fuente: [R para Ciencia de Datos](https://es.r4ds.hadley.nz/introducci%C3%B3n.html)
 :::
+
+## Tarea 1
+Realizar un análisis y visualización con los datos de la encuesta.
