@@ -69,4 +69,8 @@ Referencias: [Rueda de color Adobe](https://color.adobe.com/es/create/color-whee
 
 ## Relación de Tinta (Ink Ratio)
 
+## datos basura
+
+## data ink ratio
+
 ## Dilema del Pie Chart o Gráfico de Torta 
