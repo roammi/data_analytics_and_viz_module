@@ -161,6 +161,42 @@ Lectura de apoyo: [Tableau - Atributos preatencionales](https://help.tableau.com
 |                 | -   Datos Discretos   |
 +-----------------+-----------------------+
 
+## Dimensiones - Datos Categóricos o Nominales
+- Son datos que representan cosa
+- Etiquetas mutuamente exlusivas
+- Sin valores numéricos
+
+[imagen djokovic o  ]
+
+¿qué datos nominales se tienen en la foto?
+nombre, profesión, fundación?, pais de origen? arrestado en enero, 
+
+## Dimensiones- Datos Ordinales
+- es sútil porque es similar a datos categóricos
+- la diferencia es que tiene un *orden* claro
+
+[imagen de modric]
+año de nacimiento, torneos jugados, ganados, mundiales,
+delantero?, capitán
+
+## Medidas - Datos Contínuos
+- son números
+- pueden ser medido y agregado.
+
+[mujer que se paró en SCZ]
+fecha de nacimiento, altura, apareció N veces en el periódico, años que vive en SCZ.
+
+! nota.- fecha es ordinal y cuantitativo, el tiempo puede ser ambos. Cuidado a como influencia en la elección de visualización.
+
+## Medidas - Datos Discretos
+- son números
+- pueden ser medidos y agregados
+- Predefinidos
+- puntos exactos, no hay punto entre ellos (Enteros)
+
+djokovic gana N copas, no n y medio
+
+53 años
 ## Tipos de gráficos
 
 ## Recursos Tipos de gráficos
