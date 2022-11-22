@@ -162,82 +162,46 @@ Lectura de apoyo: [Tableau - Atributos preatencionales](https://help.tableau.com
 +-----------------+-----------------------+
 
 ## Dimensiones - Datos Categóricos o Nominales
-- Son datos que representan cosa
-- Etiquetas mutuamente exlusivas
-- Sin valores numéricos
 
-[imagen djokovic o  ]
+-   Son datos que representan cosa
+-   Etiquetas mutuamente exlusivas
+-   Sin valores numéricos
 
-¿qué datos nominales se tienen en la foto?
-nombre, profesión, fundación?, pais de origen? arrestado en enero, 
+\[imagen djokovic o \]
+
+¿qué datos nominales se tienen en la foto? nombre, profesión, fundación?, pais de origen? arrestado en enero,
 
 ## Dimensiones- Datos Ordinales
-- es sútil porque es similar a datos categóricos
-- la diferencia es que tiene un *orden* claro
 
-[imagen de modric]
-año de nacimiento, torneos jugados, ganados, mundiales,
-delantero?, capitán
+-   es sútil porque es similar a datos categóricos
+-   la diferencia es que tiene un *orden* claro
+
+\[imagen de modric\] año de nacimiento, torneos jugados, ganados, mundiales, delantero?, capitán
 
 ## Medidas - Datos Contínuos
-- son números
-- pueden ser medido y agregado.
-- nos permite para los datos en medio
-- como hay un número infinito de posibles valores intermedios
-[marcelo martins] 
-altura, pero cambia, peso, rentabilidad. monto de ventas
+
+-   son números
+-   pueden ser medido y agregado.
+-   nos permite para los datos en medio
+-   como hay un número infinito de posibles valores intermedios \[marcelo martins\] altura, pero cambia, peso, rentabilidad. monto de ventas
 
 ! nota.- fecha es ordinal y cuantitativo, el tiempo puede ser ambos. Cuidado a como influencia en la elección de visualización.
 
 ## Medidas - Datos Discretos
-- son números
-- pueden ser medidos y agregados
-- Predefinidos
-- puntos exactos, no hay punto entre ellos (Enteros)
 
-[mujer que se paró en SCZ]
-fecha de nacimiento, altura, apareció N veces en el periódico, años que vive en SCZ.
-cantidad de ventas
-djokovic gana N copas, no n y medio
+-   son números
+-   pueden ser medidos y agregados
+-   Predefinidos
+-   puntos exactos, no hay punto entre ellos (Enteros)
 
-53 años
-## Ejemplos, datos codificados en las Visualizaciones
-- Visualización
+\[mujer que se paró en SCZ\] fecha de nacimiento, altura, apareció N veces en el periódico, años que vive en SCZ. cantidad de ventas djokovic gana N copas, no n y medio
+
+53 años \## Ejemplos, datos codificados en las Visualizaciones - Visualización
 
 ### tipos de variables en la Visualización
 
-## Color 
-- Es importante en visualización de datos
-- Muchas veces es utilizado mal
-- Buenas visualizaciones muchas veces usan poco color
-- El color debe ser usado con un propósito
-[ejemplo de buen uso del color]
-
-## Uso del color en la visualización de datos
-
-## Color Secuencial
-
-## Color Divergente
-
-## Color Categórico
-
-## Color Resaltado
-
-## Color Alertado
-
-## Deficiencia en la visión del color
-Dependiendo el cono que les falta, las personas con DVC se les dificulta distiguir entre algunos colores debido a la forma en que ellos ven el espectro de colores:
-8% de los hombres vs 0.4% de las mujeres
-1 Protanopia, falta de conos de onda larga - débil en el rojo
-2 Deuteranopia, falta de conos de onda media - débil en el verde
-3 Tritanopia, falta de conos de onda corta - azul muy raro.
-
-*rojo y verde ! evitar semáforos
-*azul y naranja -> colores amigables
-## Problemas de color, más allá de rojo y verde
-ejemplos
-
 # Tipos de gráficos
+
 ## Recursos Tipos de gráficos
 
 [URL - Material de Apoyo](https://rolandoamir.notion.site/Anal-tica-y-Visualizaci-n-de-Datos-Aplicaciones-b72aeb6460e34916a799fb79ed6afe99 "URL - Material de Apoyo")
@@ -268,4 +232,5 @@ ejemplos
 :::
 
 ## Tarea 2
+
 Descargar el archivo Excel, completarlo y enviar.

@@ -242,7 +242,7 @@
     "href": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#herramientas-de-visualización-de-datos",
     "title": "Fundamentos en Visualización de Datos",
     "section": "Herramientas de Visualización de Datos",
-    "text": "Herramientas de Visualización de Datos\n\nLas herramientas de visualización de datos mejoran y automatizan el proceso de comunicación visual para lograr precisión y detalle. Puede utilizar las representaciones visuales para extraer información práctica a partir de datos sin procesar.1\n\n\n\n\nTableau\nPower BI\nR - GGPlot\nPython -\nOracle Analytics\nQlick Sense\n\n\n\n\n\n\n\n\n\nAmazon - Visualización de datos"
+    "text": "Herramientas de Visualización de Datos\n\nLas herramientas de visualización de datos mejoran y automatizan el proceso de comunicación visual para lograr precisión y detalle. Puede utilizar las representaciones visuales para extraer información práctica a partir de datos sin procesar.1\n\n\n\n\nTableau\nPower BI\nR - GGPlot\nPython -\nOracle Analytics\nQlick Sense\n\n\n\n\n\nAmazon - Visualización de datos"
   },
   {
     "objectID": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#visualización-de-datos-1",
@@ -425,5 +425,47 @@
     "title": "Analítica y Visualización de Datos, Aplicaciones - II/2022",
     "section": "Proyecto del Módulo",
     "text": "Proyecto del Módulo"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#dimensiones---datos-categóricos-o-nominales",
+    "href": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#dimensiones---datos-categóricos-o-nominales",
+    "title": "Fundamentos en Visualización de Datos",
+    "section": "Dimensiones - Datos Categóricos o Nominales",
+    "text": "Dimensiones - Datos Categóricos o Nominales\n\nSon datos que representan cosa\nEtiquetas mutuamente exlusivas\nSin valores numéricos\n\n[imagen djokovic o ]\n¿qué datos nominales se tienen en la foto? nombre, profesión, fundación?, pais de origen? arrestado en enero,"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#dimensiones--datos-ordinales",
+    "href": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#dimensiones--datos-ordinales",
+    "title": "Fundamentos en Visualización de Datos",
+    "section": "Dimensiones- Datos Ordinales",
+    "text": "Dimensiones- Datos Ordinales\n\nes sútil porque es similar a datos categóricos\nla diferencia es que tiene un orden claro\n\n[imagen de modric] año de nacimiento, torneos jugados, ganados, mundiales, delantero?, capitán"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#medidas---datos-contínuos",
+    "href": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#medidas---datos-contínuos",
+    "title": "Fundamentos en Visualización de Datos",
+    "section": "Medidas - Datos Contínuos",
+    "text": "Medidas - Datos Contínuos\n\nson números\npueden ser medido y agregado.\nnos permite para los datos en medio\ncomo hay un número infinito de posibles valores intermedios [marcelo martins] altura, pero cambia, peso, rentabilidad. monto de ventas\n\n! nota.- fecha es ordinal y cuantitativo, el tiempo puede ser ambos. Cuidado a como influencia en la elección de visualización."
+  },
+  {
+    "objectID": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#medidas---datos-discretos",
+    "href": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#medidas---datos-discretos",
+    "title": "Fundamentos en Visualización de Datos",
+    "section": "Medidas - Datos Discretos",
+    "text": "Medidas - Datos Discretos\n\nson números\npueden ser medidos y agregados\nPredefinidos\npuntos exactos, no hay punto entre ellos (Enteros)\n\n[mujer que se paró en SCZ] fecha de nacimiento, altura, apareció N veces en el periódico, años que vive en SCZ. cantidad de ventas djokovic gana N copas, no n y medio\n53 años ## Ejemplos, datos codificados en las Visualizaciones - Visualización\ntipos de variables en la Visualización"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#tarea-2",
+    "href": "course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#tarea-2",
+    "title": "Fundamentos en Visualización de Datos",
+    "section": "Tarea 2",
+    "text": "Tarea 2\nDescargar el archivo Excel, completarlo y enviar."
+  },
+  {
+    "objectID": "course-materials/slides/u1-d01-welcome/slideu1-d01.html#tarea-1",
+    "href": "course-materials/slides/u1-d01-welcome/slideu1-d01.html#tarea-1",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Tarea 1",
+    "text": "Tarea 1\nRealizar un análisis y visualización con los datos de la encuesta."
   }
 ]

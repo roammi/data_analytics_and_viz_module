@@ -5,7 +5,7 @@ format: revealjs
 editor: visual
 ---
 
-# Comunicación de Datos
+# 1 Comunicación de Datos
 
 ## Evaluación de características del auto
 
@@ -47,13 +47,32 @@ Fuente: [Storytelling with Data](https://www.storytellingwithdata.com/blog/2014/
 Fuente: [Storytelling with Data](https://www.storytellingwithdata.com/blog/2014/04/exploratory-vs-explanatory-analysis)
 :::
 
-# Mejores Prácticas en Visualización
+# 2 Teoría del Color
 
-## 1 ¿Por qué mejores prácticas?
+## Color
 
--   Las técnicas de visualización contribuyen y ayudan a visualizaciones éxitosas.
+-   Es importante en visualización de datos
+-   Muchas veces es utilizado mal
+-   Buenas visualizaciones muchas veces usan poco color
+-   El color debe ser usado con un propósito \[ejemplo de buen uso del color\]
 
-## Teoría del Color
+## Uso del color en la visualización de datos
+
+## Color Secuencial
+
+## Color Divergente
+
+## Color Categórico
+
+## Color Resaltado
+
+## Color Alertado
+
+## Deficiencia en la visión del color
+
+Dependiendo el cono que les falta, las personas con DVC se les dificulta distiguir entre algunos colores debido a la forma en que ellos ven el espectro de colores: 8% de los hombres vs 0.4% de las mujeres 1 Protanopia, falta de conos de onda larga - débil en el rojo 2 Deuteranopia, falta de conos de onda media - débil en el verde 3 Tritanopia, falta de conos de onda corta - azul muy raro.
+
+*rojo y verde ! evitar semáforos* azul y naranja -\> colores amigables \## Problemas de color, más allá de rojo y verde ejemplos
 
 ## Rueda de Color
 
@@ -62,6 +81,12 @@ Fuente: [Storytelling with Data](https://www.storytellingwithdata.com/blog/2014/
 ::: {.aside style="text-align: center;"}
 Referencias: [Rueda de color Adobe](https://color.adobe.com/es/create/color-wheel), [Rueda de color Canva](https://www.canva.com/colors/color-wheel/)
 :::
+
+# 3 Mejores Prácticas en Visualización
+
+## ¿Por qué mejores prácticas?
+
+-   Las técnicas de visualización contribuyen y ayudan a visualizaciones éxitosas.
 
 ## Mal uso o sobreuso del color
 
@@ -73,4 +98,4 @@ Referencias: [Rueda de color Adobe](https://color.adobe.com/es/create/color-whee
 
 ## data ink ratio
 
-## Dilema del Pie Chart o Gráfico de Torta 
+## Dilema del Pie Chart o Gráfico de Torta
