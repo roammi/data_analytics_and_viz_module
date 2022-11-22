@@ -93,6 +93,10 @@ Fuente: [NASA](https://www.nasa.gov/feature/goddard/2022/nasa-s-webb-takes-star-
 Fuente: [R para Ciencia de Datos](https://es.r4ds.hadley.nz/introducci%C3%B3n.html)
 :::
 
+## Reloj mecánico 
+
+https://ciechanow.ski/mechanical-watch/
+
 ## Tarea 1
 
 Realizar un análisis y visualización con los datos de la encuesta.
