@@ -1,11 +1,12 @@
 ---
+h---
 title: "Analítica Geoespacial"
 author: "Rolando Mirabal"
 format: revealjs
 editor: visual
 ---
 
-## Fundamentos de Datos Georeferenciados 
+## Fundamentos de Datos Georeferenciados
 
 ## Herramientas
 
