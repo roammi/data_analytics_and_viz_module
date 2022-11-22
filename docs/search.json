@@ -467,5 +467,47 @@
     "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
     "section": "Tarea 1",
     "text": "Tarea 1\nRealizar un análisis y visualización con los datos de la encuesta."
+  },
+  {
+    "objectID": "course-materials/slides/u03-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#fundamentos-de-datos-georeferenciados",
+    "href": "course-materials/slides/u03-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#fundamentos-de-datos-georeferenciados",
+    "title": "Analítica Geoespacial",
+    "section": "Fundamentos de Datos Georeferenciados",
+    "text": "Fundamentos de Datos Georeferenciados"
+  },
+  {
+    "objectID": "course-materials/slides/u03-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#herramientas",
+    "href": "course-materials/slides/u03-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#herramientas",
+    "title": "Analítica Geoespacial",
+    "section": "Herramientas",
+    "text": "Herramientas\nQGIS\nArcGis\nPython\nR - SF,\nTableau"
+  },
+  {
+    "objectID": "course-materials/slides/u03-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#qgis",
+    "href": "course-materials/slides/u03-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#qgis",
+    "title": "Analítica Geoespacial",
+    "section": "QGIS",
+    "text": "QGIS"
+  },
+  {
+    "objectID": "course-materials/slides/u03-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#tableau",
+    "href": "course-materials/slides/u03-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#tableau",
+    "title": "Analítica Geoespacial",
+    "section": "Tableau",
+    "text": "Tableau"
+  },
+  {
+    "objectID": "course-materials/slides/u03-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#análisis-de-proximidad-y-mejor-ruta-en-r",
+    "href": "course-materials/slides/u03-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#análisis-de-proximidad-y-mejor-ruta-en-r",
+    "title": "Analítica Geoespacial",
+    "section": "Análisis de proximidad y mejor ruta en R",
+    "text": "Análisis de proximidad y mejor ruta en R"
+  },
+  {
+    "objectID": "course-materials/slides/u03-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#clúster-h3-en-databricks-y-python",
+    "href": "course-materials/slides/u03-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#clúster-h3-en-databricks-y-python",
+    "title": "Analítica Geoespacial",
+    "section": "Clúster H3 en DataBricks y Python",
+    "text": "Clúster H3 en DataBricks y Python"
   }
 ]
