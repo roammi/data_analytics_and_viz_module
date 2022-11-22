@@ -25,13 +25,27 @@ editor: visual
 Fuente: [NASA](https://www.nasa.gov/feature/goddard/2022/nasa-s-webb-takes-star-filled-portrait-of-pillars-of-creation), [NBC Interactivo](https://www.nbcnews.com/data-graphics/compare-photos-nasas-james-webb-space-telescope-hubble-space-telescope-rcna37875)
 :::
 
-# Casos de la vida real
+# Una probadita de Visualización de Datos
 
-## Infografías
+## Infografía
 
-## Dahsboards
+![](images/Micromobilidad.png){fig-align="center"}
 
-## Visualizaciones
+## Dahsboard
+
+![](images/Sales%20Overview.png){fig-align="center"}
+
+## Visualización
+
+![](images/Ardillas%20en%20el%20Parque%20Central.png){fig-align="center"}
+
+## Visualización
+
+![](images/large.png){fig-align="center"}
+
+## Visualización
+
+![](images/BibleVizArc7WiderOTNTmedium.png){fig-align="center"}
 
 # Analítica de datos
 

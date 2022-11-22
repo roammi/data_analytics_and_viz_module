@@ -509,5 +509,117 @@
     "title": "Analítica Geoespacial",
     "section": "Clúster H3 en DataBricks y Python",
     "text": "Clúster H3 en DataBricks y Python"
+  },
+  {
+    "objectID": "course-materials/slides/u3-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#fundamentos-de-datos-georeferenciados",
+    "href": "course-materials/slides/u3-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#fundamentos-de-datos-georeferenciados",
+    "title": "Analítica Geoespacial",
+    "section": "Fundamentos de Datos Georeferenciados",
+    "text": "Fundamentos de Datos Georeferenciados"
+  },
+  {
+    "objectID": "course-materials/slides/u3-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#herramientas",
+    "href": "course-materials/slides/u3-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#herramientas",
+    "title": "Analítica Geoespacial",
+    "section": "Herramientas",
+    "text": "Herramientas\nQGIS\nArcGis\nPython\nR - SF,\nTableau"
+  },
+  {
+    "objectID": "course-materials/slides/u3-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#qgis",
+    "href": "course-materials/slides/u3-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#qgis",
+    "title": "Analítica Geoespacial",
+    "section": "QGIS",
+    "text": "QGIS"
+  },
+  {
+    "objectID": "course-materials/slides/u3-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#tableau",
+    "href": "course-materials/slides/u3-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#tableau",
+    "title": "Analítica Geoespacial",
+    "section": "Tableau",
+    "text": "Tableau"
+  },
+  {
+    "objectID": "course-materials/slides/u3-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#análisis-de-proximidad-y-mejor-ruta-en-r",
+    "href": "course-materials/slides/u3-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#análisis-de-proximidad-y-mejor-ruta-en-r",
+    "title": "Analítica Geoespacial",
+    "section": "Análisis de proximidad y mejor ruta en R",
+    "text": "Análisis de proximidad y mejor ruta en R"
+  },
+  {
+    "objectID": "course-materials/slides/u3-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#clúster-h3-en-databricks-y-python",
+    "href": "course-materials/slides/u3-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#clúster-h3-en-databricks-y-python",
+    "title": "Analítica Geoespacial",
+    "section": "Clúster H3 en DataBricks y Python",
+    "text": "Clúster H3 en DataBricks y Python"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/slideu1-d01.html#the-pillars-of-creation",
+    "href": "course-materials/slides/u1-d1-welcome/slideu1-d01.html#the-pillars-of-creation",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "The pillars of creation",
+    "text": "The pillars of creation\n\n\nFuente: NASA, NBC Interactivo"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/slideu1-d01.html#infografía",
+    "href": "course-materials/slides/u1-d1-welcome/slideu1-d01.html#infografía",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Infografía",
+    "text": "Infografía"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/slideu1-d01.html#dahsboard",
+    "href": "course-materials/slides/u1-d1-welcome/slideu1-d01.html#dahsboard",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Dahsboard",
+    "text": "Dahsboard"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/slideu1-d01.html#visualización",
+    "href": "course-materials/slides/u1-d1-welcome/slideu1-d01.html#visualización",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Visualización",
+    "text": "Visualización"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/slideu1-d01.html#visualización-1",
+    "href": "course-materials/slides/u1-d1-welcome/slideu1-d01.html#visualización-1",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Visualización",
+    "text": "Visualización"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/slideu1-d01.html#visualización-2",
+    "href": "course-materials/slides/u1-d1-welcome/slideu1-d01.html#visualización-2",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Visualización",
+    "text": "Visualización"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/slideu1-d01.html#qué-es-analítica-de-datos",
+    "href": "course-materials/slides/u1-d1-welcome/slideu1-d01.html#qué-es-analítica-de-datos",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "¿Qué es analítica de datos?",
+    "text": "¿Qué es analítica de datos?\n\nEl análisis es el proceso de descubrir, interpretar y transmitir patrones importantes presentes en los datos. De manera sencilla, el análisis nos permite ver estadísticas y datos importantes que de otra forma podríamos no detectar. 1\n\nOracle - Data Analytics"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/slideu1-d01.html#qué-es-analítica-empresarial",
+    "href": "course-materials/slides/u1-d1-welcome/slideu1-d01.html#qué-es-analítica-empresarial",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "¿Qué es analítica empresarial?",
+    "text": "¿Qué es analítica empresarial?\n\nEl análisis empresarial se dedica a utilizar las estadísticas derivadas de los datos para tomar decisiones más informadas que ayuden a las organizaciones a aumentar las ventas, reducir los costos y mejorar otras cuestiones empresariales.1\n\nOracle - Data Analytics"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/slideu1-d01.html#proceso-de-ciencia-de-datos",
+    "href": "course-materials/slides/u1-d1-welcome/slideu1-d01.html#proceso-de-ciencia-de-datos",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Proceso de Ciencia de Datos",
+    "text": "Proceso de Ciencia de Datos\n\n\nFuente: R para Ciencia de Datos"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/slideu1-d01.html#tarea-1",
+    "href": "course-materials/slides/u1-d1-welcome/slideu1-d01.html#tarea-1",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Tarea 1",
+    "text": "Tarea 1\nRealizar un análisis y visualización con los datos de la encuesta."
   }
 ]
