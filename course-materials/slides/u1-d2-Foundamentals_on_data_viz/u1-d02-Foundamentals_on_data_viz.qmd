@@ -174,7 +174,7 @@ Lectura de apoyo: [Tableau - Atributos preatencionales](https://help.tableau.com
 ## Dimensiones- Datos Ordinales
 
 -   es sútil porque es similar a datos categóricos
--   la diferencia es que tiene un *orden* claro
+-   la diferencia es que tiene un ***orden*** claro
 
 \[imagen de modric\] año de nacimiento, torneos jugados, ganados, mundiales, delantero?, capitán
 
@@ -196,7 +196,9 @@ Lectura de apoyo: [Tableau - Atributos preatencionales](https://help.tableau.com
 
 \[mujer que se paró en SCZ\] fecha de nacimiento, altura, apareció N veces en el periódico, años que vive en SCZ. cantidad de ventas djokovic gana N copas, no n y medio
 
-53 años \## Ejemplos, datos codificados en las Visualizaciones - Visualización
+53 años 
+
+## Ejemplos, datos codificados en las Visualizaciones - Visualización
 
 ### tipos de variables en la Visualización
 
@@ -225,6 +227,8 @@ Lectura de apoyo: [Tableau - Atributos preatencionales](https://help.tableau.com
 -   Oracle Analytics
 
 -   Qlick Sense
+
+- DJ3s
 :::
 
 ::: {.column width="75%"}

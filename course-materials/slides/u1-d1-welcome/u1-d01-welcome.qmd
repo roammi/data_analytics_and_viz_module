@@ -25,15 +25,35 @@ editor: visual
 Fuente: [NASA](https://www.nasa.gov/feature/goddard/2022/nasa-s-webb-takes-star-filled-portrait-of-pillars-of-creation), [NBC Interactivo](https://www.nbcnews.com/data-graphics/compare-photos-nasas-james-webb-space-telescope-hubble-space-telescope-rcna37875)
 :::
 
+## Video 1 - El funcionamiento del Corazón
+
+{{< video https://youtu.be/V8lbiiTF2P0 width="100%" height="85%" >}}
+
 # Una probadita de Visualización de Datos
 
 ## Infografía
 
 ![](images/Micromobilidad.png){fig-align="center"}
 
+## Infografía
+
+![Un mundo de idiomas](images/un%20mundo%20de%20idiomas.png){fig-align="center"}
+
+## Infografía
+
+![Infografía de Empleadores](images/info_employers.jpeg)
+
 ## Dahsboard
 
-![](images/Sales%20Overview.png){fig-align="center"}
+![Sales Dashboard](images/Sales%20Overview.png){fig-align="center"}
+
+## Dashboard
+
+![Call Center Dashboard](images/Call%20Center%20Exec%20View.png){fig-align="center"}
+
+## Dashboard
+
+![Manufacturing Dashboard](images/Manufacturing%20Daily%20Analysis.png){fig-align="center"}
 
 ## Visualización
 
@@ -46,6 +66,10 @@ Fuente: [NASA](https://www.nasa.gov/feature/goddard/2022/nasa-s-webb-takes-star-
 ## Visualización
 
 ![](images/BibleVizArc7WiderOTNTmedium.png){fig-align="center"}
+
+## Recurso - El reloj mecánico
+
+![](images/clock.png){fig-align="center"}
 
 # Analítica de datos
 

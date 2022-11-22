@@ -5,7 +5,7 @@ title: "Analítica y Visualización de Datos, Aplicaciones - II/2022"
 ## Datos Generales
 
 |                    |                                                                                                                                                                                                                               |
-|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|----------------|--------------------------------------------------------|
 | **Institución:**   | [![Universidad Mayor de San Simón - Postgrado](images/UMSS.jpg){width="107"}](http://posgrado.fcyt.umss.edu.bo/index.html) Universidad Mayor de San Simón                                                                     |
 | **Programa:**      | [Diplomado en Estadística Aplicada a la Toma de Decisiones, primera versión.](http://posgrado.fcyt.umss.edu.bo/Programas/diploestadistica.html "Diplomado en Estadística Aplicada a la Toma de Decisiones, primera versión.") |
 | **Módulo V:**      | Analítica y Visualización de Datos, Aplicaciones                                                                                                                                                                              |
@@ -45,12 +45,17 @@ Puede ser accedido en el siguiente [URL - Material de Apoyo](https://rolandoamir
 
 ### Diapositivas
 
-[🖥️](course-materials/slides/u1-d01-welcome/slideu1-d01.html#/title-slide "U1D01 slides"){aria-label="U1D01 slides"}
-
-[🖥️](course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#/title-slide "U1D02 slides"){aria-label="U1D02 slides"}
-
-[🖥️](course-materials/slides/u1-d03-Foundamentals_on_data_viz_2/u1-d03-Doundamentals-on_data_viz_2.html#/title-slide "U1D03 slides"){aria-label="U1D03 slides"}
-
-[🖥](course-materials/slides/u2-d01-Tableau_viz/u2_d01_viz_Tableau.html#/title-slide "U2D01 slides"){aria-label="U2D01 slides"}
+| Sesión | Diapositivas | Título                                                     | Enlace                                                                                                                                                          |
+|--------|--------|--------------------------------------|--------|
+| 1      | 1            | Introducción a Analítica y Visualización de Datos          | [🖥️](course-materials/slides/u1-d01-welcome/slideu1-d01.html#/title-slide "U1D01 slides"){aria-label="U1D01 slides"}                                            |
+| 1      | 2            | Fundamentos de Visualización de Datos                      | [🖥️](course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#/title-slide "U1D02 slides"){aria-label="U1D02 slides"}     |
+| 1      | 3            | Comunicación y mejores prácticas en Visualización de Datos | [🖥️](course-materials/slides/u1-d03-Foundamentals_on_data_viz_2/u1-d03-Doundamentals-on_data_viz_2.html#/title-slide "U1D03 slides"){aria-label="U1D03 slides"} |
+| 2      | 1            | Tableau, fuentes de datos, gráficos, formatear             | [🖥](course-materials/slides/u2-d01-Tableau_viz/u2_d01_viz_Tableau.html#/title-slide "U2D01 slides"){aria-label="U2D01 slides"}                                  |
+| 2      | 2            | Tableau, filtros, campos calculados                        |                                                                                                                                                                 |
+| 2      | 3            | Tableau: Animación, LOD, publicar                          |                                                                                                                                                                 |
+| 2      | 4            | QGis y Tableau                                             |                                                                                                                                                                 |
+| 3      | 1            | Analítica Geoespacial                                      | [🖥](http://localhost:5441/course-materials/slides/u3-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#/title-slide "u3-d01")                                        |
+| 3      | 2            | Twitter API                                                |                                                                                                                                                                 |
+| 3      | 3            | BigData, DataBases en laptop DuckDB, Parquet, Minio        |                                                                                                                                                                 |
 
 ## Proyecto del Módulo
