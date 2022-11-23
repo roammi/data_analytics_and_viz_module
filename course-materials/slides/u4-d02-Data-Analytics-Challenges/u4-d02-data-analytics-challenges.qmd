@@ -4,6 +4,7 @@ author: "Rolando Mirabal"
 format: revealjs
 editor: visual
 ---
+### Efficient Data Analysis on Larger-than-Memory Data with DuckDB and Arrow
 
 ## Parquet
 
