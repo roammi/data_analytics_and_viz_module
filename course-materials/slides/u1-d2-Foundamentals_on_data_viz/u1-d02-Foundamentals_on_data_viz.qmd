@@ -199,13 +199,77 @@ Lectura de apoyo: [Tableau - Atributos preatencionales](https://help.tableau.com
 53 años 
 
 ## Ejemplos, datos codificados en las Visualizaciones - Visualización
-
+-> con los atributos preatencionales y los tipos de datos: cómo combinamos ese conocimiento en construir una gráfica, veamos como algunas gráficas codifican diferentes tipos de datos:
+[gráfica]
 ### tipos de variables en la Visualización
++-----+--------------+------------+-----+
+|Datos|Tipos de datos|Codificación|Notas|
++-----+--------------+------------+-----+
+|esto | Categórico   |Posición    |cada esto|
++-----+--------------+------------+-----+
+
+[gráfica 2]
+### tipos de variables en la Visualización
++-----+--------------+------------+-----+
+|Datos|Tipos de datos|Codificación|Notas|
++-----+--------------+------------+-----+
+|esto | Categórico   |Posición    |cada esto|
++-----+--------------+------------+-----+
+
+[gráfica 3]
+### tipos de variables en la Visualización
++-----+--------------+------------+-----+
+|Datos|Tipos de datos|Codificación|Notas|
++-----+--------------+------------+-----+
+|esto | Categórico   |Posición    |cada esto|
++-----+--------------+------------+-----+
 
 # Tipos de gráficos
 
-## Recursos Tipos de gráficos
+## Diferentes Finalidades al Visualizar Datos
+- hay muchos tipos de gráficas, inclusive nuevos.
+- por qué un gráfico es elegido en un escenario en particular.
 
+[imágen de un tablero de auto]
+
+## Bloques Base de Construcción
+> Gráficas con las que se puede cubrir la mayoría de las necesidades al visualizar los datos.
+[imagen?]
+## Gráfica de Barras
+
+## Gráfica de Series de Tiempo
+
+## Gráfica de Dispersión
+
+## Ploteo de Puntos
+
+## Mapa Clorofet o Rellenado
+
+## Mapa de símbolos
+
+## Tablas
++-----+-----+-----+-----+
+| 111 | 131 | 202 | 215 |
++-----+-----+-----+-----+
+| 77  |  88 |  33 |  11 |
++-----+-----+-----+-----+
+|  13 |  41 | 123 | 321 |
++-----+-----+-----+-----+
+
+## Tablas resaltadas
++-----+-----+-----+-----+
+| 111 | 131 | 202 | 215 |
++-----+-----+-----+-----+
+| 77  |  88 |  33 |  11 |
++-----+-----+-----+-----+
+|  13 |  41 | 123 | 321 |
++-----+-----+-----+-----+
+
+## Gráficas de Balas
+
+
+
+## Recursos Tipos de gráficos
 [URL - Material de Apoyo](https://rolandoamir.notion.site/Anal-tica-y-Visualizaci-n-de-Datos-Aplicaciones-b72aeb6460e34916a799fb79ed6afe99 "URL - Material de Apoyo")
 
 ## Herramientas de Visualización de Datos
