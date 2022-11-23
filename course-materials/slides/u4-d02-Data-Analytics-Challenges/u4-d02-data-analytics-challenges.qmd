@@ -1,0 +1,9 @@
+---
+title: "Retos en Analítica"
+author: "Rolando Mirabal"
+format: revealjs
+editor: visual
+---
+
+## Parquet
+
