@@ -1,0 +1,28 @@
+---
+title: "Analítica Geoespacial"
+author: "Rolando Mirabal"
+format: revealjs
+editor: visual
+---
+
+## Fundamentos de Datos Georeferenciados
+
+## Herramientas
+
+QGIS
+
+ArcGis
+
+Python
+
+R - SF,
+
+Tableau
+
+## QGIS
+
+## Tableau
+
+## Análisis de proximidad y mejor ruta en R
+
+## Clúster H3 en DataBricks y Python

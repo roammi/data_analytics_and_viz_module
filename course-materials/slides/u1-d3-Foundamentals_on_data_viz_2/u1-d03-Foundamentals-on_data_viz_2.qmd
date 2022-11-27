@@ -1,0 +1,162 @@
+---
+title: "Visualización y Comunicación de Datos"
+author: "Rolando Mirabal"
+format: revealjs
+editor: visual
+---
+
+# 1 Comunicación de Datos
+
+## Evaluación de características del auto
+
+::: r-stack
+![](images/com_01_no_story.gif){.fragment fig-align="center" width="621"}
+
+![](images/com_02_start_of_a_story.gif){.fragment fig-align="center" width="649"}
+
+![](images/com_03_processsed_story.gif){.fragment fig-align="center" width="678"}
+:::
+
+::: aside
+Fuente: [Storytelling with Data](https://www.storytellingwithdata.com/blog/2014/04/focusing-with-color)
+:::
+
+## Reporte de caída
+
+![](images/weekly-shrinkage-original-line-chart.png){fig-align="center"}
+
+::: aside
+Fuente: [Storytelling with Data](https://www.storytellingwithdata.com/blog/2014/04/focusing-with-color "https://www.storytellingwithdata.com/blog/2014/04/focusing-with-color")
+:::
+
+## Reporte de caída
+
+![](images/shrinkage-graph-with-added-context.png){fig-align="center" width="701"}
+
+::: aside
+Fuente: [Storytelling with Data](https://www.storytellingwithdata.com/blog/2014/04/focusing-with-color "https://www.storytellingwithdata.com/blog/2014/04/focusing-with-color")
+:::
+
+## Análisis Exploratorio vs Explicativo
+
+> Análisis Exploratorio - es lo que haces cuando te haces familiar con los datos. Con hipótesis o con preguntas. De 100 rocas encontrar 2 gemas.
+
+> Análisis Explicativo - es cuando se quiere compartir un hallazgo a la audiencia. Mostrar esas 2 gemas. Contar una historia con tus datos.
+
+::: aside
+Fuente: [Storytelling with Data](https://www.storytellingwithdata.com/blog/2014/04/exploratory-vs-explanatory-analysis)
+:::
+
+# 2 Teoría del Color
+
+## Color
+
+-   El color es importante entender para la visualización de datos
+-   Muchas veces es utilizado mal
+-   No se debe usar solo para arreglar una visualización aburrida.
+-   Buenas visualizaciones muchas veces usan poco color
+-   El color debe ser usado con un propósito 
+
+[ejemplo simple uso de color]
+
+- atrae la atención del lecto, resalta una porción de los datos, distinguir entre diferentes categorías.
+
+## Uso del color en la visualización de datos
+** gráfica de uso del color en visualización de datos
+
+## Color Secuencial
+- es ordenado de bajo a alto, o de un color claro a oscuro
+
+## Color Divergente
+- dos colores secuenciales con puntos intermedios, como el secuencial pero puede codificar dos fiferentes rangos de medidas neutrales
+- contrastar colores para comparasiones individuales
+- en el medio se puede utilizar el promedio, la meta o zero.
+
+## Color Categórico
+- Utilizado para distinguir entre diferentes categorías.
+
+## Color Resaltado
+- Resaltar algo con el color
+- Usada cuando hay algo que necesita que se resalte, pero que no alerte o alarme
+- Resaltar un punto, texto en una tabla, una cierta línea o una barra específica.
+[slopegraph]
+## Color Alertado
+- Para alertar o advertir al lector que algo necesita atención
+- recomendado unar colores vívidos y alarmantes, que atraeran atención rápidamente.
+
+## Combinar un esquema de colores categóricos secuenciales
+
+## Deficiencia en la visión del color
+Dependiendo el cono que les falta, las personas con DVC se les dificulta distiguir entre algunos colores debido a la forma en que ellos ven el espectro de colores: 8% de los hombres vs 0.4% de las mujeres 1 Protanopia, falta de conos de onda larga - débil en el rojo 2 Deuteranopia, falta de conos de onda media - débil en el verde 3 Tritanopia, falta de conos de onda corta - azul muy raro.
+
+*rojo y verde ! evitar semáforos* azul y naranja -\> colores amigables \## Problemas de color, más allá de rojo y verde ejemplos
+
+## Rueda de Color
+
+![](images/color_wheel_canva.PNG){fig-align="center" width="404"}
+
+::: {.aside style="text-align: center;"}
+Referencias: [Rueda de color Adobe](https://color.adobe.com/es/create/color-wheel), [Rueda de color Canva](https://www.canva.com/colors/color-wheel/)
+:::
+
+# 3 Mejores Prácticas en Visualización
+
+## ¿Por qué mejores prácticas?
+
+- Las técnicas de visualización contribuyen y ayudan a visualizaciones éxitosas.
+- A veces nuestro sistema de procesamiento visual nos engaña
+- La ambiguedad en las imágenes nos juegan como ilusiones
+- Se quiere mostrar el valor de la medida en una forma que sea interpretada lo más preciso en el menor tiempo posible.
+[ejemplos]
+
+## Algunos problemas con atributos preatencionales 
+Mezclando posición, color y forma no lo hace fácil leer.
+¿Hay alternativa?
++-------+--------+-------+
+|       |   2007 |  2008 |
++-------+--------+-------+
+| A     |   100  |  120  |
++-------+--------+-------+
+| B     |    70  |   30  |
++-------+--------+-------+
+
+[diferentes formas de ver los mismos datos]
+
+> cada decisión trae un compromiso, y un significado generalmente distinto
+
+## Lineamientos en constucción de Dasboards
+- primero debe ser confiable y funcional
+- Los elementos de diseño gráfico deben contribuir a la claridad del dashboard.
+- y hay razones para ir la milla extra para hacer dashboards que son elegantes también
+
+> "Los productos deben de hecho cumplir necesidades humanas mientras ser entendibles y usables. En el mejor de los casos, los productos deben también ser enriquecedores y disfrutables, lo que quiere decir que no solo los requerimientos de ingeniería, de manufactura y ergonomía deben satisfacerse, pero se debe prestar atención a la experiencia entera, lo que significa la estética en forma y la calidad en la interacción"
+Donald A. Norman "El diseño de las cosas cotidianas" 2013
+
+## Escenario 1
+
+## Escenario 2
+
+## Escenario 3
+
+## Mal uso o sobreuso del color
+
+[![](images/colorful_bullet_graph.png){fig-align="center"}](https://www.storytellingwithdata.com/blog/what-is-a-bullet-graph)
+
+## Dilema del Pie Chart o Gráfico de Torta
+1 que porcentaje de cada círculo es cubierto=
+2 ordenar los pedazos de más grande a más pequeño?
+3 la alternativa clara es un gráfica de barras
+## ejemplos 2 profundidar del mar
+
+## Relación de Tinta (Ink Ratio)
+
+## datos basura
+
+## data ink ratio
+
+# 4 Reportes, Estudios, Presentación de Investigación, Webpages
+- Reproducibilidad de Contenido e investigación corporativa GIT
+- Markdown en Jupyter y Rmarkdown extendido a otros sistemas
+
+## Quarto 
+
