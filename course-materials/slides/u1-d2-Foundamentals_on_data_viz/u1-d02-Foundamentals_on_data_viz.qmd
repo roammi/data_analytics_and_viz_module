@@ -220,13 +220,35 @@ Lectura de apoyo: [Tableau - Atributos preatencionales](https://help.tableau.com
 
 [Enlace](https://public.tableau.com/app/profile/diego.parker/viz/VocabularioVisualES/VisualVocabulary)
 
+![](images/vocabulario_visual.png){fig-align="center"}
+
 ## Ejemplos, datos codificados en las Visualizaciones - Visualización
 
--\> con los atributos preatencionales y los tipos de datos: cómo combinamos ese conocimiento en construir una gráfica, veamos como algunas gráficas codifican diferentes tipos de datos: \[gráfica\] \### tipos de variables en la Visualización +-----+--------------+------------+-----+ \|Datos\|Tipos de datos\|Codificación\|Notas\| +-----+--------------+------------+-----+ \|esto \| Categórico \|Posición \|cada esto\| +-----+--------------+------------+-----+
+-\> con los atributos preatencionales y los tipos de datos: cómo combinamos ese conocimiento en construir una gráfica, veamos como algunas gráficas codifican diferentes tipos de datos:
 
-\[gráfica 2\] \### tipos de variables en la Visualización +-----+--------------+------------+-----+ \|Datos\|Tipos de datos\|Codificación\|Notas\| +-----+--------------+------------+-----+ \|esto \| Categórico \|Posición \|cada esto\| +-----+--------------+------------+-----+
+## Tipos de variables en la Visualización 1
 
-\[gráfica 3\] \### tipos de variables en la Visualización +-----+--------------+------------+-----+ \|Datos\|Tipos de datos\|Codificación\|Notas\| +-----+--------------+------------+-----+ \|esto \| Categórico \|Posición \|cada esto\| +-----+--------------+------------+-----+
+| Datos | Tipos de datos | Codificación | Notas       |
+|-------|----------------|--------------|-------------|
+| esto  | Categórico     | Posición     | cada esto\| |
+|       |                |              |             |
+|       |                |              |             |
+
+## Tipos de variables en la Visualización 2
+
+| Datos | Tipos de datos | Codificación | Notas       |
+|-------|----------------|--------------|-------------|
+| esto  | Categórico     | Posición     | cada esto\| |
+|       |                |              |             |
+|       |                |              |             |
+
+## Tipos de variables en la Visualización 3
+
+| Datos | Tipos de datos | Codificación | Notas       |
+|-------|----------------|--------------|-------------|
+| esto  | Categórico     | Posición     | cada esto\| |
+|       |                |              |             |
+|       |                |              |             |
 
 # Tipos de gráficos
 

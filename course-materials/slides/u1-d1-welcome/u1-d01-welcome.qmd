@@ -31,11 +31,21 @@ format:
 [Arte por \@allison_horst](https://twitter.com/allison_horst)
 :::
 
+## Maratón de la Analítica de Datos
+
+![](images/960x0.png){fig-align="center"}
+
+[Fuente](https://www.forbes.com/sites/brentdykes/2022/01/12/data-analytics-marathon-why-your-organization-must-focus-on-the-finish/?sh=24ce0b3b3c3b)
+
 ## Datos
+
+. . .
 
 > **"`¡Datos! ¡datos! ¡datos!`", gritó con impaciencia. "No puedo hacer ladrillos sin arcilla".**
 >
 > Arthur Conan Doyle, La aventura de las hayas de cobre: ​​una historia corta de Sherlock Holmes
+
+. . .
 
 > **"En Dios confiamos. Todos los demás deben traer `datos`"**
 >
@@ -43,11 +53,53 @@ format:
 
 [^1]: [artículo de IBM](https://www.ibm.com/blogs/nordic-msp/in-god-we-trust-all-others-must-bring-data/)
 
+. . .
+
+Algunas herramientas modernas de consumo de datos
+
+[starburst](https://www.starburst.io/)
+
+[prestodb](https://prestodb.io/)
+
 ## Formulario de inicio de módulo
 
 [Encuesta](https://docs.google.com/forms/d/e/1FAIpQLSc5TfjNWWKYoc9PJoey1rN-uBI5GoupogijTW5zX7c5z3ao-Q/viewform?usp=pp_url){preview-link="true"}
 
 ## Revisión del Plan de Módulo
+
+| Descripción    | Nombre de la Unidad                                           | N° de sesiones |
+|------------------|------------------------------------|------------------|
+| **UNIDAD I**   | Fundamentos de Analítica y Visualización de los Datos         | 3              |
+| **UNIDAD II**  | Utilizando Herramientas de Analítica y Visualización de Datos | 4              |
+| **UNIDAD III** | Aplicaciones de Analítica y Visualización de Datos            | 3              |
+|                | **TOTAL**                                                     | **10**         |
+
+## Cronograma por Sesión
+
+| Unidad | Sesión | Título                                            |
+|--------|--------|---------------------------------------------------|
+| 1      | 1      | Analítica y Visualización de Datos                |
+| 1      | 2      | Fundamentos de Analítica y Visualización de Datos |
+| 1      | 3      | Fundamentos de Analítica y Visualización de Datos |
+| 2      | 1      | R para analítica y visualización de datos         |
+| 2      | 2      | Tableau para analítica y visualización de datos   |
+| 2      | 3      | Tableau para analítica y visualización de datos   |
+| 2      | 4      | Tableau con QGis y R                              |
+| 3      | 1      | Aplicación Geoespacial                            |
+| 3      | 2      | Aplicación usando APIs                            |
+| 3      | 3      | Aplicación - BigData                              |
+
+## Fechas de Sesiones
+
+![](images/calendar.png){fig-align="center"}
+
+## Bibliografía
+
+-   Wickham, Grolemund (2017). R para Ciencia de Datos. \*
+-   Claus O. Wilke (2019), Fundamentals of Data Visualization
+-   Wexler, S. & Shaffer, J. & Cotgreave, A. (2017). The Big Book of Dashboards. Wiley.
+-   Ann Jackson, Luke Stanke (2022), Tableau Strategies.
+-   Nussbaumer, C. (2015). Storytelling with Data. Wiley.
 
 ## The pillars of creation
 
@@ -57,41 +109,73 @@ format:
 Fuente: [NASA](https://www.nasa.gov/feature/goddard/2022/nasa-s-webb-takes-star-filled-portrait-of-pillars-of-creation), [NBC Interactivo](https://www.nbcnews.com/data-graphics/compare-photos-nasas-james-webb-space-telescope-hubble-space-telescope-rcna37875)
 :::
 
-# Una probadita a la Analítica y Visualización de Datos
+# Demos una probadita
 
-## Infografía
+## Infografía 1
 
 ![](images/Micromobilidad.png){fig-align="center"}
 
-## Infografía
+## Infografía 2
 
-![Un mundo de idiomas](images/un%20mundo%20de%20idiomas.png){fig-align="center"}
+![](images/un%20mundo%20de%20idiomas.png){fig-align="center"} [un mundo de idiomas](https://multimedia.scmp.com/culture/article/SCMP-printed-graphics-memory/lonelyGraphics/201505A51.html)
 
-## Infografía
+## Infografía 3
 
-![Infografía de Empleadores](images/info_employers.jpeg)
+![](images/info_employers.jpeg){fig-align="center"}
 
-## Dahsboard
+## Infografía 4
 
-[![Sales Dashboard](images/Sales%20Overview.png){fig-align="center"}](https://public.tableau.com/views/Superstore-DarkMode/SalesOverview?:language=en-US&:display_count=n&:origin=viz_share_link)
+![](images/info_qatar.png){fig-align="center"}
 
-## Dashboard
+[enlace](http://www.thefunctionalart.com/2022/11/the-training-wheel-approach-to-teaching.html)
 
-[![Call Center Dashboard](images/Call%20Center%20Exec%20View.png){fig-align="center"}](https://public.tableau.com/views/CallCenterExecutiveView/CallCenterExecView?:language=en-US&:display_count=n&:origin=viz_share_link)
+## Dahsboard 1
 
-## Dashboard
+![](images/Sales%20Overview.png){fig-align="center"}
 
-[![Manufacturing Dashboard](images/Manufacturing%20Daily%20Analysis.png){fig-align="center"}](https://public.tableau.com/app/profile/keyrus/viz/DailyContributionMarginAnalysisforManufacturing/ManufacturingDailyAnalysis)
+[Sales Dashboard](https://public.tableau.com/views/Superstore-DarkMode/SalesOverview?:language=en-US&:display_count=n&:origin=viz_share_link)
 
-## Visualización
+## Dashboard 2
 
-[![](images/Ardillas%20en%20el%20Parque%20Central.png){fig-align="center"}](https://public.tableau.com/app/profile/pablolgomez/viz/SquirrelNuttyCensus/Squirrels)
+![](images/Call%20Center%20Exec%20View.png){fig-align="center"}
 
-## Visualización
+[Call Center Dashboard](https://public.tableau.com/views/CallCenterExecutiveView/CallCenterExecView?:language=en-US&:display_count=n&:origin=viz_share_link)
+
+## Dashboard 3
+
+![](images/Manufacturing%20Daily%20Analysis.png){fig-align="center"}
+
+[enlace](https://public.tableau.com/app/profile/keyrus/viz/DailyContributionMarginAnalysisforManufacturing/ManufacturingDailyAnalysis)
+
+## Boceto de dashboard
+
+![](images/sketch.png){fig-align="center"}
+
+## Elecciones en Brazil 
+
+![](images/elecciones%20Brasil.png){fig-align="center"}
+
+## Elecciones en Brazil 
+
+![](images/brazil.png){fig-align="center"}
+
+## Visualización 1
+
+![. . .](images/minard_lg.gif){fig-align="center"}
+
+[Analizando la visualización de Minard de la marcha de Napoleón de 1812](https://thoughtbot.com/blog/analyzing-minards-visualization-of-napoleons-1812-march)
+
+## Visualización 2
+
+![](images/Ardillas%20en%20el%20Parque%20Central.png){fig-align="center"}
+
+[Censo de ardilla en Central Park](https://public.tableau.com/app/profile/pablolgomez/viz/SquirrelNuttyCensus/Squirrels)
+
+## Visualización 3
 
 ![](images/large.png){fig-align="center"}
 
-## Visualización
+## Visualización 4
 
 ![](images/BibleVizArc7WiderOTNTmedium.png){fig-align="center"}
 
@@ -165,6 +249,29 @@ Ve a **www.menti.com** y usa el código **2114 8815**
 
 [^3]: [Oracle - Data Analytics](https://www.oracle.com/mx/business-analytics/what-is-analytics/)
 
+## Proceso de Ciencia de Datos
+
+![](images/data-science-process.svg){fig-align="center" width="1300"}
+
+::: {.footer style="text-align: center;"}
+Fuente: [R para Ciencia de Datos](https://es.r4ds.hadley.nz/introducci%C3%B3n.html)
+:::
+
+## Proceso de Ciencia de Datos
+
+::: incremental
+1.  **Importar** los datos. Típicamente, esto implica tomar datos que están guardados en un archivo, base de datos o API y cargarlos como *data frame o extracto.*
+2.  **Ordenar** cuando tus datos están ordenados, cada columna es una variable y cada fila una observación, con estructura consistente.
+3.  **Transformarlos** implica reducir las observaciones a aquellas que sean de interés, crear nuevas variables que sean funciones de variables ya existentes y calcular una serie de estadísticos de resumen.
+4.  **Visualización**, te mostrará cosas que no esperabas o hará surgir nuevas preguntas acerca de los datos. También puede darte pistas acerca de si estás haciendo las preguntas equivocadas o si necesitas recolectar datos diferentes.
+5.  **Modelos**, son herramientas complementarias a la visualización. Una vez que tus preguntas son lo suficientemente precisas, puedes utilizar un modelo para responderlas.
+6.  **Comunicación**, una parte crítica de cualquier proyecto de análisis de datos. `No importa qué tan bien tus modelos y visualizaciones te hayan permitido entender tus datos, a menos que también puedas comunicar esos resultados a otras personas`.
+:::
+
+::: {.footer style="text-align: center;"}
+Fuente: [R para Ciencia de Datos](https://es.r4ds.hadley.nz/introducci%C3%B3n.html)
+:::
+
 ## Proceso de Exploración de Datos
 
 > La exploración de datos es el arte de mirar tus datos, generar hipótesis rápidamente, testearlas con celeridad y luego repetir el proceso de manera iterativa.
@@ -173,32 +280,22 @@ Ve a **www.menti.com** y usa el código **2114 8815**
 
 [^4]: [R para ciencia de datos](https://es.r4ds.hadley.nz/explorar-introduccion.html)
 
-![](images/data-science-process.svg){fig-align="center"}
-
-::: {.footer style="text-align: center;"}
-Fuente: [R para Ciencia de Datos](https://es.r4ds.hadley.nz/introducci%C3%B3n.html)
-:::
-
 ## Reloj mecánico
 
 ![](images/clock.png){fig-align="center"}
 
 [Reloj mecánico](https://ciechanow.ski/mechanical-watch/){preview-link="true" style="text-align: center"}
 
-## Video 1 - El funcionamiento del Corazón
-
-{{< video https://youtu.be/zl-ae3xthVE width="100%" height="85%" >}}
-
 # ¿Por qué Analítica de Datos?
 
 ## Analítica como certificación:
 
--   Tableau Data Analyst certified
--   Databricks Data Analyst certified
--   Amazon Data Analyst certified
--   Google Data Analyst certified
--   IBM Data Analyst certified
--   Azure Data Analyst certified
+-   [Tableau Certified Data Analyst](https://www.tableau.com/learn/certification/certified-data-analyst)
+-   [Databricks Certified Data Analyst Associate](Databricks%20Certified%20Data%20Analyst%20Associate)
+-   [AWS Certified Data Analytics - Specialty](https://aws.amazon.com/es/certification/certified-data-analytics-specialty/?trk=9cd9d99c-3597-4b9b-b044-5b9213216efc&sc_channel=ps&s_kwcid=AL!4422!3!616960548887!e!!g!!aws%20data%20analyst%20certification&ef_id=Cj0KCQiA1ZGcBhCoARIsAGQ0kkrRKqY9mNi18DE4NgwjP0TprapvZvQqpC9sbM8JIhhV5RaHHbLRgo0aAmJ6EALw_wcB:G:s&s_kwcid=AL!4422!3!616960548887!e!!g!!aws%20data%20analyst%20certification)
+-   [Google Data Analytics Certificate](https://grow.google/certificates/data-analytics/#?modal_active=none)
+-   [Data Analyst Professional Certificate](https://www.ibm.com/training/badge/data-analyst-professional-certificate)
+-   [Microsoft Certified: Azure Enterprise Data Analyst Associate](https://learn.microsoft.com/en-us/certifications/azure-enterprise-data-analyst-associate/)
 
 ## Demanda Laboral
 
@@ -209,12 +306,18 @@ Fuente: [R para Ciencia de Datos](https://es.r4ds.hadley.nz/introducci%C3%B3n.ht
 -   [Client Data Analyst - IQVIA](https://www.linkedin.com/jobs/view/3305316701/?alternateChannel=search&refId=wvVCggu8mihyXl%2FYSl7K%2FA%3D%3D&trackingId=gUKCks%2B3uA777DxdXGG2JQ%3D%3D)
 -   [Data Scientist - Viva](https://www.linkedin.com/posts/jjpezzutti_bussines-intelligence-datascientist-activity-6998024684248125440-QsKg?utm_source=share&utm_medium=member_desktop)
 
+## Video 1 - El funcionamiento del Corazón
+
+{{< video https://youtu.be/zl-ae3xthVE width="100%" height="85%" >}}
+
 ## Tarea 1
 
-1)  Presentar un análisis de datos o visualización de datos producido por usted mismo o alguno en internet.
+1)  Presentar un análisis y visualización de datos producido por usted mismo en la herramienta y datos a elección. Especificando el área o industria en la que se aplica los datos. (En caso de requerir datasets dirigirse a la sección Datasets en la sección del curso)
 
 2)  Realizar un análisis y visualización con los datos de la encuesta.
 
 ## Lectura para siguiente clase
 
 [Capítulo 1, de Secciones 1 a 1.3.4 - R para ciencia de datos](https://es.r4ds.hadley.nz/introducci%C3%B3n.html){preview-link="true" style="text-align: center"}
+
+*Lectura Sugerida: Capítulos 4 al 6 - R para ciencia de datos*
