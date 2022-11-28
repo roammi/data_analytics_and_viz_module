@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Analítica y Visualización de Datos, Aplicaciones - II/2022",
     "section": "",
-    "text": "Institución:\n Universidad Mayor de San Simón\n\n\nPrograma:\nDiplomado en Estadística Aplicada a la Toma de Decisiones, primera versión.\n\n\nMódulo V:\nAnalítica y Visualización de Datos, Aplicaciones\n\n\nGestión:\nII/2022\n\n\nCarga horaria:\n120 horas ( 40 horas síncronas, 80 horas asíncronas)\n\n\nDocente:\nRolando Amir Mirabal Hinojosa"
+    "text": "Hola y bienvenidos al Módulo 5. Analítica y Visualización de Datos - Aplicaciones. Este curso va a introducir a los estudiantes en análisis y visualización de datos. Iniciando con los fundamentos de visualización, posteriormente utilizando herramientas de analítica y visualización de datos, para finalmente concluir el módulo con aplicaciones de analítica y visualización de datos."
   },
   {
     "objectID": "about.html",
@@ -1495,7 +1495,7 @@
     "href": "index.html#justificación",
     "title": "Analítica y Visualización de Datos, Aplicaciones - II/2022",
     "section": "Justificación",
-    "text": "Justificación\nLa visualización de datos"
+    "text": "Justificación\nCon la gran cantidad de datos generados hoy en día, y la necesidad del negocio de sacarles provecho se requiere elaborar análisis y visualizaciones que reflejan los datos con precisión, cuenten una historia y sean elaborados profesionalmente. El objetivo es trasladar datos complejos, de alto volumen o numéricos a una representación visual más fácil de procesar, que permitan descubrir, interpretar y transmitir patrones importantes presentes en los datos. Estas visualizaciones que deben apuntar a ser una herramienta para la toma de decisiones con datos.\nEste curso va a introducir a los estudiantes en análisis y visualización de datos. Iniciando con los fundamentos de visualización, posteriormente utilizando herramientas de analítica y visualización de datos, para finalmente concluir el módulo con aplicaciones de analítica y visualización de datos."
   },
   {
     "objectID": "index.html#cronograma-general",
@@ -1748,5 +1748,26 @@
     "title": "Analítica y Visualización de Datos, Aplicaciones",
     "section": "Tipos de variables en la Visualización 3",
     "text": "Tipos de variables en la Visualización 3\n\n\n\nDatos\nTipos de datos\nCodificación\nNotas\n\n\n\n\nesto\nCategórico\nPosición\ncada esto|"
+  },
+  {
+    "objectID": "index.html#datos-generales",
+    "href": "index.html#datos-generales",
+    "title": "Analítica y Visualización de Datos, Aplicaciones - II/2022",
+    "section": "Datos Generales",
+    "text": "Datos Generales\n\n\n\nInstitución:\n Universidad Mayor de San Simón\n\n\nPrograma:\nDiplomado en Estadística Aplicada a la Toma de Decisiones, primera versión.\n\n\nMódulo V:\nAnalítica y Visualización de Datos, Aplicaciones\n\n\nGestión:\nII/2022\n\n\nCarga horaria:\n120 horas ( 40 horas síncronas, 80 horas asíncronas)\n\n\nDocente:\nRolando Amir Mirabal Hinojosa"
+  },
+  {
+    "objectID": "index.html#datos-abiertos",
+    "href": "index.html#datos-abiertos",
+    "title": "Analítica y Visualización de Datos, Aplicaciones - II/2022",
+    "section": "Datos Abiertos",
+    "text": "Datos Abiertos\n\nKaggle datasets\n\n\n\nTidyTuesday\nNHS Scotland Open Data\nEdinburgh Open Data\nOpen access to Scotland’s official statistics\nBikeshare data portal\nUK Gov Data\nOpenIntro datasets\nAwesome public datasets\nYouth Risk Behavior Surveillance System (YRBSS)\nPRISM Data Archive Project\nHarvard Dataverse\nNational Archive of Criminal Justice Data\nData is Plural\nAmerican Community Survey some Maine data here.\nIPUMS USA census microdata\nThe Lawrence Papers from Bates and metadata\nHealth-related datasets compiled by Bates library\nSi conoces otros, haganmelo saber y lo agregaré aquí"
+  },
+  {
+    "objectID": "index.html#proyectos-del-módulo",
+    "href": "index.html#proyectos-del-módulo",
+    "title": "Analítica y Visualización de Datos, Aplicaciones - II/2022",
+    "section": "Proyectos del Módulo",
+    "text": "Proyectos del Módulo"
   }
 ]
