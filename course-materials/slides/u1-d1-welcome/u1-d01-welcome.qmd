@@ -8,7 +8,9 @@ format:
     transition: fade
     slide-number: true
     output-file: slideu1-d01.html
-editor: visual
+    footer: "[Analítica y Visualización de Datos](https://roammi.github.io/data_analytics_and_viz_module/)"
+    logo: /images/UMSS.jpg
+    editor: visual
 ---
 
 # Formulario de inicio de módulo
@@ -16,6 +18,8 @@ editor: visual
 [Encuesta](https://docs.google.com/forms/d/e/1FAIpQLSc5TfjNWWKYoc9PJoey1rN-uBI5GoupogijTW5zX7c5z3ao-Q/viewform?usp=pp_url)
 
 # Presentación del Módulo
+
+## 
 
 ## The pillars of creation
 
@@ -25,11 +29,7 @@ editor: visual
 Fuente: [NASA](https://www.nasa.gov/feature/goddard/2022/nasa-s-webb-takes-star-filled-portrait-of-pillars-of-creation), [NBC Interactivo](https://www.nbcnews.com/data-graphics/compare-photos-nasas-james-webb-space-telescope-hubble-space-telescope-rcna37875)
 :::
 
-## Video 1 - El funcionamiento del Corazón
-
-{{< video https://youtu.be/V8lbiiTF2P0 width="100%" height="85%" >}}
-
-# Una probadita de Visualización de Datos
+# Dando una probadita a la Analítica y Visualización de Datos
 
 ## Infografía
 
@@ -67,7 +67,18 @@ Fuente: [NASA](https://www.nasa.gov/feature/goddard/2022/nasa-s-webb-takes-star-
 
 ![](images/BibleVizArc7WiderOTNTmedium.png){fig-align="center"}
 
-## Recurso - El reloj mecánico
+## Copa del Mundo
+
+[Caso de Argentina y Arabia Saudita](https://www.google.com/search?q=saudi+arabia+argentina&rlz=1C1GCEU_esBO1031BO1032&oq=saudi+arabia+argentina&aqs=chrome.0.0i19i512j0i19i22i30l5j69i60j69i61.3153j0j4&sourceid=chrome&ie=UTF-8#sie=m;/g/11pz0xdxn0;2;/m/030q7;dt;fp;1;;;)
+
+## Copa del Mundo
+
+Por Edmund Neil Q.
+
+## Invitación Comunidatos
+
+
+## El reloj mecánico
 
 ![](images/clock.png){fig-align="center"}
 
@@ -93,10 +104,35 @@ Fuente: [NASA](https://www.nasa.gov/feature/goddard/2022/nasa-s-webb-takes-star-
 Fuente: [R para Ciencia de Datos](https://es.r4ds.hadley.nz/introducci%C3%B3n.html)
 :::
 
-## Reloj mecánico 
+## Reloj mecánico
 
 https://ciechanow.ski/mechanical-watch/
 
+## Video 1 - El funcionamiento del Corazón
+
+{{< video https://youtu.be/ebzbKa32kuk width="100%" height="85%" >}}
+
+# ¿Por qué Analítica de Datos?
+
+## Analítica como certificación:
+- Tableau Data Analyst certified 
+- Databricks Data Analyst certified 
+- Amazon Data Analyst certified 
+- Google Data Analyst certified 
+- IBM Data Analyst certified 
+- Azure Data Analyst certified 
+
+## Demanda Laboral
+
+- [Mid/Sr Data Scientist - Encora](https://www.linkedin.com/jobs/view/3324712115/?alternateChannel=search&refId=wvVCggu8mihyXl%2FYSl7K%2FA%3D%3D&trackingId=EZ%2Fe%2BnNMOjtlSamB%2B%2FCvRw%3D%3D)
+- [Sr. Business Analyst - NICE Actimize](https://www.linkedin.com/jobs/view/3373456913/?alternateChannel=search&refId=wvVCggu8mihyXl%2FYSl7K%2FA%3D%3D&trackingId=QFJ4QCqfNKiS72ypgrz%2FTA%3D%3D)
+- [Data Engineer - Oowlish ](https://www.linkedin.com/jobs/view/3333561260/?alternateChannel=search&refId=wvVCggu8mihyXl%2FYSl7K%2FA%3D%3D&trackingId=ejbyGiWLB8xdArpEZDxhIw%3D%3D)
+- [Senior Data Analyst - FullStack Labs  ](https://www.linkedin.com/jobs/view/3374802879/?alternateChannel=search&refId=wvVCggu8mihyXl%2FYSl7K%2FA%3D%3D&trackingId=PTi0j2pN%2ByjkKgvDjballA%3D%3D)
+- [Client Data Analyst - IQVIA](https://www.linkedin.com/jobs/view/3305316701/?alternateChannel=search&refId=wvVCggu8mihyXl%2FYSl7K%2FA%3D%3D&trackingId=gUKCks%2B3uA777DxdXGG2JQ%3D%3D)
+- []()
+
 ## Tarea 1
+
+Presentar un análisis de datos o visualización de datos producido por usted mismo o alguno en internet.
 
 Realizar un análisis y visualización con los datos de la encuesta.
