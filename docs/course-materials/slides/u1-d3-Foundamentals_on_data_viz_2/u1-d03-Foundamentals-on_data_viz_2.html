@@ -9,8 +9,7 @@
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.2.269">
 
-  <meta name="author" content="Rolando Mirabal">
-  <title>Analítica y Visualización de Datos, Aplicaciones - Visualización y Comunicación de Datos</title>
+  <title>Analítica y Visualización de Datos, Aplicaciones – u1-d03-foundamentals-on_data_viz_2</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -323,18 +322,25 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Visualización y Comunicación de Datos</h1>
 
-<div class="quarto-title-authors">
-<div class="quarto-title-author">
-<div class="quarto-title-author-name">
-Rolando Mirabal 
-</div>
-</div>
-</div>
+<section class="slide level2">
 
-</section>
+<h1>
+Fundamentos de Analítica y <br>Visualización de Datos
+</h1>
+<hr>
+<h3>
+Rolando Mirabal, Desarrollador de Insights Senior en Viva
+</h3>
+<h3>
+<code>02/12/2022</code>
+</h3>
+<p><br></p>
+<p><img data-src="images/caratula whales.jpg" class="absolute" style="top: 350px; left: 700px; width: 1000px; "></p>
+
+<aside><div>
+<p><a href="https://twitter.com/allison_horst">Arte por @allison_horst</a></p>
+</div></aside></section>
 <section>
 <section id="comunicación-de-datos" class="title-slide slide level1 center">
 <h1>1 Comunicación de Datos</h1>
@@ -345,12 +351,12 @@ Rolando Mirabal
 <div class="r-stack">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/com_01_no_story.gif" class="fragment" width="621"></p>
+<p><img data-src="images/com_01_no_story.png" class="fragment" width="1500"></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/com_02_start_of_a_story.gif" class="fragment" width="649"></p>
+<p><img data-src="images/com_02_start_of_a_story.png" class="fragment" width="1400"></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
@@ -359,6 +365,10 @@ Rolando Mirabal
 </figure>
 </div>
 </div>
+<ol type="1">
+<li>sin atributos preatencionales</li>
+<li>con color para generar atención</li>
+</ol>
 
 <aside><div>
 <p>Fuente: <a href="https://www.storytellingwithdata.com/blog/2014/04/focusing-with-color">Storytelling with Data</a></p>
@@ -405,29 +415,53 @@ Rolando Mirabal
 <section id="color" class="slide level2">
 <h2>Color</h2>
 <ul>
-<li>Es importante en visualización de datos</li>
+<li>El color es importante entender para la visualización de datos</li>
 <li>Muchas veces es utilizado mal</li>
+<li>No se debe usar solo para arreglar una visualización aburrida.</li>
 <li>Buenas visualizaciones muchas veces usan poco color</li>
-<li>El color debe ser usado con un propósito [ejemplo de buen uso del color]</li>
+<li>El color debe ser usado con un propósito</li>
+</ul>
+<p>[ejemplo simple uso de color]</p>
+<ul>
+<li>atrae la atención del lecto, resalta una porción de los datos, distinguir entre diferentes categorías.</li>
 </ul>
 </section>
 <section id="uso-del-color-en-la-visualización-de-datos" class="slide level2">
 <h2>Uso del color en la visualización de datos</h2>
+<p>** gráfica de uso del color en visualización de datos</p>
 </section>
 <section id="color-secuencial" class="slide level2">
 <h2>Color Secuencial</h2>
+<ul>
+<li>es ordenado de bajo a alto, o de un color claro a oscuro</li>
+</ul>
 </section>
 <section id="color-divergente" class="slide level2">
 <h2>Color Divergente</h2>
+<ul>
+<li>dos colores secuenciales con puntos intermedios, como el secuencial pero puede codificar dos fiferentes rangos de medidas neutrales</li>
+<li>contrastar colores para comparasiones individuales</li>
+<li>en el medio se puede utilizar el promedio, la meta o zero.</li>
+</ul>
 </section>
 <section id="color-categórico" class="slide level2">
 <h2>Color Categórico</h2>
+<ul>
+<li>Utilizado para distinguir entre diferentes categorías.</li>
+</ul>
 </section>
 <section id="color-resaltado" class="slide level2">
 <h2>Color Resaltado</h2>
+<ul>
+<li>Resaltar algo con el color</li>
+<li>Usada cuando hay algo que necesita que se resalte, pero que no alerte o alarme</li>
+<li>Resaltar un punto, texto en una tabla, una cierta línea o una barra específica. [slopegraph] ## Color Alertado</li>
+<li>Para alertar o advertir al lector que algo necesita atención</li>
+<li>recomendado unar colores vívidos y alarmantes, que atraeran atención rápidamente.</li>
+</ul>
 </section>
-<section id="color-alertado" class="slide level2">
-<h2>Color Alertado</h2>
+<section id="combinar-un-esquema-de-colores-categóricos-secuenciales" class="slide level2">
+<h2>Combinar un esquema de colores categóricos secuenciales</h2>
 </section>
 <section id="deficiencia-en-la-visión-del-color" class="slide level2">
 <h2>Deficiencia en la visión del color</h2>
@@ -454,12 +488,47 @@ Rolando Mirabal
 <h2>¿Por qué mejores prácticas?</h2>
 <ul>
 <li>Las técnicas de visualización contribuyen y ayudan a visualizaciones éxitosas.</li>
+<li>A veces nuestro sistema de procesamiento visual nos engaña</li>
+<li>La ambiguedad en las imágenes nos juegan como ilusiones</li>
+<li>Se quiere mostrar el valor de la medida en una forma que sea interpretada lo más preciso en el menor tiempo posible. [ejemplos]</li>
 </ul>
+</section>
+<section id="algunos-problemas-con-atributos-preatencionales" class="slide level2">
+<h2>Algunos problemas con atributos preatencionales</h2>
+<p>Mezclando posición, color y forma no lo hace fácil leer. ¿Hay alternativa? +——-+——–+——-+ | | 2007 | 2008 | +——-+——–+——-+ | A | 100 | 120 | +——-+——–+——-+ | B | 70 | 30 | +——-+——–+——-+</p>
+<p>[diferentes formas de ver los mismos datos]</p>
+<blockquote>
+<p>cada decisión trae un compromiso, y un significado generalmente distinto</p>
+</blockquote>
+</section>
+<section id="lineamientos-en-constucción-de-dasboards" class="slide level2">
+<h2>Lineamientos en constucción de Dasboards</h2>
+<ul>
+<li>primero debe ser confiable y funcional</li>
+<li>Los elementos de diseño gráfico deben contribuir a la claridad del dashboard.</li>
+<li>y hay razones para ir la milla extra para hacer dashboards que son elegantes también</li>
+</ul>
+<blockquote>
+<p>“Los productos deben de hecho cumplir necesidades humanas mientras ser entendibles y usables. En el mejor de los casos, los productos deben también ser enriquecedores y disfrutables, lo que quiere decir que no solo los requerimientos de ingeniería, de manufactura y ergonomía deben satisfacerse, pero se debe prestar atención a la experiencia entera, lo que significa la estética en forma y la calidad en la interacción” Donald A. Norman “El diseño de las cosas cotidianas” 2013</p>
+</blockquote>
+</section>
+<section id="escenario-1" class="slide level2">
+<h2>Escenario 1</h2>
+</section>
+<section id="escenario-2" class="slide level2">
+<h2>Escenario 2</h2>
+</section>
+<section id="escenario-3" class="slide level2">
+<h2>Escenario 3</h2>
 </section>
 <section id="mal-uso-o-sobreuso-del-color" class="slide level2">
 <h2>Mal uso o sobreuso del color</h2>
 
 <img data-src="images/colorful_bullet_graph.png" class="r-stretch quarto-figure-center"></section>
+<section id="dilema-del-pie-chart-o-gráfico-de-torta" class="slide level2">
+<h2>Dilema del Pie Chart o Gráfico de Torta</h2>
+<p>1 que porcentaje de cada círculo es cubierto= 2 ordenar los pedazos de más grande a más pequeño? 3 la alternativa clara es un gráfica de barras ## ejemplos 2 profundidar del mar</p>
+</section>
 <section id="relación-de-tinta-ink-ratio" class="slide level2">
 <h2>Relación de Tinta (Ink Ratio)</h2>
 </section>
@@ -469,21 +538,40 @@ Rolando Mirabal
 <section id="data-ink-ratio" class="slide level2">
 <h2>data ink ratio</h2>
 </section>
-<section id="dilema-del-pie-chart-o-gráfico-de-torta" class="slide level2">
-<h2>Dilema del Pie Chart o Gráfico de Torta</h2>
-</section></section>
+<section id="sesgo-de-confirmación" class="slide level2">
+<h2>Sesgo de confirmación</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/confirmation bias.gif" width="1300"></p>
+</figure>
+</div>
+<div>
+<ul>
+<li class="fragment"><p>El sesgo de confirmación es la tendencia a interpretar nueva evidencia de una manera que confirme o respalde sus creencias o valores anteriores.<sup>1</sup></p></li>
+<li class="fragment"><p>En la narración de #datos, el sesgo de confirmación puede ser problemático porque no explora ni considera explicaciones alternativas a medida que analiza los #datos y elabora su historia de datos.</p></li>
+<li class="fragment"><p>Puede terminar con una historia de datos débiles cuando solo evalúa lo que QUIERE ver.</p></li>
+<li class="fragment"><p>Maldición del conocimiento: una vez que entiendes algo, supones que es obvio para todos los demás.</p></li>
+<li class="fragment"><p>Sesgo de anclaje: Confías demasiado en la primera información que descubres.</p></li>
+</ul>
+</div>
+<aside><ol class="aside-footnotes"><li id="fn1"><p><a href="https://www.linkedin.com/posts/activity-6984132341933772800-LEHt/?utm_source=post_nba&amp;utm_medium=member_desktop&amp;utm_campaign=copy">Fuente de Brent Dykes</a></p></li></ol></aside></section></section>
 <section>
-<section id="reportes-estudios-presentación-de-investigación" class="title-slide slide level1 center">
-<h1>4 Reportes, Estudios, Presentación de Investigación</h1>
-
+<section id="reportes-estudios-presentación-de-investigación-webpages" class="title-slide slide level1 center">
+<h1>4 Reportes, Estudios, Presentación de Investigación, Webpages</h1>
+<ul>
+<li>Reproducibilidad de Contenido e investigación corporativa GIT</li>
+<li>Markdown en Jupyter y Rmarkdown extendido a otros sistemas</li>
+</ul>
 </section>
 <section id="quarto" class="slide level2">
 <h2>Quarto</h2>
 
-<div class="footer footer-default">
 
+<img src="../../../images/UMSS.jpg" class="slide-logo r-stretch"><div class="footer footer-default">
+<p><a href="https://roammi.github.io/data_analytics_and_viz_module/">Analítica y Visualización de Datos</a></p>
 </div>
 </section></section>
+
     </div>
   </div>
 
@@ -641,7 +729,7 @@ Rolando Mirabal
         previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'none',
+        transition: 'fade',
 
         // Transition speed (default/fast/slow)
         transitionSpeed: 'default',
@@ -661,9 +749,9 @@ Rolando Mirabal
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
-        width: 1050,
+        width: 1920,
 
-        height: 700,
+        height: 1080,
 
         // Factor of the display size that should remain empty around the content
         margin: 0.1,

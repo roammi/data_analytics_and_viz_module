@@ -1,21 +1,49 @@
 ---
-title: "Visualización y Comunicación de Datos"
-author: "Rolando Mirabal"
-format: revealjs
+# title: "Visualización y Comunicación de Datos"
+# author: "Rolando Mirabal"
+format: 
+  revealjs:
+    theme: simple
+    transition: fade
+    slide-number: FALSE
+    footer: "[Analítica y Visualización de Datos](https://roammi.github.io/data_analytics_and_viz_module/)"
+    logo: /images/UMSS.jpg
+    editor: visual
+    height: 1080
+    width: 1920
 editor: visual
 ---
+
+<h1>Fundamentos de Analítica y <br>Visualización de Datos</h1>
+
+<hr>
+
+<h3>Rolando Mirabal, Desarrollador de Insights Senior en Viva</h3>
+
+<h3>`02/12/2022`</h3>
+
+<br>
+
+![](images/caratula%20whales.jpg){.absolute top="350" left="700" width="1000"}
+
+::: aside
+[Arte por \@allison_horst](https://twitter.com/allison_horst)
+:::
 
 # 1 Comunicación de Datos
 
 ## Evaluación de características del auto
 
 ::: r-stack
-![](images/com_01_no_story.gif){.fragment fig-align="center" width="621"}
+![](images/com_01_no_story.png){.fragment fig-align="center" width="1500"}
 
-![](images/com_02_start_of_a_story.gif){.fragment fig-align="center" width="649"}
+![](images/com_02_start_of_a_story.png){.fragment fig-align="center" width="1400"}
 
 ![](images/com_03_processsed_story.gif){.fragment fig-align="center" width="678"}
 :::
+
+1.  sin atributos preatencionales
+2.  con color para generar atención
 
 ::: aside
 Fuente: [Storytelling with Data](https://www.storytellingwithdata.com/blog/2014/04/focusing-with-color)
@@ -55,38 +83,42 @@ Fuente: [Storytelling with Data](https://www.storytellingwithdata.com/blog/2014/
 -   Muchas veces es utilizado mal
 -   No se debe usar solo para arreglar una visualización aburrida.
 -   Buenas visualizaciones muchas veces usan poco color
--   El color debe ser usado con un propósito 
+-   El color debe ser usado con un propósito
 
-[ejemplo simple uso de color]
+\[ejemplo simple uso de color\]
 
-- atrae la atención del lecto, resalta una porción de los datos, distinguir entre diferentes categorías.
+-   atrae la atención del lecto, resalta una porción de los datos, distinguir entre diferentes categorías.
 
 ## Uso del color en la visualización de datos
-** gráfica de uso del color en visualización de datos
+
+\*\* gráfica de uso del color en visualización de datos
 
 ## Color Secuencial
-- es ordenado de bajo a alto, o de un color claro a oscuro
+
+-   es ordenado de bajo a alto, o de un color claro a oscuro
 
 ## Color Divergente
-- dos colores secuenciales con puntos intermedios, como el secuencial pero puede codificar dos fiferentes rangos de medidas neutrales
-- contrastar colores para comparasiones individuales
-- en el medio se puede utilizar el promedio, la meta o zero.
+
+-   dos colores secuenciales con puntos intermedios, como el secuencial pero puede codificar dos fiferentes rangos de medidas neutrales
+-   contrastar colores para comparasiones individuales
+-   en el medio se puede utilizar el promedio, la meta o zero.
 
 ## Color Categórico
-- Utilizado para distinguir entre diferentes categorías.
+
+-   Utilizado para distinguir entre diferentes categorías.
 
 ## Color Resaltado
-- Resaltar algo con el color
-- Usada cuando hay algo que necesita que se resalte, pero que no alerte o alarme
-- Resaltar un punto, texto en una tabla, una cierta línea o una barra específica.
-[slopegraph]
-## Color Alertado
-- Para alertar o advertir al lector que algo necesita atención
-- recomendado unar colores vívidos y alarmantes, que atraeran atención rápidamente.
+
+-   Resaltar algo con el color
+-   Usada cuando hay algo que necesita que se resalte, pero que no alerte o alarme
+-   Resaltar un punto, texto en una tabla, una cierta línea o una barra específica. \[slopegraph\] \## Color Alertado
+-   Para alertar o advertir al lector que algo necesita atención
+-   recomendado unar colores vívidos y alarmantes, que atraeran atención rápidamente.
 
 ## Combinar un esquema de colores categóricos secuenciales
 
 ## Deficiencia en la visión del color
+
 Dependiendo el cono que les falta, las personas con DVC se les dificulta distiguir entre algunos colores debido a la forma en que ellos ven el espectro de colores: 8% de los hombres vs 0.4% de las mujeres 1 Protanopia, falta de conos de onda larga - débil en el rojo 2 Deuteranopia, falta de conos de onda media - débil en el verde 3 Tritanopia, falta de conos de onda corta - azul muy raro.
 
 *rojo y verde ! evitar semáforos* azul y naranja -\> colores amigables \## Problemas de color, más allá de rojo y verde ejemplos
@@ -103,34 +135,26 @@ Referencias: [Rueda de color Adobe](https://color.adobe.com/es/create/color-whee
 
 ## ¿Por qué mejores prácticas?
 
-- Las técnicas de visualización contribuyen y ayudan a visualizaciones éxitosas.
-- A veces nuestro sistema de procesamiento visual nos engaña
-- La ambiguedad en las imágenes nos juegan como ilusiones
-- Se quiere mostrar el valor de la medida en una forma que sea interpretada lo más preciso en el menor tiempo posible.
-[ejemplos]
+-   Las técnicas de visualización contribuyen y ayudan a visualizaciones éxitosas.
+-   A veces nuestro sistema de procesamiento visual nos engaña
+-   La ambiguedad en las imágenes nos juegan como ilusiones
+-   Se quiere mostrar el valor de la medida en una forma que sea interpretada lo más preciso en el menor tiempo posible. \[ejemplos\]
 
-## Algunos problemas con atributos preatencionales 
-Mezclando posición, color y forma no lo hace fácil leer.
-¿Hay alternativa?
-+-------+--------+-------+
-|       |   2007 |  2008 |
-+-------+--------+-------+
-| A     |   100  |  120  |
-+-------+--------+-------+
-| B     |    70  |   30  |
-+-------+--------+-------+
+## Algunos problemas con atributos preatencionales
 
-[diferentes formas de ver los mismos datos]
+Mezclando posición, color y forma no lo hace fácil leer. ¿Hay alternativa? +-------+--------+-------+ \| \| 2007 \| 2008 \| +-------+--------+-------+ \| A \| 100 \| 120 \| +-------+--------+-------+ \| B \| 70 \| 30 \| +-------+--------+-------+
+
+\[diferentes formas de ver los mismos datos\]
 
 > cada decisión trae un compromiso, y un significado generalmente distinto
 
 ## Lineamientos en constucción de Dasboards
-- primero debe ser confiable y funcional
-- Los elementos de diseño gráfico deben contribuir a la claridad del dashboard.
-- y hay razones para ir la milla extra para hacer dashboards que son elegantes también
 
-> "Los productos deben de hecho cumplir necesidades humanas mientras ser entendibles y usables. En el mejor de los casos, los productos deben también ser enriquecedores y disfrutables, lo que quiere decir que no solo los requerimientos de ingeniería, de manufactura y ergonomía deben satisfacerse, pero se debe prestar atención a la experiencia entera, lo que significa la estética en forma y la calidad en la interacción"
-Donald A. Norman "El diseño de las cosas cotidianas" 2013
+-   primero debe ser confiable y funcional
+-   Los elementos de diseño gráfico deben contribuir a la claridad del dashboard.
+-   y hay razones para ir la milla extra para hacer dashboards que son elegantes también
+
+> "Los productos deben de hecho cumplir necesidades humanas mientras ser entendibles y usables. En el mejor de los casos, los productos deben también ser enriquecedores y disfrutables, lo que quiere decir que no solo los requerimientos de ingeniería, de manufactura y ergonomía deben satisfacerse, pero se debe prestar atención a la experiencia entera, lo que significa la estética en forma y la calidad en la interacción" Donald A. Norman "El diseño de las cosas cotidianas" 2013
 
 ## Escenario 1
 
@@ -143,10 +167,8 @@ Donald A. Norman "El diseño de las cosas cotidianas" 2013
 [![](images/colorful_bullet_graph.png){fig-align="center"}](https://www.storytellingwithdata.com/blog/what-is-a-bullet-graph)
 
 ## Dilema del Pie Chart o Gráfico de Torta
-1 que porcentaje de cada círculo es cubierto=
-2 ordenar los pedazos de más grande a más pequeño?
-3 la alternativa clara es un gráfica de barras
-## ejemplos 2 profundidar del mar
+
+1 que porcentaje de cada círculo es cubierto= 2 ordenar los pedazos de más grande a más pequeño? 3 la alternativa clara es un gráfica de barras \## ejemplos 2 profundidar del mar
 
 ## Relación de Tinta (Ink Ratio)
 
@@ -154,9 +176,27 @@ Donald A. Norman "El diseño de las cosas cotidianas" 2013
 
 ## data ink ratio
 
+## Sesgo de confirmación
+
+![](images/confirmation%20bias.gif){fig-align="center" width="1300"}
+
+::: incremental
+-   El sesgo de confirmación es la tendencia a interpretar nueva evidencia de una manera que confirme o respalde sus creencias o valores anteriores.[^1]
+
+-   En la narración de #datos, el sesgo de confirmación puede ser problemático porque no explora ni considera explicaciones alternativas a medida que analiza los #datos y elabora su historia de datos.
+
+-   Puede terminar con una historia de datos débiles cuando solo evalúa lo que QUIERE ver.
+
+-   Maldición del conocimiento: una vez que entiendes algo, supones que es obvio para todos los demás.
+
+-   Sesgo de anclaje: Confías demasiado en la primera información que descubres.
+:::
+
+[^1]: [Fuente de Brent Dykes](https://www.linkedin.com/posts/activity-6984132341933772800-LEHt/?utm_source=post_nba&utm_medium=member_desktop&utm_campaign=copy)
+
 # 4 Reportes, Estudios, Presentación de Investigación, Webpages
-- Reproducibilidad de Contenido e investigación corporativa GIT
-- Markdown en Jupyter y Rmarkdown extendido a otros sistemas
 
-## Quarto 
+-   Reproducibilidad de Contenido e investigación corporativa GIT
+-   Markdown en Jupyter y Rmarkdown extendido a otros sistemas
 
+## Quarto

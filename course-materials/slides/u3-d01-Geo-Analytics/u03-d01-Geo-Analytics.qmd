@@ -1,9 +1,28 @@
 ---
-title: "Analítica Geoespacial"
-author: "Rolando Mirabal"
-format: revealjs
+# title: "Analítica Geoespacial"
+# author: "Rolando Mirabal"
+format:
+  revealjs:
+    theme: simple
+    transition: fade
+    slide-number: FALSE
+    footer: "[Analítica y Visualización de Datos](https://roammi.github.io/data_analytics_and_viz_module/)"
+    logo: /images/UMSS.jpg
+    height: 1080
+    width: 1920
 editor: visual
 ---
+
+<h1> Aplicación<br>Geoepacial</h1>
+
+<hr>
+
+<h3>Rolando Mirabal, Desarrollador de Insights Senior en Viva</h3>
+
+<h3>`16/12/2022`</h3>
+
+<br>
+
 
 ## Fundamentos de Datos Georeferenciados
 

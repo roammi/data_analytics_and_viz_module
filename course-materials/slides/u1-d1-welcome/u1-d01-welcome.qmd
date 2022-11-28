@@ -1,25 +1,53 @@
 ---
 title: "Diplomado en Estadística Aplicada a la Toma de Decisiones"
 subtitle: "Módulo V - Analítica y Visualización de Datos, Aplicaciones"
-author: "Rolando Mirabal"
+# author: "Rolando Mirabal"
 format: 
   revealjs:
     theme: simple
     transition: fade
-    slide-number: true
+    slide-number: TRUE
     output-file: slideu1-d01.html
     footer: "[Analítica y Visualización de Datos](https://roammi.github.io/data_analytics_and_viz_module/)"
+    height: 1080
+    width: 1920
     logo: /images/UMSS.jpg
     editor: visual
 ---
 
-# Formulario de inicio de módulo
+<h1>Analítica y <br>Visualización de Datos</h1>
 
-[Encuesta](https://docs.google.com/forms/d/e/1FAIpQLSc5TfjNWWKYoc9PJoey1rN-uBI5GoupogijTW5zX7c5z3ao-Q/viewform?usp=pp_url)
+<hr>
 
-# Presentación del Módulo
+<h3>Rolando Mirabal, Desarrollador de Insights Senior en Viva</h3>
 
-## 
+<h3>`28/11/2022`</h3>
+
+<br>
+
+![](images/caratula.png){.absolute top="350" left="650" width="1200"}
+
+::: aside
+[Arte por \@allison_horst](https://twitter.com/allison_horst)
+:::
+
+## Datos
+
+> **"`¡Datos! ¡datos! ¡datos!`", gritó con impaciencia. "No puedo hacer ladrillos sin arcilla".**
+>
+> Arthur Conan Doyle, La aventura de las hayas de cobre: ​​una historia corta de Sherlock Holmes
+
+> **"En Dios confiamos. Todos los demás deben traer `datos`"**
+>
+> W. Edward Deming [^1]
+
+[^1]: [artículo de IBM](https://www.ibm.com/blogs/nordic-msp/in-god-we-trust-all-others-must-bring-data/)
+
+## Formulario de inicio de módulo
+
+[Encuesta](https://docs.google.com/forms/d/e/1FAIpQLSc5TfjNWWKYoc9PJoey1rN-uBI5GoupogijTW5zX7c5z3ao-Q/viewform?usp=pp_url){preview-link="true"}
+
+## Revisión del Plan de Módulo
 
 ## The pillars of creation
 
@@ -29,7 +57,7 @@ format:
 Fuente: [NASA](https://www.nasa.gov/feature/goddard/2022/nasa-s-webb-takes-star-filled-portrait-of-pillars-of-creation), [NBC Interactivo](https://www.nbcnews.com/data-graphics/compare-photos-nasas-james-webb-space-telescope-hubble-space-telescope-rcna37875)
 :::
 
-# Dando una probadita a la Analítica y Visualización de Datos
+# Una probadita a la Analítica y Visualización de Datos
 
 ## Infografía
 
@@ -45,19 +73,19 @@ Fuente: [NASA](https://www.nasa.gov/feature/goddard/2022/nasa-s-webb-takes-star-
 
 ## Dahsboard
 
-![Sales Dashboard](images/Sales%20Overview.png){fig-align="center"}
+[![Sales Dashboard](images/Sales%20Overview.png){fig-align="center"}](https://public.tableau.com/views/Superstore-DarkMode/SalesOverview?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ## Dashboard
 
-![Call Center Dashboard](images/Call%20Center%20Exec%20View.png){fig-align="center"}
+[![Call Center Dashboard](images/Call%20Center%20Exec%20View.png){fig-align="center"}](https://public.tableau.com/views/CallCenterExecutiveView/CallCenterExecView?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ## Dashboard
 
-![Manufacturing Dashboard](images/Manufacturing%20Daily%20Analysis.png){fig-align="center"}
+[![Manufacturing Dashboard](images/Manufacturing%20Daily%20Analysis.png){fig-align="center"}](https://public.tableau.com/app/profile/keyrus/viz/DailyContributionMarginAnalysisforManufacturing/ManufacturingDailyAnalysis)
 
 ## Visualización
 
-![](images/Ardillas%20en%20el%20Parque%20Central.png){fig-align="center"}
+[![](images/Ardillas%20en%20el%20Parque%20Central.png){fig-align="center"}](https://public.tableau.com/app/profile/pablolgomez/viz/SquirrelNuttyCensus/Squirrels)
 
 ## Visualización
 
@@ -73,30 +101,77 @@ Fuente: [NASA](https://www.nasa.gov/feature/goddard/2022/nasa-s-webb-takes-star-
 
 ## Copa del Mundo
 
-Por Edmund Neil Q.
+::: r-stack
+![](images/1669125260468.jfif){.fragment width="1100"}
+
+![](images/1669125261072.jfif){.fragment fig-align="center" width="1000"}
+
+![](images/1669125260463.jfif){.fragment fig-align="center" width="1000"}
+:::
+
+[Por Edmund Neil Q.](https://www.linkedin.com/feed/update/urn:li:activity:7000818765441433601?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7000818765441433601%29){preview-link="true"}
+
+## Copa del Mundo
+
+::: columns
+::: {.column width="50%"}
+![](images/1669125260534.jfif){fig-align="right" width="600"}
+:::
+
+::: {.column width="50%"}
+![](images/1669125261398.jfif){fig-align="left" width="600"}
+:::
+:::
+
+[Por Edmund Neil Q.](https://www.linkedin.com/feed/update/urn:li:activity:7000818765441433601?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7000818765441433601%29)
+
+## Copa del Mundo
+
+::: columns
+::: {.column width="50%"}
+![](images/1669125260649.jfif){fig-align="right" width="1000"}
+:::
+
+::: {.column width="50%"}
+![](images/1669125261079.jfif){fig-align="left" width="1000"}
+:::
+:::
+
+[Por Edmund Neil Q.](https://www.linkedin.com/feed/update/urn:li:activity:7000818765441433601?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7000818765441433601%29)
+
+## Menti - dialoguemos
+
+Ve a **www.menti.com** y usa el código **2114 8815**
+
+[Enlace](https://www.menti.com/074f1e59)
 
 ## Invitación Comunidatos
 
+[Invitación Jueves 01/12/2022 04:00 PM (GMT-4)](https://usergroups.tableau.com/comunidatosdiciembre1-2022){preview-link="true" style="text-align: center"}
 
-## El reloj mecánico
-
-![](images/clock.png){fig-align="center"}
+![](images/comunidatos.png){fig-align="center"}
 
 # Analítica de datos
 
 ## ¿Qué es analítica de datos?
 
-> El análisis es el proceso de descubrir, interpretar y transmitir patrones importantes presentes en los datos. De manera sencilla, el análisis nos permite ver estadísticas y datos importantes que de otra forma podríamos no detectar. [^1]
-
-[^1]: [Oracle - Data Analytics](https://www.oracle.com/mx/business-analytics/what-is-analytics/)
-
-## ¿Qué es analítica empresarial?
-
-> El análisis empresarial se dedica a utilizar las estadísticas derivadas de los datos para tomar decisiones más informadas que ayuden a las organizaciones a aumentar las ventas, reducir los costos y mejorar otras cuestiones empresariales.[^2]
+> El análisis es el proceso de descubrir, interpretar y transmitir patrones importantes presentes en los datos. De manera sencilla, el análisis nos permite ver estadísticas y datos importantes que de otra forma podríamos no detectar. [^2]
 
 [^2]: [Oracle - Data Analytics](https://www.oracle.com/mx/business-analytics/what-is-analytics/)
 
-## Proceso de Ciencia de Datos
+## ¿Qué es analítica empresarial?
+
+> El análisis empresarial se dedica a utilizar las estadísticas derivadas de los datos para tomar decisiones más informadas que ayuden a las organizaciones a aumentar las ventas, reducir los costos y mejorar otras cuestiones empresariales.[^3]
+
+[^3]: [Oracle - Data Analytics](https://www.oracle.com/mx/business-analytics/what-is-analytics/)
+
+## Proceso de Exploración de Datos
+
+> La exploración de datos es el arte de mirar tus datos, generar hipótesis rápidamente, testearlas con celeridad y luego repetir el proceso de manera iterativa.
+>
+> El objetivo de la exploración de datos es generar muchos hallazgos prometedores que luego puedas retomar para explorarlos en mayor profundidad. [^4]
+
+[^4]: [R para ciencia de datos](https://es.r4ds.hadley.nz/explorar-introduccion.html)
 
 ![](images/data-science-process.svg){fig-align="center"}
 
@@ -106,33 +181,40 @@ Fuente: [R para Ciencia de Datos](https://es.r4ds.hadley.nz/introducci%C3%B3n.ht
 
 ## Reloj mecánico
 
-https://ciechanow.ski/mechanical-watch/
+![](images/clock.png){fig-align="center"}
+
+[Reloj mecánico](https://ciechanow.ski/mechanical-watch/){preview-link="true" style="text-align: center"}
 
 ## Video 1 - El funcionamiento del Corazón
 
-{{< video https://youtu.be/ebzbKa32kuk width="100%" height="85%" >}}
+{{< video https://youtu.be/zl-ae3xthVE width="100%" height="85%" >}}
 
 # ¿Por qué Analítica de Datos?
 
 ## Analítica como certificación:
-- Tableau Data Analyst certified 
-- Databricks Data Analyst certified 
-- Amazon Data Analyst certified 
-- Google Data Analyst certified 
-- IBM Data Analyst certified 
-- Azure Data Analyst certified 
+
+-   Tableau Data Analyst certified
+-   Databricks Data Analyst certified
+-   Amazon Data Analyst certified
+-   Google Data Analyst certified
+-   IBM Data Analyst certified
+-   Azure Data Analyst certified
 
 ## Demanda Laboral
 
-- [Mid/Sr Data Scientist - Encora](https://www.linkedin.com/jobs/view/3324712115/?alternateChannel=search&refId=wvVCggu8mihyXl%2FYSl7K%2FA%3D%3D&trackingId=EZ%2Fe%2BnNMOjtlSamB%2B%2FCvRw%3D%3D)
-- [Sr. Business Analyst - NICE Actimize](https://www.linkedin.com/jobs/view/3373456913/?alternateChannel=search&refId=wvVCggu8mihyXl%2FYSl7K%2FA%3D%3D&trackingId=QFJ4QCqfNKiS72ypgrz%2FTA%3D%3D)
-- [Data Engineer - Oowlish ](https://www.linkedin.com/jobs/view/3333561260/?alternateChannel=search&refId=wvVCggu8mihyXl%2FYSl7K%2FA%3D%3D&trackingId=ejbyGiWLB8xdArpEZDxhIw%3D%3D)
-- [Senior Data Analyst - FullStack Labs  ](https://www.linkedin.com/jobs/view/3374802879/?alternateChannel=search&refId=wvVCggu8mihyXl%2FYSl7K%2FA%3D%3D&trackingId=PTi0j2pN%2ByjkKgvDjballA%3D%3D)
-- [Client Data Analyst - IQVIA](https://www.linkedin.com/jobs/view/3305316701/?alternateChannel=search&refId=wvVCggu8mihyXl%2FYSl7K%2FA%3D%3D&trackingId=gUKCks%2B3uA777DxdXGG2JQ%3D%3D)
-- []()
+-   [Mid/Sr Data Scientist - Encora](https://www.linkedin.com/jobs/view/3324712115/?alternateChannel=search&refId=wvVCggu8mihyXl%2FYSl7K%2FA%3D%3D&trackingId=EZ%2Fe%2BnNMOjtlSamB%2B%2FCvRw%3D%3D)
+-   [Sr. Business Analyst - NICE Actimize](https://www.linkedin.com/jobs/view/3373456913/?alternateChannel=search&refId=wvVCggu8mihyXl%2FYSl7K%2FA%3D%3D&trackingId=QFJ4QCqfNKiS72ypgrz%2FTA%3D%3D)
+-   [Data Engineer - Oowlish](https://www.linkedin.com/jobs/view/3333561260/?alternateChannel=search&refId=wvVCggu8mihyXl%2FYSl7K%2FA%3D%3D&trackingId=ejbyGiWLB8xdArpEZDxhIw%3D%3D)
+-   [Senior Data Analyst - FullStack Labs](https://www.linkedin.com/jobs/view/3374802879/?alternateChannel=search&refId=wvVCggu8mihyXl%2FYSl7K%2FA%3D%3D&trackingId=PTi0j2pN%2ByjkKgvDjballA%3D%3D)
+-   [Client Data Analyst - IQVIA](https://www.linkedin.com/jobs/view/3305316701/?alternateChannel=search&refId=wvVCggu8mihyXl%2FYSl7K%2FA%3D%3D&trackingId=gUKCks%2B3uA777DxdXGG2JQ%3D%3D)
+-   [Data Scientist - Viva](https://www.linkedin.com/posts/jjpezzutti_bussines-intelligence-datascientist-activity-6998024684248125440-QsKg?utm_source=share&utm_medium=member_desktop)
 
 ## Tarea 1
 
-Presentar un análisis de datos o visualización de datos producido por usted mismo o alguno en internet.
+1)  Presentar un análisis de datos o visualización de datos producido por usted mismo o alguno en internet.
 
-Realizar un análisis y visualización con los datos de la encuesta.
+2)  Realizar un análisis y visualización con los datos de la encuesta.
+
+## Lectura para siguiente clase
+
+[Capítulo 1, de Secciones 1 a 1.3.4 - R para ciencia de datos](https://es.r4ds.hadley.nz/introducci%C3%B3n.html){preview-link="true" style="text-align: center"}

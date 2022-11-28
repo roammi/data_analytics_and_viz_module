@@ -1,7 +1,15 @@
 ---
 title: "Visualización de Datos con Tableau"
 author: "Rolando Mirabal"
-format: revealjs
+format: 
+  revealjs:
+    theme: simple
+    transition: fade
+    slide-number: FALSE
+    output-file: slideu2-d01.html
+    footer: "[Analítica y Visualización de Datos](https://roammi.github.io/data_analytics_and_viz_module/)"
+    logo: /images/UMSS.jpg
+    editor: visual
 editor: visual
 ---
 

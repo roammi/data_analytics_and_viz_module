@@ -1,16 +1,34 @@
 ---
-title: "Fundamentos en Visualización de Datos"
-subtitle: "Módulo V - Analítica y Visualización de Datos, Aplicaciones"
-
-author: "Rolando Mirabal"
-format: 
+# title: "Fundamentos en Visualización de Datos"
+# subtitle: "Módulo V - Analítica y Visualización de Datos, Aplicaciones"
+# author: "Rolando Mirabal"
+format:
   revealjs:
     theme: simple
     transition: fade
-    slide-number: true
-    chalkboard: true
+    slide-number: FALSE
+    footer: "[Analítica y Visualización de Datos](https://roammi.github.io/data_analytics_and_viz_module/)"
+    logo: /images/UMSS.jpg
+    height: 1080
+    width: 1920
 editor: visual
 ---
+
+<h1>Fundamentos de Analítica y <br>Visualización de Datos</h1>
+
+<hr>
+
+<h3>Rolando Mirabal, Desarrollador de Insights Senior en Viva</h3>
+
+<h3>`28/11/2022`</h3>
+
+<br>
+
+![](images/caratula.png){.absolute top="350" left="700" width="1000"}
+
+::: aside
+[Arte por \@allison_horst](https://twitter.com/allison_horst)
+:::
 
 ## Video 1 - La alegría de la Estadística
 
@@ -18,7 +36,7 @@ editor: visual
 
 # 1. ¿Por qué visualizamos datos?
 
-## 1.1. El cuarteto de Frank Anscombe {.smaller .scrollable transition="slide"}
+## 1.1. El cuarteto de Frank Anscombe {transition="slide"}
 
 ```{r}
 library(dplyr)
@@ -40,7 +58,7 @@ knitr::kable(anscombe_m, digits = 2) %>%
 Tabla con cuatro grupos de números: ¿Qué te dicen? ¿Qué puedes ver? ¿Hay algúnas diferencias discernibles entre ellas en los patrones o tendencias?
 :::
 
-## ¿Estadísticamente iguales? {.smaller .scrollable transition="slide"}
+## ¿Estadísticamente iguales? {.scrollable transition="slide"}
 
 ```{r}
 knitr::kable(summary(anscombe_m))
@@ -113,17 +131,17 @@ Lectura de apoyo: [Tableau - Ciclo de Visualización de Datos](https://help.tabl
 :::
 
 ::: r-stack
-![](images/01_how_many_9s.png){.fragment fig-align="center" width="338"}
+![](images/01_how_many_9s.png){.fragment fig-align="center" width="1000"}
 
-![](images/02_easy_to_count_9s.png){.fragment fig-align="center" width="344"}
+![](images/02_easy_to_count_9s.png){.fragment fig-align="center" width="1000"}
 
-![](images/03_size_9s.png){.fragment fig-align="center" width="338"}
+![](images/03_size_9s.png){.fragment fig-align="center" width="1000"}
 
-![](images/04_color_nines.png){.fragment fig-align="center" width="338"}
+![](images/04_color_nines.png){.fragment fig-align="center" width="1000"}
 
-![](images/05_bars_9s.PNG){.fragment fig-align="center" width="378"}
+![](images/05_bars_9s.PNG){.fragment fig-align="center" width="1000"}
 
-![](images/06_sort_bars_9s.PNG){.fragment fig-align="center" width="372"}
+![](images/06_sort_bars_9s.PNG){.fragment fig-align="center" width="1000"}
 :::
 
 ::: aside
@@ -196,46 +214,32 @@ Lectura de apoyo: [Tableau - Atributos preatencionales](https://help.tableau.com
 
 \[mujer que se paró en SCZ\] fecha de nacimiento, altura, apareció N veces en el periódico, años que vive en SCZ. cantidad de ventas djokovic gana N copas, no n y medio
 
-53 años 
+53 años
+
+## Vocabulario Visual
+
+[Enlace](https://public.tableau.com/app/profile/diego.parker/viz/VocabularioVisualES/VisualVocabulary)
 
 ## Ejemplos, datos codificados en las Visualizaciones - Visualización
--> con los atributos preatencionales y los tipos de datos: cómo combinamos ese conocimiento en construir una gráfica, veamos como algunas gráficas codifican diferentes tipos de datos:
-[gráfica]
-### tipos de variables en la Visualización
-+-----+--------------+------------+-----+
-|Datos|Tipos de datos|Codificación|Notas|
-+-----+--------------+------------+-----+
-|esto | Categórico   |Posición    |cada esto|
-+-----+--------------+------------+-----+
 
-[gráfica 2]
-### tipos de variables en la Visualización
-+-----+--------------+------------+-----+
-|Datos|Tipos de datos|Codificación|Notas|
-+-----+--------------+------------+-----+
-|esto | Categórico   |Posición    |cada esto|
-+-----+--------------+------------+-----+
+-\> con los atributos preatencionales y los tipos de datos: cómo combinamos ese conocimiento en construir una gráfica, veamos como algunas gráficas codifican diferentes tipos de datos: \[gráfica\] \### tipos de variables en la Visualización +-----+--------------+------------+-----+ \|Datos\|Tipos de datos\|Codificación\|Notas\| +-----+--------------+------------+-----+ \|esto \| Categórico \|Posición \|cada esto\| +-----+--------------+------------+-----+
 
-[gráfica 3]
-### tipos de variables en la Visualización
-+-----+--------------+------------+-----+
-|Datos|Tipos de datos|Codificación|Notas|
-+-----+--------------+------------+-----+
-|esto | Categórico   |Posición    |cada esto|
-+-----+--------------+------------+-----+
+\[gráfica 2\] \### tipos de variables en la Visualización +-----+--------------+------------+-----+ \|Datos\|Tipos de datos\|Codificación\|Notas\| +-----+--------------+------------+-----+ \|esto \| Categórico \|Posición \|cada esto\| +-----+--------------+------------+-----+
+
+\[gráfica 3\] \### tipos de variables en la Visualización +-----+--------------+------------+-----+ \|Datos\|Tipos de datos\|Codificación\|Notas\| +-----+--------------+------------+-----+ \|esto \| Categórico \|Posición \|cada esto\| +-----+--------------+------------+-----+
 
 # Tipos de gráficos
 
 ## Diferentes Finalidades al Visualizar Datos
-- hay muchos tipos de gráficas, inclusive nuevos.
-- por qué un gráfico es elegido en un escenario en particular.
 
-[imágen de un tablero de auto]
+-   hay muchos tipos de gráficas, inclusive nuevos.
+-   por qué un gráfico es elegido en un escenario en particular.
+
+\[imágen de un tablero de auto\]
 
 ## Bloques Base de Construcción
-> Gráficas con las que se puede cubrir la mayoría de las necesidades al visualizar los datos.
-[imagen?]
-## Gráfica de Barras
+
+> Gráficas con las que se puede cubrir la mayoría de las necesidades al visualizar los datos. \[imagen?\] \## Gráfica de Barras
 
 ## Gráfica de Series de Tiempo
 
@@ -248,28 +252,29 @@ Lectura de apoyo: [Tableau - Atributos preatencionales](https://help.tableau.com
 ## Mapa de símbolos
 
 ## Tablas
+
 +-----+-----+-----+-----+
 | 111 | 131 | 202 | 215 |
 +-----+-----+-----+-----+
-| 77  |  88 |  33 |  11 |
+| 77  | 88  | 33  | 11  |
 +-----+-----+-----+-----+
-|  13 |  41 | 123 | 321 |
+| 13  | 41  | 123 | 321 |
 +-----+-----+-----+-----+
 
 ## Tablas resaltadas
+
 +-----+-----+-----+-----+
 | 111 | 131 | 202 | 215 |
 +-----+-----+-----+-----+
-| 77  |  88 |  33 |  11 |
+| 77  | 88  | 33  | 11  |
 +-----+-----+-----+-----+
-|  13 |  41 | 123 | 321 |
+| 13  | 41  | 123 | 321 |
 +-----+-----+-----+-----+
 
 ## Gráficas de Balas
 
-
-
 ## Recursos Tipos de gráficos
+
 [URL - Material de Apoyo](https://rolandoamir.notion.site/Anal-tica-y-Visualizaci-n-de-Datos-Aplicaciones-b72aeb6460e34916a799fb79ed6afe99 "URL - Material de Apoyo")
 
 ## Herramientas de Visualización de Datos
@@ -292,7 +297,7 @@ Lectura de apoyo: [Tableau - Atributos preatencionales](https://help.tableau.com
 
 -   Qlick Sense
 
-- DJ3s
+-   DJ3s
 :::
 
 ::: {.column width="75%"}
@@ -301,4 +306,10 @@ Lectura de apoyo: [Tableau - Atributos preatencionales](https://help.tableau.com
 
 ## Tarea 2
 
-Descargar el archivo Excel, completarlo y enviar.
+Comparar al menos 3 herramientas de visualización y presentar análisis comparativo.
+
+Archivo Excel en google classroom.
+
+## Lectura para siguiente clase
+
+[Capítulo 3 - R para ciencia de datos](https://es.r4ds.hadley.nz/visualizaci%C3%B3n-de-datos.html){preview-link="true" style="text-align: center"}
