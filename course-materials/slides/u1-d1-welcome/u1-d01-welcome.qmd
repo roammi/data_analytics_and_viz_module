@@ -67,7 +67,7 @@ Algunas herramientas modernas de consumo de datos
 ## Revisión del Plan de Módulo
 
 | Descripción    | Nombre de la Unidad                                           | N° de sesiones |
-|----------------|---------------------------------------------------------------|----------------|
+|-------------------|-----------------------------------|-------------------|
 | **UNIDAD I**   | Fundamentos de Analítica y Visualización de los Datos         | 3              |
 | **UNIDAD II**  | Utilizando Herramientas de Analítica y Visualización de Datos | 4              |
 | **UNIDAD III** | Aplicaciones de Analítica y Visualización de Datos            | 3              |
@@ -90,7 +90,7 @@ Algunas herramientas modernas de consumo de datos
 
 ## Fechas de Sesiones
 
-![](images/calendar.png){fig-align="center"}
+![](images/calendar.png){fig-alt="calendario modificado 20221129" fig-align="center"}
 
 ## Bibliografía
 
