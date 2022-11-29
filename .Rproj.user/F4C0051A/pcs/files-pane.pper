@@ -1,9 +1,13 @@
 {
     "sortOrder": [
         {
+            "columnIndex": 4,
+            "ascending": false
+        },
+        {
             "columnIndex": 2,
             "ascending": true
         }
     ],
-    "path": "C:/viz/data_analytics_and_viz_module"
+    "path": "C:/viz/data_analytics_and_viz_module/course-materials/slides/u1-d2-Foundamentals_on_data_viz"
 }
