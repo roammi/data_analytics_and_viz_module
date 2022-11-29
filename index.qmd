@@ -64,7 +64,7 @@ Puede ser accedido en el siguiente [URL - Material de Apoyo](https://rolandoamir
 
 | Unidad | Diapositivas | Título                                            | Enlace                                                                                                                                                         |
 |--------------|--------------|------------------------|--------------------|
-| 1      | 1            | Analítica y Visualización de Datos                | [🖥️](course-materials/slides/u1-d01-welcome/slideu1-d01.html#/title-slide "U1D01 slides"){aria-label="U1D01 slides"}                                           |
+| 1      | 1            | Analítica y Visualización de Datos                | [🖥️](course-materials/slides/u1-d1-welcome/slideu1-d01.html#/title-slide "U1D01 slides"){aria-label="U1D01 slides"}                                            |
 | 1      | 2            | Fundamentos de Analítica y Visualización de Datos | [🖥️](course-materials/slides/u1-d02-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#/title-slide "U1D02 slides"){aria-label="U1D02 slides"}    |
 | 1      | 3            | Fundamentos de Analítica y Visualización de Datos | [🖥️](course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#/title-slide "U1D03 slides"){aria-label="U1D03 slides"} |
 | 2      | 1            | R para analítica y visualización de datos         | [🖥](course-materials/slides/u2-d01-Tableau_viz/u2_d01_viz_Tableau.html#/title-slide "U2D01 slides"){aria-label="U2D01 slides"}                                 |
