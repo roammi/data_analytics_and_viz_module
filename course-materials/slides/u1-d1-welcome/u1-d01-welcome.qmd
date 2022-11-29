@@ -7,7 +7,6 @@ format:
     theme: simple
     transition: fade
     slide-number: TRUE
-    output-file: slideu1-d01.html
     footer: "[Analítica y Visualización de Datos](https://roammi.github.io/data_analytics_and_viz_module/)"
     height: 1080
     width: 1920
@@ -68,7 +67,7 @@ Algunas herramientas modernas de consumo de datos
 ## Revisión del Plan de Módulo
 
 | Descripción    | Nombre de la Unidad                                           | N° de sesiones |
-|----------------|---------------------------------------------------------------|----------------|
+|------------------|-----------------------------------|------------------|
 | **UNIDAD I**   | Fundamentos de Analítica y Visualización de los Datos         | 3              |
 | **UNIDAD II**  | Utilizando Herramientas de Analítica y Visualización de Datos | 4              |
 | **UNIDAD III** | Aplicaciones de Analítica y Visualización de Datos            | 3              |

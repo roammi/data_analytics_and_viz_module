@@ -1769,5 +1769,278 @@
     "title": "Analítica y Visualización de Datos, Aplicaciones - II/2022",
     "section": "Proyectos del Módulo",
     "text": "Proyectos del Módulo"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#maratón-de-la-analítica-de-datos",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#maratón-de-la-analítica-de-datos",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Maratón de la Analítica de Datos",
+    "text": "Maratón de la Analítica de Datos\n\nFuente"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#datos",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#datos",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Datos",
+    "text": "Datos\n\n\n“¡Datos! ¡datos! ¡datos!”, gritó con impaciencia. “No puedo hacer ladrillos sin arcilla”.\nArthur Conan Doyle, La aventura de las hayas de cobre: ​​una historia corta de Sherlock Holmes\n\n\n\n\n“En Dios confiamos. Todos los demás deben traer datos”\nW. Edward Deming 1\n\n\n\nAlgunas herramientas modernas de consumo de datos\nstarburst\nprestodb\n\nartículo de IBM"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#formulario-de-inicio-de-módulo",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#formulario-de-inicio-de-módulo",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Formulario de inicio de módulo",
+    "text": "Formulario de inicio de módulo\nEncuesta"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#revisión-del-plan-de-módulo",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#revisión-del-plan-de-módulo",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Revisión del Plan de Módulo",
+    "text": "Revisión del Plan de Módulo\n\n\n\n\n\n\n\n\nDescripción\nNombre de la Unidad\nN° de sesiones\n\n\n\n\nUNIDAD I\nFundamentos de Analítica y Visualización de los Datos\n3\n\n\nUNIDAD II\nUtilizando Herramientas de Analítica y Visualización de Datos\n4\n\n\nUNIDAD III\nAplicaciones de Analítica y Visualización de Datos\n3\n\n\n\nTOTAL\n10"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#cronograma-por-sesión",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#cronograma-por-sesión",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Cronograma por Sesión",
+    "text": "Cronograma por Sesión\n\n\n\nUnidad\nSesión\nTítulo\n\n\n\n\n1\n1\nAnalítica y Visualización de Datos\n\n\n1\n2\nFundamentos de Analítica y Visualización de Datos\n\n\n1\n3\nFundamentos de Analítica y Visualización de Datos\n\n\n2\n1\nR para analítica y visualización de datos\n\n\n2\n2\nTableau para analítica y visualización de datos\n\n\n2\n3\nTableau para analítica y visualización de datos\n\n\n2\n4\nTableau con QGis y R\n\n\n3\n1\nAplicación Geoespacial\n\n\n3\n2\nAplicación usando APIs\n\n\n3\n3\nAplicación - BigData"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#fechas-de-sesiones",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#fechas-de-sesiones",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Fechas de Sesiones",
+    "text": "Fechas de Sesiones"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#bibliografía",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#bibliografía",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Bibliografía",
+    "text": "Bibliografía\n\nWickham, Grolemund (2017). R para Ciencia de Datos. *\nClaus O. Wilke (2019), Fundamentals of Data Visualization\nWexler, S. & Shaffer, J. & Cotgreave, A. (2017). The Big Book of Dashboards. Wiley.\nAnn Jackson, Luke Stanke (2022), Tableau Strategies.\nNussbaumer, C. (2015). Storytelling with Data. Wiley."
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#the-pillars-of-creation",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#the-pillars-of-creation",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "The pillars of creation",
+    "text": "The pillars of creation\n\n\nFuente: NASA, NBC Interactivo"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#infografía-1",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#infografía-1",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Infografía 1",
+    "text": "Infografía 1"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#infografía-2",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#infografía-2",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Infografía 2",
+    "text": "Infografía 2\n un mundo de idiomas"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#infografía-3",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#infografía-3",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Infografía 3",
+    "text": "Infografía 3"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#infografía-4",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#infografía-4",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Infografía 4",
+    "text": "Infografía 4\n\nenlace"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#dahsboard-1",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#dahsboard-1",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Dahsboard 1",
+    "text": "Dahsboard 1\n\nSales Dashboard"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#dashboard-2",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#dashboard-2",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Dashboard 2",
+    "text": "Dashboard 2\n\nCall Center Dashboard"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#dashboard-3",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#dashboard-3",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Dashboard 3",
+    "text": "Dashboard 3\n\nenlace"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#boceto-de-dashboard",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#boceto-de-dashboard",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Boceto de dashboard",
+    "text": "Boceto de dashboard"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#elecciones-en-brazil",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#elecciones-en-brazil",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Elecciones en Brazil",
+    "text": "Elecciones en Brazil"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#elecciones-en-brazil-1",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#elecciones-en-brazil-1",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Elecciones en Brazil",
+    "text": "Elecciones en Brazil"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#visualización-1",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#visualización-1",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Visualización 1",
+    "text": "Visualización 1\n\n. . .Analizando la visualización de Minard de la marcha de Napoleón de 1812"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#visualización-2",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#visualización-2",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Visualización 2",
+    "text": "Visualización 2\n\nCenso de ardilla en Central Park"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#visualización-3",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#visualización-3",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Visualización 3",
+    "text": "Visualización 3"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#visualización-4",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#visualización-4",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Visualización 4",
+    "text": "Visualización 4"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#copa-del-mundo",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#copa-del-mundo",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Copa del Mundo",
+    "text": "Copa del Mundo\nCaso de Argentina y Arabia Saudita"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#copa-del-mundo-1",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#copa-del-mundo-1",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Copa del Mundo",
+    "text": "Copa del Mundo\n\n\n\n\n\n\n\n\n\n\n\n\n\nPor Edmund Neil Q."
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#copa-del-mundo-2",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#copa-del-mundo-2",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Copa del Mundo",
+    "text": "Copa del Mundo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPor Edmund Neil Q."
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#copa-del-mundo-3",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#copa-del-mundo-3",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Copa del Mundo",
+    "text": "Copa del Mundo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPor Edmund Neil Q."
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#menti---dialoguemos",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#menti---dialoguemos",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Menti - dialoguemos",
+    "text": "Menti - dialoguemos\nVe a www.menti.com y usa el código 2114 8815\nEnlace"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#invitación-comunidatos",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#invitación-comunidatos",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Invitación Comunidatos",
+    "text": "Invitación Comunidatos\nInvitación Jueves 01/12/2022 04:00 PM (GMT-4)"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#qué-es-analítica-de-datos",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#qué-es-analítica-de-datos",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "¿Qué es analítica de datos?",
+    "text": "¿Qué es analítica de datos?\n\nEl análisis es el proceso de descubrir, interpretar y transmitir patrones importantes presentes en los datos. De manera sencilla, el análisis nos permite ver estadísticas y datos importantes que de otra forma podríamos no detectar. 1\n\nOracle - Data Analytics"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#qué-es-analítica-empresarial",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#qué-es-analítica-empresarial",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "¿Qué es analítica empresarial?",
+    "text": "¿Qué es analítica empresarial?\n\nEl análisis empresarial se dedica a utilizar las estadísticas derivadas de los datos para tomar decisiones más informadas que ayuden a las organizaciones a aumentar las ventas, reducir los costos y mejorar otras cuestiones empresariales.1\n\nOracle - Data Analytics"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#proceso-de-ciencia-de-datos",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#proceso-de-ciencia-de-datos",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Proceso de Ciencia de Datos",
+    "text": "Proceso de Ciencia de Datos\n\n\nFuente: R para Ciencia de Datos"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#proceso-de-ciencia-de-datos-1",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#proceso-de-ciencia-de-datos-1",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Proceso de Ciencia de Datos",
+    "text": "Proceso de Ciencia de Datos\n\n\nImportar los datos. Típicamente, esto implica tomar datos que están guardados en un archivo, base de datos o API y cargarlos como data frame o extracto.\nOrdenar cuando tus datos están ordenados, cada columna es una variable y cada fila una observación, con estructura consistente.\nTransformarlos implica reducir las observaciones a aquellas que sean de interés, crear nuevas variables que sean funciones de variables ya existentes y calcular una serie de estadísticos de resumen.\nVisualización, te mostrará cosas que no esperabas o hará surgir nuevas preguntas acerca de los datos. También puede darte pistas acerca de si estás haciendo las preguntas equivocadas o si necesitas recolectar datos diferentes.\nModelos, son herramientas complementarias a la visualización. Una vez que tus preguntas son lo suficientemente precisas, puedes utilizar un modelo para responderlas.\nComunicación, una parte crítica de cualquier proyecto de análisis de datos. No importa qué tan bien tus modelos y visualizaciones te hayan permitido entender tus datos, a menos que también puedas comunicar esos resultados a otras personas.\n\n\n\nFuente: R para Ciencia de Datos"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#proceso-de-exploración-de-datos",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#proceso-de-exploración-de-datos",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Proceso de Exploración de Datos",
+    "text": "Proceso de Exploración de Datos\n\nLa exploración de datos es el arte de mirar tus datos, generar hipótesis rápidamente, testearlas con celeridad y luego repetir el proceso de manera iterativa.\nEl objetivo de la exploración de datos es generar muchos hallazgos prometedores que luego puedas retomar para explorarlos en mayor profundidad. 1\n\nR para ciencia de datos"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#reloj-mecánico",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#reloj-mecánico",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Reloj mecánico",
+    "text": "Reloj mecánico\n\nReloj mecánico"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#analítica-como-certificación",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#analítica-como-certificación",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Analítica como certificación:",
+    "text": "Analítica como certificación:\n\nTableau Certified Data Analyst\nDatabricks Certified Data Analyst Associate\nAWS Certified Data Analytics - Specialty\nGoogle Data Analytics Certificate\nData Analyst Professional Certificate\nMicrosoft Certified: Azure Enterprise Data Analyst Associate"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#demanda-laboral",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#demanda-laboral",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Demanda Laboral",
+    "text": "Demanda Laboral\n\nMid/Sr Data Scientist - Encora\nSr. Business Analyst - NICE Actimize\nData Engineer - Oowlish\nSenior Data Analyst - FullStack Labs\nClient Data Analyst - IQVIA\nData Scientist - Viva"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#video-1---el-funcionamiento-del-corazón",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#video-1---el-funcionamiento-del-corazón",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Video 1 - El funcionamiento del Corazón",
+    "text": "Video 1 - El funcionamiento del Corazón"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#tarea-1",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#tarea-1",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Tarea 1",
+    "text": "Tarea 1\n\nPresentar un análisis y visualización de datos producido por usted mismo en la herramienta y datos a elección. Especificando el área o industria en la que se aplica los datos. (En caso de requerir datasets dirigirse a la sección Datasets en la sección del curso)\nRealizar un análisis y visualización con los datos de la encuesta."
+  },
+  {
+    "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#lectura-para-siguiente-clase",
+    "href": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#lectura-para-siguiente-clase",
+    "title": "Diplomado en Estadística Aplicada a la Toma de Decisiones",
+    "section": "Lectura para siguiente clase",
+    "text": "Lectura para siguiente clase\nCapítulo 1, de Secciones 1 a 1.3.4 - R para ciencia de datos\nLectura Sugerida: Capítulos 4 al 6 - R para ciencia de datos\n\n\n\nAnalítica y Visualización de Datos"
   }
 ]
