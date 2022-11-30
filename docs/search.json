@@ -725,7 +725,7 @@
     "href": "course-materials/slides/u1-d2-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#atributos-preatentivos",
     "title": "Analítica y Visualización de Datos, Aplicaciones",
     "section": "Atributos preatentivos",
-    "text": "Atributos preatentivos\n\n\nEs aquello que nuestro cerebro procesa en milisegundos, antes de que pongamos atención a otras cosas.\nDirigir la atención de la persona que está viendo.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1 ¿cúantos 9s hay?\n2 color al 9, más fácil contar\n3 diferencia en tamaño\n4 colorear cada dígito es tan malo como no tener color!\n5 en barras, hay 13! más rápido\n6 Ordenando en comparación con otros\n\n\nFuente: Big Book of Dashboards"
+    "text": "Atributos preatentivos\n\n\nEs aquello que nuestro cerebro procesa en milisegundos, antes de que pongamos atención a otras cosas.\nDirigir la atención de la persona que está viendo."
   },
   {
     "objectID": "course-materials/slides/u1-d2-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#atributos-preatentivos-o-preatencionales",
@@ -2049,5 +2049,19 @@
     "title": "Analítica y Visualización de Datos, Aplicaciones - II/2022",
     "section": "Fechas de Clases",
     "text": "Fechas de Clases"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d2-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#video-2---la-belleza-de-la-visualización-de-datos",
+    "href": "course-materials/slides/u1-d2-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#video-2---la-belleza-de-la-visualización-de-datos",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Video 2 - La belleza de la visualización de datos",
+    "text": "Video 2 - La belleza de la visualización de datos"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d2-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#atributos-preatentivos-1",
+    "href": "course-materials/slides/u1-d2-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#atributos-preatentivos-1",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Atributos preatentivos",
+    "text": "Atributos preatentivos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1 ¿cúantos 9s hay?\n2 color al 9, más fácil contar\n3 diferencia en tamaño\n4 colorear cada dígito es tan malo como no tener color!\n5 en barras, hay 13! más rápido\n6 Ordenando en comparación con otros\n\n\nFuente: Big Book of Dashboards"
   }
 ]
