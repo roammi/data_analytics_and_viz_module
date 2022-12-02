@@ -802,14 +802,14 @@
     "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#evaluación-de-características-del-auto",
     "title": "Analítica y Visualización de Datos, Aplicaciones",
     "section": "Evaluación de características del auto",
-    "text": "Evaluación de características del auto\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nsin atributos preatencionales\ncon color para generar atención\n\n\n\nFuente: Storytelling with Data"
+    "text": "Evaluación de características del auto\n\n\n\n\nSin atributos preatencionales\n\n\n\n\n\nCon color para generar atención\n\n\n\n\n\nUna visualización que tenga información jerárquica\n\n\n\n\n\nFuente: Storytelling with Data"
   },
   {
     "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#reporte-de-caída",
     "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#reporte-de-caída",
     "title": "Analítica y Visualización de Datos, Aplicaciones",
     "section": "Reporte de caída",
-    "text": "Reporte de caída\n\n\n\n\n\n\n\nFuente: Storytelling with Data"
+    "text": "Reporte de caída\n\n\n\n¿cómo estoy comparado a los 2 años anteriores?\n\n\n\n\nFuente: Storytelling with Data"
   },
   {
     "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#reporte-de-caída-1",
@@ -1460,7 +1460,7 @@
     "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#algunos-problemas-con-atributos-preatencionales",
     "title": "Analítica y Visualización de Datos, Aplicaciones",
     "section": "Algunos problemas con atributos preatencionales",
-    "text": "Algunos problemas con atributos preatencionales\nMezclando posición, color y forma no lo hace fácil leer. ¿Hay alternativa? +——-+——–+——-+ | | 2007 | 2008 | +——-+——–+——-+ | A | 100 | 120 | +——-+——–+——-+ | B | 70 | 30 | +——-+——–+——-+\n[diferentes formas de ver los mismos datos]\n\ncada decisión trae un compromiso, y un significado generalmente distinto"
+    "text": "Algunos problemas con atributos preatencionales\nMezclando posición, color y forma no lo hace fácil leer. ¿Hay alternativa?\n+——-+——–+——-+ | | 2007 | 2008 | +——-+——–+——-+ | A | 100 | 120 | +——-+——–+——-+ | B | 70 | 30 | +——-+——–+——-+\n[diferentes formas de ver los mismos datos]\n\ncada decisión trae un compromiso, y un significado generalmente distinto"
   },
   {
     "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#lineamientos-en-constucción-de-dasboards",
@@ -2069,7 +2069,7 @@
     "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#uso-del-color",
     "title": "Analítica y Visualización de Datos, Aplicaciones",
     "section": "Uso del Color",
-    "text": "Uso del Color"
+    "text": "Uso del Color\n\n\nColor Secuencial\n\nes ordenado de bajo a alto, o de un color claro a oscuro\n\nColor Divergente\n\ndos colores secuenciales con puntos intermedios, como el secuencial pero puede codificar dos fiferentes rangos de medidas neutrales\ncontrastar colores para comparasiones individuales\nen el medio se puede utilizar el promedio, la meta o zero.\n\nColor Categórico\n\nUtilizado para distinguir entre diferentes categorías.\n\nColor Resaltado\n\nResaltar algo con el color\nUsada cuando hay algo que necesita que se resalte, pero que no alerte o alarme\nResaltar un punto, texto en una tabla, una cierta línea o una barra específica. [slopegraph] ## Color Alertado\nPara alertar o advertir al lector que algo necesita atención\nrecomendado unar colores vívidos y alarmantes, que atraeran atención rápidamente."
   },
   {
     "objectID": "course-materials/slides/u1-d2-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#análisis-visual-de-datos-1",
@@ -2196,5 +2196,33 @@
     "title": "Analítica y Visualización de Datos, Aplicaciones",
     "section": "Quiz 1",
     "text": "Quiz 1\nenlace"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#color-1",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#color-1",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Color",
+    "text": "Color\n\nEl color es importante entender para la visualización de datos\nMuchas veces es utilizado mal\nNo se debe usar solo para arreglar una visualización aburrida.\nBuenas visualizaciones muchas veces usan poco color\nEl color debe ser usado con un propósito\n\n[ejemplo simple uso de color]\n\natrae la atención del lecto, resalta una porción de los datos, distinguir entre diferentes categorías."
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#teoría-del-color",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#teoría-del-color",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Teoría del color",
+    "text": "Teoría del color\n\n\n\n\n\n\nImportant\n\n\nLos colores dependiendo el contexto tienen significado"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#a-veces-es-mejor-uso-escaso-del-color",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#a-veces-es-mejor-uso-escaso-del-color",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "A veces es mejor uso escaso del color",
+    "text": "A veces es mejor uso escaso del color"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#lineamientos-en-constucción-de-dashboards",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#lineamientos-en-constucción-de-dashboards",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Lineamientos en constucción de Dashboards",
+    "text": "Lineamientos en constucción de Dashboards\n\nprimero debe ser confiable y funcional\nLos elementos de diseño gráfico deben contribuir a la claridad del dashboard.\ny hay razones para ir la milla extra para hacer dashboards que son elegantes también\n\n\n“Los productos deben de hecho cumplir necesidades humanas mientras ser entendibles y usables. En el mejor de los casos, los productos deben también ser enriquecedores y disfrutables, lo que quiere decir que no solo los requerimientos de ingeniería, de manufactura y ergonomía deben satisfacerse, pero se debe prestar atención a la experiencia entera, lo que significa la estética en forma y la calidad en la interacción” Donald A. Norman “El diseño de las cosas cotidianas” 2013"
   }
 ]

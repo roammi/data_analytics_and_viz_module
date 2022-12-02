@@ -3,9 +3,9 @@
 # author: "Rolando Mirabal"
 format: 
   revealjs:
-    theme: simple
+    theme: sky
     transition: fade
-    slide-number: FALSE
+    slide-number: TRUE
     footer: "[Analítica y Visualización de Datos](https://roammi.github.io/data_analytics_and_viz_module/)"
     logo: /images/UMSS.jpg
     editor: visual
@@ -35,15 +35,12 @@ editor: visual
 ## Evaluación de características del auto
 
 ::: r-stack
-![](images/com_01_no_story.png){.fragment fig-align="center" width="1500"}
+![Sin atributos preatencionales](images/com_01_no_story.png){.fragment fig-align="center" width="1500"}
 
-![](images/com_02_start_of_a_story.png){.fragment fig-align="center" width="1400"}
+![Con color para generar atención](images/com_02_start_of_a_story.png){.fragment fig-align="center" width="1500"}
 
-![](images/com_03_processsed_story.gif){.fragment fig-align="center" width="678"}
+![Una visualización que tenga información jerárquica](images/com_03_jerarquia_de_info.png){.fragment fig-align="center" width="1500"}
 :::
-
-1.  sin atributos preatencionales
-2.  con color para generar atención
 
 ::: aside
 Fuente: [Storytelling with Data](https://www.storytellingwithdata.com/blog/2014/04/focusing-with-color)
@@ -51,17 +48,17 @@ Fuente: [Storytelling with Data](https://www.storytellingwithdata.com/blog/2014/
 
 ## Reporte de caída
 
-![](images/weekly-shrinkage-original-line-chart.png){fig-align="center"}
+![¿cómo estoy comparado a los 2 años anteriores?](images/weekly-shrinkage-original-line-chart.png){fig-align="center" width="1500"}
 
 ::: aside
 Fuente: [Storytelling with Data](https://www.storytellingwithdata.com/blog/2014/04/focusing-with-color "https://www.storytellingwithdata.com/blog/2014/04/focusing-with-color")
 :::
 
-## Reporte de caída
+## Reporte de caída {.scrollable}
 
-![](images/shrinkage-graph-with-added-context.png){fig-align="center" width="701"}
+![](images/shrinkage-graph-with-added-context.png){fig-align="center" width="1500"}
 
-::: aside
+::: {.aside style="Que los datos resalten"}
 Fuente: [Storytelling with Data](https://www.storytellingwithdata.com/blog/2014/04/focusing-with-color "https://www.storytellingwithdata.com/blog/2014/04/focusing-with-color")
 :::
 
@@ -75,7 +72,7 @@ Fuente: [Storytelling with Data](https://www.storytellingwithdata.com/blog/2014/
 Fuente: [Storytelling with Data](https://www.storytellingwithdata.com/blog/2014/04/exploratory-vs-explanatory-analysis)
 :::
 
-# 2 Teoría del Color
+# Color
 
 ## Color
 
@@ -89,33 +86,45 @@ Fuente: [Storytelling with Data](https://www.storytellingwithdata.com/blog/2014/
 
 -   atrae la atención del lecto, resalta una porción de los datos, distinguir entre diferentes categorías.
 
-## Uso del Color
+## Uso del Color {.smaller}
 
-![](images/08_color_use.jfif){fig-align="center"}
-
-## Color Secuencial
+::: columns
+::: {.column width="50%"}
+### Color Secuencial
 
 -   es ordenado de bajo a alto, o de un color claro a oscuro
 
-## Color Divergente
+### Color Divergente
 
 -   dos colores secuenciales con puntos intermedios, como el secuencial pero puede codificar dos fiferentes rangos de medidas neutrales
 -   contrastar colores para comparasiones individuales
 -   en el medio se puede utilizar el promedio, la meta o zero.
 
-## Color Categórico
+### Color Categórico
 
 -   Utilizado para distinguir entre diferentes categorías.
 
-## Color Resaltado
+### Color Resaltado
 
 -   Resaltar algo con el color
 -   Usada cuando hay algo que necesita que se resalte, pero que no alerte o alarme
 -   Resaltar un punto, texto en una tabla, una cierta línea o una barra específica. \[slopegraph\] \## Color Alertado
 -   Para alertar o advertir al lector que algo necesita atención
 -   recomendado unar colores vívidos y alarmantes, que atraeran atención rápidamente.
+:::
+
+::: {.column width="50%"}
+![](images/08_color_use.jfif){fig-align="center" width="600"}
+:::
+:::
 
 ## Combinar un esquema de colores categóricos secuenciales
+
+## Teoría del color
+
+::: callout-important
+Los colores dependiendo el contexto tienen significado
+:::
 
 ## Deficiencia en la visión del color
 
@@ -131,7 +140,15 @@ Dependiendo el cono que les falta, las personas con DVC se les dificulta distigu
 Referencias: [Rueda de color Adobe](https://color.adobe.com/es/create/color-wheel), [Rueda de color Canva](https://www.canva.com/colors/color-wheel/)
 :::
 
-# 3 Mejores Prácticas en Visualización
+## A veces es mejor uso escaso del color
+
+![](images/uso%20de%20color.png){fig-align="center"}
+
+## Mal uso o sobreuso del color
+
+![](images/colorful_bullet_graph.png){fig-align="center"}
+
+# Mejores Prácticas en Visualización
 
 ## ¿Por qué mejores prácticas?
 
@@ -142,13 +159,15 @@ Referencias: [Rueda de color Adobe](https://color.adobe.com/es/create/color-whee
 
 ## Algunos problemas con atributos preatencionales
 
-Mezclando posición, color y forma no lo hace fácil leer. ¿Hay alternativa? +-------+--------+-------+ \| \| 2007 \| 2008 \| +-------+--------+-------+ \| A \| 100 \| 120 \| +-------+--------+-------+ \| B \| 70 \| 30 \| +-------+--------+-------+
+Mezclando posición, color y forma no lo hace fácil leer. ¿Hay alternativa?
+
++-------+--------+-------+ \| \| 2007 \| 2008 \| +-------+--------+-------+ \| A \| 100 \| 120 \| +-------+--------+-------+ \| B \| 70 \| 30 \| +-------+--------+-------+
 
 \[diferentes formas de ver los mismos datos\]
 
 > cada decisión trae un compromiso, y un significado generalmente distinto
 
-## Lineamientos en constucción de Dasboards
+## Lineamientos en constucción de Dashboards
 
 -   primero debe ser confiable y funcional
 -   Los elementos de diseño gráfico deben contribuir a la claridad del dashboard.
@@ -161,10 +180,6 @@ Mezclando posición, color y forma no lo hace fácil leer. ¿Hay alternativa? +-
 ## Escenario 2
 
 ## Escenario 3
-
-## Mal uso o sobreuso del color
-
-[![](images/colorful_bullet_graph.png){fig-align="center"}](https://www.storytellingwithdata.com/blog/what-is-a-bullet-graph)
 
 ## Dilema del Pie Chart o Gráfico de Torta
 
