@@ -4,7 +4,7 @@
 # author: "Rolando Mirabal"
 format:
   revealjs:
-    theme: simple
+    theme: dark
     transition: fade
     slide-number: TRUE
     footer: "[Analítica y Visualización de Datos](https://roammi.github.io/data_analytics_and_viz_module/)"
@@ -104,25 +104,42 @@ ahora, ¿puedes ver la diferencia? Ver los númberos en un gráfico muestra algo
 
 [^1]: [Amazon - Visualización de datos](https://aws.amazon.com/es/what-is/data-visualization/)
 
-## Visualización de Datos
-
 ::: incremental
 -   Requerirá convertir los datos en marcas en un lienzo
 
 -   ¿cuáles marcas hacen mayor sentido?
+
+-   ¿color?
+
+-   ¿texto?
 :::
 
-## Ciclo de Visualización de Datos
+# Análisis Visual de Datos
 
-![](images/10_data_Viz_process.png){fig-align="center"}
+## Análisis Visual de Datos
+
+> El análisis visual es un medio para explorar y comprender los datos. Respalda y acelera el proceso de análisis. Puede formular una pregunta, obtener la respuesta y hacer preguntas de seguimiento. Todo esto dentro de una interfaz visual. Se desarrolla una historia de un resumen visual a otro. Luego, puede volver sobre la historia para reflexionar sobre esta, explorar más y compartirla. En pocas palabras, el análisis visual le permite avanzar en cualquier dirección y seguir sus pensamientos mientras ve los datos e interactúa con ellos.[^2]
+
+[^2]: [Tableau - Análisis Visual de Datos](https://help.tableau.com/current/blueprint/es-es/bp_why_visual_analytics.htm)
+
+## Ciclo del Análisis Visual de Datos
+
+![](images/10_data_Viz_process.png){fig-align="center" width="350"}
+
+1.  Tareas y Preguntas
+2.  Obtener los datos
+3.  Elegir el mapeo visual
+4.  Ver datos
+5.  Desarrollar información
+6.  Actuar (compartir)
 
 ::: aside
-Lectura de apoyo: [Tableau - Ciclo de Visualización de Datos](https://help.tableau.com/current/blueprint/es-es/bp_cycle_of_visual_analysis.htm)
+Lectura asignada: [Tableau - Ciclo del Análisis Visual de Datos](https://help.tableau.com/current/blueprint/es-es/bp_cycle_of_visual_analysis.htm)
 :::
 
 # 3 ¿Cómo visualizamos los Datos?
 
-## Atributos preatentivos {transition="slide"}
+## Atributos preatentivos o preatencionales {transition="slide"}
 
 ::: fragment
 > Es aquello que nuestro cerebro procesa en milisegundos, antes de que pongamos atención a otras cosas.
@@ -130,7 +147,7 @@ Lectura de apoyo: [Tableau - Ciclo de Visualización de Datos](https://help.tabl
 > Dirigir la atención de la persona que está viendo.
 :::
 
-## Atributos preatentivos {transition="slide"}
+## Atributos preatentivos preatencionales {transition="slide"}
 
 ::: r-stack
 ![](images/01_how_many_9s.png){.fragment fig-align="center" width="800"}
@@ -161,7 +178,11 @@ Fuente: [Big Book of Dashboards](https://www.amazon.com/Big-Book-Dashboards-Visu
 
 ## Atributos preatentivos o preatencionales
 
-![](images/07_preatentive_features.jfif){fig-align="center" width="1025"}
+::: r-stack
+![](images/common-aesthetics-1.png){.fragment fig-align="center" width="1000"}
+
+![](images/07_preatentive_features.jfif){.fragment fig-align="center" width="1000"}
+:::
 
 ::: aside
 Fuente: [Big Book of Dashboards](https://www.amazon.com/Big-Book-Dashboards-Visualizing-Real-World/dp/1119282713/ref=sr_1_1?dchild=1&keywords=The+Big+Book+of+Dashboards&qid=1616510833&sr=8-1)
@@ -187,25 +208,39 @@ Lectura de apoyo: [Tableau - Atributos preatencionales](https://help.tableau.com
 -   Etiquetas mutuamente exlusivas
 -   Sin valores numéricos
 
-\[imagen djokovic o \]
+![](images/FiC4u5_XkAAfJbQ.jfif){fig-align="center" width="500"}
 
-¿qué datos nominales se tienen en la foto? nombre, profesión, fundación?, pais de origen? arrestado en enero,
+¿qué datos nominales se tienen en la foto?
+
+. . .
+
+nombre, profesión, fundación de niños, pais de origen, arrestado en enero
 
 ## Dimensiones- Datos Ordinales
 
 -   es sútil porque es similar a datos categóricos
 -   la diferencia es que tiene un ***orden*** claro
 
-\[imagen de modric\] año de nacimiento, torneos jugados, ganados, mundiales, delantero?, capitán
+![](images/luka_modric-545x907.webp){fig-align="center" width="500"}
+
+. . .
+
+Año de nacimiento, torneos jugados, ganados, mundiales, delantero, capitán
 
 ## Medidas - Datos Contínuos
 
 -   son números
 -   pueden ser medido y agregado.
 -   nos permite para los datos en medio
--   como hay un número infinito de posibles valores intermedios \[marcelo martins\] altura, pero cambia, peso, rentabilidad. monto de ventas
+-   como hay un número infinito de posibles valores intermedios, altura, pero cambia, peso, rentabilidad. monto de ventas
 
-! nota.- fecha es ordinal y cuantitativo, el tiempo puede ser ambos. Cuidado a como influencia en la elección de visualización.
+![](images/marcelo.webp){fig-align="center"}
+
+. . .
+
+nota.- fecha es ordinal y cuantitativo, el tiempo puede ser ambos. Cuidado a como influencia en la elección de visualización.
+
+[Revisar](https://wilkelab.org/SDS375/slides/visualizing-amounts.html#1)
 
 ## Medidas - Datos Discretos
 
@@ -214,9 +249,29 @@ Lectura de apoyo: [Tableau - Atributos preatencionales](https://help.tableau.com
 -   Predefinidos
 -   puntos exactos, no hay punto entre ellos (Enteros)
 
-\[mujer que se paró en SCZ\] fecha de nacimiento, altura, apareció N veces en el periódico, años que vive en SCZ. cantidad de ventas djokovic gana N copas, no n y medio
+. . .
 
-53 años
+![](images/97cbeb08-c1ae-4bda-b8a0-4434ad4d240c.jpg){fig-align="center"}
+
+Fecha de nacimiento, altura, apareció N veces en el periódico, años que vive en SCZ. cantidad de ventas
+
+Ejm.:
+
+-   Alicia Flores, de 82 años, que vive en Santa Cruz 52 años.
+
+-   Djokovic gana N copas, no n y medio
+
+## Mapeo Visual
+
+-   Comparación (mapeo visual en un gráfico de barras)
+
+-   Espacial (mapeo visual en un mapa)
+
+-   Temporal (mapeo visual en un gráfico de líneas)
+
+-   Comparación de dos medidas (mapeo visual en un diagrama de dispersión)
+
+-   Número exacto (mapeo visual en una tabla de texto
 
 ## Vocabulario Visual
 
@@ -224,109 +279,261 @@ Lectura de apoyo: [Tableau - Atributos preatencionales](https://help.tableau.com
 
 ![](images/vocabulario_visual.png){fig-align="center"}
 
-## Ejemplos, datos codificados en las Visualizaciones - Visualización
+## Datos codificados en las Visualizaciones {.scrollable}
 
--\> con los atributos preatencionales y los tipos de datos: cómo combinamos ese conocimiento en construir una gráfica, veamos como algunas gráficas codifican diferentes tipos de datos:
+-\> con los atributos preatencionales y los tipos de datos: cómo combinamos ese conocimiento en construir una gráfica, veamos como las gráficas codifican diferentes tipos de datos:
 
-## Tipos de variables en la Visualización 1
+![](images/1_case.png){fig-align="center"}
 
-| Datos | Tipos de datos | Codificación | Notas       |
-|-------|----------------|--------------|-------------|
-| esto  | Categórico     | Posición     | cada esto\| |
-|       |                |              |             |
-|       |                |              |             |
+\[Fuente\](http://lotrproject.com/blog/2013/03/12/character-mentions-in-the-hobbit/)
 
-## Tipos de variables en la Visualización 2
+# Tipos de gráficos - Cimientos
 
-| Datos | Tipos de datos | Codificación | Notas       |
-|-------|----------------|--------------|-------------|
-| esto  | Categórico     | Posición     | cada esto\| |
-|       |                |              |             |
-|       |                |              |             |
+> Gráficas con las que se puede cubrir la mayoría de las necesidades al visualizar los datos.
 
-## Tipos de variables en la Visualización 3
-
-| Datos | Tipos de datos | Codificación | Notas       |
-|-------|----------------|--------------|-------------|
-| esto  | Categórico     | Posición     | cada esto\| |
-|       |                |              |             |
-|       |                |              |             |
-
-# Tipos de gráficos
-
-## Diferentes Finalidades al Visualizar Datos
-
--   hay muchos tipos de gráficas, inclusive nuevos.
--   por qué un gráfico es elegido en un escenario en particular.
-
-\[imágen de un tablero de auto\]
-
-## Bloques Base de Construcción
-
-> Gráficas con las que se puede cubrir la mayoría de las necesidades al visualizar los datos. \[imagen?\] \## Gráfica de Barras
-
-## Gráfica de Series de Tiempo
-
-## Gráfica de Dispersión
-
-## Ploteo de Puntos
-
-## Mapa Clorofet o Rellenado
-
-## Mapa de símbolos
-
-## Tablas
-
-+-----+-----+-----+-----+
-| 111 | 131 | 202 | 215 |
-+-----+-----+-----+-----+
-| 77  | 88  | 33  | 11  |
-+-----+-----+-----+-----+
-| 13  | 41  | 123 | 321 |
-+-----+-----+-----+-----+
-
-## Tablas resaltadas
-
-+-----+-----+-----+-----+
-| 111 | 131 | 202 | 215 |
-+-----+-----+-----+-----+
-| 77  | 88  | 33  | 11  |
-+-----+-----+-----+-----+
-| 13  | 41  | 123 | 321 |
-+-----+-----+-----+-----+
-
-## Gráficas de Balas
-
-## Recursos Tipos de gráficos
+<b>Recursos: Catálogos de Tipos de gráficos</b>
 
 [URL - Material de Apoyo](https://rolandoamir.notion.site/Anal-tica-y-Visualizaci-n-de-Datos-Aplicaciones-b72aeb6460e34916a799fb79ed6afe99 "URL - Material de Apoyo")
 
-## Herramientas de Visualización de Datos
+## 1 Gráfica de Barras
 
-> Las herramientas de visualización de datos mejoran y automatizan el proceso de comunicación visual para lograr precisión y detalle. Puede utilizar las representaciones visuales para extraer información práctica a partir de datos sin procesar.[^2]
+```{r}
+library(ggplot2)
+library(tidyverse)
+library(palmerpenguins) 
+ggplot(data = penguins, aes(x = flipper_length_mm)) +
+  geom_histogram(aes(fill = species),
+                 alpha = 0.5,
+                 position = "identity") +
+  scale_fill_manual(values = c("darkorange","purple","cyan4")) +
+  theme_minimal() +
+  labs(x = "Flipper length (mm)",
+       y = "Frequency",
+       title = "Largo de la aleta de los Pinguinos")
+```
 
-[^2]: [Amazon - Visualización de datos](https://aws.amazon.com/es/what-is/data-visualization/)
+## 1 Gráfica de Barras
+
+```{r}
+mass_hist <- ggplot(data = penguins, aes(x = body_mass_g)) +
+  geom_histogram(aes(fill = species), 
+                 alpha = 0.5, 
+                 position = "identity") +
+  scale_fill_manual(values = c("darkorange","purple","cyan4")) +
+  labs(x = "Masa corporal (g)",
+       y = "Frequencia",
+       title = "Masa corporal del Pingüino")
+
+mass_hist
+#> `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+#> Warning: Removed 2 rows containing non-finite values (stat_bin).
+```
+
+## 1 Gráfica de Barras, aplicados de distinta forma
+
+![](images/BarHopping.png){fig-align="center"}
+
+## Video 3 - Los caídos de la segunda guerra mundial
+
+{{< video https://youtu.be/DwKPFT-RioU width="100%" height="85%" >}}
+
+## Quiz 1
+
+[enlace](https://docs.google.com/forms/d/e/1FAIpQLSfS16wLpWXlsqb6E8N-rGJRsodRY2owxcgzdm0jznxy0ZJ-2Q/viewform?authuser=0)
+
+## 2 Gráfica de Series de Tiempo
+
+```{r}
+#https://worldhappiness.report/ed/2022/happiness-benevolence-and-trust-during-covid-19-and-beyond/
+library(readr)
+library(dplyr)
+library(ggplot2)
+happiness <- read_csv("https://github.com/rocarvaj/rcd1-uai/raw/main/data/world-happiness/world-happiness-report.csv")
+happiness %>% 
+  filter(`Country name` %in% c("Chile", "Argentina", "Bolivia")) %>% 
+  ggplot(aes(x = year,
+             y = Generosity,
+             color = `Country name`))+
+  geom_line(size = 2) + 
+  labs(x = "Año",
+       y = "Generosidad",
+       title = "Generocidad del Reporte de Felicidad Mundial",
+       color = "País") +
+  geom_line()
+```
+
+## Gráfica de Series de Tiempo {.scrollable}
 
 ::: columns
-::: {.column width="25%"}
--   Tableau
-
--   Power BI
-
--   R - GGPlot
-
--   Python -
-
--   Oracle Analytics
-
--   Qlick Sense
-
--   DJ3s
+::: {.column width="50%"}
+![](images/Fig.2.3.webp){width="900"}
 :::
 
+::: {.column width="50%"}
+![](images/Fig.2.4.webp){width="900"}
+:::
+:::
+
+::: aside
+Fuente: [World Happiness Record](https://worldhappiness.report/ed/2022/happiness-benevolence-and-trust-during-covid-19-and-beyond/)
+:::
+
+## Gráfica de Dispersión
+
+::: columns
 ::: {.column width="75%"}
+```{r, fig.width = 14, fig.height = 10}
+#https://allisonhorst.github.io/palmerpenguins/articles/examples.html
+ 
+flipper_bill <- ggplot(data = penguins,
+                         aes(x = flipper_length_mm,
+                             y = bill_length_mm)) +
+  geom_point(aes(color = species, 
+                 shape = species),
+             size = 3,
+             alpha = 0.8) +
+  scale_color_manual(values = c("darkorange","purple","cyan4")) +
+  labs(title = "Largo de la aleta y Largo del pico",
+       subtitle = "Dimensiones para los Pingüinos Adelie, Chinstrap y Gentoo en la Estación Palmer LTER",
+       x = "Largo de la aleta (mm)",
+       y = "Largo del pico (mm)",
+       color = "Especies de Pingüinos ",
+       shape = "Especies de Pingüinos") +
+  theme(legend.position = c(0.85, 0.15),
+        plot.title.position = "plot",
+        plot.caption = element_text(hjust = 0, face= "italic"),
+        plot.caption.position = "plot")
+
+flipper_bill
+#> Warning: Removed 2 rows containing missing values (geom_point).
+```
+:::
+
+::: {.column width="25%"}
+![](images/culmen_depth.png){fig-align="center" width="600"}
 :::
 :::
+
+## Mapa Clorofet o Rellenado
+
+```{python}
+import geopandas as gpd
+import matplotlib.pyplot as plt
+world = gpd.read_file(gpd.datasets.get_path('naturalearth_lowres'))
+cities = gpd.read_file(gpd.datasets.get_path('naturalearth_cities'))
+world = world[(world.pop_est>0) & (world.name!="Antarctica")]
+world['gdp_per_cap'] = world.gdp_md_est / world.pop_est
+fig, ax = plt.subplots(1, 1)
+
+world.plot(column='gdp_per_cap',
+           ax=ax,
+           legend=True,
+           legend_kwds={'label': "GDP per capita by Country",
+                        'orientation': "horizontal"})
+
+```
+
+## Mapa de símbolos
+
+```{python}
+import folium 
+m = folium.Map(location=[20,0], tiles="OpenStreetMap", zoom_start=2)
+import pandas as pd
+data = pd.DataFrame({
+   'lon':[-58, 2, 145, 30.32, -4.03, -73.57, 36.82, -38.5],
+   'lat':[-34, 49, -38, 59.93, 5.33, 45.52, -1.29, -12.97],
+   'name':['Buenos Aires', 'Paris', 'melbourne', 'St Petersbourg', 'Abidjan', 'Montreal', 'Nairobi', 'Salvador'],
+   'value':[10, 12, 40, 70, 23, 43, 100, 43]
+}, dtype=str)
+
+
+for i in range(0,len(data)):
+   folium.Circle(
+      location=[data.iloc[i]['lat'], data.iloc[i]['lon']],
+      popup=data.iloc[i]['name'],
+      radius=float(data.iloc[i]['value'])*20000,
+      color='crimson',
+      fill=True,
+      fill_color='crimson'
+   ).add_to(m)
+   
+   m
+```
+
+## Diagrama de caja
+
+```{r}
+flipper_box <- ggplot(data = penguins, aes(x = species, y = flipper_length_mm)) +
+  geom_boxplot(aes(color = species), width = 0.3, show.legend = FALSE) +
+  geom_jitter(aes(color = species), alpha = 0.5, show.legend = FALSE, position = position_jitter(width = 0.2, seed = 0)) +
+  scale_color_manual(values = c("darkorange","purple","cyan4")) +
+  labs(x = "Especies de Pingüinos",
+       y = "Largo de la aleta (mm)")
+
+flipper_box
+#> Warning: Removed 2 rows containing non-finite values (stat_boxplot).
+#> Warning: Removed 2 rows containing missing values (geom_point).
+```
+
+## Tablas
+
+```{r}
+penguins_cor <- penguins %>%
+                select(bill_length_mm ,bill_depth_mm,flipper_length_mm,body_mass_g) %>%
+                drop_na() %>%
+                cor() %>%
+                round(2)
+
+knitr::kable(penguins_cor, digits = 2)
+```
+
+## Tablas resaltadas
+
+```{r}
+library(ggcorrplot)
+penguins_cor <- penguins %>%
+                select(bill_length_mm ,bill_depth_mm,flipper_length_mm,body_mass_g) %>%
+                drop_na() %>%
+                cor() %>%
+                round(2)
+
+ggcorrplot(penguins_cor,
+           outline.col = "white",
+           ggtheme = ggplot2::theme_gray,
+           colors = c("blue", "white", "red"),
+           lab = TRUE)
+```
+
+## Ploteo de puntos
+
+```{r}
+ggcorrplot(penguins_cor, method = "circle")
+
+```
+
+## Gráficas de Balas
+
+![](images/bullet_graph.png){fig-align="center"}
+
+## Herramientas de Visualización de Datos
+
+> Las herramientas de visualización de datos mejoran y automatizan el proceso de comunicación visual para lograr precisión y detalle. Puede utilizar las representaciones visuales para extraer información práctica a partir de datos sin procesar.[^3]
+
+[^3]: [Amazon - Visualización de datos](https://aws.amazon.com/es/what-is/data-visualization/)
+
+-   [Tableau](https://www.tableau.com/es-es/why-tableau/what-is-tableau)
+
+-   [Power BI](https://powerbi.microsoft.com/es-es/)
+
+-   [R - GGPlot2](https://ggplot2.tidyverse.org/)
+
+-   [Python - Seaborn](https://seaborn.pydata.org/)
+
+-   [Oracle Analytics](https://www.oracle.com/business-analytics/)
+
+-   [Qlick Sense](https://www.qlik.com/es-es/products/qlik-sense)
+
+-   [DJ3s](https://d3js.org/)
 
 ## Tarea 2
 
@@ -337,3 +544,5 @@ Archivo Excel en google classroom.
 ## Lectura para siguiente clase
 
 [Capítulo 3 - R para ciencia de datos](https://es.r4ds.hadley.nz/visualizaci%C3%B3n-de-datos.html){preview-link="true" style="text-align: center"}
+
+[ciclo de análisis de datos](https://help.tableau.com/current/blueprint/es-es/bp_cycle_of_visual_analysis.htm)

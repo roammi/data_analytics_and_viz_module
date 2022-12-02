@@ -20,7 +20,7 @@ editor: visual
 
 <h3>Rolando Mirabal, Desarrollador de Insights Senior en Viva</h3>
 
-<h3>`02/12/2022`</h3>
+<h3>`01/12/2022`</h3>
 
 <br>
 
@@ -89,9 +89,9 @@ Fuente: [Storytelling with Data](https://www.storytellingwithdata.com/blog/2014/
 
 -   atrae la atención del lecto, resalta una porción de los datos, distinguir entre diferentes categorías.
 
-## Uso del color en la visualización de datos
+## Uso del Color
 
-\*\* gráfica de uso del color en visualización de datos
+![](images/08_color_use.jfif){fig-align="center"}
 
 ## Color Secuencial
 

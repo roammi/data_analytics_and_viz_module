@@ -6,7 +6,7 @@
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.2.269">
 
   <title>Analítica y Visualización de Datos, Aplicaciones – u1-d02-foundamentals_on_data_viz</title>
@@ -321,7 +321,7 @@
   <script src="../../../site_libs/kePrint-0.0.1/kePrint.js"></script>
   <link href="../../../site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
 </head>
-<body class="quarto-light">
+<body class="quarto-dark">
   <div class="reveal">
     <div class="slides">
 
@@ -644,35 +644,53 @@ Rolando Mirabal, Desarrollador de Insights Senior en Viva
 <blockquote>
 <p>La visualización de datos es el proceso de utilizar elementos visuales como gráficos o mapas para representar datos. De esta manera, se trasladan datos complejos, de alto volumen o numéricos a una representación visual más fácil de procesar.<sup>1</sup></p>
 </blockquote>
-</div>
-<aside><ol class="aside-footnotes"><li id="fn1"><p><a href="https://aws.amazon.com/es/what-is/data-visualization/">Amazon - Visualización de datos</a></p></li></ol></aside></section>
-<section id="visualización-de-datos-1" class="slide level2">
-<h2>Visualización de Datos</h2>
 <div>
 <ul>
 <li class="fragment"><p>Requerirá convertir los datos en marcas en un lienzo</p></li>
 <li class="fragment"><p>¿cuáles marcas hacen mayor sentido?</p></li>
+<li class="fragment"><p>¿color?</p></li>
+<li class="fragment"><p>¿texto?</p></li>
 </ul>
 </div>
+</div>
+<aside><ol class="aside-footnotes"><li id="fn1"><p><a href="https://aws.amazon.com/es/what-is/data-visualization/">Amazon - Visualización de datos</a></p></li></ol></aside></section></section>
+<section>
+<section id="análisis-visual-de-datos" class="title-slide slide level1 center">
+<h1>Análisis Visual de Datos</h1>
+
 </section>
-<section id="ciclo-de-visualización-de-datos" class="slide level2">
-<h2>Ciclo de Visualización de Datos</h2>
+<section id="análisis-visual-de-datos-1" class="slide level2">
+<h2>Análisis Visual de Datos</h2>
+<blockquote>
+<p>El análisis visual es un medio para explorar y comprender los datos. Respalda y acelera el proceso de análisis. Puede formular una pregunta, obtener la respuesta y hacer preguntas de seguimiento. Todo esto dentro de una interfaz visual. Se desarrolla una historia de un resumen visual a otro. Luego, puede volver sobre la historia para reflexionar sobre esta, explorar más y compartirla. En pocas palabras, el análisis visual le permite avanzar en cualquier dirección y seguir sus pensamientos mientras ve los datos e interactúa con ellos.<sup>1</sup></p>
+</blockquote>
+<aside><ol class="aside-footnotes"><li id="fn2"><p><a href="https://help.tableau.com/current/blueprint/es-es/bp_why_visual_analytics.htm">Tableau - Análisis Visual de Datos</a></p></li></ol></aside></section>
+<section id="ciclo-del-análisis-visual-de-datos" class="slide level2">
+<h2>Ciclo del Análisis Visual de Datos</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/10_data_Viz_process.png"></p>
+<p><img data-src="images/10_data_Viz_process.png" width="350"></p>
 </figure>
 </div>
+<ol type="1">
+<li>Tareas y Preguntas</li>
+<li>Obtener los datos</li>
+<li>Elegir el mapeo visual</li>
+<li>Ver datos</li>
+<li>Desarrollar información</li>
+<li>Actuar (compartir)</li>
+</ol>
 
 <aside><div>
-<p>Lectura de apoyo: <a href="https://help.tableau.com/current/blueprint/es-es/bp_cycle_of_visual_analysis.htm">Tableau - Ciclo de Visualización de Datos</a></p>
+<p>Lectura asignada: <a href="https://help.tableau.com/current/blueprint/es-es/bp_cycle_of_visual_analysis.htm">Tableau - Ciclo del Análisis Visual de Datos</a></p>
 </div></aside></section></section>
 <section>
 <section id="cómo-visualizamos-los-datos" class="title-slide slide level1 center">
 <h1>3 ¿Cómo visualizamos los Datos?</h1>
 
 </section>
-<section id="atributos-preatentivos" class="slide level2" data-transition="slide">
-<h2>Atributos preatentivos</h2>
+<section id="atributos-preatentivos-o-preatencionales" class="slide level2" data-transition="slide">
+<h2>Atributos preatentivos o preatencionales</h2>
 <div class="fragment">
 <blockquote>
 <p>Es aquello que nuestro cerebro procesa en milisegundos, antes de que pongamos atención a otras cosas.</p>
@@ -680,8 +698,8 @@ Rolando Mirabal, Desarrollador de Insights Senior en Viva
 </blockquote>
 </div>
 </section>
-<section id="atributos-preatentivos-1" class="slide level2" data-transition="slide">
-<h2>Atributos preatentivos</h2>
+<section id="atributos-preatentivos-preatencionales" class="slide level2" data-transition="slide">
+<h2>Atributos preatentivos preatencionales</h2>
 <div class="r-stack">
 <div class="quarto-figure quarto-figure-center">
 <figure>
@@ -736,12 +754,19 @@ Rolando Mirabal, Desarrollador de Insights Senior en Viva
 <aside><div>
 <p>Fuente: <a href="https://www.amazon.com/Big-Book-Dashboards-Visualizing-Real-World/dp/1119282713/ref=sr_1_1?dchild=1&amp;keywords=The+Big+Book+of+Dashboards&amp;qid=1616510833&amp;sr=8-1">Big Book of Dashboards</a></p>
 </div></aside></section>
-<section id="atributos-preatentivos-o-preatencionales" class="slide level2">
+<section id="atributos-preatentivos-o-preatencionales-1" class="slide level2">
 <h2>Atributos preatentivos o preatencionales</h2>
+<div class="r-stack">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/07_preatentive_features.jfif" width="1025"></p>
+<p><img data-src="images/common-aesthetics-1.png" class="fragment" width="1000"></p>
 </figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/07_preatentive_features.jfif" class="fragment" width="1000"></p>
+</figure>
+</div>
 </div>
 
 <aside><div>
@@ -780,8 +805,11 @@ Rolando Mirabal, Desarrollador de Insights Senior en Viva
 <li>Etiquetas mutuamente exlusivas</li>
 <li>Sin valores numéricos</li>
 </ul>
-<p>[imagen djokovic o ]</p>
-<p>¿qué datos nominales se tienen en la foto? nombre, profesión, fundación?, pais de origen? arrestado en enero,</p>
+
+<img data-src="images/FiC4u5_XkAAfJbQ.jfif" width="500" class="r-stretch quarto-figure-center"><p>¿qué datos nominales se tienen en la foto?</p>
+<div class="fragment">
+<p>nombre, profesión, fundación de niños, pais de origen, arrestado en enero</p>
+</div>
 </section>
 <section id="dimensiones--datos-ordinales" class="slide level2">
 <h2>Dimensiones- Datos Ordinales</h2>
@@ -789,7 +817,10 @@ Rolando Mirabal, Desarrollador de Insights Senior en Viva
 <li>es sútil porque es similar a datos categóricos</li>
 <li>la diferencia es que tiene un <strong><em>orden</em></strong> claro</li>
 </ul>
-<p>[imagen de modric] año de nacimiento, torneos jugados, ganados, mundiales, delantero?, capitán</p>
+
+<img data-src="images/luka_modric-545x907.webp" width="500" class="r-stretch quarto-figure-center"><div class="fragment">
+<p>Año de nacimiento, torneos jugados, ganados, mundiales, delantero, capitán</p>
+</div>
 </section>
 <section id="medidas---datos-contínuos" class="slide level2">
 <h2>Medidas - Datos Contínuos</h2>
@@ -797,9 +828,13 @@ Rolando Mirabal, Desarrollador de Insights Senior en Viva
 <li>son números</li>
 <li>pueden ser medido y agregado.</li>
 <li>nos permite para los datos en medio</li>
-<li>como hay un número infinito de posibles valores intermedios [marcelo martins] altura, pero cambia, peso, rentabilidad. monto de ventas</li>
+<li>como hay un número infinito de posibles valores intermedios, altura, pero cambia, peso, rentabilidad. monto de ventas</li>
 </ul>
-<p>! nota.- fecha es ordinal y cuantitativo, el tiempo puede ser ambos. Cuidado a como influencia en la elección de visualización.</p>
+
+<img data-src="images/marcelo.webp" class="r-stretch quarto-figure-center"><div class="fragment">
+<p>nota.- fecha es ordinal y cuantitativo, el tiempo puede ser ambos. Cuidado a como influencia en la elección de visualización.</p>
+<p><a href="https://wilkelab.org/SDS375/slides/visualizing-amounts.html#1">Revisar</a></p>
+</div>
 </section>
 <section id="medidas---datos-discretos" class="slide level2">
 <h2>Medidas - Datos Discretos</h2>
@@ -809,241 +844,433 @@ Rolando Mirabal, Desarrollador de Insights Senior en Viva
 <li>Predefinidos</li>
 <li>puntos exactos, no hay punto entre ellos (Enteros)</li>
 </ul>
-<p>[mujer que se paró en SCZ] fecha de nacimiento, altura, apareció N veces en el periódico, años que vive en SCZ. cantidad de ventas djokovic gana N copas, no n y medio</p>
-<p>53 años</p>
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/97cbeb08-c1ae-4bda-b8a0-4434ad4d240c.jpg"></p>
+</figure>
+</div>
+<p>Fecha de nacimiento, altura, apareció N veces en el periódico, años que vive en SCZ. cantidad de ventas</p>
+<p>Ejm.:</p>
+<ul>
+<li><p>Alicia Flores, de 82 años, que vive en Santa Cruz 52 años.</p></li>
+<li><p>Djokovic gana N copas, no n y medio</p></li>
+</ul>
+</div>
+</section>
+<section id="mapeo-visual" class="slide level2">
+<h2>Mapeo Visual</h2>
+<ul>
+<li><p>Comparación (mapeo visual en un gráfico de barras)</p></li>
+<li><p>Espacial (mapeo visual en un mapa)</p></li>
+<li><p>Temporal (mapeo visual en un gráfico de líneas)</p></li>
+<li><p>Comparación de dos medidas (mapeo visual en un diagrama de dispersión)</p></li>
+<li><p>Número exacto (mapeo visual en una tabla de texto</p></li>
+</ul>
 </section>
 <section id="vocabulario-visual" class="slide level2">
 <h2>Vocabulario Visual</h2>
 <p><a href="https://public.tableau.com/app/profile/diego.parker/viz/VocabularioVisualES/VisualVocabulary">Enlace</a></p>
 
 <img data-src="images/vocabulario_visual.png" class="r-stretch quarto-figure-center"></section>
-<section id="ejemplos-datos-codificados-en-las-visualizaciones---visualización" class="slide level2">
-<h2>Ejemplos, datos codificados en las Visualizaciones - Visualización</h2>
-<p>-&gt; con los atributos preatencionales y los tipos de datos: cómo combinamos ese conocimiento en construir una gráfica, veamos como algunas gráficas codifican diferentes tipos de datos:</p>
-</section>
-<section id="tipos-de-variables-en-la-visualización-1" class="slide level2">
-<h2>Tipos de variables en la Visualización 1</h2>
-<table>
-<thead>
-<tr class="header">
-<th>Datos</th>
-<th>Tipos de datos</th>
-<th>Codificación</th>
-<th>Notas</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>esto</td>
-<td>Categórico</td>
-<td>Posición</td>
-<td>cada esto|</td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="tipos-de-variables-en-la-visualización-2" class="slide level2">
-<h2>Tipos de variables en la Visualización 2</h2>
-<table>
-<thead>
-<tr class="header">
-<th>Datos</th>
-<th>Tipos de datos</th>
-<th>Codificación</th>
-<th>Notas</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>esto</td>
-<td>Categórico</td>
-<td>Posición</td>
-<td>cada esto|</td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="tipos-de-variables-en-la-visualización-3" class="slide level2">
-<h2>Tipos de variables en la Visualización 3</h2>
-<table>
-<thead>
-<tr class="header">
-<th>Datos</th>
-<th>Tipos de datos</th>
-<th>Codificación</th>
-<th>Notas</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>esto</td>
-<td>Categórico</td>
-<td>Posición</td>
-<td>cada esto|</td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<section id="datos-codificados-en-las-visualizaciones" class="slide level2 scrollable">
+<h2>Datos codificados en las Visualizaciones</h2>
+<p>-&gt; con los atributos preatencionales y los tipos de datos: cómo combinamos ese conocimiento en construir una gráfica, veamos como las gráficas codifican diferentes tipos de datos:</p>
+
+<img data-src="images/1_case.png" class="r-stretch quarto-figure-center"><p>[Fuente](http://lotrproject.com/blog/2013/03/12/character-mentions-in-the-hobbit/)</p>
 </section></section>
 <section>
-<section id="tipos-de-gráficos" class="title-slide slide level1 center">
-<h1>Tipos de gráficos</h1>
-
-</section>
-<section id="diferentes-finalidades-al-visualizar-datos" class="slide level2">
-<h2>Diferentes Finalidades al Visualizar Datos</h2>
-<ul>
-<li>hay muchos tipos de gráficas, inclusive nuevos.</li>
-<li>por qué un gráfico es elegido en un escenario en particular.</li>
-</ul>
-<p>[imágen de un tablero de auto]</p>
-</section>
-<section id="bloques-base-de-construcción" class="slide level2">
-<h2>Bloques Base de Construcción</h2>
+<section id="tipos-de-gráficos---cimientos" class="title-slide slide level1 center">
+<h1>Tipos de gráficos - Cimientos</h1>
 <blockquote>
-<p>Gráficas con las que se puede cubrir la mayoría de las necesidades al visualizar los datos. [imagen?] ## Gráfica de Barras</p>
+<p>Gráficas con las que se puede cubrir la mayoría de las necesidades al visualizar los datos.</p>
 </blockquote>
+<p><b>Recursos: Catálogos de Tipos de gráficos</b></p>
+<p><a href="https://rolandoamir.notion.site/Anal-tica-y-Visualizaci-n-de-Datos-Aplicaciones-b72aeb6460e34916a799fb79ed6afe99" title="URL - Material de Apoyo">URL - Material de Apoyo</a></p>
+</section>
+<section id="gráfica-de-barras" class="slide level2">
+<h2>1 Gráfica de Barras</h2>
+
+<img data-src="u1-d02-Foundamentals_on_data_viz_files/figure-revealjs/unnamed-chunk-4-1.png" width="960" class="r-stretch"></section>
+<section id="gráfica-de-barras-1" class="slide level2">
+<h2>1 Gráfica de Barras</h2>
+
+<img data-src="u1-d02-Foundamentals_on_data_viz_files/figure-revealjs/unnamed-chunk-5-1.png" width="960" class="r-stretch"></section>
+<section id="gráfica-de-barras-aplicados-de-distinta-forma" class="slide level2">
+<h2>1 Gráfica de Barras, aplicados de distinta forma</h2>
+
+<img data-src="images/BarHopping.png" class="r-stretch quarto-figure-center"></section>
+<section id="video-3---los-caídos-de-la-segunda-guerra-mundial" class="slide level2">
+<h2>Video 3 - Los caídos de la segunda guerra mundial</h2>
+<iframe src="https://www.youtube.com/embed/DwKPFT-RioU" width="100%" height="85%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</section>
+<section id="quiz-1" class="slide level2">
+<h2>Quiz 1</h2>
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfS16wLpWXlsqb6E8N-rGJRsodRY2owxcgzdm0jznxy0ZJ-2Q/viewform?authuser=0">enlace</a></p>
 </section>
 <section id="gráfica-de-series-de-tiempo" class="slide level2">
+<h2>2 Gráfica de Series de Tiempo</h2>
+
+<img data-src="u1-d02-Foundamentals_on_data_viz_files/figure-revealjs/unnamed-chunk-6-1.png" width="960" class="r-stretch"></section>
+<section id="gráfica-de-series-de-tiempo-1" class="slide level2 scrollable">
 <h2>Gráfica de Series de Tiempo</h2>
-</section>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/Fig.2.3.webp" width="900"></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/Fig.2.4.webp" width="900"></p>
+</div>
+</div>
+
+<aside><div>
+<p>Fuente: <a href="https://worldhappiness.report/ed/2022/happiness-benevolence-and-trust-during-covid-19-and-beyond/">World Happiness Record</a></p>
+</div></aside></section>
 <section id="gráfica-de-dispersión" class="slide level2">
 <h2>Gráfica de Dispersión</h2>
-</section>
-<section id="ploteo-de-puntos" class="slide level2">
-<h2>Ploteo de Puntos</h2>
+<div class="columns">
+<div class="column" style="width:75%;">
+<div class="cell">
+<div class="cell-output-display">
+<p><img data-src="u1-d02-Foundamentals_on_data_viz_files/figure-revealjs/unnamed-chunk-7-1.png" width="1344"></p>
+</div>
+</div>
+</div><div class="column" style="width:25%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/culmen_depth.png" width="600"></p>
+</figure>
+</div>
+</div>
+</div>
 </section>
 <section id="mapa-clorofet-o-rellenado" class="slide level2">
 <h2>Mapa Clorofet o Rellenado</h2>
-</section>
+
+<img data-src="u1-d02-Foundamentals_on_data_viz_files/figure-revealjs/unnamed-chunk-8-1.png" width="960" class="r-stretch"></section>
 <section id="mapa-de-símbolos" class="slide level2">
 <h2>Mapa de símbolos</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div style="width:100%;"><div style="position:relative;width:100%;height:0;padding-bottom:60%;"><span style="color:#565656">Make this Notebook Trusted to load map: File -&gt; Trust Notebook</span><iframe srcdoc="<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot; />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src=&quot;https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js&quot;></script>
+    <script src=&quot;https://code.jquery.com/jquery-1.12.4.min.js&quot;></script>
+    <script src=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js&quot;></script>
+    <script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js&quot;></script>
+    <link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css&quot;/>
+    <link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css&quot;/>
+    <link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css&quot;/>
+    <link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css&quot;/>
+    <link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css&quot;/>
+    <link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css&quot;/>
+    
+            <meta name=&quot;viewport&quot; content=&quot;width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; />
+            <style>
+                #map_a7507390395abfb87b41d6bd5843fc4a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class=&quot;folium-map&quot; id=&quot;map_a7507390395abfb87b41d6bd5843fc4a&quot; ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a7507390395abfb87b41d6bd5843fc4a = L.map(
+                &quot;map_a7507390395abfb87b41d6bd5843fc4a&quot;,
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_96ffa7c68ad52ad98c456e1f546bc22e = L.tileLayer(
+                &quot;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,
+                {&quot;attribution&quot;: &quot;Data by \u0026copy; \u003ca href=\&quot;http://openstreetmap.org\&quot;\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\&quot;http://www.openstreetmap.org/copyright\&quot;\u003eODbL\u003c/a\u003e.&quot;, &quot;detectRetina&quot;: false, &quot;maxNativeZoom&quot;: 18, &quot;maxZoom&quot;: 18, &quot;minZoom&quot;: 0, &quot;noWrap&quot;: false, &quot;opacity&quot;: 1, &quot;subdomains&quot;: &quot;abc&quot;, &quot;tms&quot;: false}
+            ).addTo(map_a7507390395abfb87b41d6bd5843fc4a);
+        
+    
+            var circle_d984826cab45c24bcc5287c6fdb8a336 = L.circle(
+                [-34.0, -58.0],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;crimson&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;crimson&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 200000.0, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_a7507390395abfb87b41d6bd5843fc4a);
+        
+    
+        var popup_5f04e058a46b22da6913f47459f0f577 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_cbfb393caf9a9ec61be0ddc2ca496fa7 = $(`<div id=&quot;html_cbfb393caf9a9ec61be0ddc2ca496fa7&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Buenos Aires</div>`)[0];
+                popup_5f04e058a46b22da6913f47459f0f577.setContent(html_cbfb393caf9a9ec61be0ddc2ca496fa7);
+            
+        
+
+        circle_d984826cab45c24bcc5287c6fdb8a336.bindPopup(popup_5f04e058a46b22da6913f47459f0f577)
+        ;
+
+        
+    
+    
+            var circle_3f8fe8f903d444bdbddf144d25626cc7 = L.circle(
+                [49.0, 2.0],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;crimson&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;crimson&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 240000.0, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_a7507390395abfb87b41d6bd5843fc4a);
+        
+    
+        var popup_b1237965efcb2d8d2e43f000c4116467 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_b48a25bc0f4c2616110871fa39a0142e = $(`<div id=&quot;html_b48a25bc0f4c2616110871fa39a0142e&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Paris</div>`)[0];
+                popup_b1237965efcb2d8d2e43f000c4116467.setContent(html_b48a25bc0f4c2616110871fa39a0142e);
+            
+        
+
+        circle_3f8fe8f903d444bdbddf144d25626cc7.bindPopup(popup_b1237965efcb2d8d2e43f000c4116467)
+        ;
+
+        
+    
+    
+            var circle_ea87837afb60faf074a24f1033528734 = L.circle(
+                [-38.0, 145.0],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;crimson&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;crimson&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 800000.0, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_a7507390395abfb87b41d6bd5843fc4a);
+        
+    
+        var popup_071e0cb4594d1c7dfd18de8377a2857c = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_e6819810ddacca2f44c66e8b52804cf9 = $(`<div id=&quot;html_e6819810ddacca2f44c66e8b52804cf9&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>melbourne</div>`)[0];
+                popup_071e0cb4594d1c7dfd18de8377a2857c.setContent(html_e6819810ddacca2f44c66e8b52804cf9);
+            
+        
+
+        circle_ea87837afb60faf074a24f1033528734.bindPopup(popup_071e0cb4594d1c7dfd18de8377a2857c)
+        ;
+
+        
+    
+    
+            var circle_2e432b1715ad798365d7e1dad3e60840 = L.circle(
+                [59.93, 30.32],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;crimson&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;crimson&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 1400000.0, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_a7507390395abfb87b41d6bd5843fc4a);
+        
+    
+        var popup_d6c56b9d196194fbd8a969417a92caef = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_d3d7ea05018a91c877632c9d250f4dd0 = $(`<div id=&quot;html_d3d7ea05018a91c877632c9d250f4dd0&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>St Petersbourg</div>`)[0];
+                popup_d6c56b9d196194fbd8a969417a92caef.setContent(html_d3d7ea05018a91c877632c9d250f4dd0);
+            
+        
+
+        circle_2e432b1715ad798365d7e1dad3e60840.bindPopup(popup_d6c56b9d196194fbd8a969417a92caef)
+        ;
+
+        
+    
+    
+            var circle_3755260b5132388556bd3281a2e53a9b = L.circle(
+                [5.33, -4.03],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;crimson&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;crimson&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 460000.0, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_a7507390395abfb87b41d6bd5843fc4a);
+        
+    
+        var popup_5caa8174d74676819b376e73eabfbfde = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_97f6745829b39c05119d47e358f1c144 = $(`<div id=&quot;html_97f6745829b39c05119d47e358f1c144&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Abidjan</div>`)[0];
+                popup_5caa8174d74676819b376e73eabfbfde.setContent(html_97f6745829b39c05119d47e358f1c144);
+            
+        
+
+        circle_3755260b5132388556bd3281a2e53a9b.bindPopup(popup_5caa8174d74676819b376e73eabfbfde)
+        ;
+
+        
+    
+    
+            var circle_44cd1b4b49c4b33c8e4bc379014e5474 = L.circle(
+                [45.52, -73.57],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;crimson&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;crimson&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 860000.0, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_a7507390395abfb87b41d6bd5843fc4a);
+        
+    
+        var popup_07febad95cc831a565a2c505e084b401 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_f824f3de4910f027a55ea6e60fcc526a = $(`<div id=&quot;html_f824f3de4910f027a55ea6e60fcc526a&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Montreal</div>`)[0];
+                popup_07febad95cc831a565a2c505e084b401.setContent(html_f824f3de4910f027a55ea6e60fcc526a);
+            
+        
+
+        circle_44cd1b4b49c4b33c8e4bc379014e5474.bindPopup(popup_07febad95cc831a565a2c505e084b401)
+        ;
+
+        
+    
+    
+            var circle_93a92f9c4851f0bc6a8e82b88870a4f7 = L.circle(
+                [-1.29, 36.82],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;crimson&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;crimson&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 2000000.0, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_a7507390395abfb87b41d6bd5843fc4a);
+        
+    
+        var popup_1252b0cbf4298fcf97842e26492f1239 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_2598c55b1f7b16cffef61a42d3e407a2 = $(`<div id=&quot;html_2598c55b1f7b16cffef61a42d3e407a2&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Nairobi</div>`)[0];
+                popup_1252b0cbf4298fcf97842e26492f1239.setContent(html_2598c55b1f7b16cffef61a42d3e407a2);
+            
+        
+
+        circle_93a92f9c4851f0bc6a8e82b88870a4f7.bindPopup(popup_1252b0cbf4298fcf97842e26492f1239)
+        ;
+
+        
+    
+    
+            var circle_71451d84e5081528c1ce47ac57b8742c = L.circle(
+                [-12.97, -38.5],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;crimson&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;crimson&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 860000.0, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_a7507390395abfb87b41d6bd5843fc4a);
+        
+    
+        var popup_72b4fc03ba8907c2ba8a150849e2a832 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_9a71a65d31ad99b9f9cc597f892c2edc = $(`<div id=&quot;html_9a71a65d31ad99b9f9cc597f892c2edc&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Salvador</div>`)[0];
+                popup_72b4fc03ba8907c2ba8a150849e2a832.setContent(html_9a71a65d31ad99b9f9cc597f892c2edc);
+            
+        
+
+        circle_71451d84e5081528c1ce47ac57b8742c.bindPopup(popup_72b4fc03ba8907c2ba8a150849e2a832)
+        ;
+
+        
+    
+</script>
+</html>" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""></iframe></div></div>
+</div>
+</div>
 </section>
+<section id="diagrama-de-caja" class="slide level2">
+<h2>Diagrama de caja</h2>
+
+<img data-src="u1-d02-Foundamentals_on_data_viz_files/figure-revealjs/unnamed-chunk-10-3.png" width="960" class="r-stretch"></section>
 <section id="tablas" class="slide level2">
 <h2>Tablas</h2>
-<table style="width:33%;">
-<colgroup>
-<col style="width: 8%">
-<col style="width: 8%">
-<col style="width: 8%">
-<col style="width: 8%">
-</colgroup>
+<div class="cell">
+<div class="cell-output-display">
+
+<table>
+ <thead>
+  <tr>
+   <th style="text-align:left;">   </th>
+   <th style="text-align:right;"> bill_length_mm </th>
+   <th style="text-align:right;"> bill_depth_mm </th>
+   <th style="text-align:right;"> flipper_length_mm </th>
+   <th style="text-align:right;"> body_mass_g </th>
+  </tr>
+ </thead>
 <tbody>
-<tr class="odd">
-<td>111</td>
-<td>131</td>
-<td>202</td>
-<td>215</td>
-</tr>
-<tr class="even">
-<td>77</td>
-<td>88</td>
-<td>33</td>
-<td>11</td>
-</tr>
-<tr class="odd">
-<td>13</td>
-<td>41</td>
-<td>123</td>
-<td>321</td>
-</tr>
+  <tr>
+   <td style="text-align:left;"> bill_length_mm </td>
+   <td style="text-align:right;"> 1.00 </td>
+   <td style="text-align:right;"> -0.24 </td>
+   <td style="text-align:right;"> 0.66 </td>
+   <td style="text-align:right;"> 0.60 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> bill_depth_mm </td>
+   <td style="text-align:right;"> -0.24 </td>
+   <td style="text-align:right;"> 1.00 </td>
+   <td style="text-align:right;"> -0.58 </td>
+   <td style="text-align:right;"> -0.47 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> flipper_length_mm </td>
+   <td style="text-align:right;"> 0.66 </td>
+   <td style="text-align:right;"> -0.58 </td>
+   <td style="text-align:right;"> 1.00 </td>
+   <td style="text-align:right;"> 0.87 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> body_mass_g </td>
+   <td style="text-align:right;"> 0.60 </td>
+   <td style="text-align:right;"> -0.47 </td>
+   <td style="text-align:right;"> 0.87 </td>
+   <td style="text-align:right;"> 1.00 </td>
+  </tr>
 </tbody>
 </table>
+
+</div>
+</div>
 </section>
 <section id="tablas-resaltadas" class="slide level2">
 <h2>Tablas resaltadas</h2>
-<table style="width:33%;">
-<colgroup>
-<col style="width: 8%">
-<col style="width: 8%">
-<col style="width: 8%">
-<col style="width: 8%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>111</td>
-<td>131</td>
-<td>202</td>
-<td>215</td>
-</tr>
-<tr class="even">
-<td>77</td>
-<td>88</td>
-<td>33</td>
-<td>11</td>
-</tr>
-<tr class="odd">
-<td>13</td>
-<td>41</td>
-<td>123</td>
-<td>321</td>
-</tr>
-</tbody>
-</table>
-</section>
+
+<img data-src="u1-d02-Foundamentals_on_data_viz_files/figure-revealjs/unnamed-chunk-12-1.png" width="960" class="r-stretch"></section>
+<section id="ploteo-de-puntos" class="slide level2">
+<h2>Ploteo de puntos</h2>
+
+<img data-src="u1-d02-Foundamentals_on_data_viz_files/figure-revealjs/unnamed-chunk-13-1.png" width="960" class="r-stretch"></section>
 <section id="gráficas-de-balas" class="slide level2">
 <h2>Gráficas de Balas</h2>
-</section>
-<section id="recursos-tipos-de-gráficos" class="slide level2">
-<h2>Recursos Tipos de gráficos</h2>
-<p><a href="https://rolandoamir.notion.site/Anal-tica-y-Visualizaci-n-de-Datos-Aplicaciones-b72aeb6460e34916a799fb79ed6afe99" title="URL - Material de Apoyo">URL - Material de Apoyo</a></p>
-</section>
+
+<img data-src="images/bullet_graph.png" class="r-stretch quarto-figure-center"></section>
 <section id="herramientas-de-visualización-de-datos" class="slide level2">
 <h2>Herramientas de Visualización de Datos</h2>
 <blockquote>
 <p>Las herramientas de visualización de datos mejoran y automatizan el proceso de comunicación visual para lograr precisión y detalle. Puede utilizar las representaciones visuales para extraer información práctica a partir de datos sin procesar.<sup>1</sup></p>
 </blockquote>
-<div class="columns">
-<div class="column" style="width:25%;">
 <ul>
-<li><p>Tableau</p></li>
-<li><p>Power BI</p></li>
-<li><p>R - GGPlot</p></li>
-<li><p>Python -</p></li>
-<li><p>Oracle Analytics</p></li>
-<li><p>Qlick Sense</p></li>
-<li><p>DJ3s</p></li>
+<li><p><a href="https://www.tableau.com/es-es/why-tableau/what-is-tableau">Tableau</a></p></li>
+<li><p><a href="https://powerbi.microsoft.com/es-es/">Power BI</a></p></li>
+<li><p><a href="https://ggplot2.tidyverse.org/">R - GGPlot2</a></p></li>
+<li><p><a href="https://seaborn.pydata.org/">Python - Seaborn</a></p></li>
+<li><p><a href="https://www.oracle.com/business-analytics/">Oracle Analytics</a></p></li>
+<li><p><a href="https://www.qlik.com/es-es/products/qlik-sense">Qlick Sense</a></p></li>
+<li><p><a href="https://d3js.org/">DJ3s</a></p></li>
 </ul>
-</div><div class="column" style="width:75%;">
-
-</div>
-</div>
-<aside><ol class="aside-footnotes"><li id="fn2"><p><a href="https://aws.amazon.com/es/what-is/data-visualization/">Amazon - Visualización de datos</a></p></li></ol></aside></section>
+<aside><ol class="aside-footnotes"><li id="fn3"><p><a href="https://aws.amazon.com/es/what-is/data-visualization/">Amazon - Visualización de datos</a></p></li></ol></aside></section>
 <section id="tarea-2" class="slide level2">
 <h2>Tarea 2</h2>
 <p>Comparar al menos 3 herramientas de visualización y presentar análisis comparativo.</p>
@@ -1052,6 +1279,7 @@ Rolando Mirabal, Desarrollador de Insights Senior en Viva
 <section id="lectura-para-siguiente-clase" class="slide level2">
 <h2>Lectura para siguiente clase</h2>
 <p><a href="https://es.r4ds.hadley.nz/visualizaci%C3%B3n-de-datos.html" data-preview-link="true" style="text-align: center">Capítulo 3 - R para ciencia de datos</a></p>
+<p><a href="https://help.tableau.com/current/blueprint/es-es/bp_cycle_of_visual_analysis.htm">ciclo de análisis de datos</a></p>
 
 
 <img src="../../../images/UMSS.jpg" class="slide-logo r-stretch"><div class="footer footer-default">
