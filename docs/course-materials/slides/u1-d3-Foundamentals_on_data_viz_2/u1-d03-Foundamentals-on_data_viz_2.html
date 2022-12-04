@@ -32,6 +32,8 @@
   <link href="../../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../../../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="../../../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
   <link href="../../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
@@ -333,7 +335,7 @@ Fundamentos de Analítica y <br>Visualización de Datos
 Rolando Mirabal, Desarrollador de Insights Senior en Viva
 </h3>
 <h3>
-<code>01/12/2022</code>
+<code>02/12/2022</code>
 </h3>
 <p><br></p>
 <p><img data-src="images/caratula whales.jpg" class="absolute" style="top: 350px; left: 700px; width: 1000px; "></p>
@@ -343,28 +345,132 @@ Rolando Mirabal, Desarrollador de Insights Senior en Viva
 </div></aside></section>
 <section>
 <section id="comunicación-de-datos" class="title-slide slide level1 center">
-<h1>1 Comunicación de Datos</h1>
+<h1>1. Comunicación de Datos</h1>
+<p>Según Cole Nussbaumer existen seis etapas a seguir durante el desarrollo del análisis hasta su interpretación:</p>
 
+<img data-src="images/paste-7EA201F7.png" class="r-stretch"></section>
+<section id="camino-al-valor-analítico" class="slide level2">
+<h2>Camino al valor Analítico</h2>
+
+<img data-src="images/paste-D799D495.png" class="r-stretch"></section>
+<section id="análisis-exploratorio-vs-explicativo" class="slide level2">
+<h2>Análisis Exploratorio vs Explicativo</h2>
+<blockquote>
+<p><strong>Análisis Exploratorio</strong> - es lo que haces cuando te haces familiar con los datos. Con hipótesis o con preguntas.</p>
+<p>De 100 rocas encuentras 2 gemas.</p>
+<div>
+<ul>
+<li class="fragment"><p>Se lo realiza a nivel de laboratorio o estudios empíricos.</p></li>
+<li class="fragment"><p>Trata de encontrar relaciones entre los datos.</p></li>
+<li class="fragment"><p>Las visualizaciones no necesitan ser perfectas.</p></li>
+<li class="fragment"><p>Simplemente busca patrones de comportamiento.</p></li>
+</ul>
+</div>
+</blockquote>
+<blockquote>
+<p><strong>Análisis Explicativo</strong> - es cuando se quiere compartir un hallazgo a la audiencia.</p>
+<p>Mostrar esas 2 gemas. Contar una historia con tus datos.</p>
+<div>
+<ul>
+<li class="fragment"><p>Una vez encontrado uno o varios hallazgos, se trata de explicarlos por medio de la data y se va descartando de acuerdo a su importancia.</p></li>
+<li class="fragment"><p>Deben estar explicados a través de una lógica contextual o historia.</p></li>
+<li class="fragment"><p>Las visualizaciones deben ser prolijas, que respondan las interrogantes y transmitan efectivamente el mensaje.</p></li>
+</ul>
+</div>
+</blockquote>
+
+<aside><div>
+<p>Fuente: <a href="https://www.storytellingwithdata.com/blog/2014/04/exploratory-vs-explanatory-analysis">Storytelling with Data</a></p>
+</div></aside></section>
+<section id="observaciones-vs-hallazgos-insights" class="slide level2">
+<h2>Observaciones vs Hallazgos (Insights)</h2>
+
+<img data-src="images/paste-B317068F.png" class="r-stretch"></section>
+<section id="de-observaciones-a-acciones" class="slide level2">
+<h2>De observaciones a acciones</h2>
+
+<img data-src="images/paste-03CA0784.png" class="r-stretch"><blockquote>
+<p>“Los insights te mueven de saber algo a querer hacer algo y crean inercia”.</p>
+<p><strong>Coe Leta Stafford - IDEO Global Design Director</strong></p>
+</blockquote>
+</section></section>
+<section id="data-storytelling---contar-historias-con-datos" class="title-slide slide level1 center">
+<h1>Data Storytelling - Contar historias con datos</h1>
+<blockquote>
+<p>“Contar historias (<em>Storytelling</em> ) es la forma más poderosa de poner ideas en el mundo de hoy.”</p>
+<p><strong>Robert McKee</strong></p>
+</blockquote>
+<p>Según Brent Dykes, el autor de “Effective Data Storytelling” dice:</p>
+<blockquote>
+<p>La narración de datos es un enfoque estructurado para comunicar información sobre datos utilizando elementos narrativos y visuales explicativos.</p>
+</blockquote>
+<blockquote>
+<p>““La capacidad de tomar datos para poder entenderlos, procesarlos, extraer valor de ellos, visualizarlos, comunicarlos será una habilidad muy importante en las próximas décadas.”</p>
+<p>Hal Varian, Google Chief Economist</p>
+</blockquote>
 </section>
-<section id="evaluación-de-características-del-auto" class="slide level2">
-<h2>Evaluación de características del auto</h2>
+
+<section>
+<section id="data-storytelling---contar-historias-con-datos-1" class="title-slide slide level1 center">
+<h1>Data Storytelling - Contar historias con datos</h1>
+<div>
+<ol type="1">
+<li class="fragment"><p>¿Por qué?</p></li>
+<li class="fragment"><p>¿Qué?</p></li>
+<li class="fragment"><p>¿Cómo?</p></li>
+</ol>
+</div>
+</section>
+<section id="por-qué" class="slide level2">
+<h2>1 ¿Por qué?</h2>
+
+<img data-src="images/paste-5BD91B3C.png" class="r-stretch"></section>
+<section id="por-qué-1" class="slide level2">
+<h2>1 ¿Por qué?</h2>
+
+<img data-src="images/paste-501BEAAC.png" class="r-stretch"></section>
+<section id="qué" class="slide level2">
+<h2>2 ¿Qué?</h2>
+<blockquote>
+<p>La influencia cambia con contar historias con datos</p>
+</blockquote>
+
+<img data-src="images/paste-B31AFDA2.png" class="r-stretch"></section>
+<section id="cómo" class="slide level2">
+<h2>3 ¿Cómo?</h2>
+
+<img data-src="images/paste-8B60B2C3.png" class="r-stretch"><div>
+<ul>
+<li class="fragment"><p>¿Quién es la audiencia correcta para mi historia de datos?</p></li>
+<li class="fragment"><p>¿Cómo ajusto mi historia con datos a mi audiencia?</p></li>
+</ul>
+</div>
+</section>
+<section id="cómo-arco-de-contar-historia-con-datos" class="slide level2">
+<h2>3 ¿Cómo? Arco de contar historia con datos</h2>
+
+<img data-src="images/paste-C8CBDA91.png" class="r-stretch"></section>
+<section id="cómo-arco-de-contar-historia-con-datos-aplicado" class="slide level2">
+<h2>3 ¿Cómo? Arco de contar historia con datos Aplicado</h2>
+
+<img data-src="images/paste-8EE61CA6.png" class="r-stretch"></section>
+<section id="ejemplo---evaluación-de-características-del-auto" class="slide level2">
+<h2>Ejemplo - Evaluación de características del auto</h2>
+<p>Explicando lo explorado:</p>
 <div class="r-stack">
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="images/com_01_no_story.png" class="fragment" width="1500"></p>
-<p></p><figcaption>Sin atributos preatencionales</figcaption><p></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="images/com_02_start_of_a_story.png" class="fragment" width="1500"></p>
-<p></p><figcaption>Con color para generar atención</figcaption><p></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="images/com_03_jerarquia_de_info.png" class="fragment" width="1500"></p>
-<p></p><figcaption>Una visualización que tenga información jerárquica</figcaption><p></p>
 </figure>
 </div>
 </div>
@@ -372,8 +478,8 @@ Rolando Mirabal, Desarrollador de Insights Senior en Viva
 <aside><div>
 <p>Fuente: <a href="https://www.storytellingwithdata.com/blog/2014/04/focusing-with-color">Storytelling with Data</a></p>
 </div></aside></section>
-<section id="reporte-de-caída" class="slide level2">
-<h2>Reporte de caída</h2>
+<section id="ejemplo---reporte-de-caída" class="slide level2">
+<h2>Ejemplo - Reporte de caída</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="images/weekly-shrinkage-original-line-chart.png" width="1500"></p>
@@ -384,47 +490,40 @@ Rolando Mirabal, Desarrollador de Insights Senior en Viva
 <aside><div>
 <p>Fuente: <a href="https://www.storytellingwithdata.com/blog/2014/04/focusing-with-color" title="https://www.storytellingwithdata.com/blog/2014/04/focusing-with-color">Storytelling with Data</a></p>
 </div></aside></section>
-<section id="reporte-de-caída-1" class="slide level2 scrollable">
-<h2>Reporte de caída</h2>
+<section id="ejemplo---reporte-de-caída-1" class="slide level2 scrollable">
+<h2>Ejemplo - Reporte de caída</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="images/shrinkage-graph-with-added-context.png" width="1500"></p>
+<p></p><figcaption>Que los datos resalten</figcaption><p></p>
 </figure>
 </div>
 
 <aside><div>
 <p>Fuente: <a href="https://www.storytellingwithdata.com/blog/2014/04/focusing-with-color" title="https://www.storytellingwithdata.com/blog/2014/04/focusing-with-color">Storytelling with Data</a></p>
-</div></aside></section>
-<section id="análisis-exploratorio-vs-explicativo" class="slide level2">
-<h2>Análisis Exploratorio vs Explicativo</h2>
-<blockquote>
-<p>Análisis Exploratorio - es lo que haces cuando te haces familiar con los datos. Con hipótesis o con preguntas. De 100 rocas encontrar 2 gemas.</p>
-</blockquote>
-<blockquote>
-<p>Análisis Explicativo - es cuando se quiere compartir un hallazgo a la audiencia. Mostrar esas 2 gemas. Contar una historia con tus datos.</p>
-</blockquote>
-
-<aside><div>
-<p>Fuente: <a href="https://www.storytellingwithdata.com/blog/2014/04/exploratory-vs-explanatory-analysis">Storytelling with Data</a></p>
 </div></aside></section></section>
 <section>
 <section id="color" class="title-slide slide level1 center">
-<h1>Color</h1>
+<h1>2. Color</h1>
 
 </section>
 <section id="color-1" class="slide level2">
 <h2>Color</h2>
+<div>
 <ul>
-<li>El color es importante entender para la visualización de datos</li>
-<li>Muchas veces es utilizado mal</li>
-<li>No se debe usar solo para arreglar una visualización aburrida.</li>
-<li>Buenas visualizaciones muchas veces usan poco color</li>
-<li>El color debe ser usado con un propósito</li>
+<li class="fragment">El color es importante entender para la visualización de datos</li>
+<li class="fragment">Muchas veces es utilizado mal</li>
+<li class="fragment">No se debe usar solo para arreglar una visualización aburrida.</li>
+<li class="fragment">Buenas visualizaciones muchas veces usan poco color</li>
+<li class="fragment">El color debe ser usado con un propósito</li>
+<li class="fragment">atrae la atención del lecto, resalta una porción de los datos, distinguir entre diferentes categorías.</li>
 </ul>
-<p>[ejemplo simple uso de color]</p>
-<ul>
-<li>atrae la atención del lecto, resalta una porción de los datos, distinguir entre diferentes categorías.</li>
-</ul>
+</div>
+<div class="fragment">
+<p><a href="https://public.tableau.com/app/profile/bo.mccready8742/viz/EducationandUnemployment/EducationUnemployment">Ejemplo 1</a></p>
+<p><a href="https://public.tableau.com/app/profile/alex5165/viz/covidproject_16693313397720/Tableaudebord1">Ejemplo 2</a></p>
+<p><a href="https://public.tableau.com/app/profile/adedamola8122/viz/MedianHomePriceQ12022/AlternativeMapProjection-County">Ejemplo 3</a></p>
+</div>
 </section>
 <section id="uso-del-color" class="slide level2 smaller">
 <h2>Uso del Color</h2>
@@ -448,7 +547,7 @@ Rolando Mirabal, Desarrollador de Insights Senior en Viva
 <ul>
 <li>Resaltar algo con el color</li>
 <li>Usada cuando hay algo que necesita que se resalte, pero que no alerte o alarme</li>
-<li>Resaltar un punto, texto en una tabla, una cierta línea o una barra específica. [slopegraph] ## Color Alertado</li>
+<li>Resaltar un punto, texto en una tabla, una cierta línea o una barra específica.</li>
 <li>Para alertar o advertir al lector que algo necesita atención</li>
 <li>recomendado unar colores vívidos y alarmantes, que atraeran atención rápidamente.</li>
 </ul>
@@ -463,7 +562,8 @@ Rolando Mirabal, Desarrollador de Insights Senior en Viva
 </section>
 <section id="combinar-un-esquema-de-colores-categóricos-secuenciales" class="slide level2">
 <h2>Combinar un esquema de colores categóricos secuenciales</h2>
-</section>
+
+<img data-src="images/paste-5E7D7388.png" class="r-stretch"></section>
 <section id="teoría-del-color" class="slide level2">
 <h2>Teoría del color</h2>
 <div class="callout callout-important callout-captioned callout-style-default">
@@ -475,16 +575,31 @@ Rolando Mirabal, Desarrollador de Insights Senior en Viva
 <p><strong>Important</strong></p>
 </div>
 <div class="callout-content">
-<p>Los colores dependiendo el contexto tienen significado</p>
+<p>Los colores dependiendo el contexto tienen significado.</p>
 </div>
 </div>
 </div>
+<p><a href="https://www.canva.com/es_mx/aprende/psicologia-del-color/" data-preview-link="true">La psicología del color</a></p>
 </section>
 <section id="deficiencia-en-la-visión-del-color" class="slide level2">
 <h2>Deficiencia en la visión del color</h2>
 <p>Dependiendo el cono que les falta, las personas con DVC se les dificulta distiguir entre algunos colores debido a la forma en que ellos ven el espectro de colores: 8% de los hombres vs 0.4% de las mujeres 1 Protanopia, falta de conos de onda larga - débil en el rojo 2 Deuteranopia, falta de conos de onda media - débil en el verde 3 Tritanopia, falta de conos de onda corta - azul muy raro.</p>
-<p><em>rojo y verde ! evitar semáforos</em> azul y naranja -&gt; colores amigables ## Problemas de color, más allá de rojo y verde ejemplos</p>
+<div>
+<ul>
+<li class="fragment"><p><em>Daltónicos, rojo y verde, evitar semáforos</em></p></li>
+<li class="fragment"><p>Azul y naranja -&gt; colores amigables</p></li>
+<li class="fragment"><p>Problemas de color, más allá de rojo y verde</p></li>
+</ul>
+</div>
 </section>
+<section id="deficiencia-en-la-visión-del-color---ejemplo" class="slide level2">
+<h2>Deficiencia en la visión del color - ejemplo</h2>
+
+<img data-src="images/example-pie-chart-poor.png" class="r-stretch quarto-figure-center"></section>
+<section id="deficiencia-en-la-visión-del-color---ejemplo-1" class="slide level2">
+<h2>Deficiencia en la visión del color - ejemplo</h2>
+
+<img data-src="images/example-pie-chart-better.png" class="r-stretch quarto-figure-center"></section>
 <section id="rueda-de-color" class="slide level2">
 <h2>Rueda de Color</h2>
 <div class="quarto-figure quarto-figure-center">
@@ -496,6 +611,11 @@ Rolando Mirabal, Desarrollador de Insights Senior en Viva
 <aside><div>
 <p>Referencias: <a href="https://color.adobe.com/es/create/color-wheel">Rueda de color Adobe</a>, <a href="https://www.canva.com/colors/color-wheel/">Rueda de color Canva</a></p>
 </div></aside></section>
+<section id="usar-el-color-empresarial-y-sus-complementos" class="slide level2">
+<h2>Usar el color empresarial y sus complementos</h2>
+
+<img data-src="images/opciones de color con color de la marca.png" class="r-stretch quarto-figure-center"><p><a href="https://public.tableau.com/app/profile/maryia.maziuk/viz/FacebookAdsPerformance/Dashboard">Recurso</a></p>
+</section>
 <section id="a-veces-es-mejor-uso-escaso-del-color" class="slide level2">
 <h2>A veces es mejor uso escaso del color</h2>
 
@@ -503,30 +623,54 @@ Rolando Mirabal, Desarrollador de Insights Senior en Viva
 <section id="mal-uso-o-sobreuso-del-color" class="slide level2">
 <h2>Mal uso o sobreuso del color</h2>
 
-<img data-src="images/colorful_bullet_graph.png" class="r-stretch quarto-figure-center"></section></section>
+<img data-src="images/colorful_bullet_graph.png" class="r-stretch quarto-figure-center"></section>
+<section id="video-4---profundidar-del-mar" class="slide level2">
+<h2>Video 4 - Profundidar del mar</h2>
+<iframe src="https://www.youtube.com/embed/Q5C7sqVe2Vg" width="100%" height="85%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</section></section>
 <section>
 <section id="mejores-prácticas-en-visualización" class="title-slide slide level1 center">
-<h1>Mejores Prácticas en Visualización</h1>
+<h1>3. Mejores Prácticas en Visualización</h1>
 
 </section>
 <section id="por-qué-mejores-prácticas" class="slide level2">
 <h2>¿Por qué mejores prácticas?</h2>
+<div>
 <ul>
-<li>Las técnicas de visualización contribuyen y ayudan a visualizaciones éxitosas.</li>
-<li>A veces nuestro sistema de procesamiento visual nos engaña</li>
-<li>La ambiguedad en las imágenes nos juegan como ilusiones</li>
-<li>Se quiere mostrar el valor de la medida en una forma que sea interpretada lo más preciso en el menor tiempo posible. [ejemplos]</li>
+<li class="fragment">Las técnicas de visualización contribuyen y ayudan a visualizaciones éxitosas.</li>
+<li class="fragment">A veces nuestro sistema de procesamiento visual nos engaña</li>
+<li class="fragment">La ambiguedad en las imágenes nos muestran ilusiones</li>
 </ul>
+</div>
+<div class="fragment">
+<div class="callout callout-tip callout-captioned callout-style-default">
+<div class="callout-body">
+<div class="callout-caption">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>En cambio se quiere mostrar el valor de la medida en una forma que sea interpretada lo más preciso en el menor tiempo posible. [ejemplos]</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
 </section>
-<section id="algunos-problemas-con-atributos-preatencionales" class="slide level2">
-<h2>Algunos problemas con atributos preatencionales</h2>
-<p>Mezclando posición, color y forma no lo hace fácil leer. ¿Hay alternativa?</p>
-<p>+——-+——–+——-+ | | 2007 | 2008 | +——-+——–+——-+ | A | 100 | 120 | +——-+——–+——-+ | B | 70 | 30 | +——-+——–+——-+</p>
-<p>[diferentes formas de ver los mismos datos]</p>
-<blockquote>
+<section id="diferentes-formas-de-ver-los-mismos-datos---contexto" class="slide level2">
+<h2>Diferentes formas de ver los mismos datos - Contexto</h2>
+
+<img data-src="images/paste-25B884CF.png" class="r-stretch"><blockquote>
 <p>cada decisión trae un compromiso, y un significado generalmente distinto</p>
 </blockquote>
 </section>
+<section id="diferentes-formas-de-ver-los-mismos-datos---varianza" class="slide level2">
+<h2>Diferentes formas de ver los mismos datos - Varianza</h2>
+
+<img data-src="images/paste-F0415D08.png" class="r-stretch"></section>
 <section id="lineamientos-en-constucción-de-dashboards" class="slide level2">
 <h2>Lineamientos en constucción de Dashboards</h2>
 <ul>
@@ -538,28 +682,89 @@ Rolando Mirabal, Desarrollador de Insights Senior en Viva
 <p>“Los productos deben de hecho cumplir necesidades humanas mientras ser entendibles y usables. En el mejor de los casos, los productos deben también ser enriquecedores y disfrutables, lo que quiere decir que no solo los requerimientos de ingeniería, de manufactura y ergonomía deben satisfacerse, pero se debe prestar atención a la experiencia entera, lo que significa la estética en forma y la calidad en la interacción” Donald A. Norman “El diseño de las cosas cotidianas” 2013</p>
 </blockquote>
 </section>
-<section id="escenario-1" class="slide level2">
-<h2>Escenario 1</h2>
-</section>
-<section id="escenario-2" class="slide level2">
-<h2>Escenario 2</h2>
-</section>
-<section id="escenario-3" class="slide level2">
-<h2>Escenario 3</h2>
-</section>
+<section id="anticipa-las-necesidades-de-comparación-del-consumidor" class="slide level2">
+<h2>Anticipa las necesidades de comparación del consumidor</h2>
+
+<img data-src="images/paste-B30D9D35.png" class="r-stretch"></section>
 <section id="dilema-del-pie-chart-o-gráfico-de-torta" class="slide level2">
 <h2>Dilema del Pie Chart o Gráfico de Torta</h2>
-<p>1 que porcentaje de cada círculo es cubierto= 2 ordenar los pedazos de más grande a más pequeño? 3 la alternativa clara es un gráfica de barras ## ejemplos 2 profundidar del mar</p>
+<p>¿Podemos comparar adecuadamente?</p>
+<p><img data-src="https://evolytics.com/wp-content/uploads/2014/10/pie-chart-time-series-analysis.png"></p>
+<p><img data-src="images/paste-C433AF0C.png"></p>
+<p><img data-src="images/paste-5B6C92D9.png"></p>
 </section>
-<section id="relación-de-tinta-ink-ratio" class="slide level2">
-<h2>Relación de Tinta (Ink Ratio)</h2>
+<section id="dilema-del-pie-chart-o-gráfico-de-torta-1" class="slide level2 scrollable">
+<h2>Dilema del Pie Chart o Gráfico de Torta</h2>
+
+<img data-src="images/comparison.jfif" class="r-stretch"><p>1 que porcentaje de cada círculo es cubierto</p>
+<p>2 ordenar los pedazos de más grande a más pequeño?</p>
+<p>3 la alternativa clara es un gráfica de barras</p>
 </section>
-<section id="datos-basura" class="slide level2">
-<h2>datos basura</h2>
-</section>
+<section id="dilema-del-pie-chart-o-gráfico-de-torta-2" class="slide level2">
+<h2>Dilema del Pie Chart o Gráfico de Torta</h2>
+<p>¿3D con datos 2D?</p>
+
+<img data-src="images/distortions.jfif" class="r-stretch"></section>
 <section id="data-ink-ratio" class="slide level2">
-<h2>data ink ratio</h2>
+<h2>Data ink ratio</h2>
+<p>Edward Tufte sugiere <strong>maximizar la proporción de tinta de datos</strong>, diciendo que “cuanto mayor sea la proporción de tinta de un gráfico dedicada a los datos, mejor (siendo iguales otros asuntos relevantes)”.</p>
+<div>
+<ul>
+<li class="fragment"><p>Al intentar hacer una visualización atractiva para el público, suele cometerse el error de sobrecargarla, ocultando el mensaje que trata de comunicar.</p></li>
+<li class="fragment"><p>El ratio de tinta de datos se lo calcula de manera empírica: <img data-src="images/paste-B25C3FA4.png"></p></li>
+</ul>
+</div>
 </section>
+<section id="data-ink-ratio---ejemplo" class="slide level2">
+<h2>Data ink ratio - ejemplo</h2>
+
+<img data-src="images/paste-BEC0029D.png" width="1300" class="r-stretch quarto-figure-center"></section>
+<section id="datos-basura-o-chart-junk" class="slide level2">
+<h2>Datos basura o Chart junk</h2>
+<p>Los trastos de las gráficas son aquellos accesorios visuales de una gráfica que no añaden valor a la lectura, distraen, confunden u ocultan el verdadero mensaje.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/paste-38546A00.png" width="700" height="600"></p>
+</figure>
+</div>
+<div>
+<ul>
+<li class="fragment"><p>Sobrecarga de lineas horizontales y verticales.</p></li>
+<li class="fragment"><p>Sobrecarga de texto o etiquetas.</p></li>
+<li class="fragment"><p>Imagenes innecesarias.</p></li>
+<li class="fragment"><p>Elementos decorativos, sombras, efectos 3D</p></li>
+</ul>
+</div>
+<p><a href="https://junkcharts.typepad.com/junk_charts/junk-charts-trifecta-checkup-the-definitive-guide.html">Fuente</a></p>
+</section>
+<section id="ratio-de-distorción-lie-ratio" class="slide level2">
+<h2>Ratio de distorción (Lie Ratio)</h2>
+<div>
+<ul>
+<li class="fragment"><p>Edward Tufte: La integridad de la visualización.</p></li>
+<li class="fragment"><p>Expresa la distorsión del efecto gráfico frente a lo que verdaderamente muestran los datos.</p></li>
+<li class="fragment"><p>se lo define como:</p>
+<p><img data-src="images/paste-7D11C7F6.png"></p></li>
+<li class="fragment"><p>Debería ser igual a 1+/-0.05, números mayores o menores muestra distorsión significativa.</p></li>
+<li class="fragment"><div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="https://infovis-wiki.net/w/images/0/05/Lie_factor_example1_image.jpg"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="https://infovis-wiki.net/w/images/f/f5/Lie_factor.png"></p>
+</figure>
+</div></li>
+</ul>
+</div>
+<p><a href="https://infovis-wiki.net/wiki/Lie_Factor">Ejemplo</a></p>
+</section>
+<section id="una-enseñanza-de-ratio-de-distorción---mapa-mercator" class="slide level2">
+<h2>Una enseñanza de ratio de distorción - Mapa Mercator</h2>
+<p>El área real de cada país varía en especial en los países que se encuentran al norte:</p>
+
+<img data-src="images/mercator.jfif" class="r-stretch quarto-figure-center"></section>
 <section id="sesgo-de-confirmación" class="slide level2">
 <h2>Sesgo de confirmación</h2>
 <div class="quarto-figure quarto-figure-center">
@@ -576,17 +781,34 @@ Rolando Mirabal, Desarrollador de Insights Senior en Viva
 <li class="fragment"><p>Sesgo de anclaje: Confías demasiado en la primera información que descubres.</p></li>
 </ul>
 </div>
-<aside><ol class="aside-footnotes"><li id="fn1"><p><a href="https://www.linkedin.com/posts/activity-6984132341933772800-LEHt/?utm_source=post_nba&amp;utm_medium=member_desktop&amp;utm_campaign=copy">Fuente de Brent Dykes</a></p></li></ol></aside></section></section>
+<aside><ol class="aside-footnotes"><li id="fn1"><p><a href="https://www.linkedin.com/posts/activity-6984132341933772800-LEHt/?utm_source=post_nba&amp;utm_medium=member_desktop&amp;utm_campaign=copy">Fuente de Brent Dykes</a></p></li></ol></aside></section>
+<section id="el-método-gráfico-varia-en-efectividad" class="slide level2">
+<h2>El método gráfico varia en efectividad</h2>
+
+<img data-src="images/paste-0E690671.png" class="r-stretch"></section>
+<section id="selección-de-tipo-de-gráfico" class="slide level2">
+<h2>Selección de tipo de gráfico</h2>
+
+<img data-src="images/Chart_Selection.jpeg" class="r-stretch quarto-figure-center"></section></section>
 <section>
 <section id="reportes-estudios-presentación-de-investigación-webpages" class="title-slide slide level1 center">
 <h1>4 Reportes, Estudios, Presentación de Investigación, Webpages</h1>
-<ul>
-<li>Reproducibilidad de Contenido e investigación corporativa GIT</li>
-<li>Markdown en Jupyter y Rmarkdown extendido a otros sistemas</li>
-</ul>
+
 </section>
 <section id="quarto" class="slide level2">
 <h2>Quarto</h2>
+<p>Analiza, Comparte, Reproduce. Tus datos tienen una historia, Quarto ayuda a comunicarlas</p>
+<p>Quarto<sup>®</sup> es un sistesma de publicación código abierto científico y técnico construido en <a href="https://pandoc.org/">Pandoc</a></p>
+<ul>
+<li>Quarto - PDFs, multilenguaje.</li>
+<li>Markdown en Jupyter y Rmarkdown extendido a otros sistemas</li>
+<li>Reproducibilidad de Contenido e investigación corporativa GIT</li>
+</ul>
+<p><a href="https://quarto.org/" data-preview-link="true">Quarto</a></p>
+</section>
+<section id="quiz-1" class="slide level2">
+<h2>Quiz 1</h2>
+<p>Se subirá el quiz de la sección 1, en el que se incluirá preguntas de las tres primeras sesiones y de las 2 lecturas asignadas.</p>
 
 
 <img src="../../../images/UMSS.jpg" class="slide-logo r-stretch"><div class="footer footer-default">
@@ -604,6 +826,7 @@ Rolando Mirabal, Desarrollador de Insights Senior en Viva
   <script src="../../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="../../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="../../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
   <script src="../../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -625,7 +848,8 @@ Rolando Mirabal, Desarrollador de Insights Senior en Viva
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -796,7 +1020,7 @@ Rolando Mirabal, Desarrollador de Insights Senior en Viva
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
 
           RevealMath,
           RevealNotes,

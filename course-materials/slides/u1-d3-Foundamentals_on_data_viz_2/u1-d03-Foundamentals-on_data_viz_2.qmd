@@ -11,6 +11,7 @@ format:
     editor: visual
     height: 1080
     width: 1920
+    chalkboard: true
 editor: visual
 ---
 
@@ -20,7 +21,7 @@ editor: visual
 
 <h3>Rolando Mirabal, Desarrollador de Insights Senior en Viva</h3>
 
-<h3>`01/12/2022`</h3>
+<h3>`02/12/2022`</h3>
 
 <br>
 
@@ -30,23 +31,133 @@ editor: visual
 [Arte por \@allison_horst](https://twitter.com/allison_horst)
 :::
 
-# 1 Comunicación de Datos
+# 1. Comunicación de Datos
 
-## Evaluación de características del auto
+Según Cole Nussbaumer existen seis etapas a seguir durante el desarrollo del análisis hasta su interpretación:
+
+![](images/paste-7EA201F7.png)
+
+## Camino al valor Analítico
+
+![](images/paste-D799D495.png)
+
+## Análisis Exploratorio vs Explicativo
+
+> **Análisis Exploratorio** - es lo que haces cuando te haces familiar con los datos. Con hipótesis o con preguntas.
+>
+> De 100 rocas encuentras 2 gemas.
+>
+> ::: incremental
+> -   Se lo realiza a nivel de laboratorio o estudios empíricos.
+>
+> -   Trata de encontrar relaciones entre los datos.
+>
+> -   Las visualizaciones no necesitan ser perfectas.
+>
+> -   Simplemente busca patrones de comportamiento.
+> :::
+
+> **Análisis Explicativo** - es cuando se quiere compartir un hallazgo a la audiencia.
+>
+> Mostrar esas 2 gemas. Contar una historia con tus datos.
+>
+> ::: incremental
+> -   Una vez encontrado uno o varios hallazgos, se trata de explicarlos por medio de la data y se va descartando de acuerdo a su importancia.
+>
+> -   Deben estar explicados a través de una lógica contextual o historia.
+>
+> -   Las visualizaciones deben ser prolijas, que respondan las interrogantes y transmitan efectivamente el mensaje.
+> :::
+
+::: aside
+Fuente: [Storytelling with Data](https://www.storytellingwithdata.com/blog/2014/04/exploratory-vs-explanatory-analysis)
+:::
+
+## Observaciones vs Hallazgos (Insights)
+
+![](images/paste-B317068F.png)
+
+## De observaciones a acciones
+
+![](images/paste-03CA0784.png)
+
+> "Los insights te mueven de saber algo a querer hacer algo y crean inercia".
+>
+> **Coe Leta Stafford - IDEO Global Design Director**
+
+# Data Storytelling - Contar historias con datos
+
+> "Contar historias (*Storytelling* ) es la forma más poderosa de poner ideas en el mundo de hoy."
+>
+> **Robert McKee**
+
+Según Brent Dykes, el autor de "Effective Data Storytelling" dice:
+
+> La narración de datos es un enfoque estructurado para comunicar información sobre datos utilizando elementos narrativos y visuales explicativos.
+
+> ""La capacidad de tomar datos para poder entenderlos, procesarlos, extraer valor de ellos, visualizarlos, comunicarlos será una habilidad muy importante en las próximas décadas."
+>
+> Hal Varian, Google Chief Economist
+
+# Data Storytelling - Contar historias con datos
+
+::: incremental
+1.  ¿Por qué?
+
+2.  ¿Qué?
+
+3.  ¿Cómo?
+:::
+
+## 1 ¿Por qué?
+
+![](images/paste-5BD91B3C.png)
+
+## 1 ¿Por qué?
+
+![](images/paste-501BEAAC.png)
+
+## 2 ¿Qué?
+
+> La influencia cambia con contar historias con datos
+
+![](images/paste-B31AFDA2.png)
+
+## 3 ¿Cómo?
+
+![](images/paste-8B60B2C3.png)
+
+::: incremental
+-   ¿Quién es la audiencia correcta para mi historia de datos?
+
+-   ¿Cómo ajusto mi historia con datos a mi audiencia?
+:::
+
+## 3 ¿Cómo? Arco de contar historia con datos
+
+![](images/paste-C8CBDA91.png)
+
+## 3 ¿Cómo? Arco de contar historia con datos Aplicado
+
+![](images/paste-8EE61CA6.png)
+
+## Ejemplo - Evaluación de características del auto
+
+Explicando lo explorado:
 
 ::: r-stack
-![Sin atributos preatencionales](images/com_01_no_story.png){.fragment fig-align="center" width="1500"}
+![](images/com_01_no_story.png){.fragment fig-align="center" width="1500"}
 
-![Con color para generar atención](images/com_02_start_of_a_story.png){.fragment fig-align="center" width="1500"}
+![](images/com_02_start_of_a_story.png){.fragment fig-align="center" width="1500"}
 
-![Una visualización que tenga información jerárquica](images/com_03_jerarquia_de_info.png){.fragment fig-align="center" width="1500"}
+![](images/com_03_jerarquia_de_info.png){.fragment fig-align="center" width="1500"}
 :::
 
 ::: aside
 Fuente: [Storytelling with Data](https://www.storytellingwithdata.com/blog/2014/04/focusing-with-color)
 :::
 
-## Reporte de caída
+## Ejemplo - Reporte de caída
 
 ![¿cómo estoy comparado a los 2 años anteriores?](images/weekly-shrinkage-original-line-chart.png){fig-align="center" width="1500"}
 
@@ -54,37 +165,34 @@ Fuente: [Storytelling with Data](https://www.storytellingwithdata.com/blog/2014/
 Fuente: [Storytelling with Data](https://www.storytellingwithdata.com/blog/2014/04/focusing-with-color "https://www.storytellingwithdata.com/blog/2014/04/focusing-with-color")
 :::
 
-## Reporte de caída {.scrollable}
+## Ejemplo - Reporte de caída {.scrollable}
 
-![](images/shrinkage-graph-with-added-context.png){fig-align="center" width="1500"}
+![Que los datos resalten](images/shrinkage-graph-with-added-context.png){fig-align="center" width="1500"}
 
-::: {.aside style="Que los datos resalten"}
+::: aside
 Fuente: [Storytelling with Data](https://www.storytellingwithdata.com/blog/2014/04/focusing-with-color "https://www.storytellingwithdata.com/blog/2014/04/focusing-with-color")
 :::
 
-## Análisis Exploratorio vs Explicativo
-
-> Análisis Exploratorio - es lo que haces cuando te haces familiar con los datos. Con hipótesis o con preguntas. De 100 rocas encontrar 2 gemas.
-
-> Análisis Explicativo - es cuando se quiere compartir un hallazgo a la audiencia. Mostrar esas 2 gemas. Contar una historia con tus datos.
-
-::: aside
-Fuente: [Storytelling with Data](https://www.storytellingwithdata.com/blog/2014/04/exploratory-vs-explanatory-analysis)
-:::
-
-# Color
+# 2. Color
 
 ## Color
 
+::: incremental
 -   El color es importante entender para la visualización de datos
 -   Muchas veces es utilizado mal
 -   No se debe usar solo para arreglar una visualización aburrida.
 -   Buenas visualizaciones muchas veces usan poco color
 -   El color debe ser usado con un propósito
-
-\[ejemplo simple uso de color\]
-
 -   atrae la atención del lecto, resalta una porción de los datos, distinguir entre diferentes categorías.
+:::
+
+. . .
+
+[Ejemplo 1](https://public.tableau.com/app/profile/bo.mccready8742/viz/EducationandUnemployment/EducationUnemployment)
+
+[Ejemplo 2](https://public.tableau.com/app/profile/alex5165/viz/covidproject_16693313397720/Tableaudebord1)
+
+[Ejemplo 3](https://public.tableau.com/app/profile/adedamola8122/viz/MedianHomePriceQ12022/AlternativeMapProjection-County)
 
 ## Uso del Color {.smaller}
 
@@ -108,7 +216,7 @@ Fuente: [Storytelling with Data](https://www.storytellingwithdata.com/blog/2014/
 
 -   Resaltar algo con el color
 -   Usada cuando hay algo que necesita que se resalte, pero que no alerte o alarme
--   Resaltar un punto, texto en una tabla, una cierta línea o una barra específica. \[slopegraph\] \## Color Alertado
+-   Resaltar un punto, texto en una tabla, una cierta línea o una barra específica.
 -   Para alertar o advertir al lector que algo necesita atención
 -   recomendado unar colores vívidos y alarmantes, que atraeran atención rápidamente.
 :::
@@ -120,17 +228,35 @@ Fuente: [Storytelling with Data](https://www.storytellingwithdata.com/blog/2014/
 
 ## Combinar un esquema de colores categóricos secuenciales
 
+![](images/paste-5E7D7388.png)
+
 ## Teoría del color
 
 ::: callout-important
-Los colores dependiendo el contexto tienen significado
+Los colores dependiendo el contexto tienen significado.
 :::
+
+[La psicología del color](https://www.canva.com/es_mx/aprende/psicologia-del-color/){preview-link="true"}
 
 ## Deficiencia en la visión del color
 
 Dependiendo el cono que les falta, las personas con DVC se les dificulta distiguir entre algunos colores debido a la forma en que ellos ven el espectro de colores: 8% de los hombres vs 0.4% de las mujeres 1 Protanopia, falta de conos de onda larga - débil en el rojo 2 Deuteranopia, falta de conos de onda media - débil en el verde 3 Tritanopia, falta de conos de onda corta - azul muy raro.
 
-*rojo y verde ! evitar semáforos* azul y naranja -\> colores amigables \## Problemas de color, más allá de rojo y verde ejemplos
+::: incremental
+-   *Daltónicos, rojo y verde, evitar semáforos*
+
+-   Azul y naranja -\> colores amigables
+
+-   Problemas de color, más allá de rojo y verde
+:::
+
+## Deficiencia en la visión del color - ejemplo
+
+![](images/example-pie-chart-poor.png){fig-align="center"}
+
+## Deficiencia en la visión del color - ejemplo
+
+![](images/example-pie-chart-better.png){fig-align="center"}
 
 ## Rueda de Color
 
@@ -140,6 +266,12 @@ Dependiendo el cono que les falta, las personas con DVC se les dificulta distigu
 Referencias: [Rueda de color Adobe](https://color.adobe.com/es/create/color-wheel), [Rueda de color Canva](https://www.canva.com/colors/color-wheel/)
 :::
 
+## Usar el color empresarial y sus complementos
+
+![](images/opciones%20de%20color%20con%20color%20de%20la%20marca.png){fig-align="center"}
+
+[Recurso](https://public.tableau.com/app/profile/maryia.maziuk/viz/FacebookAdsPerformance/Dashboard)
+
 ## A veces es mejor uso escaso del color
 
 ![](images/uso%20de%20color.png){fig-align="center"}
@@ -148,24 +280,35 @@ Referencias: [Rueda de color Adobe](https://color.adobe.com/es/create/color-whee
 
 ![](images/colorful_bullet_graph.png){fig-align="center"}
 
-# Mejores Prácticas en Visualización
+## Video 4 - Profundidar del mar
+
+{{< video https://youtu.be/Q5C7sqVe2Vg width="100%" height="85%" >}}
+
+# 3. Mejores Prácticas en Visualización
 
 ## ¿Por qué mejores prácticas?
 
+::: incremental
 -   Las técnicas de visualización contribuyen y ayudan a visualizaciones éxitosas.
 -   A veces nuestro sistema de procesamiento visual nos engaña
--   La ambiguedad en las imágenes nos juegan como ilusiones
--   Se quiere mostrar el valor de la medida en una forma que sea interpretada lo más preciso en el menor tiempo posible. \[ejemplos\]
+-   La ambiguedad en las imágenes nos muestran ilusiones
+:::
 
-## Algunos problemas con atributos preatencionales
+. . .
 
-Mezclando posición, color y forma no lo hace fácil leer. ¿Hay alternativa?
+::: callout-tip
+-   En cambio se quiere mostrar el valor de la medida en una forma que sea interpretada lo más preciso en el menor tiempo posible. \[ejemplos\]
+:::
 
-+-------+--------+-------+ \| \| 2007 \| 2008 \| +-------+--------+-------+ \| A \| 100 \| 120 \| +-------+--------+-------+ \| B \| 70 \| 30 \| +-------+--------+-------+
+## Diferentes formas de ver los mismos datos - Contexto
 
-\[diferentes formas de ver los mismos datos\]
+![](images/paste-25B884CF.png)
 
 > cada decisión trae un compromiso, y un significado generalmente distinto
+
+## Diferentes formas de ver los mismos datos - Varianza
+
+![](images/paste-F0415D08.png)
 
 ## Lineamientos en constucción de Dashboards
 
@@ -175,21 +318,95 @@ Mezclando posición, color y forma no lo hace fácil leer. ¿Hay alternativa?
 
 > "Los productos deben de hecho cumplir necesidades humanas mientras ser entendibles y usables. En el mejor de los casos, los productos deben también ser enriquecedores y disfrutables, lo que quiere decir que no solo los requerimientos de ingeniería, de manufactura y ergonomía deben satisfacerse, pero se debe prestar atención a la experiencia entera, lo que significa la estética en forma y la calidad en la interacción" Donald A. Norman "El diseño de las cosas cotidianas" 2013
 
-## Escenario 1
+## Anticipa las necesidades de comparación del consumidor
 
-## Escenario 2
-
-## Escenario 3
+![](images/paste-B30D9D35.png)
 
 ## Dilema del Pie Chart o Gráfico de Torta
 
-1 que porcentaje de cada círculo es cubierto= 2 ordenar los pedazos de más grande a más pequeño? 3 la alternativa clara es un gráfica de barras \## ejemplos 2 profundidar del mar
+¿Podemos comparar adecuadamente?
 
-## Relación de Tinta (Ink Ratio)
+![](https://evolytics.com/wp-content/uploads/2014/10/pie-chart-time-series-analysis.png)
 
-## datos basura
+![](images/paste-C433AF0C.png)
 
-## data ink ratio
+![](images/paste-5B6C92D9.png)
+
+## Dilema del Pie Chart o Gráfico de Torta {.scrollable}
+
+![](images/comparison.jfif)
+
+1 que porcentaje de cada círculo es cubierto
+
+2 ordenar los pedazos de más grande a más pequeño?
+
+3 la alternativa clara es un gráfica de barras
+
+## Dilema del Pie Chart o Gráfico de Torta
+
+¿3D con datos 2D?
+
+![](images/distortions.jfif)
+
+## Data ink ratio
+
+Edward Tufte sugiere **maximizar la proporción de tinta de datos**, diciendo que "cuanto mayor sea la proporción de tinta de un gráfico dedicada a los datos, mejor (siendo iguales otros asuntos relevantes)".
+
+::: incremental
+-   Al intentar hacer una visualización atractiva para el público, suele cometerse el error de sobrecargarla, ocultando el mensaje que trata de comunicar.
+
+-   El ratio de tinta de datos se lo calcula de manera empírica: ![](images/paste-B25C3FA4.png)
+:::
+
+## Data ink ratio - ejemplo
+
+![](images/paste-BEC0029D.png){fig-align="center" width="1300"}
+
+## Datos basura o Chart junk
+
+Los trastos de las gráficas son aquellos accesorios visuales de una gráfica que no añaden valor a la lectura, distraen, confunden u ocultan el verdadero mensaje.
+
+![](images/paste-38546A00.png){fig-align="center" width="700" height="600"}
+
+::: incremental
+-   Sobrecarga de lineas horizontales y verticales.
+
+-   Sobrecarga de texto o etiquetas.
+
+-   Imagenes innecesarias.
+
+-   Elementos decorativos, sombras, efectos 3D
+:::
+
+[Fuente](https://junkcharts.typepad.com/junk_charts/junk-charts-trifecta-checkup-the-definitive-guide.html)
+
+## Ratio de distorción (Lie Ratio)
+
+::: incremental
+-   Edward Tufte: La integridad de la visualización.
+
+-   Expresa la distorsión del efecto gráfico frente a lo que verdaderamente muestran los datos.
+
+-   se lo define como:
+
+    ![](images/paste-7D11C7F6.png)
+
+-   Debería ser igual a 1+/-0.05, números mayores o menores muestra distorsión significativa.
+
+-   
+
+    ![](https://infovis-wiki.net/w/images/0/05/Lie_factor_example1_image.jpg){fig-align="center"}
+
+    ![](https://infovis-wiki.net/w/images/f/f5/Lie_factor.png){fig-align="center"}
+:::
+
+[Ejemplo](https://infovis-wiki.net/wiki/Lie_Factor)
+
+## Una enseñanza de ratio de distorción - Mapa Mercator
+
+El área real de cada país varía en especial en los países que se encuentran al norte:
+
+![](images/mercator.jfif){fig-align="center"}
 
 ## Sesgo de confirmación
 
@@ -209,9 +426,28 @@ Mezclando posición, color y forma no lo hace fácil leer. ¿Hay alternativa?
 
 [^1]: [Fuente de Brent Dykes](https://www.linkedin.com/posts/activity-6984132341933772800-LEHt/?utm_source=post_nba&utm_medium=member_desktop&utm_campaign=copy)
 
+## El método gráfico varia en efectividad
+
+![](images/paste-0E690671.png)
+
+## Selección de tipo de gráfico
+
+![](images/Chart_Selection.jpeg){fig-align="center"}
+
 # 4 Reportes, Estudios, Presentación de Investigación, Webpages
 
--   Reproducibilidad de Contenido e investigación corporativa GIT
--   Markdown en Jupyter y Rmarkdown extendido a otros sistemas
-
 ## Quarto
+
+Analiza, Comparte, Reproduce. Tus datos tienen una historia, Quarto ayuda a comunicarlas
+
+Quarto^®^ es un sistesma de publicación código abierto científico y técnico construido en [Pandoc](https://pandoc.org/)
+
+-   Quarto - PDFs, multilenguaje.
+-   Markdown en Jupyter y Rmarkdown extendido a otros sistemas
+-   Reproducibilidad de Contenido e investigación corporativa GIT
+
+[Quarto](https://quarto.org/){preview-link="true"}
+
+## Quiz 1
+
+Se subirá el quiz de la sección 1, en el que se incluirá preguntas de las tres primeras sesiones y de las 2 lecturas asignadas.

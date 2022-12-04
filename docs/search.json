@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Analítica y Visualización de Datos, Aplicaciones - II/2022",
     "section": "",
-    "text": "Actualizado al 29/11/2022\nHola y bienvenidos al Módulo 5. Analítica y Visualización de Datos - Aplicaciones. Este curso va a introducir a los estudiantes en análisis y visualización de datos. Iniciando con los fundamentos de visualización, posteriormente utilizando herramientas de analítica y visualización de datos, para finalmente concluir el módulo con aplicaciones de analítica y visualización de datos."
+    "text": "Actualizado al 02/Dic/2022\nHola y bienvenidos al Módulo 5. Analítica y Visualización de Datos - Aplicaciones. Este curso va a introducir a los estudiantes en análisis y visualización de datos. Iniciando con los fundamentos de visualización, posteriormente utilizando herramientas de analítica y visualización de datos, para finalmente concluir el módulo con aplicaciones de analítica y visualización de datos."
   },
   {
     "objectID": "about.html",
@@ -781,7 +781,7 @@
     "href": "course-materials/slides/u1-d2-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#herramientas-de-visualización-de-datos",
     "title": "Analítica y Visualización de Datos, Aplicaciones",
     "section": "Herramientas de Visualización de Datos",
-    "text": "Herramientas de Visualización de Datos\n\nLas herramientas de visualización de datos mejoran y automatizan el proceso de comunicación visual para lograr precisión y detalle. Puede utilizar las representaciones visuales para extraer información práctica a partir de datos sin procesar.1\n\n\nTableau\nPower BI\nR - GGPlot2\nPython - Seaborn\nOracle Analytics\nQlick Sense\nDJ3s\n\nAmazon - Visualización de datos"
+    "text": "Herramientas de Visualización de Datos\n\nLas herramientas de visualización de datos mejoran y automatizan el proceso de comunicación visual para lograr precisión y detalle. Puede utilizar las representaciones visuales para extraer información práctica a partir de datos sin procesar.1\n\n\nTableau\nPower BI\nR - GGPlot2\nPython - Seaborn\nOracle Analytics\nQlick Sense\nDJ3s\nSuperset\n\nAmazon - Visualización de datos"
   },
   {
     "objectID": "course-materials/slides/u1-d2-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#tarea-2",
@@ -816,14 +816,14 @@
     "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#reporte-de-caída-1",
     "title": "Analítica y Visualización de Datos, Aplicaciones",
     "section": "Reporte de caída",
-    "text": "Reporte de caída\n\n\n\n\n\n\n\nFuente: Storytelling with Data"
+    "text": "Reporte de caída\n\n\n\nQue los datos resalten\n\n\n\n\nFuente: Storytelling with Data"
   },
   {
     "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#análisis-exploratorio-vs-explicativo",
     "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#análisis-exploratorio-vs-explicativo",
     "title": "Analítica y Visualización de Datos, Aplicaciones",
     "section": "Análisis Exploratorio vs Explicativo",
-    "text": "Análisis Exploratorio vs Explicativo\n\nAnálisis Exploratorio - es lo que haces cuando te haces familiar con los datos. Con hipótesis o con preguntas. De 100 rocas encontrar 2 gemas.\n\n\nAnálisis Explicativo - es cuando se quiere compartir un hallazgo a la audiencia. Mostrar esas 2 gemas. Contar una historia con tus datos.\n\n\n\nFuente: Storytelling with Data"
+    "text": "Análisis Exploratorio vs Explicativo\n\nAnálisis Exploratorio - es lo que haces cuando te haces familiar con los datos. Con hipótesis o con preguntas.\nDe 100 rocas encuentras 2 gemas.\n\n\nSe lo realiza a nivel de laboratorio o estudios empíricos.\nTrata de encontrar relaciones entre los datos.\nLas visualizaciones no necesitan ser perfectas.\nSimplemente busca patrones de comportamiento.\n\n\n\n\nAnálisis Explicativo - es cuando se quiere compartir un hallazgo a la audiencia.\nMostrar esas 2 gemas. Contar una historia con tus datos.\n\n\nUna vez encontrado uno o varios hallazgos, se trata de explicarlos por medio de la data y se va descartando de acuerdo a su importancia.\nDeben estar explicados a través de una lógica contextual o historia.\nLas visualizaciones deben ser prolijas, que respondan las interrogantes y transmitan efectivamente el mensaje.\n\n\n\n\n\nFuente: Storytelling with Data"
   },
   {
     "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#color",
@@ -879,7 +879,7 @@
     "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#deficiencia-en-la-visión-del-color",
     "title": "Analítica y Visualización de Datos, Aplicaciones",
     "section": "Deficiencia en la visión del color",
-    "text": "Deficiencia en la visión del color\nDependiendo el cono que les falta, las personas con DVC se les dificulta distiguir entre algunos colores debido a la forma en que ellos ven el espectro de colores: 8% de los hombres vs 0.4% de las mujeres 1 Protanopia, falta de conos de onda larga - débil en el rojo 2 Deuteranopia, falta de conos de onda media - débil en el verde 3 Tritanopia, falta de conos de onda corta - azul muy raro.\nrojo y verde ! evitar semáforos azul y naranja -> colores amigables ## Problemas de color, más allá de rojo y verde ejemplos"
+    "text": "Deficiencia en la visión del color\nDependiendo el cono que les falta, las personas con DVC se les dificulta distiguir entre algunos colores debido a la forma en que ellos ven el espectro de colores: 8% de los hombres vs 0.4% de las mujeres 1 Protanopia, falta de conos de onda larga - débil en el rojo 2 Deuteranopia, falta de conos de onda media - débil en el verde 3 Tritanopia, falta de conos de onda corta - azul muy raro.\n\n\nDaltónicos, rojo y verde, evitar semáforos\nAzul y naranja -> colores amigables\nProblemas de color, más allá de rojo y verde"
   },
   {
     "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#rueda-de-color",
@@ -893,7 +893,7 @@
     "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#por-qué-mejores-prácticas",
     "title": "Analítica y Visualización de Datos, Aplicaciones",
     "section": "¿Por qué mejores prácticas?",
-    "text": "¿Por qué mejores prácticas?\n\nLas técnicas de visualización contribuyen y ayudan a visualizaciones éxitosas.\nA veces nuestro sistema de procesamiento visual nos engaña\nLa ambiguedad en las imágenes nos juegan como ilusiones\nSe quiere mostrar el valor de la medida en una forma que sea interpretada lo más preciso en el menor tiempo posible. [ejemplos]"
+    "text": "¿Por qué mejores prácticas?\n\n\nLas técnicas de visualización contribuyen y ayudan a visualizaciones éxitosas.\nA veces nuestro sistema de procesamiento visual nos engaña\nLa ambiguedad en las imágenes nos muestran ilusiones\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nEn cambio se quiere mostrar el valor de la medida en una forma que sea interpretada lo más preciso en el menor tiempo posible. [ejemplos]"
   },
   {
     "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#mal-uso-o-sobreuso-del-color",
@@ -920,22 +920,22 @@
     "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#data-ink-ratio",
     "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#data-ink-ratio",
     "title": "Analítica y Visualización de Datos, Aplicaciones",
-    "section": "data ink ratio",
-    "text": "data ink ratio"
+    "section": "Data ink ratio",
+    "text": "Data ink ratio\nEdward Tufte sugiere maximizar la proporción de tinta de datos, diciendo que “cuanto mayor sea la proporción de tinta de un gráfico dedicada a los datos, mejor (siendo iguales otros asuntos relevantes)”.\n\n\nAl intentar hacer una visualización atractiva para el público, suele cometerse el error de sobrecargarla, ocultando el mensaje que trata de comunicar.\nEl ratio de tinta de datos se lo calcula de manera empírica:"
   },
   {
     "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#dilema-del-pie-chart-o-gráfico-de-torta",
     "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#dilema-del-pie-chart-o-gráfico-de-torta",
     "title": "Analítica y Visualización de Datos, Aplicaciones",
     "section": "Dilema del Pie Chart o Gráfico de Torta",
-    "text": "Dilema del Pie Chart o Gráfico de Torta\n1 que porcentaje de cada círculo es cubierto= 2 ordenar los pedazos de más grande a más pequeño? 3 la alternativa clara es un gráfica de barras ## ejemplos 2 profundidar del mar"
+    "text": "Dilema del Pie Chart o Gráfico de Torta\n¿Podemos comparar adecuadamente?"
   },
   {
     "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#quarto",
     "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#quarto",
     "title": "Analítica y Visualización de Datos, Aplicaciones",
     "section": "Quarto",
-    "text": "Quarto\n\n\n\nAnalítica y Visualización de Datos"
+    "text": "Quarto\nAnaliza, Comparte, Reproduce. Tus datos tienen una historia, Quarto ayuda a comunicarlas\nQuarto® es un sistesma de publicación código abierto científico y técnico construido en Pandoc\n\nQuarto - PDFs, multilenguaje.\nMarkdown en Jupyter y Rmarkdown extendido a otros sistemas\nReproducibilidad de Contenido e investigación corporativa GIT\n\nQuarto"
   },
   {
     "objectID": "course-materials/slides/u2-d1-Tableau_viz/u2_d01_viz_Tableau.html#la-rosa-de-nightingale",
@@ -1460,7 +1460,7 @@
     "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#algunos-problemas-con-atributos-preatencionales",
     "title": "Analítica y Visualización de Datos, Aplicaciones",
     "section": "Algunos problemas con atributos preatencionales",
-    "text": "Algunos problemas con atributos preatencionales\nMezclando posición, color y forma no lo hace fácil leer. ¿Hay alternativa?\n+——-+——–+——-+ | | 2007 | 2008 | +——-+——–+——-+ | A | 100 | 120 | +——-+——–+——-+ | B | 70 | 30 | +——-+——–+——-+\n[diferentes formas de ver los mismos datos]\n\ncada decisión trae un compromiso, y un significado generalmente distinto"
+    "text": "Algunos problemas con atributos preatencionales\nMezclando posición, color y forma no lo hace fácil de leer. ¿Hay alternativa?\n+——-+——–+——-+ | | 2007 | 2008 | +——-+——–+——-+ | A | 100 | 120 | +——-+——–+——-+ | B | 70 | 30 | +——-+——–+——-+\n[diferentes formas de ver los mismos datos]\n\ncada decisión trae un compromiso, y un significado generalmente distinto"
   },
   {
     "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#lineamientos-en-constucción-de-dasboards",
@@ -2069,7 +2069,7 @@
     "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#uso-del-color",
     "title": "Analítica y Visualización de Datos, Aplicaciones",
     "section": "Uso del Color",
-    "text": "Uso del Color\n\n\nColor Secuencial\n\nes ordenado de bajo a alto, o de un color claro a oscuro\n\nColor Divergente\n\ndos colores secuenciales con puntos intermedios, como el secuencial pero puede codificar dos fiferentes rangos de medidas neutrales\ncontrastar colores para comparasiones individuales\nen el medio se puede utilizar el promedio, la meta o zero.\n\nColor Categórico\n\nUtilizado para distinguir entre diferentes categorías.\n\nColor Resaltado\n\nResaltar algo con el color\nUsada cuando hay algo que necesita que se resalte, pero que no alerte o alarme\nResaltar un punto, texto en una tabla, una cierta línea o una barra específica. [slopegraph] ## Color Alertado\nPara alertar o advertir al lector que algo necesita atención\nrecomendado unar colores vívidos y alarmantes, que atraeran atención rápidamente."
+    "text": "Uso del Color\n\n\nColor Secuencial\n\nes ordenado de bajo a alto, o de un color claro a oscuro\n\nColor Divergente\n\ndos colores secuenciales con puntos intermedios, como el secuencial pero puede codificar dos fiferentes rangos de medidas neutrales\ncontrastar colores para comparasiones individuales\nen el medio se puede utilizar el promedio, la meta o zero.\n\nColor Categórico\n\nUtilizado para distinguir entre diferentes categorías.\n\nColor Resaltado\n\nResaltar algo con el color\nUsada cuando hay algo que necesita que se resalte, pero que no alerte o alarme\nResaltar un punto, texto en una tabla, una cierta línea o una barra específica.\nPara alertar o advertir al lector que algo necesita atención\nrecomendado unar colores vívidos y alarmantes, que atraeran atención rápidamente."
   },
   {
     "objectID": "course-materials/slides/u1-d2-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#análisis-visual-de-datos-1",
@@ -2202,14 +2202,14 @@
     "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#color-1",
     "title": "Analítica y Visualización de Datos, Aplicaciones",
     "section": "Color",
-    "text": "Color\n\nEl color es importante entender para la visualización de datos\nMuchas veces es utilizado mal\nNo se debe usar solo para arreglar una visualización aburrida.\nBuenas visualizaciones muchas veces usan poco color\nEl color debe ser usado con un propósito\n\n[ejemplo simple uso de color]\n\natrae la atención del lecto, resalta una porción de los datos, distinguir entre diferentes categorías."
+    "text": "Color\n\n\nEl color es importante entender para la visualización de datos\nMuchas veces es utilizado mal\nNo se debe usar solo para arreglar una visualización aburrida.\nBuenas visualizaciones muchas veces usan poco color\nEl color debe ser usado con un propósito\natrae la atención del lecto, resalta una porción de los datos, distinguir entre diferentes categorías.\n\n\n\nEjemplo 1\nEjemplo 2\nEjemplo 3"
   },
   {
     "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#teoría-del-color",
     "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#teoría-del-color",
     "title": "Analítica y Visualización de Datos, Aplicaciones",
     "section": "Teoría del color",
-    "text": "Teoría del color\n\n\n\n\n\n\nImportant\n\n\nLos colores dependiendo el contexto tienen significado"
+    "text": "Teoría del color\n\n\n\n\n\n\nImportant\n\n\nLos colores dependiendo el contexto tienen significado.\n\n\n\nLa psicología del color"
   },
   {
     "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#a-veces-es-mejor-uso-escaso-del-color",
@@ -2224,5 +2224,215 @@
     "title": "Analítica y Visualización de Datos, Aplicaciones",
     "section": "Lineamientos en constucción de Dashboards",
     "text": "Lineamientos en constucción de Dashboards\n\nprimero debe ser confiable y funcional\nLos elementos de diseño gráfico deben contribuir a la claridad del dashboard.\ny hay razones para ir la milla extra para hacer dashboards que son elegantes también\n\n\n“Los productos deben de hecho cumplir necesidades humanas mientras ser entendibles y usables. En el mejor de los casos, los productos deben también ser enriquecedores y disfrutables, lo que quiere decir que no solo los requerimientos de ingeniería, de manufactura y ergonomía deben satisfacerse, pero se debe prestar atención a la experiencia entera, lo que significa la estética en forma y la calidad en la interacción” Donald A. Norman “El diseño de las cosas cotidianas” 2013"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#deficiencia-en-la-visión-del-color---ejemplo",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#deficiencia-en-la-visión-del-color---ejemplo",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Deficiencia en la visión del color - ejemplo",
+    "text": "Deficiencia en la visión del color - ejemplo"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#deficiencia-en-la-visión-del-color---ejemplo-1",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#deficiencia-en-la-visión-del-color---ejemplo-1",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Deficiencia en la visión del color - ejemplo",
+    "text": "Deficiencia en la visión del color - ejemplo"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#usar-el-color-empresarial-y-sus-complementos",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#usar-el-color-empresarial-y-sus-complementos",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Usar el color empresarial y sus complementos",
+    "text": "Usar el color empresarial y sus complementos\n\nRecurso"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#video-4---profundidar-del-mar",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#video-4---profundidar-del-mar",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Video 4 - Profundidar del mar",
+    "text": "Video 4 - Profundidar del mar"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#quiz-1",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#quiz-1",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Quiz 1",
+    "text": "Quiz 1\nSe subirá el quiz de la sección 1, en el que se incluirá preguntas de las tres primeras sesiones y de las 2 lecturas asignadas.\n\n\n\nAnalítica y Visualización de Datos"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#camino-al-valor-analítico",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#camino-al-valor-analítico",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Camino al valor Analítico",
+    "text": "Camino al valor Analítico"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#observaciones-vs-hallazgos-insights",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#observaciones-vs-hallazgos-insights",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Observaciones vs Hallazgos (Insights)",
+    "text": "Observaciones vs Hallazgos (Insights)"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#de-observaciones-a-acciones",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#de-observaciones-a-acciones",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "De observaciones a acciones",
+    "text": "De observaciones a acciones\n\n\n“Los insights te mueven de saber algo a querer hacer algo y crean inercia”.\nCoe Leta Stafford - IDEO Global Design Director"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#por-qué",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#por-qué",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "1 ¿Por qué?",
+    "text": "1 ¿Por qué?"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#por-qué-1",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#por-qué-1",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "1 ¿Por qué?",
+    "text": "1 ¿Por qué?"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#qué",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#qué",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "2 ¿Qué?",
+    "text": "2 ¿Qué?\n\nLa influencia cambia con contar historias con datos"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#cómo",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#cómo",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "3 ¿Cómo?",
+    "text": "3 ¿Cómo?\n\n\n\n¿Quién es la audiencia correcta para mi historia de datos?\n¿Cómo ajusto mi historia con datos a mi audiencia?"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#cómo-arco-de-contar-historia-con-datos",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#cómo-arco-de-contar-historia-con-datos",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "3 ¿Cómo? Arco de contar historia con datos",
+    "text": "3 ¿Cómo? Arco de contar historia con datos"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#cómo-arco-de-contar-historia-con-datos-aplicado",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#cómo-arco-de-contar-historia-con-datos-aplicado",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "3 ¿Cómo? Arco de contar historia con datos Aplicado",
+    "text": "3 ¿Cómo? Arco de contar historia con datos Aplicado"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#ejemplo---evaluación-de-características-del-auto",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#ejemplo---evaluación-de-características-del-auto",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Ejemplo - Evaluación de características del auto",
+    "text": "Ejemplo - Evaluación de características del auto\nExplicando lo explorado:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFuente: Storytelling with Data"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#ejemplo---reporte-de-caída",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#ejemplo---reporte-de-caída",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Ejemplo - Reporte de caída",
+    "text": "Ejemplo - Reporte de caída\n\n\n\n¿cómo estoy comparado a los 2 años anteriores?\n\n\n\n\nFuente: Storytelling with Data"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#ejemplo---reporte-de-caída-1",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#ejemplo---reporte-de-caída-1",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Ejemplo - Reporte de caída",
+    "text": "Ejemplo - Reporte de caída\n\n\n\nQue los datos resalten\n\n\n\n\nFuente: Storytelling with Data"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#diferentes-formas-de-ver-los-mismos-datos---contexto",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#diferentes-formas-de-ver-los-mismos-datos---contexto",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Diferentes formas de ver los mismos datos - Contexto",
+    "text": "Diferentes formas de ver los mismos datos - Contexto\n\n\ncada decisión trae un compromiso, y un significado generalmente distinto"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#diferentes-formas-de-ver-los-mismos-datos---varianza",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#diferentes-formas-de-ver-los-mismos-datos---varianza",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Diferentes formas de ver los mismos datos - Varianza",
+    "text": "Diferentes formas de ver los mismos datos - Varianza"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#anticipa-las-necesidades-de-comparación-del-consumidor",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#anticipa-las-necesidades-de-comparación-del-consumidor",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Anticipa las necesidades de comparación del consumidor",
+    "text": "Anticipa las necesidades de comparación del consumidor"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#dilema-del-pie-chart-o-gráfico-de-torta-1",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#dilema-del-pie-chart-o-gráfico-de-torta-1",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Dilema del Pie Chart o Gráfico de Torta",
+    "text": "Dilema del Pie Chart o Gráfico de Torta\n\n1 que porcentaje de cada círculo es cubierto\n2 ordenar los pedazos de más grande a más pequeño?\n3 la alternativa clara es un gráfica de barras"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#datos-basura-o-chart-junk",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#datos-basura-o-chart-junk",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Datos basura o Chart junk",
+    "text": "Datos basura o Chart junk\nLos trastos de las gráficas son aquellos accesorios visuales de una gráfica que no añaden valor a la lectura, distraen, confunden u ocultan el verdadero mensaje.\n\n\n\n\n\n\n\nSobrecarga de lineas horizontales y verticales.\nSobrecarga de texto o etiquetas.\nImagenes innecesarias.\nElementos decorativos, sombras, efectos 3D\n\n\nFuente"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#ratio-de-distorción-lie-ratio",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#ratio-de-distorción-lie-ratio",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Ratio de distorción (Lie Ratio)",
+    "text": "Ratio de distorción (Lie Ratio)\n\n\nEdward Tufte: La integridad de la visualización.\nExpresa la distorsión del efecto gráfico frente a lo que verdaderamente muestran los datos.\nse lo define como:\n\nDebería ser igual a 1+/-0.05, números mayores o menores muestra distorsión significativa.\n\n\n\n\n\n\n\n\n\n\n\n\nEjemplo"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#una-enseñanza-de-ratio-de-distorción---mapa-mercator",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#una-enseñanza-de-ratio-de-distorción---mapa-mercator",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Una enseñanza de ratio de distorción - Mapa Mercator",
+    "text": "Una enseñanza de ratio de distorción - Mapa Mercator\nEl área real de cada país varía en especial en los países que se encuentran al norte:"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#el-método-gráfico-varia-en-efectividad",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#el-método-gráfico-varia-en-efectividad",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "El método gráfico varia en efectividad",
+    "text": "El método gráfico varia en efectividad"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#selección-de-tipo-de-gráfico",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#selección-de-tipo-de-gráfico",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Selección de tipo de gráfico",
+    "text": "Selección de tipo de gráfico"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#section-1",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#section-1",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "",
+    "text": "Analítica y Visualización de Datos"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#section",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#section",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "",
+    "text": "Analítica y Visualización de Datos"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#dilema-del-pie-chart-o-gráfico-de-torta-2",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#dilema-del-pie-chart-o-gráfico-de-torta-2",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Dilema del Pie Chart o Gráfico de Torta",
+    "text": "Dilema del Pie Chart o Gráfico de Torta\n¿3D con datos 2D?"
+  },
+  {
+    "objectID": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#data-ink-ratio---ejemplo",
+    "href": "course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#data-ink-ratio---ejemplo",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Data ink ratio - ejemplo",
+    "text": "Data ink ratio - ejemplo"
   }
 ]

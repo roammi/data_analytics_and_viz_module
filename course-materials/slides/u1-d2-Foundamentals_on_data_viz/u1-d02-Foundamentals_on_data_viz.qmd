@@ -20,7 +20,7 @@ editor: visual
 
 <h3>Rolando Mirabal, Desarrollador de Insights Senior en Viva</h3>
 
-<h3>`28/11/2022`</h3>
+<h3>`01/12/2022`</h3>
 
 <br>
 
@@ -534,6 +534,8 @@ ggcorrplot(penguins_cor, method = "circle")
 -   [Qlick Sense](https://www.qlik.com/es-es/products/qlik-sense)
 
 -   [DJ3s](https://d3js.org/)
+
+-   [Superset](https://superset.apache.org/)
 
 ## Tarea 2
 
