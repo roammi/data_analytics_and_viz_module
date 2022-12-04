@@ -393,9 +393,7 @@ Los trastos de las gráficas son aquellos accesorios visuales de una gráfica qu
 
 -   Debería ser igual a 1+/-0.05, números mayores o menores muestra distorsión significativa.
 
--   
-
-    ![](https://infovis-wiki.net/w/images/0/05/Lie_factor_example1_image.jpg){fig-align="center"}
+-   ![](https://infovis-wiki.net/w/images/0/05/Lie_factor_example1_image.jpg){fig-align="center"}
 
     ![](https://infovis-wiki.net/w/images/f/f5/Lie_factor.png){fig-align="center"}
 :::
