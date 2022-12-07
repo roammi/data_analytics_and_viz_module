@@ -1367,16 +1367,16 @@
   {
     "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#la-rosa-de-nightingale",
     "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#la-rosa-de-nightingale",
-    "title": "Visualización de Datos con Tableau",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
     "section": "La Rosa de Nightingale",
     "text": "La Rosa de Nightingale\n\n\n\nWikipedia\n\n“causas de muerte” entre los años 1854 y 1856, de la guerra de Crimea:\n\nen Azul está el número de muertes causadas por enfermedades infecciosas,\nen Rosado el número de muertes por heridas\nen Gris el número de muertes por otras causas"
   },
   {
     "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#video-3-la-rosa-de-nightingale-aplicada-en-tableau",
     "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#video-3-la-rosa-de-nightingale-aplicada-en-tableau",
-    "title": "Visualización de Datos con Tableau",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
     "section": "Video 3 la Rosa de NIghtingale aplicada en Tableau",
-    "text": "Video 3 la Rosa de NIghtingale aplicada en Tableau\n\n\n\n\nAnalítica y Visualización de Datos"
+    "text": "Video 3 la Rosa de NIghtingale aplicada en Tableau"
   },
   {
     "objectID": "course-materials/slides/u1-d2-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#diferentes-finalidades-al-visualizar-datos",
@@ -1509,7 +1509,7 @@
     "href": "index.html#cronograma-por-sesión",
     "title": "Analítica y Visualización de Datos, Aplicaciones - II/2022",
     "section": "Cronograma por Sesión",
-    "text": "Cronograma por Sesión\n\n\n\nUnidad\nDiapositivas\nTítulo\nEnlace\n\n\n\n\n1\n1\nAnalítica y Visualización de Datos\n🖥️\n\n\n1\n2\nFundamentos de Analítica y Visualización de Datos\n🖥️\n\n\n1\n3\nFundamentos de Analítica y Visualización de Datos\n🖥️\n\n\n2\n1\nR para analítica y visualización de datos\n🖥\n\n\n2\n2\nTableau para analítica y visualización de datos\n\n\n\n2\n3\nTableau para analítica y visualización de datos\n\n\n\n2\n4\nTableau con QGis y R\n\n\n\n3\n1\nAplicación Geoespacial\n🖥\n\n\n3\n2\nAplicación usando APIs\n\n\n\n3\n3\nAplicación - BigData"
+    "text": "Cronograma por Sesión\n\n\n\nUnidad\nDiapositivas\nTítulo\nEnlace\n\n\n\n\n1\n1\nAnalítica y Visualización de Datos\n🖥️\n\n\n1\n2\nFundamentos de Analítica y Visualización de Datos II\n🖥️\n\n\n1\n3\nFundamentos de Analítica y Visualización de Datos III\n🖥️\n\n\n2\n1\nTableau para analítica y visualización de datos I\n🖥\n\n\n2\n2\nTableau para analítica y visualización de datos II\n\n\n\n2\n3\nTableau para analítica y visualización de datos III\n\n\n\n2\n4\nTableau con QGis y R\n\n\n\n3\n1\nAplicación Geoespacial\n🖥\n\n\n3\n2\nAplicación usando APIs\n\n\n\n3\n3\nAplicación - BigData"
   },
   {
     "objectID": "course-materials/slides/u4-d02-Data-Analytics-Challenges/u4-d02-data-analytics-challenges.html#parquet",
@@ -2434,5 +2434,278 @@
     "title": "Analítica y Visualización de Datos, Aplicaciones",
     "section": "Data ink ratio - ejemplo",
     "text": "Data ink ratio - ejemplo"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#qué-es-un-dataset",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#qué-es-un-dataset",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "¿qué es un dataset?",
+    "text": "¿qué es un dataset?\nAlguna vez referido como fuente de datos o base de datos en el contexto de Tableau contiene los datos usados para construir visualizaciones.\nTodas las visualizaciones tienen como fundamento un dataset que proporciona los datos.\n\nHojas de cálculo: Excel, Google sheet, .csv\nRelational Database: MySQL, Postgres\nCloud data: S3 amazon, azure\nOtros tipos de conexión:\n\narchivos espaciales: .kml, .shp\narchivos estadísticos"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#conectarse-a-la-fuente-de-datos",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#conectarse-a-la-fuente-de-datos",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Conectarse a la fuente de datos",
+    "text": "Conectarse a la fuente de datos\nlos campos de datos son asignados a un rol y un tipo\n\n\n\n\n\n\n\nRol\nTipo\n\n\n\n\nun campo puede ser asignado a un rol de dimensión o un rol de ´medida´\nsi el tipo de dato del campo es: cadena, entero, fecha, decimal."
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#evaluar",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#evaluar",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "2. Evaluar",
+    "text": "2. Evaluar\nLos tipos de datos pueden ser cambiados por el usuario y todos los cambios son mapeados por tableau en un archivo .tds (tableau data source)"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#qué-es-un-campo",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#qué-es-un-campo",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "¿qué es un campo?",
+    "text": "¿qué es un campo?\nun campo, o columna, es una sola pieza de información de un registro en un dataset.\n\n\n\n\n\n\n\n\nNombre\nModo de transporte\nDías por semana\n\n\n\n\nNeil\nCaminar\n2\n\n\nNeil\nBus\n3\n\n\nLin\nBicicleta\n1\n\n\nLin\n\nAutomóvil\n3\n\n\nLin\nBus\n1\n\n\nMae\nAutomóvil\n2\n\n\nMae\nBicicleta\n3\n\n\n\n\n\nNombre, Modo de transporte y días por semana son campos.\nNombre y modo son campos cualitativos.\nDías por semana es un campo cuantitativo.\nEn Tableau, los campos cuantitativos son referidos como Medidas, y los campos cualitativos son referidos como Dimensiones"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#analizar-y-compartir",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#analizar-y-compartir",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "3. Analizar y compartir",
+    "text": "3. Analizar y compartir\n\n\n\n\nAnalítica y Visualización de Datos"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#campos-cualitativos-y-cuantitativos",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#campos-cualitativos-y-cuantitativos",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Campos Cualitativos y Cuantitativos",
+    "text": "Campos Cualitativos y Cuantitativos\nLas dimensiones y medidas son los bloques de construcción de las gráficas de Tableau.\n\n\n\n\n\n\n\n\n\nCampos Cualitativos (Dimensiones)\nCampos Cuantitativos (Medidas)\n\n\n\n\nDescribe o categoriza los datos\nDatos numéricos\n\n\nTe dice qué, cuándo, o quién\nProvee la medida para la categoría cualitativa\n\n\nDivide los datos cuantitativos\nPuede ser usada en las calculaciones\n\n\n\nTableau asigna los campos del dataset como Dimensión o Medida:\n\nlas Dimensiones en la parte superior del panel en azul\nlas Medidas en la parte inferior del panel en verde"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#aplicando-conectado-a-fuente-de-datos",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#aplicando-conectado-a-fuente-de-datos",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "1. Aplicando: conectado a fuente de datos",
+    "text": "1. Aplicando: conectado a fuente de datos\n\nconectar al csv: FAA wildlife strikes"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#evaluar-los-campos",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#evaluar-los-campos",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Evaluar los campos",
+    "text": "Evaluar los campos\nLos tipos de datos pueden ser cambiados por el usuario y todos los cambios son mapeados por tableau en un archivo .tds (tableau data source)"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#aplicando-construyamos-un-gráfico",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#aplicando-construyamos-un-gráfico",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "2. Aplicando: construyamos un Gráfico",
+    "text": "2. Aplicando: construyamos un Gráfico\n\n¿cuántos choques de animales salvajes tenemos?\n¿cuántos choques por categoría animal?\n¿qué tipo de ave es la que más choques tiene?\n¿cuáles especies de aves están relacionadas con el mayor costo?"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#vista-en-tableau",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#vista-en-tableau",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Vista en Tableau",
+    "text": "Vista en Tableau\nMover dimensiones y medidas dentro y fuera de la vista cambia el gráfico resultante. Es una forma útil de ver diferentes aspectos de losdatos y ayuda a descubrir las tendencias y las historias que afectan según el contexto."
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#qué-es-un-registro-a-nivel-de-fila",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#qué-es-un-registro-a-nivel-de-fila",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "¿qué es un registro a nivel de fila?",
+    "text": "¿qué es un registro a nivel de fila?\n¿qué contiene? puede ser complejo\n\n\n\n\n\n\n\n\nNombre\nModo de transporte\nDías por semana\n\n\n\n\nNeil\nCaminar\n2\n\n\nNeil\nBus\n3\n\n\n\nque pasa si quieres saber …\n\n¿cuántas personas usan multiples modos de transporte?\n¿cómo son las idas al trabajo con las vueltas al trabajo?\n¿cuánto duran?\n¿cuánto es la distancia de cada viaje?\n\n\n\n\n\n\n\n\n\n\n\n\nNombre\nViaje\nInicio del viaje\nFin del viaje\nFecha\nModo\nKm. estimad.\n\n\n\n\nMae\nAl trabajo\n7:45 am\n8:50 am\n7/17/2019\nBicycle\n9\n\n\n\nMae\nDel trabajo\n5:15 pm\n5:45 pm\n7/17/2019\nBus\n6\n\n\nMae\nDel trabajo\n5:45 pm\n6:15 pm\n7/17/2019\nBicycle\n3\n\n\n\n\nEn este dataset una fila es más detallada y granular que en el primero."
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#granularidad-y-agregación-en-tableau",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#granularidad-y-agregación-en-tableau",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Granularidad y Agregación en Tableau",
+    "text": "Granularidad y Agregación en Tableau\n\nDe forma predeterminada, las medidas que se colocan en una vista se agregan por SUMA, lo que significa que se combinan los datos de ese campo en todas las filas.\nLas medidas también se pueden agregar como promedio, mediana, conteo, conteo distinto, máximo y mínimo.\nLas dimensiones desglosan el total agregado en totales más pequeños por categoría.\n\nRecurso"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#aplicando-gananciaventas",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#aplicando-gananciaventas",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "3. Aplicando: ganancia/ventas",
+    "text": "3. Aplicando: ganancia/ventas\n\ngranularidad entre ganancia y ventas\ncategoria y campos calculados relacionados a la fila de datos\nDimensiones y Medidas, Jerarquía, campo calculados, y campos auto-generados"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#aplicando-entendiendo-las-píldoras-en-tableau",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#aplicando-entendiendo-las-píldoras-en-tableau",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "4. Aplicando: Entendiendo las píldoras en Tableau",
+    "text": "4. Aplicando: Entendiendo las píldoras en Tableau\n\nLa diferencia entre ejes y etiquetas\ncomo tipos diferentes de datos se comportan en las vistas\n\nLas píldoras azules son discretas y las píldoras verdes son contínuas\n\ncambiar una a otra\naplicados al color, en filtro"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#atributos-preatencionales-en-tableau",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#atributos-preatencionales-en-tableau",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Atributos preatencionales en tableau",
+    "text": "Atributos preatencionales en tableau\n\n\n\nLargo:\n\n\nCuantitativo:\n\nExcelente\n\nCualitativo:\n\nPobre\n\n\n\nAncho\n\n\nCuantitativo: Limitado\nCualitativo: Pobre\n\n\nPosición\n\n\nCuantitativo: Excelente\nCualitativo: Pobre\n\n\nTono de Color\n\n\nCuantitativo: Pobre\nCualitativo: Excelente"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#gráficas-bien-diseñadas",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#gráficas-bien-diseñadas",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Gráficas bien diseñadas",
+    "text": "Gráficas bien diseñadas\nUna gráfica bien diseñada debería ser fácil de leer y entender, y no debe despistar (extraviar).\n\nConoce los elementos de una gráfica en Tableau\nhacer preguntas de lo que se ve\ncuidado con gráficas que despisten, extravíen o confundan"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#conoce-los-elementos-de-las-gráficas",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#conoce-los-elementos-de-las-gráficas",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Conoce los elementos de las gráficas",
+    "text": "Conoce los elementos de las gráficas"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#section",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#section",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "",
+    "text": "Hazte estas preguntas\n\n\n¿qué representa el gráfico? ¿el gráfico y el título tienen un propósito? ¿entiendes su intención en poco tiempo?\n¿este gráfico muestra algún patrón o tendencia en particular? ¿alguna temporalidad? ¿tiene outliers? ¿se deben revisar?\n¿esta mostrando todos los datos? ¿hay data excluida? ¿se puede responder las preguntas?\n¿es claro lo que ha sido medido, y lo que los números representan? hay leyendas, notas.\nY la pregunta del millón: ¿se puede recolectar datos útiles y accionables de este gráfico?"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#gráficas-que-despisten-o-extravien",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#gráficas-que-despisten-o-extravien",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Gráficas que despisten o extravien",
+    "text": "Gráficas que despisten o extravien\n\ngráficos de barras con un eje que no incluye 0\ncolor confuso, escala revertida\ntipo de gráfico incorrecto para los datos:\n\nuna gráfica de barras es mejor para comparar categorías que una línea:"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#section-1",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#section-1",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "",
+    "text": "Analítica y Visualización de Datos"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#aplicando-tablas-cruzadas",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#aplicando-tablas-cruzadas",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "5. Aplicando: tablas cruzadas",
+    "text": "5. Aplicando: tablas cruzadas\nVentas por ganancias como ratio:\n\nDato tabulares planos\ncomparar valores altos y bajos, entre diferentes columnas y hojas\ncolor a los negativos … ¿eso estamos buscando?\nlargo de la barra con las ventas y color para las ganancias\naltas ventas, bajas ganancias"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#tipos-de-gráficos-y-sus-usos",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#tipos-de-gráficos-y-sus-usos",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Tipos de gráficos y sus usos",
+    "text": "Tipos de gráficos y sus usos\n\n\n\n\n\n\nTip\n\n\nLos gráficos son más efectivos y legibles cuando se combinan con los datos y el propósito correctos."
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#hazte-estas-preguntas",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#hazte-estas-preguntas",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Hazte estas preguntas",
+    "text": "Hazte estas preguntas\n\n\n¿qué representa el gráfico? ¿el gráfico y el título tienen un propósito? ¿entiendes su intención en poco tiempo?\n¿este gráfico muestra algún patrón o tendencia en particular? ¿alguna temporalidad? ¿tiene outliers? ¿se deben revisar?\n¿esta mostrando todos los datos? ¿hay data excluida? ¿se puede responder las preguntas?\n¿es claro lo que ha sido medido, y lo que los números representan? hay leyendas, notas.\nY la pregunta del millón: ¿se puede recolectar datos útiles y accionables de este gráfico?"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#t",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#t",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "T",
+    "text": "T\n\n\n\n\n\n\n\n\n\nLínea: ver tendencias en los datos a lo largo del tiempo.\nEjemplos: cambio en el precio de las acciones durante un período de cinco años o visitas a la página del sitio web durante un mes.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalítica y Visualización de Datos"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#tipos-de-gráficos-y-sus-usos-1",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#tipos-de-gráficos-y-sus-usos-1",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Tipos de gráficos y sus usos",
+    "text": "Tipos de gráficos y sus usos\n\n\n\n\n\n\n\n\n\nLínea: ver tendencias en los datos\na lo largo del tiempo.\nEjemplos: cambio en el precio de\nlas acciones durante un período de\ncinco años o visitas a la página del\nsitio web durante un mes.\nBarra: compara datos entre categorías.\nEjemplos: Volumen de camisas en diferentes tallas, o porcentaje de gasto por departamento.\nMapa de calor: muestra la relación entre dos factores.\nEjemplos: análisis de segmentos del mercado objetivo o oportunidades de ventas por representante individual.\nResaltar tabla: muestra información detallada sobre mapas de calor. Ejemplos: el porcentaje de un mercado para diferentes segmentos o números de ventas en una región.\n\n\nDiagrama de árbol: muestra datos jerárquicos como una proporción de un todo.\nEjemplos: uso de almacenamiento en equipos informáticos, comparación de presupuestos fiscales entre años.\nGantt: muestra la duración en el tiempo.\nEjemplos: línea de tiempo del proyecto, duración del uso de una máquina, disponibilidad de jugadores en un equipo.\nViñeta: evalúe el rendimiento de una métrica frente a un objetivo.\nEjemplos: evaluación de la cuota de ventas, espectro de desempeño (excelente/bueno/malo).\nDiagrama de dispersión: investigue las relaciones entre valores cuantitativos.\nEjemplos: Probabilidad masculina versus femenina de tener cáncer de pulmón a diferentes edades, o patrones de compra de teléfonos inteligentes de los primeros usuarios de tecnología y los rezagados.\n\n\nHistograma: comprenda la distribución de sus datos.\nEjemplos: número de clientes por tamaño de empresa, desempeño de los estudiantes en un examen, frecuencia de un producto defectuoso.\nMapas de símbolos: se utilizan para totales en lugar de tasas. Tenga cuidado, ya que las pequeñas diferencias serán difíciles de ver.\nEjemplos: Número de clientes en diferentes geografías.\nMapas de área: use para tasas en lugar de totales. Utilice una base geográfica sensata.\nEjemplos: tasas de uso de Internet en ciertas geografías, precios de la vivienda en diferentes barrios.\nCaja y bigotes: muestra la distribución de un conjunto de datos.\nEjemplos: comprender sus datos de un vistazo, ver cómo los datos están sesgados hacia un extremo, identificar valores atípicos en sus datos."
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#gráfico-de-barras",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#gráfico-de-barras",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Gráfico de barras",
+    "text": "Gráfico de barras\nAl"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#gráfico-de-líneas",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#gráfico-de-líneas",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Gráfico de líneas",
+    "text": "Gráfico de líneas\nasdf"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#gráfico-de-dispersión",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#gráfico-de-dispersión",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Gráfico de dispersión",
+    "text": "Gráfico de dispersión\n\n\n\nAnalítica y Visualización de Datos"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#gráfico-de-barras---comparando-categorías-de-datos",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#gráfico-de-barras---comparando-categorías-de-datos",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Gráfico de barras - comparando categorías de datos",
+    "text": "Gráfico de barras - comparando categorías de datos\nUsado para comparar datos entre categorías. Al hacerlo bien son fácil de leer e interpretar.\n\nel largo de las barras indican que categoría tiene el valor más alto\nLos ejes del gráfico de barras indican que respresenta el valor"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#gráfico-de-líneas---ver-datos-a-través-del-tiempo",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#gráfico-de-líneas---ver-datos-a-través-del-tiempo",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Gráfico de líneas - ver datos a través del tiempo",
+    "text": "Gráfico de líneas - ver datos a través del tiempo\nSon muy útiles para ver cambios en los datos en el tiempo.\n\n¿cuándo las tendencias suben y bajan?\n¿alguno de estos datos te sirven para identificar tendencias futuras?\ntoma atención a los ejes. ¿cuál es el rango típico del rango de valores? ¿son los intervalos uniformes?\n¿cuál es la linea de tiempo: diaria, mensual, anual? ¿muestra el detalle adecuado para analizar?"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#gráfico-de-dispersión---ver-relaciones-de-datos-y-valores-atípicos",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#gráfico-de-dispersión---ver-relaciones-de-datos-y-valores-atípicos",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Gráfico de dispersión - ver relaciones de datos y valores atípicos",
+    "text": "Gráfico de dispersión - ver relaciones de datos y valores atípicos\nÚtiles cuando se quiere ver las relaciones entre 2 medidas o valores cuantitativos. ¿Hay alguna correlación? ¿hasta que punto?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWarning\n\n\n“la correlación no significa causalidad”\n\n\n\n\n\n\n\n\n\nNote\n\n\nLos valores atípicos son excepciones raras que se pueden obviar, o están indicando que debemos revisar algo más de cerca. ¿O son simplimente errores?\n\n\n\nSi consideramos el diagrama de dispersión:\n\n¿para el usuario final estará interesado en si una variable incrementa o decrementa con los cambios en otra variable?\n¿será útil ver si el cambio en una variable afecta a otra?, y que efecto es ese?\n¿cuán cerca le sigue un cambio de una variable a otra?"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#ejercicio-1era-parte--explorando-los-datos",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#ejercicio-1era-parte--explorando-los-datos",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Ejercicio 1era Parte- Explorando los datos",
+    "text": "Ejercicio 1era Parte- Explorando los datos\nLa división espacial de Bolivia (ABE) lo contrató recientemente como nuevo analista de datos. Una de sus primeras responsabilidades es analizar datos sobre meteoritos. En su reunión inicial, revisó los datos y discutió lo que querían lograr. Durante esta conversación, revelaron que querían localizar meteoritos recientes que hayan caído a la tierra.\nEl objetivo de este proyecto es explorar los datos, decidir qué historia debe contar su análisis y organizar adecuadamente los datos.\nEl proyecto se divide en tres partes. La primera parte: exploración de datos se detalla a continuación.\nFuente de datos: Nasa - Aterrisajes de meteoritos\nMire los datos, y responda a las siguientes preguntas en un informe\n¿cuáles son las dos variables que encuentra críticas para el análisis?\n¿Podemos usar los datos para mapear dónde ha caído cada meteorito?\nSi esto es posible, ¿qué campo de datos es crítico para esto?\n¿Hay algún cambio en los datos que haría esto posible?\n¿Podemos determinar los meteoritos más grandes que han caído a la Tierra?\nCada columna en el conjunto de datos fue creada inicialmente por un programa de computadora. ¿Estos nombres parecen correctos? ¿Ves algún problema que debería solucionarse?"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#ejercicio-2da-parte---entendiendo-los-tipos-de-datos",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#ejercicio-2da-parte---entendiendo-los-tipos-de-datos",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Ejercicio 2da Parte - Entendiendo los tipos de datos",
+    "text": "Ejercicio 2da Parte - Entendiendo los tipos de datos\nLa segunda parte: comprender los tipos de datos se detalla a continuación.\nCopie la tabla a continuación e incluyalá en el documento informe.\nUtilizando los datos proporcionados, organice cada tipo de datos en una de las siguientes categorías: Cualitativo y Cuantitativo.\nPara los datos cuantitativos, resalte los valores discretos en azul y los valores continuos en verde.\n\n\n\nCualitativos\nCuantitativos"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#ejercicio-3era-parte---preparando-tus-datos",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#ejercicio-3era-parte---preparando-tus-datos",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Ejercicio 3era Parte - Preparando tus datos",
+    "text": "Ejercicio 3era Parte - Preparando tus datos\nA continuación se detalla la tercera parte: cómo preparar sus datos.\nEn Tableau realice las siguientes acciones para preparar datos y saque capturas.\n\nAbra tableau y conectese a documento excel provisto en classroom.\nDivida el campo de ubicación.\nCambie el nombre de Split 1 a “Lat”.\nCambie el nombre de Split 2 a “Long”.\nConvierta los datos de latitud y longitud en un tipo de datos espaciales.\nConfirme que la fecha se muestra en un formato de fecha discreto.\nRenombrar el tipo de datos de “Name” (Nombre) a “City” (Ciudad).\n\n\n\n\nAnalítica y Visualización de Datos"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#por-qué-importa",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#por-qué-importa",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "¿por qué importa?",
+    "text": "¿por qué importa?\nla granularidad se refiere al nivel de detalle para una pieza de datos. Cuando los datos sea menos granulares, los describiremos como agregaciones o datos agregados.\n\n\n\n\n\n\nImportant\n\n\nel nivel de granularidad o agregación en una fila o gráfico afectan las preguntas que podemos preguntar a los datos y los descubrimientos que podemos hacer.\n\n\n\n\ngranularidad por incidente en la tabla:\nAgregado en una gráfica:\n\n\n\n\n\n\n\n\nTip\n\n\nEn una gráfica puedes hacer click derecho y ver datos para ver la granularidad mínima"
+  },
+  {
+    "objectID": "course-materials/slides/u2_d2-Tableau_viz/slideu2-d01.html#la-rosa-de-nightingale",
+    "href": "course-materials/slides/u2_d2-Tableau_viz/slideu2-d01.html#la-rosa-de-nightingale",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "La Rosa de Nightingale",
+    "text": "La Rosa de Nightingale\n\n\n\nWikipedia\n\n“causas de muerte” entre los años 1854 y 1856, de la guerra de Crimea:\n\nen Azul está el número de muertes causadas por enfermedades infecciosas,\nen Rosado el número de muertes por heridas\nen Gris el número de muertes por otras causas"
+  },
+  {
+    "objectID": "course-materials/slides/u2_d2-Tableau_viz/slideu2-d01.html#video-3-la-rosa-de-nightingale-aplicada-en-tableau",
+    "href": "course-materials/slides/u2_d2-Tableau_viz/slideu2-d01.html#video-3-la-rosa-de-nightingale-aplicada-en-tableau",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Video 3 la Rosa de Nightingale aplicada en Tableau",
+    "text": "Video 3 la Rosa de Nightingale aplicada en Tableau"
+  },
+  {
+    "objectID": "course-materials/slides/u2_d2-Tableau_viz/slideu2-d01.html#section",
+    "href": "course-materials/slides/u2_d2-Tableau_viz/slideu2-d01.html#section",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "",
+    "text": "Analítica y Visualización de Datos"
+  },
+  {
+    "objectID": "course-materials/slides/u3-d02-Data-Analytics-Challenges/u3-d02-data-analytics-challenges.html#parquet",
+    "href": "course-materials/slides/u3-d02-Data-Analytics-Challenges/u3-d02-data-analytics-challenges.html#parquet",
+    "title": "Retos en Analítica",
+    "section": "Parquet",
+    "text": "Parquet"
   }
 ]

@@ -1,0 +1,53 @@
+---
+#title: "u2_d02_viz_Tableau"
+#author: "Rolando Mirabal"
+format: 
+  revealjs:
+    theme: simple
+    transition: fade
+    slide-number: TRUE
+    output-file: slideu2-d01.html
+    footer: "[Analítica y Visualización de Datos](https://roammi.github.io/data_analytics_and_viz_module/)"
+    logo: /images/UMSS.jpg
+    editor: visual
+    height: 1080
+    width: 1920
+    chalkboard: true
+editor: visual
+---
+
+<h1>Fundamentos de Analítica y <br>Visualización de Datos</h1>
+
+<hr>
+
+<h3>Rolando Mirabal, Desarrollador de Insights Senior en Viva</h3>
+
+<h3>`09/12/2022`</h3>
+
+<br>
+
+## La Rosa de Nightingale
+
+::: columns
+::: {.column width="60%"}
+![](images/Nightingale-mortality.jpg)
+
+[Wikipedia](https://en.wikipedia.org/wiki/Florence_Nightingale#/media/File:Nightingale-mortality.jpg){preview-link="true"}
+:::
+
+::: {.column width="40%"}
+"causas de muerte" entre los años 1854 y 1856, de la guerra de Crimea:
+
+-   en Azul está el número de muertes causadas por enfermedades infecciosas,
+
+-   en Rosado el número de muertes por heridas
+
+-   en Gris el número de muertes por otras causas
+:::
+:::
+
+## Video 3 la Rosa de Nightingale aplicada en Tableau
+
+{{< video https://youtu.be/TgoRaW74Glk0 width="100%" height="85%" >}}
+
+## 

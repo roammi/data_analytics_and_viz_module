@@ -9,7 +9,7 @@ Hola y bienvenidos al **Módulo 5. Analítica y Visualización de Datos - Aplica
 ## Datos Generales
 
 |                    |                                                                                                                                                                                                                               |
-|----------------------|--------------------------------------------------|
+|-------------|-----------------------------------------------------------|
 | **Institución:**   | [![Universidad Mayor de San Simón - Postgrado](images/UMSS.jpg){width="107"}](http://posgrado.fcyt.umss.edu.bo/index.html) Universidad Mayor de San Simón                                                                     |
 | **Programa:**      | [Diplomado en Estadística Aplicada a la Toma de Decisiones, primera versión.](http://posgrado.fcyt.umss.edu.bo/Programas/diploestadistica.html "Diplomado en Estadística Aplicada a la Toma de Decisiones, primera versión.") |
 | **Módulo V:**      | Analítica y Visualización de Datos, Aplicaciones                                                                                                                                                                              |
@@ -56,7 +56,7 @@ Puede ser accedido en el siguiente [URL - Material de Apoyo](https://rolandoamir
 ## Cronograma General
 
 | Descripción    | Nombre de la Unidad                                           | N° de sesiones |
-|-------------------|-----------------------------------|-------------------|
+|---------------|-------------------------------------------|---------------|
 | **UNIDAD I**   | Fundamentos de Analítica y Visualización de los Datos         | 3              |
 | **UNIDAD II**  | Utilizando Herramientas de Analítica y Visualización de Datos | 4              |
 | **UNIDAD III** | Aplicaciones de Analítica y Visualización de Datos            | 3              |
@@ -64,18 +64,18 @@ Puede ser accedido en el siguiente [URL - Material de Apoyo](https://rolandoamir
 
 ## Cronograma por Sesión
 
-| Unidad | Diapositivas | Título                                            | Enlace                                                                                                                                              |
-|----------------|----------------|-------------------------|----------------|
-| 1      | 1            | Analítica y Visualización de Datos                | [🖥️](course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#/title-slide "U1D01 slides"){aria-label="U1D01 slides"}                              |
-| 1      | 2            | Fundamentos de Analítica y Visualización de Datos | [🖥️](course-materials/slides/u1-d2-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#/ "U1D02 slides"){aria-label="U1D02 slides"}     |
-| 1      | 3            | Fundamentos de Analítica y Visualización de Datos | [🖥️](course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#/ "U1D03 slides"){aria-label="U1D03 slides"} |
-| 2      | 1            | R para analítica y visualización de datos         | [🖥](course-materials/slides/u2-d01-Tableau_viz/u2_d01_viz_Tableau.html#/title-slide "U2D01 slides"){aria-label="U2D01 slides"}                      |
-| 2      | 2            | Tableau para analítica y visualización de datos   |                                                                                                                                                     |
-| 2      | 3            | Tableau para analítica y visualización de datos   |                                                                                                                                                     |
-| 2      | 4            | Tableau con QGis y R                              |                                                                                                                                                     |
-| 3      | 1            | Aplicación Geoespacial                            | [🖥](http://localhost:5441/course-materials/slides/u3-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#/title-slide "u3-d01")                            |
-| 3      | 2            | Aplicación usando APIs                            |                                                                                                                                                     |
-| 3      | 3            | Aplicación - BigData                              |                                                                                                                                                     |
+| Unidad | Diapositivas | Título                                                | Enlace                                                                                                                                              |
+|--------|------------|--------------------------------------------|---------------------------------------|
+| 1      | 1            | Analítica y Visualización de Datos                    | [🖥️](course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#/title-slide "U1D01 slides"){aria-label="U1D01 slides"}                              |
+| 1      | 2            | Fundamentos de Analítica y Visualización de Datos II  | [🖥️](course-materials/slides/u1-d2-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#/ "U1D02 slides"){aria-label="U1D02 slides"}     |
+| 1      | 3            | Fundamentos de Analítica y Visualización de Datos III | [🖥️](course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#/ "U1D03 slides"){aria-label="U1D03 slides"} |
+| 2      | 1            | Tableau para analítica y visualización de datos I     | [🖥](course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#/ "U2D01 slides"){aria-label="U2D01 slides"}                                         |
+| 2      | 2            | Tableau para analítica y visualización de datos II    |                                                                                                                                                     |
+| 2      | 3            | Tableau para analítica y visualización de datos III   |                                                                                                                                                     |
+| 2      | 4            | Tableau con QGis y R                                  |                                                                                                                                                     |
+| 3      | 1            | Aplicación Geoespacial                                | [🖥](http://localhost:5441/course-materials/slides/u3-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#/title-slide "u3-d01")                            |
+| 3      | 2            | Aplicación usando APIs                                |                                                                                                                                                     |
+| 3      | 3            | Aplicación - BigData                                  |                                                                                                                                                     |
 
 ## Fechas de Clases
 

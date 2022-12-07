@@ -1,40 +1,475 @@
 ---
-title: "Visualización de Datos con Tableau"
-author: "Rolando Mirabal"
+# title: "Visualización de Datos con Tableau"
+# author: "Rolando Mirabal"
 format: 
   revealjs:
     theme: simple
     transition: fade
-    slide-number: FALSE
+    slide-number: TRUE
     output-file: slideu2-d01.html
     footer: "[Analítica y Visualización de Datos](https://roammi.github.io/data_analytics_and_viz_module/)"
     logo: /images/UMSS.jpg
     editor: visual
+    height: 1080
+    width: 1920
+    chalkboard: true
 editor: visual
 ---
 
-## La Rosa de Nightingale {.smaller transition="slide"}
+<h1>Fundamentos de Analítica y <br>Visualización de Datos</h1>
+
+<hr>
+
+<h3>Rolando Mirabal, Desarrollador de Insights Senior en Viva</h3>
+
+<h3>`06/12/2022`</h3>
+
+<br>![](images/DataFam%20sign.png){.absolute top="350" left="700" width="1100"}
+
+# Conceptos de datos en Tabeau
+
+## ¿qué es un dataset?
+
+Alguna vez referido como fuente de datos o base de datos en el contexto de Tableau contiene los datos usados para construir visualizaciones.
+
+Todas las visualizaciones tienen como fundamento un dataset que proporciona los datos.
+
+-   Hojas de cálculo: Excel, Google sheet, .csv
+
+-   Relational Database: MySQL, Postgres
+
+-   Cloud data: S3 amazon, azure
+
+-   Otros tipos de conexión:
+
+    -   archivos espaciales: .kml, .shp
+
+    -   archivos estadísticos
+
+## Conectarse a la fuente de datos
+
+los campos de datos son asignados a un rol y un tipo
+
++------------------------------------------------------------------------+------------------------------------------------------------------+
+| Rol                                                                    | Tipo                                                             |
++========================================================================+==================================================================+
+| un campo puede ser asignado a un rol de dimensión o un rol de ´medida´ | si el tipo de dato del campo es: cadena, entero, fecha, decimal. |
++------------------------------------------------------------------------+------------------------------------------------------------------+
+
+![](images/paste-7376FA6B.png){fig-align="center"}
+
+## ¿qué es un campo?
+
+un campo, o columna, es una sola pieza de información de un registro en un dataset.
+
++----------------+--------------------+-----------------+
+| Nombre         | Modo de transporte | Días por semana |
++================+====================+=================+
+| Neil           | Caminar            | 2               |
++----------------+--------------------+-----------------+
+| Neil           | Bus                | 3               |
++----------------+--------------------+-----------------+
+| Lin            | Bicicleta          | 1               |
++----------------+--------------------+-----------------+
+| Lin\           | Automóvil          | 3               |
++----------------+--------------------+-----------------+
+| Lin            | Bus                | 1               |
++----------------+--------------------+-----------------+
+| Mae            | Automóvil          | 2               |
++----------------+--------------------+-----------------+
+| Mae            | Bicicleta          | 3               |
++----------------+--------------------+-----------------+
+
+::: incremental
+-   Nombre, Modo de transporte y días por semana son `campos`.
+-   Nombre y modo son campos cualitativos.
+-   Días por semana es un campo cuantitativo.
+-   En Tableau, los campos cuantitativos son referidos como `Medidas`, y los campos cualitativos son referidos como `Dimensiones`
+:::
+
+## 1. Aplicando: conectado a fuente de datos
+
+1.  conectar al csv[: FAA wildlife strikes](https://data.world/kcmillersean/faa-wildlife-strike-database-1990-2021)
+
+![](images/paste-69EA613A.png)
+
+## Evaluar los campos
+
+Los tipos de datos pueden ser cambiados por el usuario y todos los cambios son mapeados por tableau en un archivo .tds (tableau data source)
 
 ::: columns
-::: {.column width="60%"}
-![](Nightingale-mortality.jpg)
-
-[Wikipedia](https://en.wikipedia.org/wiki/Florence_Nightingale#/media/File:Nightingale-mortality.jpg){preview-link="true"}
+::: {.column width="50%"}
+![](images/paste-566BF431.png){fig-align="center" width="850"}
 :::
 
-::: {.column width="40%"}
-"causas de muerte" entre los años 1854 y 1856, de la guerra de Crimea:
-
--   en Azul está el número de muertes causadas por enfermedades infecciosas,
-
--   en Rosado el número de muertes por heridas
-
--   en Gris el número de muertes por otras causas
+::: {.column width="50%"}
+![](images/paste-333F5E73.png){fig-align="center" width="280"}
 :::
 :::
 
-## 
+## Campos Cualitativos y Cuantitativos
 
-## Video 3 la Rosa de NIghtingale aplicada en Tableau
+Las `dimensiones` y `medidas` son los bloques de construcción de las gráficas de Tableau.
 
-{{< video https://youtu.be/TgoRaW74Glk0 width="100%" height="85%" >}}
+::: columns
+::: {.column width="75%"}
++-------------------------------------+------------------------------------------------+
+| Campos Cualitativos (`Dimensiones`) | Campos Cuantitativos (`Medidas`)               |
++=====================================+================================================+
+| Describe o categoriza los datos     | Datos numéricos                                |
++-------------------------------------+------------------------------------------------+
+| Te dice qué, cuándo, o quién        | Provee la medida para la categoría cualitativa |
++-------------------------------------+------------------------------------------------+
+| Divide los datos cuantitativos      | Puede ser usada en las calculaciones           |
++-------------------------------------+------------------------------------------------+
+
+Tableau asigna los campos del dataset como `Dimensión` o `Medida`:
+
+-   las `Dimensiones` en la parte superior del panel en azul
+
+-   las `Medidas` en la parte inferior del panel en verde
+:::
+
+::: {.column width="25%"}
+![](images/paste-E6D9FCFB.png){width="350"}
+:::
+:::
+
+## 2. Aplicando: construyamos un Gráfico
+
+1.  ¿cuántos choques de animales salvajes tenemos?
+2.  ¿cuántos choques por categoría animal?
+3.  ¿qué tipo de ave es la que más choques tiene?
+4.  ¿cuáles especies de aves están relacionadas con el mayor costo?
+
+## Vista en Tableau
+
+Mover dimensiones y medidas dentro y fuera de la vista cambia el gráfico resultante. Es una forma útil de ver diferentes aspectos de losdatos y ayuda a descubrir las tendencias y las historias que afectan según el contexto.
+
+![](images/03.png)
+
+## ¿qué es un registro a nivel de fila? {.scrollable}
+
+¿qué contiene? puede ser complejo
+
++----------------+--------------------+-----------------+
+| Nombre         | Modo de transporte | Días por semana |
++================+====================+=================+
+| Neil           | Caminar            | 2               |
++----------------+--------------------+-----------------+
+| Neil           | Bus                | 3               |
++----------------+--------------------+-----------------+
+
+que pasa si quieres saber ...
+
+-   ¿cuántas personas usan multiples modos de transporte?
+
+-   ¿cómo son las idas al trabajo con las vueltas al trabajo?
+
+-   ¿cuánto duran?
+
+-   ¿cuánto es la distancia de cada viaje?
+
+    +--------+-------------+------------------+---------------+-----------+----------+--------------+
+    | Nombre | **Viaje**   | Inicio del viaje | Fin del viaje | Fecha     | **Modo** | Km. estimad. |
+    +========+=============+==================+===============+===========+==========+==============+
+    | Mae    | Al trabajo  | 7:45 am          | 8:50 am       | 7/17/2019 | Bicycle  | 9\           |
+    +--------+-------------+------------------+---------------+-----------+----------+--------------+
+    | Mae    | Del trabajo | 5:15 pm          | 5:45 pm       | 7/17/2019 | Bus      | 6            |
+    +--------+-------------+------------------+---------------+-----------+----------+--------------+
+    | Mae    | Del trabajo | 5:45 pm          | 6:15 pm       | 7/17/2019 | Bicycle  | 3            |
+    +--------+-------------+------------------+---------------+-----------+----------+--------------+
+
+En este dataset una fila es más detallada y granular que en el primero.
+
+## ¿por qué importa? {.scrollable}
+
+la granularidad se refiere al nivel de detalle para una pieza de datos. Cuando los datos sea menos granulares, los describiremos como `agregaciones o datos agregados.`
+
+::: callout-important
+el nivel de granularidad o agregación en una fila o gráfico afectan las preguntas que podemos preguntar a los datos y los descubrimientos que podemos hacer.
+:::
+
+1.  granularidad por incidente en la tabla:![](images/paste-EE441E07.png)
+2.  Agregado en una gráfica:
+3.  ![](images/paste-34A1C82A.png)
+
+::: callout-tip
+En una gráfica puedes hacer click derecho y ver datos para ver la granularidad mínima
+:::
+
+## Granularidad y Agregación en Tableau
+
+-   De forma predeterminada, las medidas que se colocan en una vista se agregan por SUMA, lo que significa que se combinan los datos de ese campo en todas las filas.
+
+-   Las `medidas` también se pueden agregar como promedio, mediana, conteo, conteo distinto, máximo y mínimo.
+
+-   Las `dimensiones` desglosan el total agregado en totales más pequeños por categoría.
+
+[Recurso](https://help.tableau.com/current/pro/desktop/es-es/datafields_typesandroles.htm)
+
+## 3. Aplicando: ganancia/ventas
+
+1.  granularidad entre ganancia y ventas
+2.  categoria y campos calculados relacionados a la fila de datos
+3.  Dimensiones y Medidas, Jerarquía, campo calculados, y campos auto-generados
+
+## 4. Aplicando: Entendiendo las píldoras en Tableau
+
+-   La diferencia entre ejes y etiquetas
+-   como tipos diferentes de datos se comportan en las vistas
+
+Las píldoras azules son discretas y las píldoras verdes son contínuas
+
+-   cambiar una a otra
+
+-   aplicados al color, en filtro
+
+# Tipos de gráficos en Tableau
+
+## Atributos preatencionales en tableau {.scrollable}
+
+::: columns
+::: {.column width="75%"}
+-   Largo:
+
+    ::: incremental
+    -   Cuantitativo:
+
+        -   Excelente
+
+    -   Cualitativo:
+
+        -   Pobre
+    :::
+
+-   Ancho
+
+    ::: incremental
+    -   Cuantitativo: Limitado
+
+    -   Cualitativo: Pobre
+    :::
+
+-   Posición
+
+    ::: incremental
+    -   Cuantitativo: Excelente
+
+    -   Cualitativo: Pobre
+    :::
+
+-   Tono de Color
+
+    ::: incremental
+    -   Cuantitativo: Pobre
+
+    -   Cualitativo: Excelente
+    :::
+:::
+
+::: {.column width="25%"}
+![](images/paste-71EC4158.png)
+
+![](images/paste-1E22A8D1.png)
+
+![](images/paste-FF6A9D83.png)
+
+![](images/paste-6A34704D.png)
+:::
+:::
+
+## 5. Aplicando: tablas cruzadas
+
+`Ventas` por `ganancias` como ratio:
+
+-   Dato tabulares planos
+
+-   comparar valores altos y bajos, entre diferentes columnas y hojas
+
+-   color a los negativos ... ¿eso estamos buscando?
+
+-   largo de la barra con las `ventas` y color para las `ganancias`
+
+-   altas ventas, bajas ganancias
+
+## Gráficas bien diseñadas
+
+Una gráfica bien diseñada debería ser fácil de leer y entender, y no debe despistar (extraviar).
+
+1.  Conoce los elementos de una gráfica en Tableau
+2.  hacer preguntas de lo que se ve
+3.  cuidado con gráficas que despisten, extravíen o confundan
+
+## Conoce los elementos de las gráficas {.scrollable}
+
+![](images/paste-6152A1CF.png){fig-align="center"}
+
+## Hazte estas preguntas
+
+::: incremental
+-   ¿qué representa el gráfico? ¿el gráfico y el título tienen un propósito? ¿entiendes su intención en poco tiempo?
+
+-   ¿este gráfico muestra algún patrón o tendencia en particular? ¿alguna temporalidad? ¿tiene outliers? ¿se deben revisar?
+
+-   ¿esta mostrando todos los datos? ¿hay data excluida? ¿se puede responder las preguntas?
+
+-   ¿es claro lo que ha sido medido, y lo que los números representan? hay leyendas, notas.
+
+-   Y la pregunta del millón: ¿se puede recolectar datos útiles y accionables de este gráfico?
+:::
+
+## Gráficas que despisten o extravien
+
+1.  gráficos de barras con un eje que no incluye 0
+2.  color confuso, escala revertida
+3.  tipo de gráfico incorrecto para los datos:
+    1.  una gráfica de barras es mejor para comparar categorías que una línea:
+
+::: columns
+::: {.column width="50%"}
+![](images/paste-5CA309E9.png){width="900"}
+:::
+
+::: {.column width="50%"}
+![](images/paste-04CF9EBC.png){width="900"}
+:::
+:::
+
+## Tipos de gráficos y sus usos
+
+::: callout-tip
+Los gráficos son más efectivos y legibles cuando se combinan con los datos y el propósito correctos.
+:::
+
++--------------------------------+--------------------------------+--------------------------------+--------------------------------+
+| ![](images/paste-6C5D045B.png) | ![](images/paste-16871F93.png) | ![](images/paste-DC28BEF0.png) | ![](images/paste-0CFD7467.png) |
++--------------------------------+--------------------------------+--------------------------------+--------------------------------+
+| ![](images/paste-60DBA881.png) | ![](images/paste-7097F787.png) | ![](images/paste-0AE91EC4.png) | ![](images/paste-D10990DD.png) |
++--------------------------------+--------------------------------+--------------------------------+--------------------------------+
+| ![](images/paste-AE06AACB.png) | ![](images/paste-13DBFE01.png) | ![](images/paste-89D7DDC8.png) | ![](images/paste-E1BB900D.png) |
++--------------------------------+--------------------------------+--------------------------------+--------------------------------+
+
+## Tipos de gráficos y sus usos {.scrollable}
+
++------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Línea**: ver tendencias en los datos\                                                                                                  | **Barra**: compara datos entre categorías.\                                                                                                | **Mapa de calor:** muestra la relación entre dos factores.\                                                      | **Resaltar tabla:** muestra información detallada sobre mapas de calor. **Ejemplos**: el porcentaje de un mercado para diferentes segmentos o números de ventas en una región.                             |
+| a lo largo del tiempo.\                                                                                                                  | **Ejemplos**: Volumen de camisas en diferentes tallas, o porcentaje de gasto por departamento.                                             | **Ejemplos**: análisis de segmentos del mercado objetivo o oportunidades de ventas por representante individual. |                                                                                                                                                                                                            |
+| **Ejemplos**: cambio en el precio de\                                                                                                    |                                                                                                                                            |                                                                                                                  |                                                                                                                                                                                                            |
+| las acciones durante un período de\                                                                                                      |                                                                                                                                            |                                                                                                                  |                                                                                                                                                                                                            |
+| cinco años o visitas a la página del\                                                                                                    |                                                                                                                                            |                                                                                                                  |                                                                                                                                                                                                            |
+| sitio web durante un mes.                                                                                                                |                                                                                                                                            |                                                                                                                  |                                                                                                                                                                                                            |
++------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Diagrama de árbol:** muestra datos jerárquicos como una proporción de un todo.\                                                        | **Gantt**: muestra la duración en el tiempo.\                                                                                              | **Viñeta**: evalúe el rendimiento de una métrica frente a un objetivo.\                                          | **Diagrama de dispersión:** investigue las relaciones entre valores cuantitativos.\                                                                                                                        |
+| **Ejemplos**: uso de almacenamiento en equipos informáticos, comparación de presupuestos fiscales entre años.                            | **Ejemplos**: línea de tiempo del proyecto, duración del uso de una máquina, disponibilidad de jugadores en un equipo.                     | **Ejemplos**: evaluación de la cuota de ventas, espectro de desempeño (excelente/bueno/malo).                    | **Ejemplos**: Probabilidad masculina versus femenina de tener cáncer de pulmón a diferentes edades, o patrones de compra de teléfonos inteligentes de los primeros usuarios de tecnología y los rezagados. |
++------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Histograma**: comprenda la distribución de sus datos.\                                                                                 | **Mapas de símbolos:** se utilizan para totales en lugar de tasas. Tenga cuidado, ya que las pequeñas diferencias serán difíciles de ver.\ | **Mapas de área:** use para tasas en lugar de totales. Utilice una base geográfica sensata.\                     | **Caja y bigotes**: muestra la distribución de un conjunto de datos.\                                                                                                                                      |
+| **Ejemplos**: número de clientes por tamaño de empresa, desempeño de los estudiantes en un examen, frecuencia de un producto defectuoso. | **Ejemplos**: Número de clientes en diferentes geografías.                                                                                 | **Ejemplos**: tasas de uso de Internet en ciertas geografías, precios de la vivienda en diferentes barrios.      | **Ejemplos**: comprender sus datos de un vistazo, ver cómo los datos están sesgados hacia un extremo, identificar valores atípicos en sus datos.                                                           |
++------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+## Gráfico de barras - comparando categorías de datos
+
+Usado para comparar datos entre categorías. Al hacerlo bien son fácil de leer e interpretar.
+
+-   el largo de las barras indican que categoría tiene el valor más alto
+
+-   Los ejes del gráfico de barras indican que respresenta el valor
+
+::: r-stack
+![](images/paste-B5978FE6.png){.fragment fig-align="center"}
+
+![](images/paste-2CC4BD7B.png){.fragment fig-align="center"}
+
+![](images/paste-A6818E1F.png){.fragment fig-align="center"}
+:::
+
+## Gráfico de líneas - ver datos a través del tiempo
+
+Son muy útiles para ver cambios en los datos en el tiempo.
+
+-   ¿cuándo las tendencias suben y bajan?
+
+-   ¿alguno de estos datos te sirven para identificar tendencias futuras?
+
+-   toma atención a los ejes. ¿cuál es el rango típico del rango de valores? ¿son los intervalos uniformes?
+
+-   ¿cuál es la linea de tiempo: diaria, mensual, anual? ¿muestra el detalle adecuado para analizar?
+
+![](images/paste-A449C711.png){fig-align="center"}
+
+## Gráfico de dispersión - ver relaciones de datos y valores atípicos
+
+Útiles cuando se quiere ver las relaciones entre 2 medidas o valores cuantitativos. ¿Hay alguna correlación? ¿hasta que punto?
+
+![](images/paste-C6A5E984.png){fig-align="center"}
+
+![](images/paste-1F2F8A48.png){fig-align="center"}
+
+::: callout-warning
+*"la correlación no significa causalidad"*
+:::
+
+::: callout-note
+Los `valores atípicos` son excepciones raras que se pueden obviar, o están indicando que debemos revisar algo más de cerca. ¿O son simplimente errores?
+:::
+
+Si consideramos el diagrama de dispersión:
+
+-   ¿para el usuario final estará interesado en si una variable incrementa o decrementa [con los cambios en otra variable]{.underline}?
+
+-   ¿será útil ver si el cambio en una variable afecta a otra?, y que efecto es ese?
+
+-   ¿cuán cerca le sigue un cambio de una variable a otra?
+
+## Ejercicio 1era Parte- Explorando los datos
+
+La división espacial de Bolivia (ABE) lo contrató recientemente como nuevo analista de datos. Una de sus primeras responsabilidades es analizar datos sobre meteoritos. En su reunión inicial, revisó los datos y discutió lo que querían lograr. Durante esta conversación, revelaron que querían localizar meteoritos recientes que hayan caído a la tierra.
+
+El objetivo de este proyecto es explorar los datos, decidir qué historia debe contar su análisis y organizar adecuadamente los datos.
+
+El proyecto se divide en tres partes. La primera parte: exploración de datos se detalla a continuación.
+
+**Fuente de datos:** [Nasa - Aterrisajes de meteoritos](https://data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh)
+
+***`Mire los datos, y responda a las siguientes preguntas en un informe`***
+
+¿cuáles son las dos variables que encuentra críticas para el análisis?
+
+¿Podemos usar los datos para mapear dónde ha caído cada meteorito?
+
+Si esto es posible, ¿qué campo de datos es crítico para esto?
+
+¿Hay algún cambio en los datos que haría esto posible?
+
+¿Podemos determinar los meteoritos más grandes que han caído a la Tierra?
+
+Cada columna en el conjunto de datos fue creada inicialmente por un programa de computadora. ¿Estos nombres parecen correctos? ¿Ves algún problema que debería solucionarse?
+
+## Ejercicio 2da Parte - Entendiendo los tipos de datos
+
+La segunda parte: comprender los tipos de datos se detalla a continuación.
+
+***`Copie la tabla a continuación e incluyalá en el documento informe.`***
+
+Utilizando los datos proporcionados, organice cada tipo de datos en una de las siguientes categorías: Cualitativo y Cuantitativo.
+
+Para los datos cuantitativos, resalte los valores discretos en azul y los valores continuos en verde.
+
+| Cualitativos | Cuantitativos |
+|--------------|---------------|
+|              |               |
+|              |               |
+
+## Ejercicio 3era Parte - Preparando tus datos
+
+A continuación se detalla la tercera parte: cómo preparar sus datos.
+
+***`En Tableau`*** **realice las siguientes acciones para preparar datos y saque capturas.**
+
+1.  Abra tableau y conectese a documento excel provisto en classroom.
+2.  Divida el campo de ubicación.
+3.  Cambie el nombre de Split 1 a "Lat".
+4.  Cambie el nombre de Split 2 a "Long".
+5.  Convierta los datos de latitud y longitud en un tipo de datos espaciales.
+6.  Confirme que la fecha se muestra en un formato de fecha discreto.
+7.  Renombrar el tipo de datos de "Name" (Nombre) a "City" (Ciudad).

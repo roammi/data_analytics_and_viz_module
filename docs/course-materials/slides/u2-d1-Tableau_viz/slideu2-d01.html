@@ -7,10 +7,9 @@
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.1.189">
+  <meta name="generator" content="quarto-1.2.269">
 
-  <meta name="author" content="Rolando Mirabal">
-  <title>Analítica y Visualización de Datos, Aplicaciones - Visualización de Datos con Tableau</title>
+  <title>Analítica y Visualización de Datos, Aplicaciones – u2_d01_viz_tableau</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -33,6 +32,8 @@
   <link href="../../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../../../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="../../../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
   <link href="../../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
@@ -323,39 +324,700 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" class="center">
-  <h1 class="title">Visualización de Datos con Tableau</h1>
-  <p class="author">Rolando Mirabal</p>
-</section>
 
-<section id="la-rosa-de-nightingale" class="slide level2 smaller" data-transition="slide">
-<h2>La Rosa de Nightingale</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p><img data-src="Nightingale-mortality.jpg"></p>
-<p><a href="https://en.wikipedia.org/wiki/Florence_Nightingale#/media/File:Nightingale-mortality.jpg" data-preview-link="true">Wikipedia</a></p>
-</div><div class="column" style="width:40%;">
-<p>“causas de muerte” entre los años 1854 y 1856, de la guerra de Crimea:</p>
+<section class="slide level2">
+
+<h1>
+Fundamentos de Analítica y <br>Visualización de Datos
+</h1>
+<hr>
+<h3>
+Rolando Mirabal, Desarrollador de Insights Senior en Viva
+</h3>
+<h3>
+<code>06/12/2022</code>
+</h3>
+<p><br><img data-src="images/DataFam sign.png" class="absolute" style="top: 350px; left: 700px; width: 1100px; "></p>
+</section>
+<section>
+<section id="conceptos-de-datos-en-tabeau" class="title-slide slide level1 center">
+<h1>Conceptos de datos en Tabeau</h1>
+
+</section>
+<section id="qué-es-un-dataset" class="slide level2">
+<h2>¿qué es un dataset?</h2>
+<p>Alguna vez referido como fuente de datos o base de datos en el contexto de Tableau contiene los datos usados para construir visualizaciones.</p>
+<p>Todas las visualizaciones tienen como fundamento un dataset que proporciona los datos.</p>
 <ul>
-<li><p>en Azul está el número de muertes causadas por enfermedades infecciosas,</p></li>
-<li><p>en Rosado el número de muertes por heridas</p></li>
-<li><p>en Gris el número de muertes por otras causas</p></li>
+<li><p>Hojas de cálculo: Excel, Google sheet, .csv</p></li>
+<li><p>Relational Database: MySQL, Postgres</p></li>
+<li><p>Cloud data: S3 amazon, azure</p></li>
+<li><p>Otros tipos de conexión:</p>
+<ul>
+<li><p>archivos espaciales: .kml, .shp</p></li>
+<li><p>archivos estadísticos</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="conectarse-a-la-fuente-de-datos" class="slide level2">
+<h2>Conectarse a la fuente de datos</h2>
+<p>los campos de datos son asignados a un rol y un tipo</p>
+<table>
+<colgroup>
+<col style="width: 52%">
+<col style="width: 47%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Rol</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>un campo puede ser asignado a un rol de dimensión o un rol de ´medida´</td>
+<td>si el tipo de dato del campo es: cadena, entero, fecha, decimal.</td>
+</tr>
+</tbody>
+</table>
+
+<img data-src="images/paste-7376FA6B.png" class="r-stretch quarto-figure-center"></section>
+<section id="qué-es-un-campo" class="slide level2">
+<h2>¿qué es un campo?</h2>
+<p>un campo, o columna, es una sola pieza de información de un registro en un dataset.</p>
+<table style="width:78%;">
+<colgroup>
+<col style="width: 23%">
+<col style="width: 29%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Nombre</th>
+<th>Modo de transporte</th>
+<th>Días por semana</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Neil</td>
+<td>Caminar</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td>Neil</td>
+<td>Bus</td>
+<td>3</td>
+</tr>
+<tr class="odd">
+<td>Lin</td>
+<td>Bicicleta</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>Lin<br>
+</td>
+<td>Automóvil</td>
+<td>3</td>
+</tr>
+<tr class="odd">
+<td>Lin</td>
+<td>Bus</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>Mae</td>
+<td>Automóvil</td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td>Mae</td>
+<td>Bicicleta</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<div>
+<ul>
+<li class="fragment">Nombre, Modo de transporte y días por semana son <code>campos</code>.</li>
+<li class="fragment">Nombre y modo son campos cualitativos.</li>
+<li class="fragment">Días por semana es un campo cuantitativo.</li>
+<li class="fragment">En Tableau, los campos cuantitativos son referidos como <code>Medidas</code>, y los campos cualitativos son referidos como <code>Dimensiones</code></li>
 </ul>
 </div>
+</section>
+<section id="aplicando-conectado-a-fuente-de-datos" class="slide level2">
+<h2>1. Aplicando: conectado a fuente de datos</h2>
+<ol type="1">
+<li>conectar al csv<a href="https://data.world/kcmillersean/faa-wildlife-strike-database-1990-2021">: FAA wildlife strikes</a></li>
+</ol>
+
+<img data-src="images/paste-69EA613A.png" class="r-stretch"></section>
+<section id="evaluar-los-campos" class="slide level2">
+<h2>Evaluar los campos</h2>
+<p>Los tipos de datos pueden ser cambiados por el usuario y todos los cambios son mapeados por tableau en un archivo .tds (tableau data source)</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/paste-566BF431.png" width="850"></p>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/paste-333F5E73.png" width="280"></p>
+</figure>
+</div>
+</div>
 </div>
 </section>
-<section id="section" class="slide level2">
-<h2></h2>
+<section id="campos-cualitativos-y-cuantitativos" class="slide level2">
+<h2>Campos Cualitativos y Cuantitativos</h2>
+<p>Las <code>dimensiones</code> y <code>medidas</code> son los bloques de construcción de las gráficas de Tableau.</p>
+<div class="columns">
+<div class="column" style="width:75%;">
+<table>
+<colgroup>
+<col style="width: 43%">
+<col style="width: 56%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Campos Cualitativos (<code>Dimensiones</code>)</th>
+<th>Campos Cuantitativos (<code>Medidas</code>)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Describe o categoriza los datos</td>
+<td>Datos numéricos</td>
+</tr>
+<tr class="even">
+<td>Te dice qué, cuándo, o quién</td>
+<td>Provee la medida para la categoría cualitativa</td>
+</tr>
+<tr class="odd">
+<td>Divide los datos cuantitativos</td>
+<td>Puede ser usada en las calculaciones</td>
+</tr>
+</tbody>
+</table>
+<p>Tableau asigna los campos del dataset como <code>Dimensión</code> o <code>Medida</code>:</p>
+<ul>
+<li><p>las <code>Dimensiones</code> en la parte superior del panel en azul</p></li>
+<li><p>las <code>Medidas</code> en la parte inferior del panel en verde</p></li>
+</ul>
+</div><div class="column" style="width:25%;">
+<p><img data-src="images/paste-E6D9FCFB.png" width="350"></p>
+</div>
+</div>
 </section>
-<section id="video-3-la-rosa-de-nightingale-aplicada-en-tableau" class="slide level2">
-<h2>Video 3 la Rosa de NIghtingale aplicada en Tableau</h2>
-<p></p>
+<section id="aplicando-construyamos-un-gráfico" class="slide level2">
+<h2>2. Aplicando: construyamos un Gráfico</h2>
+<ol type="1">
+<li>¿cuántos choques de animales salvajes tenemos?</li>
+<li>¿cuántos choques por categoría animal?</li>
+<li>¿qué tipo de ave es la que más choques tiene?</li>
+<li>¿cuáles especies de aves están relacionadas con el mayor costo?</li>
+</ol>
+</section>
+<section id="vista-en-tableau" class="slide level2">
+<h2>Vista en Tableau</h2>
+<p>Mover dimensiones y medidas dentro y fuera de la vista cambia el gráfico resultante. Es una forma útil de ver diferentes aspectos de losdatos y ayuda a descubrir las tendencias y las historias que afectan según el contexto.</p>
+
+<img data-src="images/03.png" class="r-stretch"></section>
+<section id="qué-es-un-registro-a-nivel-de-fila" class="slide level2 scrollable">
+<h2>¿qué es un registro a nivel de fila?</h2>
+<p>¿qué contiene? puede ser complejo</p>
+<table style="width:78%;">
+<colgroup>
+<col style="width: 23%">
+<col style="width: 29%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Nombre</th>
+<th>Modo de transporte</th>
+<th>Días por semana</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Neil</td>
+<td>Caminar</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td>Neil</td>
+<td>Bus</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<p>que pasa si quieres saber …</p>
+<ul>
+<li><p>¿cuántas personas usan multiples modos de transporte?</p></li>
+<li><p>¿cómo son las idas al trabajo con las vueltas al trabajo?</p></li>
+<li><p>¿cuánto duran?</p></li>
+<li><p>¿cuánto es la distancia de cada viaje?</p>
+<table style="width:95%;">
+<colgroup>
+<col style="width: 8%">
+<col style="width: 13%">
+<col style="width: 18%">
+<col style="width: 15%">
+<col style="width: 11%">
+<col style="width: 10%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Nombre</th>
+<th><strong>Viaje</strong></th>
+<th>Inicio del viaje</th>
+<th>Fin del viaje</th>
+<th>Fecha</th>
+<th><strong>Modo</strong></th>
+<th>Km. estimad.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Mae</td>
+<td>Al trabajo</td>
+<td>7:45 am</td>
+<td>8:50 am</td>
+<td>7/17/2019</td>
+<td>Bicycle</td>
+<td>9<br>
+</td>
+</tr>
+<tr class="even">
+<td>Mae</td>
+<td>Del trabajo</td>
+<td>5:15 pm</td>
+<td>5:45 pm</td>
+<td>7/17/2019</td>
+<td>Bus</td>
+<td>6</td>
+</tr>
+<tr class="odd">
+<td>Mae</td>
+<td>Del trabajo</td>
+<td>5:45 pm</td>
+<td>6:15 pm</td>
+<td>7/17/2019</td>
+<td>Bicycle</td>
+<td>3</td>
+</tr>
+</tbody>
+</table></li>
+</ul>
+<p>En este dataset una fila es más detallada y granular que en el primero.</p>
+</section>
+<section id="por-qué-importa" class="slide level2 scrollable">
+<h2>¿por qué importa?</h2>
+<p>la granularidad se refiere al nivel de detalle para una pieza de datos. Cuando los datos sea menos granulares, los describiremos como <code>agregaciones o datos agregados.</code></p>
+<div class="callout callout-important callout-captioned callout-style-default">
+<div class="callout-body">
+<div class="callout-caption">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Important</strong></p>
+</div>
+<div class="callout-content">
+<p>el nivel de granularidad o agregación en una fila o gráfico afectan las preguntas que podemos preguntar a los datos y los descubrimientos que podemos hacer.</p>
+</div>
+</div>
+</div>
+<ol type="1">
+<li>granularidad por incidente en la tabla:<img data-src="images/paste-EE441E07.png"></li>
+<li>Agregado en una gráfica:</li>
+<li><img data-src="images/paste-34A1C82A.png"></li>
+</ol>
+<div class="callout callout-tip callout-captioned callout-style-default">
+<div class="callout-body">
+<div class="callout-caption">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<p>En una gráfica puedes hacer click derecho y ver datos para ver la granularidad mínima</p>
+</div>
+</div>
+</div>
+</section>
+<section id="granularidad-y-agregación-en-tableau" class="slide level2">
+<h2>Granularidad y Agregación en Tableau</h2>
+<ul>
+<li><p>De forma predeterminada, las medidas que se colocan en una vista se agregan por SUMA, lo que significa que se combinan los datos de ese campo en todas las filas.</p></li>
+<li><p>Las <code>medidas</code> también se pueden agregar como promedio, mediana, conteo, conteo distinto, máximo y mínimo.</p></li>
+<li><p>Las <code>dimensiones</code> desglosan el total agregado en totales más pequeños por categoría.</p></li>
+</ul>
+<p><a href="https://help.tableau.com/current/pro/desktop/es-es/datafields_typesandroles.htm">Recurso</a></p>
+</section>
+<section id="aplicando-gananciaventas" class="slide level2">
+<h2>3. Aplicando: ganancia/ventas</h2>
+<ol type="1">
+<li>granularidad entre ganancia y ventas</li>
+<li>categoria y campos calculados relacionados a la fila de datos</li>
+<li>Dimensiones y Medidas, Jerarquía, campo calculados, y campos auto-generados</li>
+</ol>
+</section>
+<section id="aplicando-entendiendo-las-píldoras-en-tableau" class="slide level2">
+<h2>4. Aplicando: Entendiendo las píldoras en Tableau</h2>
+<ul>
+<li>La diferencia entre ejes y etiquetas</li>
+<li>como tipos diferentes de datos se comportan en las vistas</li>
+</ul>
+<p>Las píldoras azules son discretas y las píldoras verdes son contínuas</p>
+<ul>
+<li><p>cambiar una a otra</p></li>
+<li><p>aplicados al color, en filtro</p></li>
+</ul>
+</section></section>
+<section>
+<section id="tipos-de-gráficos-en-tableau" class="title-slide slide level1 center">
+<h1>Tipos de gráficos en Tableau</h1>
+
+</section>
+<section id="atributos-preatencionales-en-tableau" class="slide level2 scrollable">
+<h2>Atributos preatencionales en tableau</h2>
+<div class="columns">
+<div class="column" style="width:75%;">
+<ul>
+<li><p>Largo:</p>
+<div>
+<ul>
+<li class="fragment"><p>Cuantitativo:</p>
+<ul>
+<li class="fragment">Excelente</li>
+</ul></li>
+<li class="fragment"><p>Cualitativo:</p>
+<ul>
+<li class="fragment">Pobre</li>
+</ul></li>
+</ul>
+</div></li>
+<li><p>Ancho</p>
+<div>
+<ul>
+<li class="fragment"><p>Cuantitativo: Limitado</p></li>
+<li class="fragment"><p>Cualitativo: Pobre</p></li>
+</ul>
+</div></li>
+<li><p>Posición</p>
+<div>
+<ul>
+<li class="fragment"><p>Cuantitativo: Excelente</p></li>
+<li class="fragment"><p>Cualitativo: Pobre</p></li>
+</ul>
+</div></li>
+<li><p>Tono de Color</p>
+<div>
+<ul>
+<li class="fragment"><p>Cuantitativo: Pobre</p></li>
+<li class="fragment"><p>Cualitativo: Excelente</p></li>
+</ul>
+</div></li>
+</ul>
+</div><div class="column" style="width:25%;">
+<p><img data-src="images/paste-71EC4158.png"></p>
+<p><img data-src="images/paste-1E22A8D1.png"></p>
+<p><img data-src="images/paste-FF6A9D83.png"></p>
+<p><img data-src="images/paste-6A34704D.png"></p>
+</div>
+</div>
+</section>
+<section id="aplicando-tablas-cruzadas" class="slide level2">
+<h2>5. Aplicando: tablas cruzadas</h2>
+<p><code>Ventas</code> por <code>ganancias</code> como ratio:</p>
+<ul>
+<li><p>Dato tabulares planos</p></li>
+<li><p>comparar valores altos y bajos, entre diferentes columnas y hojas</p></li>
+<li><p>color a los negativos … ¿eso estamos buscando?</p></li>
+<li><p>largo de la barra con las <code>ventas</code> y color para las <code>ganancias</code></p></li>
+<li><p>altas ventas, bajas ganancias</p></li>
+</ul>
+</section>
+<section id="gráficas-bien-diseñadas" class="slide level2">
+<h2>Gráficas bien diseñadas</h2>
+<p>Una gráfica bien diseñada debería ser fácil de leer y entender, y no debe despistar (extraviar).</p>
+<ol type="1">
+<li>Conoce los elementos de una gráfica en Tableau</li>
+<li>hacer preguntas de lo que se ve</li>
+<li>cuidado con gráficas que despisten, extravíen o confundan</li>
+</ol>
+</section>
+<section id="conoce-los-elementos-de-las-gráficas" class="slide level2 scrollable">
+<h2>Conoce los elementos de las gráficas</h2>
+
+<img data-src="images/paste-6152A1CF.png" class="r-stretch quarto-figure-center"></section>
+<section id="hazte-estas-preguntas" class="slide level2">
+<h2>Hazte estas preguntas</h2>
+<div>
+<ul>
+<li class="fragment"><p>¿qué representa el gráfico? ¿el gráfico y el título tienen un propósito? ¿entiendes su intención en poco tiempo?</p></li>
+<li class="fragment"><p>¿este gráfico muestra algún patrón o tendencia en particular? ¿alguna temporalidad? ¿tiene outliers? ¿se deben revisar?</p></li>
+<li class="fragment"><p>¿esta mostrando todos los datos? ¿hay data excluida? ¿se puede responder las preguntas?</p></li>
+<li class="fragment"><p>¿es claro lo que ha sido medido, y lo que los números representan? hay leyendas, notas.</p></li>
+<li class="fragment"><p>Y la pregunta del millón: ¿se puede recolectar datos útiles y accionables de este gráfico?</p></li>
+</ul>
+</div>
+</section>
+<section id="gráficas-que-despisten-o-extravien" class="slide level2">
+<h2>Gráficas que despisten o extravien</h2>
+<ol type="1">
+<li>gráficos de barras con un eje que no incluye 0</li>
+<li>color confuso, escala revertida</li>
+<li>tipo de gráfico incorrecto para los datos:
+<ol type="1">
+<li>una gráfica de barras es mejor para comparar categorías que una línea:</li>
+</ol></li>
+</ol>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/paste-5CA309E9.png" width="900"></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/paste-04CF9EBC.png" width="900"></p>
+</div>
+</div>
+</section>
+<section id="tipos-de-gráficos-y-sus-usos" class="slide level2">
+<h2>Tipos de gráficos y sus usos</h2>
+<div class="callout callout-tip callout-captioned callout-style-default">
+<div class="callout-body">
+<div class="callout-caption">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<p>Los gráficos son más efectivos y legibles cuando se combinan con los datos y el propósito correctos.</p>
+</div>
+</div>
+</div>
+<table style="width:99%;">
+<colgroup>
+<col style="width: 24%">
+<col style="width: 24%">
+<col style="width: 24%">
+<col style="width: 24%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><img data-src="images/paste-6C5D045B.png"></td>
+<td><img data-src="images/paste-16871F93.png"></td>
+<td><img data-src="images/paste-DC28BEF0.png"></td>
+<td><img data-src="images/paste-0CFD7467.png"></td>
+</tr>
+<tr class="even">
+<td><img data-src="images/paste-60DBA881.png"></td>
+<td><img data-src="images/paste-7097F787.png"></td>
+<td><img data-src="images/paste-0AE91EC4.png"></td>
+<td><img data-src="images/paste-D10990DD.png"></td>
+</tr>
+<tr class="odd">
+<td><img data-src="images/paste-AE06AACB.png"></td>
+<td><img data-src="images/paste-13DBFE01.png"></td>
+<td><img data-src="images/paste-89D7DDC8.png"></td>
+<td><img data-src="images/paste-E1BB900D.png"></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="tipos-de-gráficos-y-sus-usos-1" class="slide level2 scrollable">
+<h2>Tipos de gráficos y sus usos</h2>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 23%">
+<col style="width: 23%">
+<col style="width: 19%">
+<col style="width: 34%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Línea</strong>: ver tendencias en los datos<br>
+a lo largo del tiempo.<br>
+<strong>Ejemplos</strong>: cambio en el precio de<br>
+las acciones durante un período de<br>
+cinco años o visitas a la página del<br>
+sitio web durante un mes.</td>
+<td><strong>Barra</strong>: compara datos entre categorías.<br>
+<strong>Ejemplos</strong>: Volumen de camisas en diferentes tallas, o porcentaje de gasto por departamento.</td>
+<td><strong>Mapa de calor:</strong> muestra la relación entre dos factores.<br>
+<strong>Ejemplos</strong>: análisis de segmentos del mercado objetivo o oportunidades de ventas por representante individual.</td>
+<td><strong>Resaltar tabla:</strong> muestra información detallada sobre mapas de calor. <strong>Ejemplos</strong>: el porcentaje de un mercado para diferentes segmentos o números de ventas en una región.</td>
+</tr>
+<tr class="even">
+<td><strong>Diagrama de árbol:</strong> muestra datos jerárquicos como una proporción de un todo.<br>
+<strong>Ejemplos</strong>: uso de almacenamiento en equipos informáticos, comparación de presupuestos fiscales entre años.</td>
+<td><strong>Gantt</strong>: muestra la duración en el tiempo.<br>
+<strong>Ejemplos</strong>: línea de tiempo del proyecto, duración del uso de una máquina, disponibilidad de jugadores en un equipo.</td>
+<td><strong>Viñeta</strong>: evalúe el rendimiento de una métrica frente a un objetivo.<br>
+<strong>Ejemplos</strong>: evaluación de la cuota de ventas, espectro de desempeño (excelente/bueno/malo).</td>
+<td><strong>Diagrama de dispersión:</strong> investigue las relaciones entre valores cuantitativos.<br>
+<strong>Ejemplos</strong>: Probabilidad masculina versus femenina de tener cáncer de pulmón a diferentes edades, o patrones de compra de teléfonos inteligentes de los primeros usuarios de tecnología y los rezagados.</td>
+</tr>
+<tr class="odd">
+<td><strong>Histograma</strong>: comprenda la distribución de sus datos.<br>
+<strong>Ejemplos</strong>: número de clientes por tamaño de empresa, desempeño de los estudiantes en un examen, frecuencia de un producto defectuoso.</td>
+<td><strong>Mapas de símbolos:</strong> se utilizan para totales en lugar de tasas. Tenga cuidado, ya que las pequeñas diferencias serán difíciles de ver.<br>
+<strong>Ejemplos</strong>: Número de clientes en diferentes geografías.</td>
+<td><strong>Mapas de área:</strong> use para tasas en lugar de totales. Utilice una base geográfica sensata.<br>
+<strong>Ejemplos</strong>: tasas de uso de Internet en ciertas geografías, precios de la vivienda en diferentes barrios.</td>
+<td><strong>Caja y bigotes</strong>: muestra la distribución de un conjunto de datos.<br>
+<strong>Ejemplos</strong>: comprender sus datos de un vistazo, ver cómo los datos están sesgados hacia un extremo, identificar valores atípicos en sus datos.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="gráfico-de-barras---comparando-categorías-de-datos" class="slide level2">
+<h2>Gráfico de barras - comparando categorías de datos</h2>
+<p>Usado para comparar datos entre categorías. Al hacerlo bien son fácil de leer e interpretar.</p>
+<ul>
+<li><p>el largo de las barras indican que categoría tiene el valor más alto</p></li>
+<li><p>Los ejes del gráfico de barras indican que respresenta el valor</p></li>
+</ul>
+<div class="r-stack">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/paste-B5978FE6.png" class="fragment"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/paste-2CC4BD7B.png" class="fragment"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/paste-A6818E1F.png" class="fragment"></p>
+</figure>
+</div>
+</div>
+</section>
+<section id="gráfico-de-líneas---ver-datos-a-través-del-tiempo" class="slide level2">
+<h2>Gráfico de líneas - ver datos a través del tiempo</h2>
+<p>Son muy útiles para ver cambios en los datos en el tiempo.</p>
+<ul>
+<li><p>¿cuándo las tendencias suben y bajan?</p></li>
+<li><p>¿alguno de estos datos te sirven para identificar tendencias futuras?</p></li>
+<li><p>toma atención a los ejes. ¿cuál es el rango típico del rango de valores? ¿son los intervalos uniformes?</p></li>
+<li><p>¿cuál es la linea de tiempo: diaria, mensual, anual? ¿muestra el detalle adecuado para analizar?</p></li>
+</ul>
+
+<img data-src="images/paste-A449C711.png" class="r-stretch quarto-figure-center"></section>
+<section id="gráfico-de-dispersión---ver-relaciones-de-datos-y-valores-atípicos" class="slide level2">
+<h2>Gráfico de dispersión - ver relaciones de datos y valores atípicos</h2>
+<p>Útiles cuando se quiere ver las relaciones entre 2 medidas o valores cuantitativos. ¿Hay alguna correlación? ¿hasta que punto?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/paste-C6A5E984.png"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/paste-1F2F8A48.png"></p>
+</figure>
+</div>
+<div class="callout callout-warning callout-captioned callout-style-default">
+<div class="callout-body">
+<div class="callout-caption">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Warning</strong></p>
+</div>
+<div class="callout-content">
+<p><em>“la correlación no significa causalidad”</em></p>
+</div>
+</div>
+</div>
+<div class="callout callout-note callout-captioned callout-style-default">
+<div class="callout-body">
+<div class="callout-caption">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>Los <code>valores atípicos</code> son excepciones raras que se pueden obviar, o están indicando que debemos revisar algo más de cerca. ¿O son simplimente errores?</p>
+</div>
+</div>
+</div>
+<p>Si consideramos el diagrama de dispersión:</p>
+<ul>
+<li><p>¿para el usuario final estará interesado en si una variable incrementa o decrementa <u>con los cambios en otra variable</u>?</p></li>
+<li><p>¿será útil ver si el cambio en una variable afecta a otra?, y que efecto es ese?</p></li>
+<li><p>¿cuán cerca le sigue un cambio de una variable a otra?</p></li>
+</ul>
+</section>
+<section id="ejercicio-1era-parte--explorando-los-datos" class="slide level2">
+<h2>Ejercicio 1era Parte- Explorando los datos</h2>
+<p>La división espacial de Bolivia (ABE) lo contrató recientemente como nuevo analista de datos. Una de sus primeras responsabilidades es analizar datos sobre meteoritos. En su reunión inicial, revisó los datos y discutió lo que querían lograr. Durante esta conversación, revelaron que querían localizar meteoritos recientes que hayan caído a la tierra.</p>
+<p>El objetivo de este proyecto es explorar los datos, decidir qué historia debe contar su análisis y organizar adecuadamente los datos.</p>
+<p>El proyecto se divide en tres partes. La primera parte: exploración de datos se detalla a continuación.</p>
+<p><strong>Fuente de datos:</strong> <a href="https://data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh">Nasa - Aterrisajes de meteoritos</a></p>
+<p><strong><em><code>Mire los datos, y responda a las siguientes preguntas en un informe</code></em></strong></p>
+<p>¿cuáles son las dos variables que encuentra críticas para el análisis?</p>
+<p>¿Podemos usar los datos para mapear dónde ha caído cada meteorito?</p>
+<p>Si esto es posible, ¿qué campo de datos es crítico para esto?</p>
+<p>¿Hay algún cambio en los datos que haría esto posible?</p>
+<p>¿Podemos determinar los meteoritos más grandes que han caído a la Tierra?</p>
+<p>Cada columna en el conjunto de datos fue creada inicialmente por un programa de computadora. ¿Estos nombres parecen correctos? ¿Ves algún problema que debería solucionarse?</p>
+</section>
+<section id="ejercicio-2da-parte---entendiendo-los-tipos-de-datos" class="slide level2">
+<h2>Ejercicio 2da Parte - Entendiendo los tipos de datos</h2>
+<p>La segunda parte: comprender los tipos de datos se detalla a continuación.</p>
+<p><strong><em><code>Copie la tabla a continuación e incluyalá en el documento informe.</code></em></strong></p>
+<p>Utilizando los datos proporcionados, organice cada tipo de datos en una de las siguientes categorías: Cualitativo y Cuantitativo.</p>
+<p>Para los datos cuantitativos, resalte los valores discretos en azul y los valores continuos en verde.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Cualitativos</th>
+<th>Cuantitativos</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="ejercicio-3era-parte---preparando-tus-datos" class="slide level2">
+<h2>Ejercicio 3era Parte - Preparando tus datos</h2>
+<p>A continuación se detalla la tercera parte: cómo preparar sus datos.</p>
+<p><strong><em><code>En Tableau</code></em></strong> <strong>realice las siguientes acciones para preparar datos y saque capturas.</strong></p>
+<ol type="1">
+<li>Abra tableau y conectese a documento excel provisto en classroom.</li>
+<li>Divida el campo de ubicación.</li>
+<li>Cambie el nombre de Split 1 a “Lat”.</li>
+<li>Cambie el nombre de Split 2 a “Long”.</li>
+<li>Convierta los datos de latitud y longitud en un tipo de datos espaciales.</li>
+<li>Confirme que la fecha se muestra en un formato de fecha discreto.</li>
+<li>Renombrar el tipo de datos de “Name” (Nombre) a “City” (Ciudad).</li>
+</ol>
 
 
 <img src="../../../images/UMSS.jpg" class="slide-logo r-stretch"><div class="footer footer-default">
 <p><a href="https://roammi.github.io/data_analytics_and_viz_module/">Analítica y Visualización de Datos</a></p>
 </div>
-</section>
+</section></section>
     </div>
   </div>
 
@@ -366,6 +1028,7 @@
   <script src="../../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="../../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="../../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
   <script src="../../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -387,7 +1050,8 @@
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -408,7 +1072,7 @@
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: false,
+        slideNumber: 'c/t',
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
@@ -533,9 +1197,9 @@
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
-        width: 1050,
+        width: 1920,
 
-        height: 700,
+        height: 1080,
 
         // Factor of the display size that should remain empty around the content
         margin: 0.1,
@@ -558,7 +1222,7 @@
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
 
           RevealMath,
           RevealNotes,
@@ -605,7 +1269,24 @@
         button.classList.add('code-copy-button-checked');
         var currentTitle = button.getAttribute("title");
         button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
         setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
           button.setAttribute("title", currentTitle);
           button.classList.remove('code-copy-button-checked');
         }, 1000);
@@ -643,24 +1324,42 @@
           return note.innerHTML;
         });
       }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
       var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
       for (var i=0; i<bibliorefs.length; i++) {
         const ref = bibliorefs[i];
-        const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-        tippyHover(ref, function() {
-          var popup = window.document.createElement('div');
-          cites.forEach(function(cite) {
-            var citeDiv = window.document.createElement('div');
-            citeDiv.classList.add('hanging-indent');
-            citeDiv.classList.add('csl-entry');
-            var biblioDiv = window.document.getElementById('ref-' + cite);
-            if (biblioDiv) {
-              citeDiv.innerHTML = biblioDiv.innerHTML;
-            }
-            popup.appendChild(citeDiv);
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
           });
-          return popup.innerHTML;
-        });
+        }
       }
     });
     </script>
