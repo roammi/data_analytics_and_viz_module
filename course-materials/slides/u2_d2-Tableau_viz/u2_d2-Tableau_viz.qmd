@@ -50,4 +50,12 @@ editor: visual
 
 {{< video https://youtu.be/TgoRaW74Glk0 width="100%" height="85%" >}}
 
-## 
+## Flujo de trabajo con Tableau
+
+![](images/paste-2D2461C5.png)
+
+## 1 Connect
+
+Conectar - Abrir - Descubrir
+
+![](images/1_connect.png){fig-align="center"}

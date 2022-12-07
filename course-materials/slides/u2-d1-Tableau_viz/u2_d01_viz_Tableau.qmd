@@ -46,6 +46,8 @@ Todas las visualizaciones tienen como fundamento un dataset que proporciona los 
 
     -   archivos estadísticos
 
+![](images/paste-5D293390.png)
+
 ## Conectarse a la fuente de datos
 
 los campos de datos son asignados a un rol y un tipo
