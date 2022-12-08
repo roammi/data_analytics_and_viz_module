@@ -52,11 +52,9 @@ Todas las visualizaciones tienen como fundamento un dataset que proporciona los 
 
 los campos de datos son asignados a un rol y un tipo
 
-+------------------------------------------------------------------------+------------------------------------------------------------------+
 | Rol                                                                    | Tipo                                                             |
-+========================================================================+==================================================================+
+|------------------------------------------------------------------------|------------------------------------------------------------------|
 | un campo puede ser asignado a un rol de dimensión o un rol de ´medida´ | si el tipo de dato del campo es: cadena, entero, fecha, decimal. |
-+------------------------------------------------------------------------+------------------------------------------------------------------+
 
 ![](images/paste-7376FA6B.png){fig-align="center"}
 
@@ -64,23 +62,23 @@ los campos de datos son asignados a un rol y un tipo
 
 un campo, o columna, es una sola pieza de información de un registro en un dataset.
 
-+----------------+--------------------+-----------------+
-| Nombre         | Modo de transporte | Días por semana |
-+================+====================+=================+
-| Neil           | Caminar            | 2               |
-+----------------+--------------------+-----------------+
-| Neil           | Bus                | 3               |
-+----------------+--------------------+-----------------+
-| Lin            | Bicicleta          | 1               |
-+----------------+--------------------+-----------------+
-| Lin\           | Automóvil          | 3               |
-+----------------+--------------------+-----------------+
-| Lin            | Bus                | 1               |
-+----------------+--------------------+-----------------+
-| Mae            | Automóvil          | 2               |
-+----------------+--------------------+-----------------+
-| Mae            | Bicicleta          | 3               |
-+----------------+--------------------+-----------------+
++--------+--------------------+-----------------+
+| Nombre | Modo de transporte | Días por semana |
++========+====================+=================+
+| Neil   | Caminar            | 2               |
++--------+--------------------+-----------------+
+| Neil   | Bus                | 3               |
++--------+--------------------+-----------------+
+| Lin    | Bicicleta          | 1               |
++--------+--------------------+-----------------+
+| Lin\   | Automóvil          | 3               |
++--------+--------------------+-----------------+
+| Lin    | Bus                | 1               |
++--------+--------------------+-----------------+
+| Mae    | Automóvil          | 2               |
++--------+--------------------+-----------------+
+| Mae    | Bicicleta          | 3               |
++--------+--------------------+-----------------+
 
 ::: incremental
 -   Nombre, Modo de transporte y días por semana son `campos`.
@@ -115,15 +113,11 @@ Las `dimensiones` y `medidas` son los bloques de construcción de las gráficas 
 
 ::: columns
 ::: {.column width="75%"}
-+-------------------------------------+------------------------------------------------+
 | Campos Cualitativos (`Dimensiones`) | Campos Cuantitativos (`Medidas`)               |
-+=====================================+================================================+
+|-------------------------------------|------------------------------------------------|
 | Describe o categoriza los datos     | Datos numéricos                                |
-+-------------------------------------+------------------------------------------------+
 | Te dice qué, cuándo, o quién        | Provee la medida para la categoría cualitativa |
-+-------------------------------------+------------------------------------------------+
 | Divide los datos cuantitativos      | Puede ser usada en las calculaciones           |
-+-------------------------------------+------------------------------------------------+
 
 Tableau asigna los campos del dataset como `Dimensión` o `Medida`:
 
@@ -154,13 +148,10 @@ Mover dimensiones y medidas dentro y fuera de la vista cambia el gráfico result
 
 ¿qué contiene? puede ser complejo
 
-+----------------+--------------------+-----------------+
-| Nombre         | Modo de transporte | Días por semana |
-+================+====================+=================+
-| Neil           | Caminar            | 2               |
-+----------------+--------------------+-----------------+
-| Neil           | Bus                | 3               |
-+----------------+--------------------+-----------------+
+| Nombre | Modo de transporte | Días por semana |
+|--------|--------------------|-----------------|
+| Neil   | Caminar            | 2               |
+| Neil   | Bus                | 3               |
 
 que pasa si quieres saber ...
 
@@ -344,13 +335,11 @@ Una gráfica bien diseñada debería ser fácil de leer y entender, y no debe de
 Los gráficos son más efectivos y legibles cuando se combinan con los datos y el propósito correctos.
 :::
 
-+--------------------------------+--------------------------------+--------------------------------+--------------------------------+
+|                                |                                |                                |                                |
+|--------------------------------|--------------------------------|--------------------------------|--------------------------------|
 | ![](images/paste-6C5D045B.png) | ![](images/paste-16871F93.png) | ![](images/paste-DC28BEF0.png) | ![](images/paste-0CFD7467.png) |
-+--------------------------------+--------------------------------+--------------------------------+--------------------------------+
 | ![](images/paste-60DBA881.png) | ![](images/paste-7097F787.png) | ![](images/paste-0AE91EC4.png) | ![](images/paste-D10990DD.png) |
-+--------------------------------+--------------------------------+--------------------------------+--------------------------------+
 | ![](images/paste-AE06AACB.png) | ![](images/paste-13DBFE01.png) | ![](images/paste-89D7DDC8.png) | ![](images/paste-E1BB900D.png) |
-+--------------------------------+--------------------------------+--------------------------------+--------------------------------+
 
 ## Tipos de gráficos y sus usos {.scrollable}
 

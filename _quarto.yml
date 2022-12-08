@@ -5,6 +5,7 @@ project:
 website:
   title: "Analítica y Visualización de Datos, Aplicaciones"
   repo-url: https://github.com/roammi/data_analytics_and_viz_module
+  repo-actions: [issue]
   navbar:
     left:
       - href: index.qmd
