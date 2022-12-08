@@ -9,7 +9,7 @@ Hola y bienvenidos al **Módulo 5. Analítica y Visualización de Datos - Aplica
 ## Datos Generales
 
 |                    |                                                                                                                                                                                                                               |
-|-------------------|-----------------------------------------------------|
+|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Institución:**   | [![Universidad Mayor de San Simón - Postgrado](images/UMSS.jpg){width="107"}](http://posgrado.fcyt.umss.edu.bo/index.html) Universidad Mayor de San Simón                                                                     |
 | **Programa:**      | [Diplomado en Estadística Aplicada a la Toma de Decisiones, primera versión.](http://posgrado.fcyt.umss.edu.bo/Programas/diploestadistica.html "Diplomado en Estadística Aplicada a la Toma de Decisiones, primera versión.") |
 | **Módulo V:**      | Analítica y Visualización de Datos, Aplicaciones                                                                                                                                                                              |
@@ -26,7 +26,7 @@ Hola y bienvenidos al **Módulo 5. Analítica y Visualización de Datos - Aplica
 ## Cronograma General
 
 | Descripción    | Nombre de la Unidad                                           | N° de sesiones |
-|------------------|-------------------------------------|------------------|
+|----------------|---------------------------------------------------------------|----------------|
 | **UNIDAD I**   | Fundamentos de Analítica y Visualización de los Datos         | 3              |
 | **UNIDAD II**  | Utilizando Herramientas de Analítica y Visualización de Datos | 4              |
 | **UNIDAD III** | Aplicaciones de Analítica y Visualización de Datos            | 3              |
@@ -35,7 +35,7 @@ Hola y bienvenidos al **Módulo 5. Analítica y Visualización de Datos - Aplica
 ## Cronograma por Sesión
 
 | Unidad | Diapositivas | Título                                                | Enlace                                                                                                                                              |
-|---------------|---------------|-----------------------------|---------------|
+|--------|--------------|-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1      | 1            | Analítica y Visualización de Datos                    | [🖥️](course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#/title-slide "U1D01 slides"){aria-label="U1D01 slides"}                              |
 | 1      | 2            | Fundamentos de Analítica y Visualización de Datos II  | [🖥️](course-materials/slides/u1-d2-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#/ "U1D02 slides"){aria-label="U1D02 slides"}     |
 | 1      | 3            | Fundamentos de Analítica y Visualización de Datos III | [🖥️](course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#/ "U1D03 slides"){aria-label="U1D03 slides"} |
@@ -57,14 +57,16 @@ Hola y bienvenidos al **Módulo 5. Analítica y Visualización de Datos - Aplica
 
 El medio utilizado para que el alumno entregue las tareas es classroom.
 
-| Sesión | Asignación                                                 | Individual / Grupal                       | Fecha de entrega |
-|------------------|------------------|------------------|------------------|
-| 1      | Tarea 1 - Análisis y Visualización de datos                | Individual o grupos de hasta `3` personas | 1-Dic-2022       |
-| 1      | Tarea 2 - Análisis y Visualización de datos de la encuesta | Individual o grupos de hasta `3` personas | 3-Dic-2022       |
-| 2      | Quiz Sesión 2                                              | Individual o grupos de hasta `3` personas | 3-Dic-2022       |
-| 2      | Tarea 3 - Comparar herramientas de Visualización           | Individual o grupos de hasta `3` personas | 8-Dic-2022       |
-| 3      | Quiz Unidad 1                                              | Individual                                | 12-Dic-2022      |
-| 4      | Ejercicio 1 - Caída de Meteoritos                          | Individual o grupos de hasta `2` personas | 9-Dic-2022       |
+| Sesión | Asignación                                                 | Individual / Grupal                             | Fecha de entrega |
+|--------|------------------------------------------------------------|-------------------------------------------------|------------------|
+| 1      | Tarea 1 - Análisis y Visualización de datos                | **Individual** o grupos de **hasta 3 personas** | 1-Dic-2022       |
+| 1      | Tarea 2 - Análisis y Visualización de datos de la encuesta | Individual o grupos de **hasta 3 personas**     | 3-Dic-2022       |
+| 2      | Quiz Sesión 2                                              | **Individual** o grupos de **hasta 3 personas** | 3-Dic-2022       |
+| 2      | Tarea 3 - Comparar herramientas de Visualización           | **Individual** o grupos de **hasta 3 personas** | 8-Dic-2022       |
+| 3      | Quiz Unidad 1                                              | **Individual**                                  | 12-Dic-2022      |
+| 4      | Ejercicio 1 - Caída de Meteoritos                          | **Individual** o grupos de **hasta 2 personas** | 9-Dic-2022       |
+
+: {tbl-colwidths="\[12,40,40,8\]"}
 
 ## Proyectos del Módulo
 
@@ -129,4 +131,4 @@ Puede ser accedido en el siguiente [URL - Material de Apoyo](https://rolandoamir
 -   [IPUMS USA](https://usa.ipums.org/usa/) microdatos del censo
 -   [The Lawrence Papers](https://scarab.bates.edu/lawrance/) de Bates y [metadata](https://bates-archives.libraryhost.com/repositories/2/resources/185)
 -   [Health-related datasets](https://libguides.bates.edu/health-economics/resources) compilados por Bates library
--   Si conoces otros, haganmelo saber y lo agregaré aquí
+-   Si conoces otros, háganmelo saber y lo agregaré aquí
