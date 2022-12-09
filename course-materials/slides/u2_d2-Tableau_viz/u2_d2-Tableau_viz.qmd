@@ -59,3 +59,9 @@ editor: visual
 Conectar - Abrir - Descubrir
 
 ![](images/1_connect.png){fig-align="center"}
+
+![](images/paste-F7BF6425.png)
+
+## Mostrarme
+
+![](images/paste-F8C81A1F.png)
