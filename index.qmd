@@ -23,7 +23,13 @@ Hola y bienvenidos al **Módulo 5. Analítica y Visualización de Datos - Aplica
 
 *Este curso va a introducir a los estudiantes en análisis y visualización de datos. Iniciando con los fundamentos de visualización, posteriormente utilizando herramientas de analítica y visualización de datos, para finalmente concluir el módulo con aplicaciones de analítica y visualización de datos.*
 
-## Cronograma General
+## Cronograma
+
+### Fechas de Clases
+
+![](course-materials/slides/u1-d1-welcome/images/calendar.png)
+
+### Cronograma General
 
 | Descripción    | Nombre de la Unidad                                           | N° de sesiones |
 |----------------|---------------------------------------------------------------|----------------|
@@ -32,7 +38,7 @@ Hola y bienvenidos al **Módulo 5. Analítica y Visualización de Datos - Aplica
 | **UNIDAD III** | Aplicaciones de Analítica y Visualización de Datos            | 3              |
 |                | **TOTAL**                                                     | **10**         |
 
-## Cronograma por Sesión
+### Cronograma por Sesión
 
 | Unidad | Diapositivas | Título                                                | Enlace                                                                                                                                              |
 |--------|--------------|-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -48,10 +54,6 @@ Hola y bienvenidos al **Módulo 5. Analítica y Visualización de Datos - Aplica
 | 3      | 3            | Aplicación - BigData                                  |                                                                                                                                                     |
 
 : {tbl-colwidths="\[10,10,70,10\]"}
-
-## Fechas de Clases
-
-![](course-materials/slides/u1-d1-welcome/images/calendar.png)
 
 ## Asignaciones del Módulo
 
@@ -78,9 +80,9 @@ Fecha de entrega:
 
 ### Proyecto 2 - Datos propios
 
-## Materiales del Curso
-
 Fecha de entrega:
+
+## Materiales del Curso
 
 ### Tecnología
 

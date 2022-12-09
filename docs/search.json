@@ -25,7 +25,7 @@
     "href": "index.html#materiales-del-curso",
     "title": "Analítica y Visualización de Datos, Aplicaciones - II/2022",
     "section": "Materiales del Curso",
-    "text": "Materiales del Curso\nFecha de entrega:\n\nTecnología\nEstaremos usando las siguientes herramientas:\n\nTableau Public y Tableau Cloud (*)\nRStudio\nPython\nQGIS\n\n(*) en proceso de solicitud a Tableau for Teaching, en espera nos den acceso.\n\n\nCatálogo de material de apoyo\nEl catálogo de material de apoyo se encuentra clasificado por categorías: Aplicación, Catálogos, Inspiración, Libro electrónico, Fuentes de Datos, Buenas Prácticas, Cursos.\nPuede ser accedido en el siguiente URL - Material de Apoyo.\n\n\nBibliografía:\n\nWickham, Grolemund (2017). R para Ciencia de Datos.\nClaus O. Wilke (2019), Fundamentals of Data Visualization\nWexler, S. & Shaffer, J. & Cotgreave, A. (2017). The Big Book of Dashboards. Wiley.\nAnn Jackson, Luke Stanke (2022), Tableau Strategies.\nNussbaumer, C. (2015). Storytelling with Data. Wiley.\nBentley, D. (2017). Business Intelligence and Analytics. Library Press.\nTufte, E. (2007) The Visual Display of Quantitative Information. Graphics Press LLC.\nFew S. (2009). Now you see it.\n\n\n\nFuentes de Datos Abiertos\n\nTableau datasets\nKaggle datasets\nTidyTuesday\nNHS Scotland Open Data\nEdinburgh Open Data\nOpen access to Scotland’s official statistics\nBikeshare data portal\nUK Gov Data\nOpenIntro datasets\nAwesome public datasets\nYouth Risk Behavior Surveillance System (YRBSS)\nPRISM Data Archive Project\nHarvard Dataverse\nNational Archive of Criminal Justice Data\nData is Plural\nAmerican Community Survey datos de Maine.\nIPUMS USA microdatos del censo\nThe Lawrence Papers de Bates y metadata\nHealth-related datasets compilados por Bates library\nSi conoces otros, háganmelo saber y lo agregaré aquí"
+    "text": "Materiales del Curso\n\nTecnología\nEstaremos usando las siguientes herramientas:\n\nTableau Public y Tableau Cloud (*)\nRStudio\nPython\nQGIS\n\n(*) en proceso de solicitud a Tableau for Teaching, en espera nos den acceso.\n\n\nCatálogo de material de apoyo\nEl catálogo de material de apoyo se encuentra clasificado por categorías: Aplicación, Catálogos, Inspiración, Libro electrónico, Fuentes de Datos, Buenas Prácticas, Cursos.\nPuede ser accedido en el siguiente URL - Material de Apoyo.\n\n\nBibliografía:\n\nWickham, Grolemund (2017). R para Ciencia de Datos.\nClaus O. Wilke (2019), Fundamentals of Data Visualization\nWexler, S. & Shaffer, J. & Cotgreave, A. (2017). The Big Book of Dashboards. Wiley.\nAnn Jackson, Luke Stanke (2022), Tableau Strategies.\nNussbaumer, C. (2015). Storytelling with Data. Wiley.\nBentley, D. (2017). Business Intelligence and Analytics. Library Press.\nTufte, E. (2007) The Visual Display of Quantitative Information. Graphics Press LLC.\nFew S. (2009). Now you see it.\n\n\n\nFuentes de Datos Abiertos\n\nTableau datasets\nKaggle datasets\nTidyTuesday\nNHS Scotland Open Data\nEdinburgh Open Data\nOpen access to Scotland’s official statistics\nBikeshare data portal\nUK Gov Data\nOpenIntro datasets\nAwesome public datasets\nYouth Risk Behavior Surveillance System (YRBSS)\nPRISM Data Archive Project\nHarvard Dataverse\nNational Archive of Criminal Justice Data\nData is Plural\nAmerican Community Survey datos de Maine.\nIPUMS USA microdatos del censo\nThe Lawrence Papers de Bates y metadata\nHealth-related datasets compilados por Bates library\nSi conoces otros, háganmelo saber y lo agregaré aquí"
   },
   {
     "objectID": "Docente.html",
@@ -1768,7 +1768,7 @@
     "href": "index.html#proyectos-del-módulo",
     "title": "Analítica y Visualización de Datos, Aplicaciones - II/2022",
     "section": "Proyectos del Módulo",
-    "text": "Proyectos del Módulo\n\nProyecto 1 - Datos proporcionados\nFuente de datos:\nFecha de entrega:\n\n\nProyecto 2 - Datos propios"
+    "text": "Proyectos del Módulo\n\nProyecto 1 - Datos proporcionados\nFuente de datos:\nFecha de entrega:\n\n\nProyecto 2 - Datos propios\nFecha de entrega:"
   },
   {
     "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#maratón-de-la-analítica-de-datos",
@@ -2735,5 +2735,40 @@
     "title": "Analítica y Visualización de Datos, Aplicaciones - II/2022",
     "section": "Asignaciones del Módulo",
     "text": "Asignaciones del Módulo\nEl medio utilizado para que el alumno entregue las tareas es classroom.\n\n\n\n\n\n\n\n\n\nSesión\nAsignación\nIndividual / Grupal\nFecha de entrega\n\n\n\n\n1\nTarea 1 - Análisis y Visualización de datos\nIndividual o grupos de hasta 3 personas\n1-Dic-2022\n\n\n1\nTarea 2 - Análisis y Visualización de datos de la encuesta\nIndividual o grupos de hasta 3 personas\n3-Dic-2022\n\n\n2\nQuiz Sesión 2\nIndividual o grupos de hasta 3 personas\n3-Dic-2022\n\n\n2\nTarea 3 - Comparar herramientas de Visualización\nIndividual o grupos de hasta 3 personas\n8-Dic-2022\n\n\n3\nQuiz Unidad 1\nIndividual\n12-Dic-2022\n\n\n4\nEjercicio 1 - Caída de Meteoritos\nIndividual o grupos de hasta 2 personas\n9-Dic-2022"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d2-Tableau_viz/slideu2-d01.html#la-rosa-de-nightingale",
+    "href": "course-materials/slides/u2-d2-Tableau_viz/slideu2-d01.html#la-rosa-de-nightingale",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "La Rosa de Nightingale",
+    "text": "La Rosa de Nightingale\n\n\n\nWikipedia\n\n“causas de muerte” entre los años 1854 y 1856, de la guerra de Crimea:\n\nen Azul está el número de muertes causadas por enfermedades infecciosas,\nen Rosado el número de muertes por heridas\nen Gris el número de muertes por otras causas"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d2-Tableau_viz/slideu2-d01.html#video-3-la-rosa-de-nightingale-aplicada-en-tableau",
+    "href": "course-materials/slides/u2-d2-Tableau_viz/slideu2-d01.html#video-3-la-rosa-de-nightingale-aplicada-en-tableau",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Video 3 la Rosa de Nightingale aplicada en Tableau",
+    "text": "Video 3 la Rosa de Nightingale aplicada en Tableau"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d2-Tableau_viz/slideu2-d01.html#flujo-de-trabajo-con-tableau",
+    "href": "course-materials/slides/u2-d2-Tableau_viz/slideu2-d01.html#flujo-de-trabajo-con-tableau",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Flujo de trabajo con Tableau",
+    "text": "Flujo de trabajo con Tableau"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d2-Tableau_viz/slideu2-d01.html#connect",
+    "href": "course-materials/slides/u2-d2-Tableau_viz/slideu2-d01.html#connect",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "1 Connect",
+    "text": "1 Connect\nConectar - Abrir - Descubrir\n\n\n\n\n\n\n\n\nAnalítica y Visualización de Datos"
+  },
+  {
+    "objectID": "index.html#cronograma",
+    "href": "index.html#cronograma",
+    "title": "Analítica y Visualización de Datos, Aplicaciones - II/2022",
+    "section": "Cronograma",
+    "text": "Cronograma\n\nFechas de Clases\n\n\n\nCronograma General\n\n\n\n\n\n\n\n\nDescripción\nNombre de la Unidad\nN° de sesiones\n\n\n\n\nUNIDAD I\nFundamentos de Analítica y Visualización de los Datos\n3\n\n\nUNIDAD II\nUtilizando Herramientas de Analítica y Visualización de Datos\n4\n\n\nUNIDAD III\nAplicaciones de Analítica y Visualización de Datos\n3\n\n\n\nTOTAL\n10\n\n\n\n\n\nCronograma por Sesión\n\n\n\n\n\n\n\n\n\nUnidad\nDiapositivas\nTítulo\nEnlace\n\n\n\n\n1\n1\nAnalítica y Visualización de Datos\n🖥️\n\n\n1\n2\nFundamentos de Analítica y Visualización de Datos II\n🖥️\n\n\n1\n3\nFundamentos de Analítica y Visualización de Datos III\n🖥️\n\n\n2\n1\nTableau para analítica y visualización de datos I\n🖥\n\n\n2\n2\nTableau para analítica y visualización de datos II\n\n\n\n2\n3\nTableau para analítica y visualización de datos III\n\n\n\n2\n4\nTableau con QGis y R\n\n\n\n3\n1\nAplicación Geoespacial\n🖥\n\n\n3\n2\nAplicación usando APIs\n\n\n\n3\n3\nAplicación - BigData"
   }
 ]
