@@ -2524,7 +2524,7 @@
     "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#aplicando-gananciaventas",
     "title": "Analítica y Visualización de Datos, Aplicaciones",
     "section": "3. Aplicando: ganancia/ventas",
-    "text": "3. Aplicando: ganancia/ventas\n\ngranularidad entre ganancia y ventas\ncategoria y campos calculados relacionados a la fila de datos\nDimensiones y Medidas, Jerarquía, campo calculados, y campos auto-generados"
+    "text": "3. Aplicando: ganancia/ventas\n\nGranularidad entre ganancia y ventas\nCategoria y campos calculados relacionados a la fila de datos\nDimensiones y Medidas, Jerarquía, campo calculados, y campos auto-generados"
   },
   {
     "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#aplicando-entendiendo-las-píldoras-en-tableau",
@@ -2755,7 +2755,7 @@
     "href": "course-materials/slides/u2-d2-Tableau_viz/slideu2-d01.html#flujo-de-trabajo-con-tableau",
     "title": "Analítica y Visualización de Datos, Aplicaciones",
     "section": "Flujo de trabajo con Tableau",
-    "text": "Flujo de trabajo con Tableau"
+    "text": "Flujo de trabajo con Tableau\nConectar - Analizar - Compartir"
   },
   {
     "objectID": "course-materials/slides/u2-d2-Tableau_viz/slideu2-d01.html#connect",
@@ -2770,5 +2770,33 @@
     "title": "Analítica y Visualización de Datos, Aplicaciones - II/2022",
     "section": "Cronograma",
     "text": "Cronograma\n\nFechas de Clases\n\n\n\nCronograma General\n\n\n\n\n\n\n\n\nDescripción\nNombre de la Unidad\nN° de sesiones\n\n\n\n\nUNIDAD I\nFundamentos de Analítica y Visualización de los Datos\n3\n\n\nUNIDAD II\nUtilizando Herramientas de Analítica y Visualización de Datos\n4\n\n\nUNIDAD III\nAplicaciones de Analítica y Visualización de Datos\n3\n\n\n\nTOTAL\n10\n\n\n\n\n\nCronograma por Sesión\n\n\n\n\n\n\n\n\n\nUnidad\nDiapositivas\nTítulo\nEnlace\n\n\n\n\n1\n1\nAnalítica y Visualización de Datos\n🖥️\n\n\n1\n2\nFundamentos de Analítica y Visualización de Datos II\n🖥️\n\n\n1\n3\nFundamentos de Analítica y Visualización de Datos III\n🖥️\n\n\n2\n1\nTableau para analítica y visualización de datos I\n🖥\n\n\n2\n2\nTableau para analítica y visualización de datos II\n\n\n\n2\n3\nTableau para analítica y visualización de datos III\n\n\n\n2\n4\nTableau con QGis y R\n\n\n\n3\n1\nAplicación Geoespacial\n🖥\n\n\n3\n2\nAplicación usando APIs\n\n\n\n3\n3\nAplicación - BigData"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#elementos-en-la-ventana-de-trabajo-de-tableau",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#elementos-en-la-ventana-de-trabajo-de-tableau",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Elementos en la Ventana de trabajo de Tableau",
+    "text": "Elementos en la Ventana de trabajo de Tableau"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#mostrarme",
+    "href": "course-materials/slides/u2-d1-Tableau_viz/slideu2-d01.html#mostrarme",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Mostrarme",
+    "text": "Mostrarme"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d2-Tableau_viz/slideu2-d01.html#conectar---abrir---descubrir",
+    "href": "course-materials/slides/u2-d2-Tableau_viz/slideu2-d01.html#conectar---abrir---descubrir",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Conectar - Abrir - Descubrir",
+    "text": "Conectar - Abrir - Descubrir"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d2-Tableau_viz/slideu2-d01.html#aplicando---fuente-de-libros-y-bibliotecas",
+    "href": "course-materials/slides/u2-d2-Tableau_viz/slideu2-d01.html#aplicando---fuente-de-libros-y-bibliotecas",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Aplicando - fuente de libros y bibliotecas",
+    "text": "Aplicando - fuente de libros y bibliotecas\nUtilizando la fuente de libros y bibliotecas sigues los 3 pasos que nos permite utilizar Tableau.\n\nConectar\nAnalizar\nCompartir\n\n\n\n\nAnalítica y Visualización de Datos"
   }
 ]

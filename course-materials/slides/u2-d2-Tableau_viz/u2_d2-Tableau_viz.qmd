@@ -52,16 +52,36 @@ editor: visual
 
 ## Flujo de trabajo con Tableau
 
+Conectar - Analizar - Compartir
+
 ![](images/paste-2D2461C5.png)
 
-## 1 Connect
+# 1 Conectar
 
-Conectar - Abrir - Descubrir
+## **Conectar - Abrir - Descubrir**
 
 ![](images/1_connect.png){fig-align="center"}
 
-![](images/paste-F7BF6425.png)
+# 2 Analizar
 
-## Mostrarme
+![](images/paste-05AC66A8.png)
 
-![](images/paste-F8C81A1F.png)
+# 3 Compartir
+
+Construir un dashboard para compartir.
+
+![](images/paste-E4784043.png)
+
+# 3 Compartir
+
+Construir una historia para compartir.
+
+![](images/paste-EC8C8EBF.png)
+
+## Aplicando - fuente de libros y bibliotecas
+
+Utilizando la fuente de libros y bibliotecas sigues los 3 pasos que nos permite utilizar Tableau.
+
+1.  Conectar
+2.  Analizar
+3.  Compartir
