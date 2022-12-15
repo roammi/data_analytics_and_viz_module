@@ -16,7 +16,7 @@ format:
 editor: visual
 ---
 
-<h1>Fundamentos de Analítica y <br>Visualización de Datos</h1>
+<h1>Aplicación de Analítica y <br>Visualización de Datos <br> con Tableau </h1>
 
 <hr>
 
@@ -85,3 +85,23 @@ Utilizando la fuente de libros y bibliotecas sigues los 3 pasos que nos permite 
 1.  Conectar
 2.  Analizar
 3.  Compartir
+
+# Explorar y Analizar los datos
+
+## Campos Calculados
+
+Campos, funciones, operadores, parámetros y comentarios.
+
+![](images/paste-7B334EEB.png)
+
+### Cálculo ad-hoc
+
+![](images/paste-E981A852.png)
+
+-   autocompletar
+
+-   arrastrar del panel de datos y o de la vista
+
+## Videos Gratuitos Tableau
+
+enlace

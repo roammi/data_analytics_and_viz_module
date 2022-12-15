@@ -2797,6 +2797,97 @@
     "href": "course-materials/slides/u2-d2-Tableau_viz/slideu2-d01.html#aplicando---fuente-de-libros-y-bibliotecas",
     "title": "Analítica y Visualización de Datos, Aplicaciones",
     "section": "Aplicando - fuente de libros y bibliotecas",
-    "text": "Aplicando - fuente de libros y bibliotecas\nUtilizando la fuente de libros y bibliotecas sigues los 3 pasos que nos permite utilizar Tableau.\n\nConectar\nAnalizar\nCompartir\n\n\n\n\nAnalítica y Visualización de Datos"
+    "text": "Aplicando - fuente de libros y bibliotecas\nUtilizando la fuente de libros y bibliotecas sigues los 3 pasos que nos permite utilizar Tableau.\n\nConectar\nAnalizar\nCompartir"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d2-Tableau_viz/slideu2-d01.html#campos-calculados",
+    "href": "course-materials/slides/u2-d2-Tableau_viz/slideu2-d01.html#campos-calculados",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Campos Calculados",
+    "text": "Campos Calculados\nCampos, funciones, operadores, parámetros y comentarios.\n\nCálculo ad-hoc\n\n\nautocompletar\narrastrar del panel de datos y o de la vista"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d2-Tableau_viz/slideu2-d01.html#tableau-cloud",
+    "href": "course-materials/slides/u2-d2-Tableau_viz/slideu2-d01.html#tableau-cloud",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Tableau Cloud",
+    "text": "Tableau Cloud\n\n\n\nAnalítica y Visualización de Datos"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d3-Tableau_viz/slideu2-d01.html#parámetros",
+    "href": "course-materials/slides/u2-d3-Tableau_viz/slideu2-d01.html#parámetros",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Parámetros",
+    "text": "Parámetros"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d3-Tableau_viz/slideu2-d01.html#top-10",
+    "href": "course-materials/slides/u2-d3-Tableau_viz/slideu2-d01.html#top-10",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Top 10",
+    "text": "Top 10"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d3-Tableau_viz/slideu2-d01.html#cálculos-rápidos",
+    "href": "course-materials/slides/u2-d3-Tableau_viz/slideu2-d01.html#cálculos-rápidos",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Cálculos Rápidos",
+    "text": "Cálculos Rápidos"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d3-Tableau_viz/slideu2-d01.html#lod",
+    "href": "course-materials/slides/u2-d3-Tableau_viz/slideu2-d01.html#lod",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "LOD",
+    "text": "LOD"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d3-Tableau_viz/slideu2-d01.html#tableau-prep",
+    "href": "course-materials/slides/u2-d3-Tableau_viz/slideu2-d01.html#tableau-prep",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Tableau Prep",
+    "text": "Tableau Prep"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d3-Tableau_viz/slideu2-d01.html#tableau-cloud",
+    "href": "course-materials/slides/u2-d3-Tableau_viz/slideu2-d01.html#tableau-cloud",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Tableau Cloud",
+    "text": "Tableau Cloud"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d3-Tableau_viz/slideu2-d01.html#tableau-en-yahoo-japón",
+    "href": "course-materials/slides/u2-d3-Tableau_viz/slideu2-d01.html#tableau-en-yahoo-japón",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Tableau en Yahoo Japón",
+    "text": "Tableau en Yahoo Japón\n\nFuente: Tableau Conference 2022 - Kazuya Hirabayashi, Ayako Nagano"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d2-Tableau_viz/slideu2-d01.html#videos-gratuitos-tableau",
+    "href": "course-materials/slides/u2-d2-Tableau_viz/slideu2-d01.html#videos-gratuitos-tableau",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Videos Gratuitos Tableau",
+    "text": "Videos Gratuitos Tableau\nenlace\n\n\n\nAnalítica y Visualización de Datos"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d3-Tableau_viz/slideu2-d01.html#trucos-rápidos-de-tableau-en-español",
+    "href": "course-materials/slides/u2-d3-Tableau_viz/slideu2-d01.html#trucos-rápidos-de-tableau-en-español",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Trucos Rápidos de Tableau ¡en Español!",
+    "text": "Trucos Rápidos de Tableau ¡en Español!\n\nFuente: Tableau Conference 2021 - Pahola Días, Diego Parker"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d3-Tableau_viz/slideu2-d01.html#diseño-dinámico-e-interactivo",
+    "href": "course-materials/slides/u2-d3-Tableau_viz/slideu2-d01.html#diseño-dinámico-e-interactivo",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Diseño Dinámico e Interactivo",
+    "text": "Diseño Dinámico e Interactivo"
+  },
+  {
+    "objectID": "course-materials/slides/u2-d3-Tableau_viz/slideu2-d01.html#el-panel-de-analytics",
+    "href": "course-materials/slides/u2-d3-Tableau_viz/slideu2-d01.html#el-panel-de-analytics",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "El Panel de Analytics",
+    "text": "El Panel de Analytics\n\n\n\nAnalítica y Visualización de Datos"
   }
 ]

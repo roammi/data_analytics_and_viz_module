@@ -1,0 +1,57 @@
+---
+# title: "u3d3_tableau_viz"
+# author: "Rolando Mirabal"
+format: 
+  revealjs:
+    theme: simple
+    transition: fade
+    slide-number: TRUE
+    output-file: slideu2-d01.html
+    footer: "[Analítica y Visualización de Datos](https://roammi.github.io/data_analytics_and_viz_module/)"
+    logo: /images/UMSS.jpg
+    editor: visual
+    height: 1080
+    width: 1920
+    chalkboard: true
+editor: visual
+---
+
+<h1>Aplicación de Analítica y <br>Visualización de Datos <br> con Tableau</h1>
+
+<hr>
+
+<h3>Rolando Mirabal `@rolandomirabalh`<br> Desarrollador de Insights Senior en Viva</h3>
+
+<h3>`15/12/2022`</h3>
+
+<br>
+
+![](images/paste-215AEB45.png){.absolute top="200" left="650" width="1200"}
+
+## Tableau Cloud
+
+## Tableau en Yahoo Japón
+
+![](images/paste-B1B5AB15.png)
+
+Fuente: [Tableau Conference 2022](https://www.tableau.com/events/tc/2022/yahoo-japan-sukiruheruto-quansheyuanhetetafenxinoliwo-skill-belt-power-analytics#form-gate-content) - Kazuya Hirabayashi, Ayako Nagano
+
+## **Trucos Rápidos de Tableau ¡en Español!**
+
+![](images/paste-137720FE.png)
+
+Fuente: [Tableau Conference 2021](https://www.tableau.com/events/tc/2021/trucos-rapidos-de-tableau-en-espanol-subtitled-english#form-gate-content) - Pahola Días, Diego Parker
+
+## Parámetros
+
+## Top 10
+
+## Cálculos Rápidos
+
+## LOD
+
+## Tableau Prep
+
+## Diseño Dinámico e Interactivo
+
+## El Panel de Analytics
