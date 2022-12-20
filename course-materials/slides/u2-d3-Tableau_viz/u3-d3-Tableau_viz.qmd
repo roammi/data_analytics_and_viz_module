@@ -42,16 +42,34 @@ Fuente: [Tableau Conference 2022](https://www.tableau.com/events/tc/2022/yahoo-j
 
 Fuente: [Tableau Conference 2021](https://www.tableau.com/events/tc/2021/trucos-rapidos-de-tableau-en-espanol-subtitled-english#form-gate-content) - Pahola Días, Diego Parker
 
-## Parámetros
+## Tableau Prep
 
-## Top 10
+## ![](images/paste-A66C9338.png)
 
-## Cálculos Rápidos
+## En Tableau
+
+-   Parámetros
+
+-   Filtro Top 10
+
+-   Cálculos Rápidos
+
+## Ordenes de Operación
+
+![](images/paste-F99F47B0.png)
+
+Fuente: [Tableau](https://help.tableau.com/current/pro/desktop/es-es/order_of_operations.htm)
 
 ## LOD
-
-## Tableau Prep
 
 ## Diseño Dinámico e Interactivo
 
 ## El Panel de Analytics
+
+## Proyecto 1 - airbnb análisis en BA y CM
+
+Fuente: [Publicada en Classroom](https://classroom.google.com/c/NTM3NDk4NDY4NDU2/m/NTc4NjI1MTg5ODk2/details), se escogió Buenos Aíres y Ciudad de México de: [airbnbn data](http://insideairbnb.com/get-the-data/)
+
+Lineamientos del Proyecto: Web del módulo
+
+## Tableau Prep con Python

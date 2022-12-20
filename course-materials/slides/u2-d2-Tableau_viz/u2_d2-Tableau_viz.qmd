@@ -16,7 +16,7 @@ format:
 editor: visual
 ---
 
-<h1>Aplicación de Analítica y <br>Visualización de Datos <br> con Tableau </h1>
+<h1>Aplicación de Analítica y <br>Visualización de Datos <br> con Tableau</h1>
 
 <hr>
 
