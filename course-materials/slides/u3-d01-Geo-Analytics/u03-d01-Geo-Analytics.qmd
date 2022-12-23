@@ -13,34 +13,55 @@ format:
 editor: visual
 ---
 
-<h1> Aplicación<br>Geoepacial</h1>
+<h1>Aplicación<br>Geoepacial</h1>
 
 <hr>
 
 <h3>Rolando Mirabal, Desarrollador de Insights Senior en Viva</h3>
 
-<h3>`16/12/2022`</h3>
+<h3>`20/12/2022`</h3>
 
-<br>
+<br>![](Images/kepler-open-source-mapping.webp)
 
+## Para recordar
 
-## Fundamentos de Datos Georeferenciados
+![](Images/radio%20de%205km%20en%20el%20mapa.jpg)
+
+## Video - Geomovilidad
+
+[Nommon - empresa que se dedica a la Analítica de Geomovilidad](https://www.youtube.com/watch?v=uk_hOINqyU8)
 
 ## Herramientas
 
-QGIS
+-   QGIS
 
-ArcGis
+-   ArcGis
 
-Python
+-   Python - Geopandas
 
-R - SF,
+-   R - SF,
 
-Tableau
+-   Tableau
+
+-   https://kepler.gl/ - Uber
+
+-   Carto
+
+## Facebook - Data for good - Densidad poblacional
+
+https://dataforgood.facebook.com/dfg/tools/high-resolution-population-density-maps
+
+![](images/image-1282521992.png)
 
 ## QGIS
 
-## Tableau
+1.  Intersectar
+2.  Voronoi
+3.  Punto más próximo
+
+## Tableau + QGIS
+
+Uniendo 2 mundos
 
 ## Análisis de proximidad y mejor ruta en R
 

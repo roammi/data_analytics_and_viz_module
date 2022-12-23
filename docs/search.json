@@ -522,14 +522,14 @@
     "href": "course-materials/slides/u3-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#herramientas",
     "title": "Analítica y Visualización de Datos, Aplicaciones",
     "section": "Herramientas",
-    "text": "Herramientas\nQGIS\nArcGis\nPython\nR - SF,\nTableau"
+    "text": "Herramientas\n\nQGIS\nArcGis\nPython - Geopandas\nR - SF,\nTableau\nhttps://kepler.gl/ - Uber\nCarto"
   },
   {
     "objectID": "course-materials/slides/u3-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#qgis",
     "href": "course-materials/slides/u3-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#qgis",
     "title": "Analítica y Visualización de Datos, Aplicaciones",
     "section": "QGIS",
-    "text": "QGIS"
+    "text": "QGIS\n\nIntersectar\nVoronoi\nPunto más próximo"
   },
   {
     "objectID": "course-materials/slides/u3-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#tableau",
@@ -1768,7 +1768,7 @@
     "href": "index.html#proyectos-del-módulo",
     "title": "Analítica y Visualización de Datos, Aplicaciones - II/2022",
     "section": "Proyectos del Módulo",
-    "text": "Proyectos del Módulo\n\nProyecto 1 - Datos proporcionados\nModalidad: máximo grupos de 2 personas\nDatos Fuente: Publicada en Classroom, se escogió Buenos Aíres y Ciudad de México de: airbnbn data\nFecha de entrega: 22-Dic-2022\n\n\nInstrucciones:\nLos archivos de datos fuente contienen datos de airbnb Buenos Aíres y Ciudad de México:\n\n\n\n\n\n\n\nArchivo\nDescripción\n\n\n\n\nlisting\nCatálogo de anuncios de alquileres de alojamientos y apartamentos\n\n\ncalendar\nTabla calendario de la disponibilidad de un anuncio\n\n\nreviews\nReseñas de los clientes que han alquilado\n\n\nneighbourgoods.csv\nVecindades y grupo de vecindades en la ciudad\n\n\nneighbourgoods.geojson\nVecindades y grupo de vecindades en la ciudad con su polígono\n\n\ndata dictionary\nDiccionario de datos de airbnb\n\n\n\nSe le ha asignado la tarea de crear un libro de trabajo y publicarlo en Tableau Cloud, sin embargo es libre de usar otras herramientas para producir el análisis. Como parte del análisis debe producir una comparación entre las dos ciudades: Buenos Aires y Ciudad de México. Y agregar visualizaciones que vea conveniente. Presentará el tablero al Gerente de airbnb para Iberoamérica y compartirá sus hallazgos desde una perspectiva que ayude a tomar decisiones.\nAsí muestra los anuncios la página de airbnb:\n\n\nDetalles\nAgregue los archivos de datos a Tableau, asegúrese de realizar los ajustes necesarios para crear las relaciones de dichos archivos. A continuación, genere dashboards e historias, y los detalles de apoyo que considere necesarios compuestos por elementos de su elección del modelo generado previamente. Debe incluir un análisis comparativo entre Ciudad de México y Buenos Aíres.\nTienes licencia completa creativa con este proyecto, se quiere ver qué análisis produce, por ejemplo los mejores anuncios, análisis de las reseñas, análisis de precios, temporadas, entre otros. Finalmente debes grabar un video de máximo de 10 minutos en el cual presentes tu producto final, asumirá que usted(es) presentarán al Gerente de airbnb para Iberoamérica.\n\n\nPasos:\n\nAgregue los archivos de datos fuente\nRealice cualquier cambio necesario para relacionar los archivos y generar su modelo de datos\nAnalice los datos visualmente utilizando hojas, dashboards e historias a fin de producir\nDemuestre su análisis y comunique los hallazgos al Gerente de airbnb en el video (máximo 10 minutos)\nPublique su Análisis en tableau Cloud en el proyecto “Proyecto I” con el apellido o los apellidos en la descripción del dashboard, use el título más apropiado para su análisis\nSuba la grabación al classroom\n\nExtra.- en caso que quieran agregar datos de otras fuentes y utilizarla en el análisis puede agregarlo con total libertad. Estas otras fuentes pueden ser por ejemplo datos del censo, puntos de interés (parques, comercios, etc.), rutas de movilidad, datos estadísticos, entre otros.\nEvaluación: Se evaluará cómo produjo tanto el modelo de datos como el libro de trabajo publicado, el análisis desarrollado, y qué funcionalidades demuestra y cómo la demuestra a su público objetivo.\n\n\n\nProyecto 2 - Datos propios\nModalidad: máximo grupos de 2 personas\nDatos Fuente: Propios de cada estudiante\nFecha de entrega: 30-Dic-2022"
+    "text": "Proyectos del Módulo\n\nProyecto 1 - Datos proporcionados\nModalidad: máximo grupos de 2 personas\nDatos Fuente: Publicada en Classroom, se escogió Buenos Aíres y Ciudad de México de: airbnbn data\nFecha de entrega: 25-Dic-2022\n\n\nInstrucciones:\nLos archivos de datos fuente contienen datos de airbnb Buenos Aíres y Ciudad de México:\n\n\n\n\n\n\n\nArchivo\nDescripción\n\n\n\n\nlisting\nCatálogo de anuncios de alquileres de alojamientos y apartamentos\n\n\ncalendar\nTabla calendario de la disponibilidad de un anuncio\n\n\nreviews\nReseñas de los clientes que han alquilado\n\n\nneighbourgoods.csv\nVecindades y grupo de vecindades en la ciudad\n\n\nneighbourgoods.geojson\nVecindades y grupo de vecindades en la ciudad con su polígono\n\n\ndata dictionary\nDiccionario de datos de airbnb\n\n\n\nSe le ha asignado la tarea de crear un libro de trabajo y publicarlo en Tableau Cloud, sin embargo es libre de usar otras herramientas para producir el análisis. Como parte del análisis debe producir una comparación entre las dos ciudades: Buenos Aires y Ciudad de México. Y agregar visualizaciones que vea conveniente. Presentará el tablero al Gerente de airbnb para Iberoamérica y compartirá sus hallazgos desde una perspectiva que ayude a tomar decisiones.\nAsí muestra los anuncios la página de airbnb:\n\n\nDetalles\nAgregue los archivos de datos a Tableau, asegúrese de realizar los ajustes necesarios para crear las relaciones de dichos archivos. A continuación, genere dashboards e historias, y los detalles de apoyo que considere necesarios compuestos por elementos de su elección del modelo generado previamente. Debe incluir un análisis comparativo entre Ciudad de México y Buenos Aíres.\nTienes licencia completa creativa con este proyecto, se quiere ver qué análisis produce, por ejemplo los mejores anuncios, análisis de las reseñas, análisis de precios, temporadas, entre otros. Finalmente debes grabar un video de máximo de 10 minutos en el cual presentes tu producto final, asumirá que usted(es) presentarán al Gerente de airbnb para Iberoamérica.\n\n\nPasos:\n\nAgregue los archivos de datos fuente\nRealice cualquier cambio necesario para relacionar los archivos y generar su modelo de datos\nAnalice los datos visualmente utilizando hojas, dashboards e historias a fin de producir\nDemuestre su análisis y comunique los hallazgos al Gerente de airbnb en el video (máximo 10 minutos)\nPublique su Análisis en tableau Cloud en el proyecto “Proyecto I” con el apellido o los apellidos en la descripción del dashboard, use el título más apropiado para su análisis\nSuba la grabación al classroom\n\nExtra.- en caso que quieran agregar datos de otras fuentes y utilizarla en el análisis puede agregarlo con total libertad. Estas otras fuentes pueden ser por ejemplo datos del censo, puntos de interés (parques, comercios, etc.), rutas de movilidad, datos estadísticos, entre otros.\nEvaluación: Se evaluará cómo produjo tanto el modelo de datos como el libro de trabajo publicado, el análisis desarrollado, y qué funcionalidades demuestra y cómo la demuestra a su público objetivo.\n\n\n\nProyecto 2 - Datos proporcionados\nModalidad: máximo grupos de 2 personas\nDatos Fuente:\n\nArchivos del proyecto 1\nDensidad poblacional de Facebook en .shp\nEl estudiante debe obtenet twits que contengan “airbnb buenos aires” y “airbnb ciudad de mexico”\n\nFecha de entrega: 30-Dic-2022\nReto: agregar puntos de interés que den un siguiente análisis a la comparación, se requerirá investigar cada ciudad.\n\nPasos:\n\nAgregue los archivos de datos fuente\nRealice cualquier cambio necesario para relacionar los archivos y generar su modelo de datos\nAnalice los datos visualmente utilizando hojas, dashboards e historias a fin de producir\nDemuestre su análisis y comunique los hallazgos al Gerente de airbnb en el video (máximo 10 minutos) considerando que es una segunda reunión, el Gerente ya conoce su primer análisis.\nPublique su Análisis en tableau Cloud en el proyecto “Proyecto II” con el apellido o los apellidos en la descripción del dashboard, use el título más apropiado para su análisis\nSuba la grabación al classroom\n\nEvaluación: Se evaluará cómo produjo tanto el modelo de datos como el libro de trabajo publicado, el análisis desarrollado, y qué funcionalidades demuestra y cómo la demuestra a su público objetivo."
   },
   {
     "objectID": "course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#maratón-de-la-analítica-de-datos",
@@ -2917,5 +2917,33 @@
     "title": "Analítica y Visualización de Datos, Aplicaciones",
     "section": "Tableau Prep con Python",
     "text": "Tableau Prep con Python\n\n\n\nAnalítica y Visualización de Datos"
+  },
+  {
+    "objectID": "course-materials/slides/u3-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#para-recordar",
+    "href": "course-materials/slides/u3-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#para-recordar",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Para recordar",
+    "text": "Para recordar"
+  },
+  {
+    "objectID": "course-materials/slides/u3-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#video---geomovilidad",
+    "href": "course-materials/slides/u3-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#video---geomovilidad",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Video - Geomovilidad",
+    "text": "Video - Geomovilidad\nNommon - empresa que se dedica a la Analítica de Geomovilidad"
+  },
+  {
+    "objectID": "course-materials/slides/u3-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#tableau-qgis",
+    "href": "course-materials/slides/u3-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#tableau-qgis",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Tableau + QGIS",
+    "text": "Tableau + QGIS\nUniendo 2 mundos"
+  },
+  {
+    "objectID": "course-materials/slides/u3-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#facebook---data-for-good---densidad-poblacional",
+    "href": "course-materials/slides/u3-d01-Geo-Analytics/u03-d01-Geo-Analytics.html#facebook---data-for-good---densidad-poblacional",
+    "title": "Analítica y Visualización de Datos, Aplicaciones",
+    "section": "Facebook - Data for good - Densidad poblacional",
+    "text": "Facebook - Data for good - Densidad poblacional\nhttps://dataforgood.facebook.com/dfg/tools/high-resolution-population-density-maps"
   }
 ]
