@@ -9,7 +9,7 @@ Hola y bienvenidos al **Módulo 5. Analítica y Visualización de Datos - Aplica
 ## Datos Generales
 
 |                    |                                                                                                                                                                                                                               |
-|-------------|-----------------------------------------------------------|
+|----------------|--------------------------------------------------------|
 | **Institución:**   | [![Universidad Mayor de San Simón - Postgrado](images/UMSS.jpg){width="107"}](http://posgrado.fcyt.umss.edu.bo/index.html) Universidad Mayor de San Simón                                                                     |
 | **Programa:**      | [Diplomado en Estadística Aplicada a la Toma de Decisiones, primera versión.](http://posgrado.fcyt.umss.edu.bo/Programas/diploestadistica.html "Diplomado en Estadística Aplicada a la Toma de Decisiones, primera versión.") |
 | **Módulo V:**      | Analítica y Visualización de Datos, Aplicaciones                                                                                                                                                                              |
@@ -32,7 +32,7 @@ Hola y bienvenidos al **Módulo 5. Analítica y Visualización de Datos - Aplica
 ### Cronograma General
 
 | Descripción    | Nombre de la Unidad                                           | N° de sesiones |
-|---------------|-------------------------------------------|---------------|
+|----------------|---------------------------------------|----------------|
 | **UNIDAD I**   | Fundamentos de Analítica y Visualización de los Datos         | 3              |
 | **UNIDAD II**  | Utilizando Herramientas de Analítica y Visualización de Datos | 4              |
 | **UNIDAD III** | Aplicaciones de Analítica y Visualización de Datos            | 3              |
@@ -41,7 +41,7 @@ Hola y bienvenidos al **Módulo 5. Analítica y Visualización de Datos - Aplica
 ### Cronograma por Sesión
 
 | Unidad | Diapositivas | Título                                                | Enlace                                                                                                                                              |
-|-----------|-----------|-----------|---------------------------------------|
+|-------------|-------------|-------------|---------------------------------|
 | 1      | 1            | Analítica y Visualización de Datos                    | [🖥️](course-materials/slides/u1-d1-welcome/u1-d01-welcome.html#/title-slide "U1D01 slides"){aria-label="U1D01 slides"}                              |
 | 1      | 2            | Fundamentos de Analítica y Visualización de Datos II  | [🖥️](course-materials/slides/u1-d2-Foundamentals_on_data_viz/u1-d02-Foundamentals_on_data_viz.html#/ "U1D02 slides"){aria-label="U1D02 slides"}     |
 | 1      | 3            | Fundamentos de Analítica y Visualización de Datos III | [🖥️](course-materials/slides/u1-d3-Foundamentals_on_data_viz_2/u1-d03-Foundamentals-on_data_viz_2.html#/ "U1D03 slides"){aria-label="U1D03 slides"} |
@@ -60,7 +60,7 @@ Hola y bienvenidos al **Módulo 5. Analítica y Visualización de Datos - Aplica
 El medio utilizado para que el alumno entregue las tareas es classroom.
 
 | Sesión | Asignación                                                 | Individual / Grupal                             | Fecha de entrega |
-|-------------|--------------------------|---------------------|-------------|
+|----------------|-----------------------|------------------|----------------|
 | 1      | Tarea 1 - Análisis y Visualización de datos                | **Individual** o grupos de **hasta 3 personas** | 1-Dic-2022       |
 | 1      | Tarea 2 - Análisis y Visualización de datos de la encuesta | Individual o grupos de **hasta 3 personas**     | 3-Dic-2022       |
 | 2      | Quiz Sesión 2                                              | **Individual** o grupos de **hasta 3 personas** | 3-Dic-2022       |
@@ -85,7 +85,7 @@ El medio utilizado para que el alumno entregue las tareas es classroom.
 Los archivos de datos fuente contienen datos de [airbnb](https://www.airbnb.com.bo/) Buenos Aíres y Ciudad de México:
 
 | Archivo                | Descripción                                                       |
-|--------------------|----------------------------------------------------|
+|---------------------|---------------------------------------------------|
 | listing                | Catálogo de anuncios de alquileres de alojamientos y apartamentos |
 | calendar               | Tabla calendario de la disponibilidad de un anuncio               |
 | reviews                | Reseñas de los clientes que han alquilado                         |
@@ -109,7 +109,7 @@ Tienes licencia completa creativa con este proyecto, se quiere ver qué análisi
 
 1.  Agregue los archivos de datos fuente
 2.  Realice cualquier cambio necesario para relacionar los archivos y generar su modelo de datos
-3.  Analice los datos visualmente utilizando hojas, dashboards e historias a fin de producir
+3.  Analice los datos visualmente utilizando hojas, dashboards e historias a fin de producir su análisis
 4.  Demuestre su análisis y comunique los hallazgos al Gerente de airbnb en el video (máximo 10 minutos)
 5.  Publique su Análisis en tableau Cloud en el proyecto "Proyecto I" con el apellido o los apellidos en la descripción del dashboard, use el título más apropiado para su análisis
 6.  Suba la grabación al classroom
@@ -122,26 +122,25 @@ Tienes licencia completa creativa con este proyecto, se quiere ver qué análisi
 
 **Modalidad**: máximo grupos de 2 personas
 
-**Datos Fuente:**
-
-1.  Archivos del proyecto 1
-2.  Densidad poblacional de Facebook en .shp
-3.  El estudiante debe obtenet twits que contengan "airbnb buenos aires" y "airbnb ciudad de mexico"
-
 **Fecha de entrega:** 30-Dic-2022
 
-**Reto:** agregar puntos de interés que den un siguiente análisis a la comparación, se requerirá investigar cada ciudad.
+### **Intrucciones:**
+
+1.  El punto de partida es el análisis del Proyecto 1 y expandirlo.
+2.  Añadir dnsidad poblacional de Facebook en .shp (fuende de datos en classroom de Buenos Aires y Ciudad de México) al modelo y realizar un análisis con la densidad poblacional, utilizar ratios o factores con los datos existentes del Proyecto 1.
+3.  Agregar puntos de interés al análisis (al menos 2 por cada ciudad), ya sea incluyéndo o no en el dataset, es decir una fuente de datos separada. Este siguiente análisis debe añadir puntos comparativos, como por ejemplo: estadios, comercios, hospitales, etc.
+4.  Desarrollando soble el punto 2 y 3, preferentemente como fuente de datos separada, se debe obtener twits que el estudiante o los estudiantes consideren apropiados a unir, por ejemplo que se relacionen a los puntos de interés utilizados u otros: "Obelisco Buenos Aires", "Xochimilco Ciudad de México", utilizando como base el notebook de [extracción de dataset de twitter en kaggle](https://www.kaggle.com/code/roammi/an-lisis-de-sentimiento-con-la-api-de-twitter).
 
 #### **Pasos:**
 
-1.  Agregue los archivos de datos fuente
-2.  Realice cualquier cambio necesario para relacionar los archivos y generar su modelo de datos
-3.  Analice los datos visualmente utilizando hojas, dashboards e historias a fin de producir
+1.  Agregue los archivos de datos fuente o mantengalos como fuentes de datos separados, según el caso amerite
+2.  Realice cualquier cambio necesario para relacionar los archivos y generar modelos de datos
+3.  Analice los datos visualmente utilizando hojas, dashboards e historias a fin de producir su análisis
 4.  Demuestre su análisis y comunique los hallazgos al Gerente de airbnb en el video (máximo 10 minutos) considerando que es una segunda reunión, el Gerente ya conoce su primer análisis.
 5.  Publique su Análisis en tableau Cloud en el proyecto "Proyecto II" con el apellido o los apellidos en la descripción del dashboard, use el título más apropiado para su análisis
 6.  Suba la grabación al classroom
 
-**Evaluación:** Se evaluará cómo produjo tanto el modelo de datos como el libro de trabajo publicado, el análisis desarrollado, y qué funcionalidades demuestra y cómo la demuestra a su público objetivo.
+**Evaluación:** Se evaluará cómo produjo el estudio de análisis en su segunda iteración utilizando sus modelos de datos, también el libro de trabajo publicado, el análisis desarrollado, y qué funcionalidades demuestra y cómo lo comunica a su público objetivo.
 
 ## Materiales del Curso
 
